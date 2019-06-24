@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.07.27 12:31:28.168.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\FormsSprVibor\FormsSprVibor.cpp</Transaction>
+    <Transaction>2010.07.27 12:31:43.122.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\FormsSprVibor\FormsSprVibor.cbproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

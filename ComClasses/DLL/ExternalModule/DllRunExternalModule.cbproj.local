@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.06.26 18:09:25.791.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\ExternalModule\RunExternalModule.cpp</Transaction>
+    <Transaction>2010.06.26 18:09:42.003.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\ExternalModule\RunExternalModule.cbproj</Transaction>
+    <Transaction>2010.06.26 18:10:33.450.cbproj,K:\ComClasses\DLL\ExternalModule\RunExternalModule.cbproj=K:\ComClasses\DLL\ExternalModule\DllRunExternalModule.cbproj</Transaction>
+    <Transaction>2010.06.26 18:10:50.675.cpp,K:\ComClasses\DLL\ExternalModule\RunExternalModule.cpp=K:\ComClasses\DLL\ExternalModule\DllRunExternalModule.cpp</Transaction>
+    <Transaction>2010.06.26 18:12:57.666.cpp,K:\ComClasses\DLL\ExternalModule\Unit1.cpp=K:\ComClasses\DLL\ExternalModule\UFormaRunExternalModuleImpl.cpp</Transaction>
+    <Transaction>2010.06.26 18:12:57.666.h,K:\ComClasses\DLL\ExternalModule\Unit1.h=K:\ComClasses\DLL\ExternalModule\UFormaRunExternalModuleImpl.h</Transaction>
+    <Transaction>2010.06.26 18:52:26.202.cpp,K:\ComClasses\DLL\ExternalModule\Unit1.cpp=K:\ComClasses\DLL\ExternalModule\UFormaRunExternalModuleCF.cpp</Transaction>
+    <Transaction>2010.06.26 18:52:26.202.h,K:\ComClasses\DLL\ExternalModule\Unit1.h=K:\ComClasses\DLL\ExternalModule\UFormaRunExternalModuleCF.h</Transaction>
+    <Transaction>2010.06.27 12:31:27.059.cpp,K:\FIB_DataModule\DocRealRozn\UDMDocRealRozn.cpp=</Transaction>
+    <Transaction>2010.06.27 12:31:27.060.dfm,K:\FIB_DataModule\DocRealRozn\UDMDocRealRozn.dfm=</Transaction>
+    <Transaction>2010.06.27 12:31:27.070.cpp,K:\FastScript\DocRealRozn\UScriptDMDocRealRozn.cpp=</Transaction>
+    <Transaction>2010.06.27 12:56:41.768.h,K:\Global\glPCH.h=</Transaction>
+  </Transactions>
+</BorlandProject>

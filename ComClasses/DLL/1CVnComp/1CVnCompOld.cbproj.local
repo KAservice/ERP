@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017.03.03 14:45:10.156.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\1CVnComp\1CVnComp.cpp</Transaction>
+    <Transaction>2017.03.03 14:45:32.639.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\1CVnComp\1CVnComp.cbproj</Transaction>
+    <Transaction>2017.03.03 14:56:22.335.cpp,K:\ComClasses\DLL\1CVnComp\Unit1.cpp=K:\ComClasses\DLL\1CVnComp\UObject1CVnComp.cpp</Transaction>
+    <Transaction>2017.03.03 14:56:22.335.h,K:\ComClasses\DLL\1CVnComp\Unit1.h=K:\ComClasses\DLL\1CVnComp\UObject1CVnComp.h</Transaction>
+  </Transactions>
+</BorlandProject>

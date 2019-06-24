@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{8215974F-35BE-450F-B277-2C7621CA4713}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="FormsSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\..\kanCOM\DLL\kanCom.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="FormsSpr">
+			<MSBuild Projects="FormsSpr.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr:Clean">
+			<MSBuild Targets="Clean" Projects="FormsSpr.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr:Make">
+			<MSBuild Targets="Make" Projects="FormsSpr.cbproj"/>
+		</Target>
+		<Target Name="PArmKas">
+			<MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Clean">
+			<MSBuild Targets="Clean" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Make">
+			<MSBuild Targets="Make" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="kanCom">
+			<MSBuild Projects="..\..\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Clean">
+			<MSBuild Targets="Clean" Projects="..\..\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Make">
+			<MSBuild Targets="Make" Projects="..\..\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="FormsSpr;PArmKas;kanCom"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="FormsSpr:Clean;PArmKas:Clean;kanCom:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="FormsSpr:Make;PArmKas:Make;kanCom:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

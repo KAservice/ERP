@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.04.30 11:20:46.410.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\FormsSpr2\FormsSpr2.cpp</Transaction>
+    <Transaction>2011.04.30 11:20:59.025.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\FormsSpr2\FormsSpr2.cbproj</Transaction>
+    <Transaction>2011.08.20 13:10:43.809.cpp,K:\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.cpp=</Transaction>
+    <Transaction>2011.08.20 13:10:43.809.dfm,K:\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.dfm=</Transaction>
+    <Transaction>2011.09.13 17:06:50.412.cpp,K:\Forms\SprProperties\UFormaElementaSprNomPropertiesNaborSostav.cpp=K:\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.cpp</Transaction>
+    <Transaction>2011.09.13 17:06:50.412.h,K:\Forms\SprProperties\UFormaElementaSprNomPropertiesNaborSostav.h=K:\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.h</Transaction>
+    <Transaction>2011.09.13 17:06:50.412.dfm,K:\Forms\SprProperties\UFormaElementaSprNomPropertiesNaborSostav.dfm=K:\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.dfm</Transaction>
+    <Transaction>2011.09.13 17:46:06.520.cpp,K:\Forms\SprProperties\UFormaElementaSprNomPropertiesNaborSostavCF.cpp=</Transaction>
+    <Transaction>2011.09.13 17:46:06.582.cpp,K:\Forms\SprProperties\UFormaElementaSprNomPropertiesNaborSostavImpl.cpp=</Transaction>
+    <Transaction>2011.09.13 18:07:46.274.cpp,K:\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.cpp=K:\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.cpp</Transaction>
+    <Transaction>2011.09.13 18:07:46.274.h,K:\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.h=K:\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.h</Transaction>
+    <Transaction>2011.09.13 18:07:46.274.dfm,K:\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.dfm=K:\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.dfm</Transaction>
+    <Transaction>2012.09.16 16:51:52.192.cpp,K:\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.cpp=</Transaction>
+    <Transaction>2012.09.16 16:51:52.192.dfm,K:\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.dfm=</Transaction>
+    <Transaction>2016.12.28 16:22:44.918.cpp,K:\Forms\SprStorageLocation\UFormaElementaStorageLocation.cpp=K:\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.cpp</Transaction>
+    <Transaction>2016.12.28 16:22:44.918.h,K:\Forms\SprStorageLocation\UFormaElementaStorageLocation.h=K:\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.h</Transaction>
+    <Transaction>2016.12.28 16:22:44.918.dfm,K:\Forms\SprStorageLocation\UFormaElementaStorageLocation.dfm=K:\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.dfm</Transaction>
+    <Transaction>2016.12.28 16:26:33.193.cpp,K:\Forms\SprStorageLocation\UFormaElementaStorageLocationCF.cpp=</Transaction>
+    <Transaction>2016.12.28 16:26:33.345.cpp,K:\Forms\SprStorageLocation\UFormaElementaStorageLocationImpl.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.07.18 10:19:20.315.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\FormsSpr\FormsSpr.cpp</Transaction>
+    <Transaction>2010.07.18 10:19:30.800.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\FormsSpr\FormsSpr.cbproj</Transaction>
+    <Transaction>2010.07.19 10:59:40.881.cpp,K:\Forms\SprARM\UFormaElementaSprARM.cpp=</Transaction>
+    <Transaction>2010.07.19 10:59:40.881.dfm,K:\Forms\SprARM\UFormaElementaSprARM.dfm=</Transaction>
+    <Transaction>2010.07.19 12:07:32.949.cpp,K:\Forms\SprBankSchet\UFormaElementaSprBSchet.cpp=K:\Forms\SprBankSchet\UFormaElementaSprBankSchet.cpp</Transaction>
+    <Transaction>2010.07.19 12:07:32.949.h,K:\Forms\SprBankSchet\UFormaElementaSprBSchet.h=K:\Forms\SprBankSchet\UFormaElementaSprBankSchet.h</Transaction>
+    <Transaction>2010.07.19 12:07:32.949.dfm,K:\Forms\SprBankSchet\UFormaElementaSprBSchet.dfm=K:\Forms\SprBankSchet\UFormaElementaSprBankSchet.dfm</Transaction>
+    <Transaction>2010.07.19 14:56:06.771.cpp,K:\Forms\SprBankSchet\UFormaSpiskaSprBSchet.cpp=K:\Forms\SprBankSchet\UFormaSpiskaSprBankSchet.cpp</Transaction>
+    <Transaction>2010.07.19 14:56:06.771.h,K:\Forms\SprBankSchet\UFormaSpiskaSprBSchet.h=K:\Forms\SprBankSchet\UFormaSpiskaSprBankSchet.h</Transaction>
+    <Transaction>2010.07.19 14:56:06.771.dfm,K:\Forms\SprBankSchet\UFormaSpiskaSprBSchet.dfm=K:\Forms\SprBankSchet\UFormaSpiskaSprBankSchet.dfm</Transaction>
+    <Transaction>2010.07.19 16:45:03.268.cpp,K:\Forms\SprCodeTel\UFormaElementaSprCodeTel.cpp=</Transaction>
+    <Transaction>2010.07.19 16:45:03.268.dfm,K:\Forms\SprCodeTel\UFormaElementaSprCodeTel.dfm=</Transaction>
+    <Transaction>2010.07.19 17:36:16.937.cpp,K:\Forms\SprDogovor\UFormaElementaSprDogovor.cpp=</Transaction>
+    <Transaction>2010.07.19 17:36:16.937.dfm,K:\Forms\SprDogovor\UFormaElementaSprDogovor.dfm=</Transaction>
+    <Transaction>2010.07.19 19:04:40.159.cpp,K:\Forms\SprImportEd\UFormaElementaSprImportEd.cpp=</Transaction>
+    <Transaction>2010.07.19 19:04:40.159.dfm,K:\Forms\SprImportEd\UFormaElementaSprImportEd.dfm=</Transaction>
+    <Transaction>2010.07.19 19:25:41.095.cpp,K:\Forms\SprInfBase\UFormaSpiskaSprInfBaseVibor.cpp=</Transaction>
+    <Transaction>2010.07.19 19:25:41.096.dfm,K:\Forms\SprInfBase\UFormaSpiskaSprInfBaseVibor.dfm=</Transaction>
+    <Transaction>2010.07.19 21:06:37.616.cpp,K:\Forms\SprMPrig\UFormaElementaSprMPrig.cpp=</Transaction>
+    <Transaction>2010.07.19 21:06:37.616.dfm,K:\Forms\SprMPrig\UFormaElementaSprMPrig.dfm=</Transaction>
+    <Transaction>2010.07.22 10:35:02.062.cpp,K:\Forms\Kladr\UFormaKladr.cpp=</Transaction>
+    <Transaction>2010.07.22 10:35:02.062.dfm,K:\Forms\Kladr\UFormaKladr.dfm=</Transaction>
+    <Transaction>2010.07.22 19:29:39.925.cpp,K:\FIB_DataModule\UserSetup\UDMUserSetup.cpp=</Transaction>
+    <Transaction>2010.07.22 19:29:39.925.dfm,K:\FIB_DataModule\UserSetup\UDMUserSetup.dfm=</Transaction>
+    <Transaction>2010.07.31 12:08:07.899.cpp,K:\Forms\DisplayPok\UDisplayPok.cpp=</Transaction>
+    <Transaction>2010.07.31 12:08:07.917.cpp,K:\Forms\FiskReg\UFiskReg.cpp=</Transaction>
+    <Transaction>2010.07.31 12:08:07.930.cpp,K:\Forms\Scaner\UScaner.cpp=</Transaction>
+    <Transaction>2010.08.13 11:38:43.746.cpp,K:\Forms\ReportSostavProd\UFormaReportSostProd.cpp=</Transaction>
+    <Transaction>2010.08.13 11:38:43.746.dfm,K:\Forms\ReportSostavProd\UFormaReportSostProd.dfm=</Transaction>
+    <Transaction>2011.03.14 15:19:39.541.cpp,K:\ComClasses\DLL\FormsSpr\Unit1.cpp=K:\Forms\SprDiscountCard\UFormaCreateCard.cpp</Transaction>
+    <Transaction>2011.03.14 15:19:39.541.h,K:\ComClasses\DLL\FormsSpr\Unit1.h=K:\Forms\SprDiscountCard\UFormaCreateCard.h</Transaction>
+    <Transaction>2011.03.14 15:19:39.541.dfm,K:\ComClasses\DLL\FormsSpr\Unit1.dfm=K:\Forms\SprDiscountCard\UFormaCreateCard.dfm</Transaction>
+    <Transaction>2015.11.28 09:28:42.834.cpp,K:\Forms\SprAddress\UFormaElementaSprAddressVibor.cpp=</Transaction>
+    <Transaction>2015.11.28 09:28:42.834.dfm,K:\Forms\SprAddress\UFormaElementaSprAddressVibor.dfm=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

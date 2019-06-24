@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{FFAC68AA-DA7E-488D-B17C-6CF2F8DC0234}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="kanCom.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\..\DLL\FibConnection\DllFibConnection.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="kanCom">
+			<MSBuild Projects="kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Clean">
+			<MSBuild Targets="Clean" Projects="kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Make">
+			<MSBuild Targets="Make" Projects="kanCom.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection">
+			<MSBuild Projects="..\..\DLL\FibConnection\DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection:Clean">
+			<MSBuild Targets="Clean" Projects="..\..\DLL\FibConnection\DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection:Make">
+			<MSBuild Targets="Make" Projects="..\..\DLL\FibConnection\DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="PArmKas">
+			<MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Clean">
+			<MSBuild Targets="Clean" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Make">
+			<MSBuild Targets="Make" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="kanCom;DllFibConnection;PArmKas"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="kanCom:Clean;DllFibConnection:Clean;PArmKas:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="kanCom:Make;DllFibConnection:Make;PArmKas:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

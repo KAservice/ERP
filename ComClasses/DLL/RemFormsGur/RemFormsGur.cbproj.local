@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.10.02 16:53:52.053.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\RemFormsGur\RemFormsGur.cpp</Transaction>
+    <Transaction>2010.10.02 16:54:02.578.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\RemFormsGur\RemFormsGur.cbproj</Transaction>
+    <Transaction>2014.03.14 17:05:02.615.cpp,K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostCF.cpp=</Transaction>
+    <Transaction>2014.03.14 17:05:02.744.cpp,K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostImpl.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

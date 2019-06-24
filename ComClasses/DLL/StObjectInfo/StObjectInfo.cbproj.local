@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013.05.26 17:41:14.454.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\StObjectInfo\StObjectInfo.cpp</Transaction>
+    <Transaction>2013.05.26 17:41:33.792.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\StObjectInfo\StObjectInfo.cbproj</Transaction>
+    <Transaction>2013.05.26 17:50:10.674.cpp,K:\ComClasses\DLL\StObjectInfo\Unit1.cpp=K:\ComClasses\DLL\StObjectInfo\UStObectInfoSpr.cpp</Transaction>
+    <Transaction>2013.05.26 17:50:10.674.h,K:\ComClasses\DLL\StObjectInfo\Unit1.h=K:\ComClasses\DLL\StObjectInfo\UStObectInfoSpr.h</Transaction>
+    <Transaction>2013.06.02 15:22:08.827.cpp,K:\ComClasses\DLL\StObjectInfo\Unit1.cpp=K:\ComClasses\DLL\StObjectInfo\UObjectInfoElement.cpp</Transaction>
+    <Transaction>2013.06.02 15:22:08.827.h,K:\ComClasses\DLL\StObjectInfo\Unit1.h=K:\ComClasses\DLL\StObjectInfo\UObjectInfoElement.h</Transaction>
+    <Transaction>2013.06.02 15:31:31.051.cpp,K:\ComClasses\DLL\StObjectInfo\UObjectInfoElement.cpp=K:\ComClasses\DLL\StObjectInfo\UObjectInfoProperties.cpp</Transaction>
+    <Transaction>2013.06.02 15:31:31.051.h,K:\ComClasses\DLL\StObjectInfo\UObjectInfoElement.h=K:\ComClasses\DLL\StObjectInfo\UObjectInfoProperties.h</Transaction>
+    <Transaction>2013.06.02 15:39:23.518.cpp,K:\ComClasses\DLL\StObjectInfo\Unit1.cpp=K:\ComClasses\DLL\StObjectInfo\UkasObject.cpp</Transaction>
+    <Transaction>2013.06.02 15:39:23.518.h,K:\ComClasses\DLL\StObjectInfo\Unit1.h=K:\ComClasses\DLL\StObjectInfo\UkasObject.h</Transaction>
+    <Transaction>2013.06.02 15:44:08.941.cpp,K:\ComClasses\DLL\StObjectInfo\UObjectInfoProperties.cpp=K:\ComClasses\DLL\StObjectInfo\UkasObjectInfoProperties.cpp</Transaction>
+    <Transaction>2013.06.02 15:44:08.941.h,K:\ComClasses\DLL\StObjectInfo\UObjectInfoProperties.h=K:\ComClasses\DLL\StObjectInfo\UkasObjectInfoProperties.h</Transaction>
+    <Transaction>2013.06.02 15:48:11.782.cpp,K:\ComClasses\DLL\StObjectInfo\UkasObject.cpp=K:\ComClasses\DLL\StObjectInfo\UkasObjectInfo.cpp</Transaction>
+    <Transaction>2013.06.02 15:48:11.782.h,K:\ComClasses\DLL\StObjectInfo\UkasObject.h=K:\ComClasses\DLL\StObjectInfo\UkasObjectInfo.h</Transaction>
+    <Transaction>2013.06.02 16:03:55.817.cpp,K:\ComClasses\DLL\StObjectInfo\UStObectInfoSpr.cpp=K:\ComClasses\DLL\StObjectInfo\UkasObjectInfoBuilder.cpp</Transaction>
+    <Transaction>2013.06.02 16:03:55.817.h,K:\ComClasses\DLL\StObjectInfo\UStObectInfoSpr.h=K:\ComClasses\DLL\StObjectInfo\UkasObjectInfoBuilder.h</Transaction>
+  </Transactions>
+</BorlandProject>

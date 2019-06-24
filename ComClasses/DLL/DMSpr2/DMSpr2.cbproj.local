@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.04.29 10:09:46.881.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\DMSpr2\DMSpr2.cpp</Transaction>
+    <Transaction>2011.04.29 10:09:57.582.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\DMSpr2\DMSpr2.cbproj</Transaction>
+    <Transaction>2011.08.19 16:39:10.980.cpp,K:\FIB_DataModule\SprPropertiesNom\UDMSprPropertiesNomGrp.cpp=K:\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.cpp</Transaction>
+    <Transaction>2011.08.19 16:39:10.980.h,K:\FIB_DataModule\SprPropertiesNom\UDMSprPropertiesNomGrp.h=K:\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.h</Transaction>
+    <Transaction>2011.08.19 16:39:10.980.dfm,K:\FIB_DataModule\SprPropertiesNom\UDMSprPropertiesNomGrp.dfm=K:\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.dfm</Transaction>
+    <Transaction>2011.08.19 17:20:25.172.cpp,K:\FIB_DataModule\SprProperties\UDMSprPropertiesList.cpp=K:\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.cpp</Transaction>
+    <Transaction>2011.08.19 17:20:25.172.h,K:\FIB_DataModule\SprProperties\UDMSprPropertiesList.h=K:\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.h</Transaction>
+    <Transaction>2011.08.19 17:20:25.172.dfm,K:\FIB_DataModule\SprProperties\UDMSprPropertiesList.dfm=K:\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.dfm</Transaction>
+    <Transaction>2011.08.20 11:18:07.762.cpp,K:\FIB_DataModule\SprNomImage\DMSprNomImage.cpp=</Transaction>
+    <Transaction>2011.08.20 11:18:07.762.dfm,K:\FIB_DataModule\SprNomImage\DMSprNomImage.dfm=</Transaction>
+    <Transaction>2011.09.13 15:34:18.136.cpp,K:\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.cpp=K:\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.cpp</Transaction>
+    <Transaction>2011.09.13 15:34:18.136.h,K:\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.h=K:\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.h</Transaction>
+    <Transaction>2011.09.13 15:34:18.136.dfm,K:\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.dfm=K:\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.dfm</Transaction>
+    <Transaction>2011.09.17 12:19:48.517.cpp,K:\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogImpl.cpp=</Transaction>
+    <Transaction>2013.05.18 13:03:46.607.cpp,K:\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.cpp=</Transaction>
+    <Transaction>2013.05.18 13:03:46.607.dfm,K:\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.dfm=</Transaction>
+    <Transaction>2014.02.23 12:12:14.018.cpp,K:\FIB_DataModule\SprOperator\UDMSprOperator.cpp=</Transaction>
+    <Transaction>2014.02.23 12:12:14.018.dfm,K:\FIB_DataModule\SprOperator\UDMSprOperator.dfm=</Transaction>
+    <Transaction>2014.08.22 14:50:33.037.cpp,K:\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.cpp=K:\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.cpp</Transaction>
+    <Transaction>2014.08.22 14:50:33.037.h,K:\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.h=K:\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.h</Transaction>
+    <Transaction>2014.08.22 14:50:33.037.dfm,K:\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.dfm=K:\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.dfm</Transaction>
+    <Transaction>2014.08.22 14:51:47.477.cpp,K:\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountKLient.cpp=K:\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.cpp</Transaction>
+    <Transaction>2014.08.22 14:51:47.477.h,K:\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountKLient.h=K:\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.h</Transaction>
+    <Transaction>2014.08.22 14:51:47.477.dfm,K:\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountKLient.dfm=K:\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.dfm</Transaction>
+    <Transaction>2016.11.10 17:44:19.720.cpp,K:\FIB_DataModule\REM_SprHardware\UREM_DMSprHardwareVZip.cpp=</Transaction>
+    <Transaction>2016.11.10 17:44:19.720.dfm,K:\FIB_DataModule\REM_SprHardware\UREM_DMSprHardwareVZip.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.09.06 18:59:31.213.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\OperCreditCard\OperCreditCard.cpp</Transaction>
+    <Transaction>2010.09.06 18:59:44.175.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\OperCreditCard\OperCreditCard.cbproj</Transaction>
+    <Transaction>2010.09.06 19:03:11.816.cpp,K:\ComClasses\DLL\OperCreditCard\Unit1.cpp=K:\ComClasses\DLL\OperCreditCard\UFormaOperCreditCard.cpp</Transaction>
+    <Transaction>2010.09.06 19:03:11.816.h,K:\ComClasses\DLL\OperCreditCard\Unit1.h=K:\ComClasses\DLL\OperCreditCard\UFormaOperCreditCard.h</Transaction>
+    <Transaction>2010.09.06 19:03:11.816.dfm,K:\ComClasses\DLL\OperCreditCard\Unit1.dfm=K:\ComClasses\DLL\OperCreditCard\UFormaOperCreditCard.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

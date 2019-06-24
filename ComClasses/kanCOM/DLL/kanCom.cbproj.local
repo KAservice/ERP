@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.06.25 21:01:01.930.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\kanCOM\DllCom.cpp</Transaction>
+    <Transaction>2010.06.25 21:01:16.971.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\kanCOM\DllCom.cbproj</Transaction>
+    <Transaction>2010.06.25 21:08:11.390.cbproj,K:\ComClasses\kanCOM\DLL\DllCom.cbproj=K:\ComClasses\kanCOM\DLL\kanCom.cbproj</Transaction>
+    <Transaction>2010.06.25 21:08:27.215.cpp,K:\ComClasses\kanCOM\DLL\DllCom.cpp=K:\ComClasses\kanCOM\DLL\kanCom.cpp</Transaction>
+    <Transaction>2010.07.09 12:07:32.534.cpp,K:\ComClasses\kanCOM\DLL\Unit1.cpp=K:\ComClasses\kanCOM\DLL\UkanBaseGuid.cpp</Transaction>
+    <Transaction>2010.07.09 12:07:32.534.h,K:\ComClasses\kanCOM\DLL\Unit1.h=K:\ComClasses\kanCOM\DLL\UkanBaseGuid.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\kanCOM"/>
+    <File Path="..\UkanComClassFactory.cpp"/>
+    <File Path="..\UkanComClassFactory.cpp"/>
+    <File Path="..\UkanComClassFactory.h"/>
+    <File Path="kanCom.cpp"/>
+    <File Path="kanCom.res"/>
+    <File Path="UkanBaseGuid.cpp"/>
+    <File Path="UkanBaseGuid.cpp"/>
+    <File Path="UkanBaseGuid.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

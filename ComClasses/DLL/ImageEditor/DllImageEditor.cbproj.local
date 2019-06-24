@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012.10.04 22:41:34.451.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\ImageEditor\DllImageEditor.cpp</Transaction>
+    <Transaction>2012.10.04 22:41:51.956.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\ImageEditor\DllImageEditor.cbproj</Transaction>
+    <Transaction>2012.10.04 22:53:04.087.cpp,K:\Forms\SheetEditor\UModifyFormSheetEditor.cpp=</Transaction>
+    <Transaction>2012.10.04 22:53:04.087.dfm,K:\Forms\SheetEditor\UModifyFormSheetEditor.dfm=</Transaction>
+    <Transaction>2012.10.04 22:53:04.134.cpp,K:\Forms\SheetEditor\USheetEditor.cpp=</Transaction>
+    <Transaction>2012.10.04 22:53:04.134.dfm,K:\Forms\SheetEditor\USheetEditor.dfm=</Transaction>
+    <Transaction>2012.10.04 22:56:16.988.cpp,K:\ComClasses\DLL\ImageEditor\Unit1.cpp=K:\Forms\ImageEditor\UFormaImageEditor.cpp</Transaction>
+    <Transaction>2012.10.04 22:56:16.988.h,K:\ComClasses\DLL\ImageEditor\Unit1.h=K:\Forms\ImageEditor\UFormaImageEditor.h</Transaction>
+    <Transaction>2012.10.04 22:56:16.988.dfm,K:\ComClasses\DLL\ImageEditor\Unit1.dfm=K:\Forms\ImageEditor\UFormaImageEditor.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

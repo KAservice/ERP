@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.09.16 11:00:59.806.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\RemDMSpr\RemDMSpr.cpp</Transaction>
+    <Transaction>2010.09.16 11:01:14.503.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\RemDMSpr\RemDMSpr.cbproj</Transaction>
+    <Transaction>2010.09.17 20:29:12.733.cpp,K:\FIB_DataModule\REM_SprTypeRemont\UREM_DMSprTypePrice.cpp=</Transaction>
+    <Transaction>2010.09.17 20:29:12.733.dfm,K:\FIB_DataModule\REM_SprTypeRemont\UREM_DMSprTypePrice.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

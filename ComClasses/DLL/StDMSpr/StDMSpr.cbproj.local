@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013.05.26 17:44:01.696.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\StDMSpr\StDMSpr.cpp</Transaction>
+    <Transaction>2013.05.26 17:44:14.874.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\StDMSpr\StDMSpr.cbproj</Transaction>
+    <Transaction>2013.05.26 18:04:53.970.cpp,K:\ComClasses\DLL\StDMSpr\Unit1.cpp=K:\ComClasses\DLL\StDMSpr\DMStSpr1\UDMStSpr1.cpp</Transaction>
+    <Transaction>2013.05.26 18:04:53.970.h,K:\ComClasses\DLL\StDMSpr\Unit1.h=K:\ComClasses\DLL\StDMSpr\DMStSpr1\UDMStSpr1.h</Transaction>
+    <Transaction>2013.05.26 18:04:53.970.dfm,K:\ComClasses\DLL\StDMSpr\Unit1.dfm=K:\ComClasses\DLL\StDMSpr\DMStSpr1\UDMStSpr1.dfm</Transaction>
+    <Transaction>2013.06.09 18:32:43.885.cpp,K:\ComClasses\DLL\StFormSpr\FormaStSpr1\UFormaSpiskaStSpr1CF.cpp=</Transaction>
+    <Transaction>2013.06.09 18:32:44.009.cpp,K:\ComClasses\DLL\StFormSpr\FormaStSpr1\UFormaSpiskaStSpr1Impl.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

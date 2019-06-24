@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.06 18:57:38.974.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\GurLog\GurLog.cpp</Transaction>
+    <Transaction>2010.08.06 18:57:48.168.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\GurLog\GurLog.cbproj</Transaction>
+    <Transaction>2010.08.06 19:40:23.557.cpp,K:\Forms\GurDocPer\UFormaGurDocPerCF.cpp=</Transaction>
+    <Transaction>2010.08.06 19:40:23.576.cpp,K:\Forms\GurDocPer\UFormaGurDocPerImpl.cpp=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

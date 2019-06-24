@@ -1,0 +1,84 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{F749FB09-7BFC-4A7D-B56E-56B5AB60E66B}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DllFibConnection.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\..\kanCOM\DLL\kanCom.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\ExternalModule\DllRunExternalModule.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\SheetEditor\DllSheetEditor.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DllFibConnection">
+			<MSBuild Projects="DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection:Clean">
+			<MSBuild Targets="Clean" Projects="DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection:Make">
+			<MSBuild Targets="Make" Projects="DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="kanCom">
+			<MSBuild Projects="..\..\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Clean">
+			<MSBuild Targets="Clean" Projects="..\..\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Make">
+			<MSBuild Targets="Make" Projects="..\..\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule">
+			<MSBuild Projects="..\ExternalModule\DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule:Clean">
+			<MSBuild Targets="Clean" Projects="..\ExternalModule\DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule:Make">
+			<MSBuild Targets="Make" Projects="..\ExternalModule\DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllSheetEditor">
+			<MSBuild Projects="..\SheetEditor\DllSheetEditor.cbproj"/>
+		</Target>
+		<Target Name="DllSheetEditor:Clean">
+			<MSBuild Targets="Clean" Projects="..\SheetEditor\DllSheetEditor.cbproj"/>
+		</Target>
+		<Target Name="DllSheetEditor:Make">
+			<MSBuild Targets="Make" Projects="..\SheetEditor\DllSheetEditor.cbproj"/>
+		</Target>
+		<Target Name="PArmKas">
+			<MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Clean">
+			<MSBuild Targets="Clean" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Make">
+			<MSBuild Targets="Make" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DllFibConnection;kanCom;DllRunExternalModule;DllSheetEditor;PArmKas"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DllFibConnection:Clean;kanCom:Clean;DllRunExternalModule:Clean;DllSheetEditor:Clean;PArmKas:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DllFibConnection:Make;kanCom:Make;DllRunExternalModule:Make;DllSheetEditor:Make;PArmKas:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

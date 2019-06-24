@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.06 15:17:10.989.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\FormsGur\FormsGur.cbproj</Transaction>
+    <Transaction>2010.08.06 15:23:35.068.cpp,K:\Forms\SheetEditor\UModifyFormSheetEditor.cpp=</Transaction>
+    <Transaction>2010.08.06 15:23:35.069.dfm,K:\Forms\SheetEditor\UModifyFormSheetEditor.dfm=</Transaction>
+    <Transaction>2010.08.06 15:23:35.097.cpp,K:\Forms\SheetEditor\USheetEditor.cpp=</Transaction>
+    <Transaction>2010.08.06 15:23:35.097.dfm,K:\Forms\SheetEditor\USheetEditor.dfm=</Transaction>
+    <Transaction>2010.08.06 21:14:46.756.cpp,K:\ComClasses\DLL\SheetEditor\UModifyFormSheetEditor.cpp=</Transaction>
+    <Transaction>2010.08.06 21:14:46.757.dfm,K:\ComClasses\DLL\SheetEditor\UModifyFormSheetEditor.dfm=</Transaction>
+    <Transaction>2010.08.06 21:14:47.006.cpp,K:\ComClasses\DLL\SheetEditor\USheetEditor.cpp=</Transaction>
+    <Transaction>2010.08.06 21:14:47.006.dfm,K:\ComClasses\DLL\SheetEditor\USheetEditor.dfm=</Transaction>
+    <Transaction>2010.08.07 12:46:24.760.cpp,K:\Forms\SheetEditor\UModifyFormSheetEditor.cpp=</Transaction>
+    <Transaction>2010.08.07 12:46:24.761.dfm,K:\Forms\SheetEditor\UModifyFormSheetEditor.dfm=</Transaction>
+    <Transaction>2010.08.07 12:46:24.785.cpp,K:\Forms\SheetEditor\USheetEditor.cpp=</Transaction>
+    <Transaction>2010.08.07 12:46:24.795.dfm,K:\Forms\SheetEditor\USheetEditor.dfm=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

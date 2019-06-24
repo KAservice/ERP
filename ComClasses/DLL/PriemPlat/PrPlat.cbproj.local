@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.07.07 15:18:26.101.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\PriemPlat\PrPlat.cpp</Transaction>
+    <Transaction>2010.07.07 15:18:35.088.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\PriemPlat\PrPlat.cbproj</Transaction>
+    <Transaction>2010.08.14 18:35:35.348.cpp,K:\Forms\DisplayPok\UDisplayPok.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.393.cpp,K:\FIB_DataModule\DocCheckKKM\UDMDocCheck.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.393.dfm,K:\FIB_DataModule\DocCheckKKM\UDMDocCheck.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.434.cpp,K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.434.dfm,K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.474.cpp,K:\FIB_DataModule\GurPlat\UDMGurPlat.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.474.dfm,K:\FIB_DataModule\GurPlat\UDMGurPlat.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.515.cpp,K:\FIB_DataModule\Setup\UDMSetup.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.515.dfm,K:\FIB_DataModule\Setup\UDMSetup.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.555.cpp,K:\FIB_DataModule\SprARM\UDMSprARM.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.555.dfm,K:\FIB_DataModule\SprARM\UDMSprARM.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.595.cpp,K:\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.595.dfm,K:\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.635.cpp,K:\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.635.dfm,K:\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.677.cpp,K:\FIB_DataModule\SprKlient\UDMSprKlient.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.677.dfm,K:\FIB_DataModule\SprKlient\UDMSprKlient.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.717.cpp,K:\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisL.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.717.dfm,K:\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisL.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.758.cpp,K:\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrL.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.758.dfm,K:\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrL.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.798.cpp,K:\FIB_DataModule\SprNumTel\UDMSprNumTel.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.798.dfm,K:\FIB_DataModule\SprNumTel\UDMSprNumTel.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.839.cpp,K:\FIB_DataModule\SprUser\UDMSprUser.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.839.dfm,K:\FIB_DataModule\SprUser\UDMSprUser.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.880.cpp,K:\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:35.880.dfm,K:\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.dfm=</Transaction>
+    <Transaction>2010.08.14 18:35:35.921.cpp,K:\Forms\FiskReg\UFiskReg.cpp=</Transaction>
+    <Transaction>2010.08.14 18:35:44.540.cpp,K:\Forms\Scaner\UScaner.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.10.14 11:14:52.917.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\HLP\DMHlp.cpp</Transaction>
+    <Transaction>2011.10.14 11:15:14.283.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\HLP\PDMHlp.cbproj</Transaction>
+    <Transaction>2014.05.21 16:09:28.609.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrp.cpp=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.cpp</Transaction>
+    <Transaction>2014.05.21 16:09:28.609.h,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrp.h=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.h</Transaction>
+    <Transaction>2014.05.21 16:09:28.609.dfm,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrp.dfm=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.dfm</Transaction>
+    <Transaction>2014.05.21 16:17:32.468.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPage.cpp=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.cpp</Transaction>
+    <Transaction>2014.05.21 16:17:32.468.h,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPage.h=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.h</Transaction>
+    <Transaction>2014.05.21 16:17:32.468.dfm,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPage.dfm=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.dfm</Transaction>
+    <Transaction>2014.05.21 16:42:56.555.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElement.cpp=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.cpp</Transaction>
+    <Transaction>2014.05.21 16:42:56.555.h,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElement.h=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.h</Transaction>
+    <Transaction>2014.05.21 16:42:56.555.dfm,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElement.dfm=K:\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.dfm</Transaction>
+    <Transaction>2014.05.24 16:23:05.826.cpp,K:\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.cpp=</Transaction>
+    <Transaction>2014.05.24 16:23:05.826.dfm,K:\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.dfm=</Transaction>
+    <Transaction>2016.03.16 10:44:19.896.cpp,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:19.901.dfm,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.dfm=</Transaction>
+    <Transaction>2016.03.16 10:44:19.961.cpp,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:19.997.cpp,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.005.dfm,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.dfm=</Transaction>
+    <Transaction>2016.03.16 10:44:20.041.cpp,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.082.cpp,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.127.cpp,K:\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.189.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPage.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.189.dfm,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPage.dfm=</Transaction>
+    <Transaction>2016.03.16 10:44:20.234.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.334.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElement.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.334.dfm,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElement.dfm=</Transaction>
+    <Transaction>2016.03.16 10:44:20.413.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElementCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.449.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageElementImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.509.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrp.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.509.dfm,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrp.dfm=</Transaction>
+    <Transaction>2016.03.16 10:44:20.551.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrpCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.587.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageGrpImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:44:20.623.cpp,K:\FIB_DataModule\HLP_SprPage\UHLP_DMSprPageImpl.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

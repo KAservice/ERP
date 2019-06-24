@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{07783155-3EA3-4C2D-BF78-CE5BBBC1FFC7}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="DllRunExternalModule.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\Program\FIBPlus\ArmKas1\PArmKas1.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DllRunExternalModule">
+			<MSBuild Projects="DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule:Clean">
+			<MSBuild Targets="Clean" Projects="DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule:Make">
+			<MSBuild Targets="Make" Projects="DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="PArmKas1">
+			<MSBuild Projects="K:\Program\FIBPlus\ArmKas1\PArmKas1.cbproj"/>
+		</Target>
+		<Target Name="PArmKas1:Clean">
+			<MSBuild Targets="Clean" Projects="K:\Program\FIBPlus\ArmKas1\PArmKas1.cbproj"/>
+		</Target>
+		<Target Name="PArmKas1:Make">
+			<MSBuild Targets="Make" Projects="K:\Program\FIBPlus\ArmKas1\PArmKas1.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DllRunExternalModule;PArmKas1"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DllRunExternalModule:Clean;PArmKas1:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DllRunExternalModule:Make;PArmKas1:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

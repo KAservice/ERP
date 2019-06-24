@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.23 19:44:17.031.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\HotRaschet\HotRaschet.cpp</Transaction>
+    <Transaction>2010.08.23 19:44:27.546.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\HotRaschet\HotRaschet.cbproj</Transaction>
+    <Transaction>2010.08.23 20:31:53.551.h,K:\ComClasses\DLL\HotRaschet\File1.h=K:\Forms\HOT_RaschetStoimProg\UHOT_StringDoc.h</Transaction>
+  </Transactions>
+</BorlandProject>

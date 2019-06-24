@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017.02.24 12:53:50.515.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\ReportForms\ReportForms.cpp</Transaction>
+    <Transaction>2017.02.24 12:54:00.388.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\ReportForms\ReportForms.cbproj</Transaction>
+    <Transaction>2017.02.24 12:59:40.137.cpp,K:\ComClasses\DLL\ReportForms\Unit1.cpp=K:\Interface\IkasForm.cpp</Transaction>
+    <Transaction>2017.02.24 12:59:40.137.h,K:\ComClasses\DLL\ReportForms\Unit1.h=K:\Interface\IkasForm.h</Transaction>
+    <Transaction>2017.02.24 12:59:56.131.h,K:\Interface\IkasForm.h=</Transaction>
+    <Transaction>2017.02.24 13:04:01.046.cpp,K:\ComClasses\DLL\ReportForms\Unit1.cpp=K:\Forms\UnversalReport\UFormaUnReport.cpp</Transaction>
+    <Transaction>2017.02.24 13:04:01.046.h,K:\ComClasses\DLL\ReportForms\Unit1.h=K:\Forms\UnversalReport\UFormaUnReport.h</Transaction>
+    <Transaction>2017.02.24 13:04:01.046.dfm,K:\ComClasses\DLL\ReportForms\Unit1.dfm=K:\Forms\UnversalReport\UFormaUnReport.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

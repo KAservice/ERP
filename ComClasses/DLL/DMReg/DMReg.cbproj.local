@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.07.27 09:12:57.117.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\DMReg\DMReg.cpp</Transaction>
+    <Transaction>2010.07.27 09:13:07.911.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\DMReg\DMReg.cbproj</Transaction>
+    <Transaction>2010.08.10 11:45:39.066.cpp,K:\FIB_DataModule\RegReal\UDMRegReal.cpp=</Transaction>
+    <Transaction>2010.08.10 11:45:39.066.dfm,K:\FIB_DataModule\RegReal\UDMRegReal.dfm=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

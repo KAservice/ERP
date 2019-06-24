@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.09.17 20:40:59.475.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\RemDMDoc\RemDMDoc.cpp</Transaction>
+    <Transaction>2010.09.17 20:41:16.398.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\RemDMDoc\RemDMDoc.cbproj</Transaction>
+    <Transaction>2011.05.28 17:25:34.325.cpp,K:\Forms\REM_FormaDocPrihNakl\UREM_FormaDocPrihNakl.cpp=</Transaction>
+    <Transaction>2011.05.28 17:25:34.325.dfm,K:\Forms\REM_FormaDocPrihNakl\UREM_FormaDocPrihNakl.dfm=</Transaction>
+    <Transaction>2012.11.25 22:57:01.196.cpp,K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokImpl.cpp=</Transaction>
+    <Transaction>2016.11.23 15:38:39.333.cpp,K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVosvratZipPer.cpp=K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVZipPer.cpp</Transaction>
+    <Transaction>2016.11.23 15:38:39.333.h,K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVosvratZipPer.h=K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVZipPer.h</Transaction>
+    <Transaction>2016.11.23 15:38:39.333.dfm,K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVosvratZipPer.dfm=K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVZipPer.dfm</Transaction>
+    <Transaction>2016.11.23 15:39:54.282.cpp,K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVZipPer.cpp=</Transaction>
+    <Transaction>2016.11.23 15:39:54.282.dfm,K:\FIB_DataModule\REM_DocVosvratZipPer\UREM_DMDocVZipPer.dfm=</Transaction>
+    <Transaction>2016.11.23 15:53:58.270.cpp,K:\FIB_DataModule\REM_DocVZipVosvartPost\UREM_DMDocVZipVosvratPost.cpp=</Transaction>
+    <Transaction>2016.11.23 15:53:58.271.dfm,K:\FIB_DataModule\REM_DocVZipVosvartPost\UREM_DMDocVZipVosvratPost.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

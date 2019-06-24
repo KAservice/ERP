@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.10 09:05:29.604.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\StReport\StReport.cpp</Transaction>
+    <Transaction>2010.08.10 09:05:45.074.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\StReport\StReport.cbproj</Transaction>
+    <Transaction>2010.08.10 12:46:04.478.cpp,K:\Forms\ReportSaleCheck\UFormaDialogaReportSaleCheck.cpp=</Transaction>
+    <Transaction>2010.08.10 12:46:04.478.dfm,K:\Forms\ReportSaleCheck\UFormaDialogaReportSaleCheck.dfm=</Transaction>
+    <Transaction>2010.08.10 15:06:39.739.cpp,K:\Forms\ReportOCBRegVSRasch\UFormaDialogaReportOCBRegVSRasch.cpp=</Transaction>
+    <Transaction>2010.08.10 15:06:39.739.dfm,K:\Forms\ReportOCBRegVSRasch\UFormaDialogaReportOCBRegVSRasch.dfm=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

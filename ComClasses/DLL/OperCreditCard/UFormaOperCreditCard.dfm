@@ -1,0 +1,226 @@
+object FormaOperCreditCard: TFormaOperCreditCard
+  Left = 0
+  Top = 0
+  Caption = #1054#1087#1077#1088#1072#1094#1080#1080' '#1089' '#1082#1088#1077#1076#1080#1090#1085#1099#1084#1080' '#1082#1072#1088#1090#1072#1084#1080
+  ClientHeight = 277
+  ClientWidth = 588
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Visible = True
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 12
+  object Label1: TLabel
+    Left = 6
+    Top = 20
+    Width = 542
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1054#1087#1077#1088#1072#1094#1080#1080' '#1089' '#1082#1088#1077#1076#1080#1090#1085#1099#1084#1080' '#1082#1072#1088#1090#1072#1084#1080
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -31
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object NameKlientLabel: TLabel
+    Left = 24
+    Top = 60
+    Width = 78
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1050#1083#1080#1077#1085#1090': '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object NameCardLabel: TLabel
+    Left = 24
+    Top = 89
+    Width = 61
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1050#1072#1088#1090#1072':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object TecDolgLabel: TLabel
+    Left = 421
+    Top = 148
+    Width = 39
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Alignment = taRightJustify
+    Caption = '0.00'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object MaxDolgLabel: TLabel
+    Left = 421
+    Top = 119
+    Width = 39
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Alignment = taRightJustify
+    Caption = '0.00'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 194
+    Width = 66
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1057#1091#1084#1084#1072':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 6
+    Top = 6
+    Width = 98
+    Height = 12
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'F11 - '#1074#1099#1073#1088#1072#1090#1100' '#1082#1072#1088#1090#1091
+  end
+  object LabelMessage: TLabel
+    Left = 24
+    Top = 250
+    Width = 120
+    Height = 21
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'LabelMessage'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 119
+    Width = 283
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1052#1072#1082#1089#1080#1084#1072#1083#1100#1085#1072#1103' '#1089#1091#1084#1084#1072' '#1082#1088#1077#1076#1080#1090#1072':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Top = 148
+    Width = 135
+    Height = 24
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1058#1077#1082#1091#1097#1080#1081' '#1076#1086#1083#1075':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object SummacxCalcEdit: TcxCalcEdit
+    Left = 114
+    Top = 192
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    EditValue = 0.000000000000000000
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = 'Tahoma'
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    TabOrder = 0
+    Width = 121
+  end
+  object cxButton1: TcxButton
+    Left = 252
+    Top = 192
+    Width = 127
+    Height = 31
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1054#1087#1083#1072#1090#1080#1090#1100
+    TabOrder = 1
+    OnClick = cxButton1Click
+  end
+  object ActionList1: TActionList
+    Left = 736
+    Top = 24
+    object ActionViborCardPoCodu: TAction
+      Caption = 'ActionViborCardPoCodu'
+      ShortCut = 122
+      OnExecute = ActionViborCardPoCoduExecute
+    end
+  end
+end

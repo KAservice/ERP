@@ -1,0 +1,491 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{3621D379-B4A8-4639-A774-B34C8616619E}</ProjectGuid>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DebugDCUs>true</DCC_DebugDCUs>
+			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;vcldb.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;dxGDIPlusC14.bpi;dxCoreC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;vclimg.bpi;FIBPlus_CB2010.bpi;cxSpreadSheetC14.bpi;dxPSCoreC14.bpi;vclx.bpi;dxPScxSSLnkC14.bpi;xmlrtl.bpi;vclactnband.bpi;ibxpress.bpi;dsnap.bpi;cxExtEditorsC14.bpi</LinkPackageImports>
+			<Multithreaded>true</Multithreaded>
+			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;FIBPlus_CB2010.bpi;pFIBPlusTools_CB2010.bpi;FIBDBMidas_CB2010.bpi</PackageImports>
+			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
+			<ProjectType>CppDynamicLibrary</ProjectType>
+			<OutputExt>dll</OutputExt>
+			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;FIBPlus_CB2010.lib;cxSpreadSheetC14.lib;dxPSCoreC14.lib;vclx.lib;dxPScxSSLnkC14.lib;xmlrtl.lib;vclactnband.lib;ibxpress.lib;dsnap.lib;cxExtEditorsC14.lib</AllPackageLibs>
+			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+			<DynamicRTL>true</DynamicRTL>
+			<UsePackages>true</UsePackages>
+			<IncludePath>K:\Forms\ReportSostavProd\;K:\FIB_DataModule\ReportSale\;K:\Forms\ReportReal\;K:\Forms\ReportOCBRegCardBalance\;K:\Forms\ReportPoProject\;K:\Forms\ReportGoodsReport\;K:\FIB_DataModule\ReportDiscountDocCheck\;K:\Forms\ReportDiscountDocCheck\;K:\Forms\ReportKassa\;K:\Forms\ReportOCBPaySale\;K:\Forms\ReportRashodProd\;K:\Forms\ReportOCBOstPart\;K:\Forms\ReportKalkKarta\;K:\Forms\ReportKartKlient\;K:\Forms\ReportKartTovara\;K:\Forms\ReportVipuskProd\;K:\Forms\ReportResultReal\;K:\Forms\ReportOCBRegVSRasch\;K:\Forms\Indicator\;K:\Forms\ReportOCBGoods\;K:\Forms\ReportSaleCheck\;K:\Global\;K:\Forms\ReportBank\;K:\Forms\SheetEditor\;K:\FIB_DataModule\DM\;K:\ComClasses\DLL\StReport\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>K:\Forms\ReportSostavProd\;K:\FIB_DataModule\ReportSale\;K:\Forms\ReportReal\;K:\Forms\ReportOCBRegCardBalance\;K:\Forms\ReportPoProject\;K:\Forms\ReportGoodsReport\;K:\FIB_DataModule\ReportDiscountDocCheck\;K:\Forms\ReportDiscountDocCheck\;K:\Forms\ReportKassa\;K:\Forms\ReportOCBPaySale\;K:\Forms\ReportRashodProd\;K:\Forms\ReportOCBOstPart\;K:\Forms\ReportKalkKarta\;K:\Forms\ReportKartKlient\;K:\Forms\ReportKartTovara\;K:\Forms\ReportVipuskProd\;K:\Forms\ReportResultReal\;K:\Forms\ReportOCBRegVSRasch\;K:\Forms\Indicator\;K:\Forms\ReportOCBGoods\;K:\Forms\ReportSaleCheck\;K:\Global\;K:\Forms\ReportBank\;K:\Forms\SheetEditor\;K:\FIB_DataModule\DM\;K:\ComClasses\DLL\StReport\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<BCC_wpar>false</BCC_wpar>
+			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<Defines>_DEBUG;$(Defines)</Defines>
+			<BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+			<IntermediateOutputDir>Debug</IntermediateOutputDir>
+			<BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+			<DCC_Define>DEBUG</DCC_Define>
+			<BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+			<BCC_StackFrames>true</BCC_StackFrames>
+			<ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+			<TASM_Debugging>Full</TASM_Debugging>
+			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<Defines>NDEBUG;$(Defines)</Defines>
+			<IntermediateOutputDir>Release</IntermediateOutputDir>
+			<ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<TASM_Debugging>None</TASM_Debugging>
+		</PropertyGroup>
+		<ItemGroup>
+			<CppCompile Include="K:\Forms\ReportSaleCheck\UFormaDialogaRepSaleCheckCF.cpp">
+				<DependentOn>K:\Forms\ReportSaleCheck\UFormaDialogaRepSaleCheckCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRasch.cpp">
+				<Form>FormaReportOCBRegVSRasch</Form>
+				<DependentOn>K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRasch.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoods.cpp">
+				<Form>FormaReportOCBRegGoods</Form>
+				<DependentOn>K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoods.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRaschImpl.cpp">
+				<DependentOn>K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRaschImpl.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportPoProject\UFormaDialogaReportPoProjectCF.cpp">
+				<DependentOn>K:\Forms\ReportPoProject\UFormaDialogaReportPoProjectCF.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportGoodsReport\UReportGoodsReportUnion.cpp">
+				<DependentOn>K:\Forms\ReportGoodsReport\UReportGoodsReportUnion.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoodsCF.cpp">
+				<DependentOn>K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoodsCF.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\Indicator\UFormIndicator.cpp">
+				<Form>FormIndicator</Form>
+				<DependentOn>K:\Forms\Indicator\UFormIndicator.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportResultReal\UFormaReportResultReal.cpp">
+				<Form>FormaDialogaReportResultReal</Form>
+				<DependentOn>K:\Forms\ReportResultReal\UFormaReportResultReal.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportBank\UFormaReportBankCF.cpp">
+				<DependentOn>K:\Forms\ReportBank\UFormaReportBankCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportBank\UFormaReportBank.cpp">
+				<Form>FormaReportBank</Form>
+				<DependentOn>K:\Forms\ReportBank\UFormaReportBank.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
+				<Form>ModifyFormSheetEditor</Form>
+				<DependentOn>K:\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportPoProject\UFormaDialogaReportPoProject.cpp">
+				<Form>FormaDialogaReportPoProject</Form>
+				<DependentOn>K:\Forms\ReportPoProject\UFormaDialogaReportPoProject.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="StReport.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
+				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="StReport.res">
+				<BuildOrder>5</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="K:\Forms\ReportBank\UFormaReportBankImpl.cpp">
+				<DependentOn>K:\Forms\ReportBank\UFormaReportBankImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRaschCF.cpp">
+				<DependentOn>K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRaschCF.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportSaleCheck\UFormaDialogaReportSaleCheck.cpp">
+				<Form>FormaDialogaReportSaleCheck</Form>
+				<DependentOn>K:\Forms\ReportSaleCheck\UFormaDialogaReportSaleCheck.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoodsImpl.cpp">
+				<DependentOn>K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoodsImpl.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportGoodsReport\UFormaReportGoodsReportCF.cpp">
+				<DependentOn>K:\Forms\ReportGoodsReport\UFormaReportGoodsReportCF.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportGoodsReport\UFormaReportGoodsReportImpl.cpp">
+				<DependentOn>K:\Forms\ReportGoodsReport\UFormaReportGoodsReportImpl.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportPoProject\UFormaDialogaReportPoProjectImpl.cpp">
+				<DependentOn>K:\Forms\ReportPoProject\UFormaDialogaReportPoProjectImpl.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportSostavProd\UFormaReportSostProdCF.cpp">
+				<DependentOn>K:\Forms\ReportSostavProd\UFormaReportSostProdCF.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportSostavProd\UFormaReportSostProdImpl.cpp">
+				<DependentOn>K:\Forms\ReportSostavProd\UFormaReportSostProdImpl.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalance.cpp">
+				<Form>FormaReportOCBRegCardBalance</Form>
+				<DependentOn>K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalance.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportSostavProd\UFormaReportSostProd.cpp">
+				<Form>FormaReportSostProd</Form>
+				<DependentOn>K:\Forms\ReportSostavProd\UFormaReportSostProd.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKartKlient\UFormaReportKartKlientCF.cpp">
+				<DependentOn>K:\Forms\ReportKartKlient\UFormaReportKartKlientCF.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKartTovara\UFormaReportKartTovaraCF.cpp">
+				<DependentOn>K:\Forms\ReportKartTovara\UFormaReportKartTovaraCF.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
+				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportGoodsReport\UReportGoodsReport.cpp">
+				<DependentOn>K:\Forms\ReportGoodsReport\UReportGoodsReport.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportGoodsReport\UFormaReportGoodsReport.cpp">
+				<Form>FormaReportGoodsReport</Form>
+				<DependentOn>K:\Forms\ReportGoodsReport\UFormaReportGoodsReport.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalanceCF.cpp">
+				<DependentOn>K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalanceCF.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalanceImpl.cpp">
+				<DependentOn>K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalanceImpl.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKartKlient\UFormaReportKartKlientImpl.cpp">
+				<DependentOn>K:\Forms\ReportKartKlient\UFormaReportKartKlientImpl.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBGoods\UReportOCBRegGoods.cpp">
+				<DependentOn>K:\Forms\ReportOCBGoods\UReportOCBRegGoods.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheck.cpp">
+				<Form>FormaReportDiscountDocCheck</Form>
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheck.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKassa\UFormaReportKassaImpl.cpp">
+				<DependentOn>K:\Forms\ReportKassa\UFormaReportKassaImpl.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKartKlient\UFormaReportKartKlient.cpp">
+				<Form>FormaReportKartKlient</Form>
+				<DependentOn>K:\Forms\ReportKartKlient\UFormaReportKartKlient.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UReportDiscountDocCheck.cpp">
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UReportDiscountDocCheck.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNom.cpp">
+				<Form>FormaReportOCBRegOstNom</Form>
+				<DependentOn>K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNom.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportRashodProd\UFormaReportRashodProduct.cpp">
+				<Form>FormaReportRashodProduct</Form>
+				<DependentOn>K:\Forms\ReportRashodProd\UFormaReportRashodProduct.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportResultReal\UFormaReportResultRealCF.cpp">
+				<DependentOn>K:\Forms\ReportResultReal\UFormaReportResultRealCF.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKalkKarta\UFormaReportKalkKartaImpl.cpp">
+				<DependentOn>K:\Forms\ReportKalkKarta\UFormaReportKalkKartaImpl.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKalkKarta\UFormaReportKalkKartaCF.cpp">
+				<DependentOn>K:\Forms\ReportKalkKarta\UFormaReportKalkKartaCF.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKartTovara\UFormaReportKartTovaraImpl.cpp">
+				<DependentOn>K:\Forms\ReportKartTovara\UFormaReportKartTovaraImpl.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNomImpl.cpp">
+				<DependentOn>K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNomImpl.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNomCF.cpp">
+				<DependentOn>K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNomCF.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportSaleCheck\UFormaDialogaRepSaleCheckImpl.cpp">
+				<DependentOn>K:\Forms\ReportSaleCheck\UFormaDialogaRepSaleCheckImpl.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySaleCF.cpp">
+				<DependentOn>K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySaleCF.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySaleImpl.cpp">
+				<DependentOn>K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySaleImpl.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKalkKarta\UFormaReportKalkKarta.cpp">
+				<Form>FormaReportKalkKarta</Form>
+				<DependentOn>K:\Forms\ReportKalkKarta\UFormaReportKalkKarta.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportResultReal\UFormaReportResultRealImpl.cpp">
+				<DependentOn>K:\Forms\ReportResultReal\UFormaReportResultRealImpl.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportVipuskProd\UFormaReportVipuskProdImpl.cpp">
+				<DependentOn>K:\Forms\ReportVipuskProd\UFormaReportVipuskProdImpl.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\FIB_DataModule\ReportSale\UDMReportSale.cpp">
+				<Form>DMReportSale</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>K:\FIB_DataModule\ReportSale\UDMReportSale.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportVipuskProd\UFormaReportVipuskProd.cpp">
+				<Form>FormaReportVipuskProd</Form>
+				<DependentOn>K:\Forms\ReportVipuskProd\UFormaReportVipuskProd.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportRashodProd\UFormaReportRashodProductCF.cpp">
+				<DependentOn>K:\Forms\ReportRashodProd\UFormaReportRashodProductCF.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKassa\UFormaReportKassaCF.cpp">
+				<DependentOn>K:\Forms\ReportKassa\UFormaReportKassaCF.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportVipuskProd\UFormaReportVipuskProdCF.cpp">
+				<DependentOn>K:\Forms\ReportVipuskProd\UFormaReportVipuskProdCF.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKassa\UFormaReportKassa.cpp">
+				<Form>FormaReportKassa</Form>
+				<DependentOn>K:\Forms\ReportKassa\UFormaReportKassa.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportKartTovara\UFormaReportKartTovara.cpp">
+				<Form>FormaReportKartTovara</Form>
+				<DependentOn>K:\Forms\ReportKartTovara\UFormaReportKartTovara.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\SheetEditor\USheetEditor.cpp">
+				<Form>SheetEditor</Form>
+				<DependentOn>K:\Forms\SheetEditor\USheetEditor.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckImpl.cpp">
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckImpl.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckCF.cpp">
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckCF.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportReal\UFormaReportReal.cpp">
+				<Form>FormaReportReal</Form>
+				<DependentOn>K:\Forms\ReportReal\UFormaReportReal.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashierCF.cpp">
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashierCF.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportReal\UFormaReportRealCF.cpp">
+				<DependentOn>K:\Forms\ReportReal\UFormaReportRealCF.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportRashodProd\UFormaReportRashodProductImpl.cpp">
+				<DependentOn>K:\Forms\ReportRashodProd\UFormaReportRashodProductImpl.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashierImpl.cpp">
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashierImpl.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySale.cpp">
+				<Form>FormaReportOCBPaySale</Form>
+				<DependentOn>K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySale.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\FIB_DataModule\ReportDiscountDocCheck\UDMReportDiscountDocCheck.cpp">
+				<Form>DMReportDiscountDocCheck</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>K:\FIB_DataModule\ReportDiscountDocCheck\UDMReportDiscountDocCheck.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportReal\UFormaReportRealImpl.cpp">
+				<DependentOn>K:\Forms\ReportReal\UFormaReportRealImpl.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashier.cpp">
+				<Form>FormaReportDiscountDocCheckForCashier</Form>
+				<DependentOn>K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashier.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<FormResources Include="K:\Forms\ReportOCBRegVSRasch\UFormaReportOCBRegVSRasch.dfm"/>
+			<FormResources Include="K:\Forms\ReportOCBGoods\UFormaReportOCBRegGoods.dfm"/>
+			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="K:\Forms\Indicator\UFormIndicator.dfm"/>
+			<FormResources Include="K:\Forms\ReportResultReal\UFormaReportResultReal.dfm"/>
+			<FormResources Include="K:\Forms\ReportBank\UFormaReportBank.dfm"/>
+			<FormResources Include="K:\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
+			<FormResources Include="K:\Forms\ReportPoProject\UFormaDialogaReportPoProject.dfm"/>
+			<FormResources Include="K:\Forms\ReportSaleCheck\UFormaDialogaReportSaleCheck.dfm"/>
+			<FormResources Include="K:\Forms\ReportOCBRegCardBalance\UFormaReportOCBRegCardBalance.dfm"/>
+			<FormResources Include="K:\Forms\ReportSostavProd\UFormaReportSostProd.dfm"/>
+			<FormResources Include="K:\Forms\ReportGoodsReport\UFormaReportGoodsReport.dfm"/>
+			<FormResources Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheck.dfm"/>
+			<FormResources Include="K:\Forms\ReportKartKlient\UFormaReportKartKlient.dfm"/>
+			<FormResources Include="K:\Forms\ReportOCBOstPart\UFormaReportOCBRegOstNom.dfm"/>
+			<FormResources Include="K:\Forms\ReportRashodProd\UFormaReportRashodProduct.dfm"/>
+			<FormResources Include="K:\Forms\ReportKalkKarta\UFormaReportKalkKarta.dfm"/>
+			<FormResources Include="K:\FIB_DataModule\ReportSale\UDMReportSale.dfm"/>
+			<FormResources Include="K:\Forms\ReportVipuskProd\UFormaReportVipuskProd.dfm"/>
+			<FormResources Include="K:\Forms\ReportKassa\UFormaReportKassa.dfm"/>
+			<FormResources Include="K:\Forms\ReportKartTovara\UFormaReportKartTovara.dfm"/>
+			<FormResources Include="K:\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="K:\Forms\ReportReal\UFormaReportReal.dfm"/>
+			<FormResources Include="K:\Forms\ReportOCBPaySale\UFormaReportOCBPaySale.dfm"/>
+			<FormResources Include="K:\FIB_DataModule\ReportDiscountDocCheck\UDMReportDiscountDocCheck.dfm"/>
+			<FormResources Include="K:\Forms\ReportDiscountDocCheck\UFormaReportDiscountDocCheckForCashier.dfm"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+			<Borland.ProjectType>CppDynamicLibrary</Borland.ProjectType>
+			<BorlandProject>
+				<CPlusPlusBuilder.Personality>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">3</VersionInfo>
+						<VersionInfo Name="MinorVer">1</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">332</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">3.1.0.332</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Debugging>
+						<Debugging Name="DebugSourceDirs"/>
+					</Debugging>
+					<Parameters>
+						<Parameters Name="RunParams"/>
+						<Parameters Name="Launcher"/>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="DebugCWD"/>
+						<Parameters Name="HostApplication"/>
+						<Parameters Name="RemoteHost"/>
+						<Parameters Name="RemotePath"/>
+						<Parameters Name="RemoteParams"/>
+						<Parameters Name="RemoteLauncher"/>
+						<Parameters Name="UseRemoteLauncher">False</Parameters>
+						<Parameters Name="RemoteCWD"/>
+						<Parameters Name="RemoteDebug">False</Parameters>
+						<Parameters Name="Debug Symbols Search Path"/>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcboffice2k140.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcbofficexp140.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+					</Excluded_Packages>
+					<ProjectProperties>
+						<ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+						<ProjectProperties Name="ManagePaths">True</ProjectProperties>
+						<ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+					</ProjectProperties>
+				</CPlusPlusBuilder.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

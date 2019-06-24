@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.12 09:23:49.414.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\FormsTouch\FormsTouch.cpp</Transaction>
+    <Transaction>2010.08.12 09:24:06.299.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\FormsTouch\FormsTouch.cbproj</Transaction>
+    <Transaction>2010.08.12 19:54:33.526.cpp,K:\Forms\SprStrObject\UFormStrObjectOfCF.cpp=</Transaction>
+    <Transaction>2010.08.12 19:54:33.562.cpp,K:\Forms\SprStrObject\UFormStrObjectOfImpl.cpp=</Transaction>
+    <Transaction>2010.08.12 19:55:36.412.cpp,K:\Forms\SprStrObject\UFormStrObjectOf.cpp=K:\Forms\SprStrObject\UFormaStrObjectOf.cpp</Transaction>
+    <Transaction>2010.08.12 19:55:36.412.h,K:\Forms\SprStrObject\UFormStrObjectOf.h=K:\Forms\SprStrObject\UFormaStrObjectOf.h</Transaction>
+    <Transaction>2010.08.12 19:55:36.412.dfm,K:\Forms\SprStrObject\UFormStrObjectOf.dfm=K:\Forms\SprStrObject\UFormaStrObjectOf.dfm</Transaction>
+    <Transaction>2010.08.12 19:58:16.130.cpp,K:\Forms\SprStrObject\UFormaStrObjectOf.cpp=K:\Forms\SprStrObject\UFormaStrObjectTouch.cpp</Transaction>
+    <Transaction>2010.08.12 19:58:16.130.h,K:\Forms\SprStrObject\UFormaStrObjectOf.h=K:\Forms\SprStrObject\UFormaStrObjectTouch.h</Transaction>
+    <Transaction>2010.08.12 19:58:16.130.dfm,K:\Forms\SprStrObject\UFormaStrObjectOf.dfm=K:\Forms\SprStrObject\UFormaStrObjectTouch.dfm</Transaction>
+    <Transaction>2010.08.12 20:03:56.926.cpp,K:\Forms\SprStrObject\UFormaStrObjectCF.cpp=</Transaction>
+    <Transaction>2010.08.12 20:03:56.946.cpp,K:\Forms\SprStrObject\UFormaStrObjectImpl.cpp=</Transaction>
+    <Transaction>2010.08.18 21:12:52.757.cpp,K:\Forms\SprStrObject\UFormaStrObjectTouch.cpp=K:\Forms\UFormaStrObjectTouch.cpp</Transaction>
+    <Transaction>2010.08.18 21:12:52.757.h,K:\Forms\SprStrObject\UFormaStrObjectTouch.h=K:\Forms\UFormaStrObjectTouch.h</Transaction>
+    <Transaction>2010.08.18 21:12:52.757.dfm,K:\Forms\SprStrObject\UFormaStrObjectTouch.dfm=K:\Forms\UFormaStrObjectTouch.dfm</Transaction>
+    <Transaction>2010.08.31 13:22:36.535.cpp,K:\ComClasses\DLL\FormsTouch\Unit1.cpp=K:\Forms\ReportTouchForFR\UReportTouchForFR.cpp</Transaction>
+    <Transaction>2010.08.31 13:22:36.535.h,K:\ComClasses\DLL\FormsTouch\Unit1.h=K:\Forms\ReportTouchForFR\UReportTouchForFR.h</Transaction>
+    <Transaction>2010.08.31 13:22:36.535.dfm,K:\ComClasses\DLL\FormsTouch\Unit1.dfm=K:\Forms\ReportTouchForFR\UReportTouchForFR.dfm</Transaction>
+    <Transaction>2010.08.31 14:29:18.351.cpp,K:\Forms\ReportTouchForFR\UReportTouchForFR.cpp=K:\Forms\ReportTouchForFR\UFormaReportTouchForFR.cpp</Transaction>
+    <Transaction>2010.08.31 14:29:18.351.h,K:\Forms\ReportTouchForFR\UReportTouchForFR.h=K:\Forms\ReportTouchForFR\UFormaReportTouchForFR.h</Transaction>
+    <Transaction>2010.08.31 14:29:18.351.dfm,K:\Forms\ReportTouchForFR\UReportTouchForFR.dfm=K:\Forms\ReportTouchForFR\UFormaReportTouchForFR.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

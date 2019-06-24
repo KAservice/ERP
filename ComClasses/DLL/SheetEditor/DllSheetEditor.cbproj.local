@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.07.01 11:54:25.638.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\SheetEditor\DllSheetEditor.cpp</Transaction>
+    <Transaction>2010.07.01 11:54:39.817.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\SheetEditor\DllSheetEditor.cbproj</Transaction>
+    <Transaction>2010.07.01 11:55:58.208.cpp,K:\ComClasses\DLL\SheetEditor\Unit1.cpp=K:\ComClasses\DLL\SheetEditor\USheetEditorCF.cpp</Transaction>
+    <Transaction>2010.07.01 11:55:58.208.h,K:\ComClasses\DLL\SheetEditor\Unit1.h=K:\ComClasses\DLL\SheetEditor\USheetEditorCF.h</Transaction>
+    <Transaction>2010.07.01 11:56:29.761.cpp,K:\ComClasses\DLL\SheetEditor\Unit1.cpp=K:\ComClasses\DLL\SheetEditor\USheetEditorImpl.cpp</Transaction>
+    <Transaction>2010.07.01 11:56:29.761.h,K:\ComClasses\DLL\SheetEditor\Unit1.h=K:\ComClasses\DLL\SheetEditor\USheetEditorImpl.h</Transaction>
+    <Transaction>2010.07.01 12:16:05.228.h,K:\ComClasses\DLL\SheetEditor\File1.h=K:\Interface\ISheetEditor.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

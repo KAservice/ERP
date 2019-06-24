@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.11.08 10:56:35.726.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\HLP\Forms\FormsHlp.cpp</Transaction>
+    <Transaction>2011.11.08 10:56:51.308.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\HLP\Forms\PFormsHlp.cbproj</Transaction>
+    <Transaction>2014.03.22 14:24:30.592.cpp,K:\ComClasses\DLL\HLP\Forms\Unit1.cpp=K:\Forms\HLP_SprPage\Unit1.cpp</Transaction>
+    <Transaction>2014.03.22 14:24:30.592.h,K:\ComClasses\DLL\HLP\Forms\Unit1.h=K:\Forms\HLP_SprPage\Unit1.h</Transaction>
+    <Transaction>2014.03.22 14:24:30.592.dfm,K:\ComClasses\DLL\HLP\Forms\Unit1.dfm=K:\Forms\HLP_SprPage\Unit1.dfm</Transaction>
+    <Transaction>2014.04.14 13:39:30.179.cpp,K:\Forms\HLP_SprPage\Unit1.cpp=</Transaction>
+    <Transaction>2014.04.14 13:39:30.180.dfm,K:\Forms\HLP_SprPage\Unit1.dfm=</Transaction>
+    <Transaction>2014.05.27 14:14:10.600.cpp,K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavGrp.cpp=K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.cpp</Transaction>
+    <Transaction>2014.05.27 14:14:10.600.h,K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavGrp.h=K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.h</Transaction>
+    <Transaction>2014.05.27 14:14:10.600.dfm,K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavGrp.dfm=K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.dfm</Transaction>
+    <Transaction>2016.03.16 10:45:17.319.cpp,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.326.dfm,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.339.cpp,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.351.cpp,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.359.dfm,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.371.cpp,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.383.cpp,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.395.cpp,K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.411.cpp,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPage.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.411.dfm,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPage.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.418.cpp,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPageCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.440.cpp,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPageGrp.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.441.dfm,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPageGrp.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.449.cpp,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPageGrpCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.456.cpp,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPageGrpImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.463.cpp,K:\Forms\HLP_SprPage\UHLP_FormaElementaSprPageImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.470.cpp,K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.470.dfm,K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.477.cpp,K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.484.cpp,K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.505.cpp,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPage.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.505.dfm,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPage.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.520.cpp,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPageCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.539.cpp,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPageElement.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.539.dfm,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPageElement.dfm=</Transaction>
+    <Transaction>2016.03.16 10:45:17.560.cpp,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPageElementCF.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.568.cpp,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPageElementImpl.cpp=</Transaction>
+    <Transaction>2016.03.16 10:45:17.575.cpp,K:\Forms\HLP_SprPage\UHLP_FormaSpiskaSprPageImpl.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

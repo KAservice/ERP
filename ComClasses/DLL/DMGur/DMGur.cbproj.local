@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.07.23 09:44:10.781.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\DMGur\DMGur.cpp</Transaction>
+    <Transaction>2010.07.23 09:44:20.312.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\DMGur\DMGur.cbproj</Transaction>
+    <Transaction>2010.07.24 17:58:41.113.cpp,K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.cpp=</Transaction>
+    <Transaction>2010.07.24 17:58:41.113.dfm,K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.186.cpp,K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.186.dfm,K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.289.cpp,K:\FIB_DataModule\GurAllDoc\UDMGurAllDocCF.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.292.cpp,K:\FIB_DataModule\GurAllDoc\UDMGurAllDocImpl.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.296.cpp,K:\FIB_DataModule\GurDocPer\UDMGurDocPer.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.315.dfm,K:\FIB_DataModule\GurDocPer\UDMGurDocPer.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.318.cpp,K:\FIB_DataModule\GurDocPer\UDMGurDocPerCF.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.320.cpp,K:\FIB_DataModule\GurDocPer\UDMGurDocPerImpl.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.324.cpp,K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.324.dfm,K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.326.cpp,K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklCF.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.328.cpp,K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklImpl.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.338.cpp,K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.338.dfm,K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.340.cpp,K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardCF.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.342.cpp,K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardImpl.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.345.cpp,K:\FIB_DataModule\GurPlat\UDMGurPlat.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.346.dfm,K:\FIB_DataModule\GurPlat\UDMGurPlat.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.348.cpp,K:\FIB_DataModule\GurPlat\UDMGurPlatCF.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.351.cpp,K:\FIB_DataModule\GurPlat\UDMGurPlatImpl.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.354.cpp,K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.354.dfm,K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.dfm=</Transaction>
+    <Transaction>2010.07.26 20:01:24.356.cpp,K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDocCF.cpp=</Transaction>
+    <Transaction>2010.07.26 20:01:24.358.cpp,K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDocImpl.cpp=</Transaction>
+    <Transaction>2017.01.24 16:08:33.410.c,K:\ComClasses\DLL\DMGur\File1.c=K:\Interface\kasDMInterface.c</Transaction>
+    <Transaction>2017.01.24 16:14:52.084.h,K:\Interface\kasDMInterface.h=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

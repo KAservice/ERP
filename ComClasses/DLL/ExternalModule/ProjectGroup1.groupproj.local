@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2010.06.27 13:47:38.529.groupproj,C:\Users\1\Documents\RAD Studio\Projects\ProjectGroup1.groupproj=K:\ComClasses\DLL\ExternalModule\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="DllRunExternalModule.dll"/>
+  </Default.Personality>
+</BorlandProject>

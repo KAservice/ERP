@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.02.03 15:56:04.093.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\CheckDiscount\CheckDiscount.cpp</Transaction>
+    <Transaction>2011.02.03 15:56:14.677.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\CheckDiscount\CheckDiscount.cbproj</Transaction>
+    <Transaction>2011.02.03 15:59:06.882.cpp,K:\ComClasses\DLL\CheckDiscount\Unit1.cpp=K:\ComClasses\DLL\CheckDiscount\UObjectCheckDiscount.cpp</Transaction>
+    <Transaction>2011.02.03 15:59:06.882.h,K:\ComClasses\DLL\CheckDiscount\Unit1.h=K:\ComClasses\DLL\CheckDiscount\UObjectCheckDiscount.h</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,107 @@
+object ModifyFormSheetEditor: TModifyFormSheetEditor
+  Left = 397
+  Top = 219
+  BorderIcons = []
+  BorderStyle = bsDialog
+  ClientHeight = 175
+  ClientWidth = 206
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = True
+  OnKeyPress = FormKeyPress
+  PixelsPerInch = 120
+  TextHeight = 16
+  object btnOk: TButton
+    Left = 10
+    Top = 138
+    Width = 92
+    Height = 27
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object btnCancel: TButton
+    Left = 108
+    Top = 138
+    Width = 93
+    Height = 27
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    ModalResult = 2
+    TabOrder = 1
+  end
+  object gpPanel: TPanel
+    Left = 0
+    Top = 0
+    Width = 206
+    Height = 129
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 2
+    object rbShiftCol: TRadioButton
+      Left = 20
+      Top = 30
+      Width = 139
+      Height = 20
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
+      Caption = 'rbShiftCol'
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+    end
+    object rbShiftRw: TRadioButton
+      Left = 20
+      Top = 54
+      Width = 139
+      Height = 21
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
+      Caption = 'rbShiftRw'
+      TabOrder = 1
+    end
+    object rbRw: TRadioButton
+      Left = 20
+      Top = 84
+      Width = 139
+      Height = 21
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
+      Caption = 'rbRw'
+      TabOrder = 2
+    end
+    object rbCol: TRadioButton
+      Left = 20
+      Top = 108
+      Width = 139
+      Height = 21
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
+      Caption = 'rbCol'
+      TabOrder = 3
+    end
+  end
+end

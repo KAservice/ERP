@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.06 21:35:10.859.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\OutXml\OutXml.cpp</Transaction>
+    <Transaction>2010.08.06 21:35:20.833.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\OutXml\OutXml.cbproj</Transaction>
+    <Transaction>2010.08.06 21:36:04.751.cpp,K:\Forms\ObmenExport\UFormaObmenExport.cpp=</Transaction>
+    <Transaction>2010.08.06 21:36:04.751.dfm,K:\Forms\ObmenExport\UFormaObmenExport.dfm=</Transaction>
+    <Transaction>2010.08.06 21:57:36.078.cpp,K:\FIB_DataModule\ExportDoc\UDMExportDoc.cpp=</Transaction>
+    <Transaction>2010.08.06 21:57:36.078.dfm,K:\FIB_DataModule\ExportDoc\UDMExportDoc.dfm=</Transaction>
+    <Transaction>2010.08.06 21:57:36.097.cpp,K:\Forms\ExportDoc\UFormaExportDoc.cpp=</Transaction>
+    <Transaction>2010.08.06 21:57:36.097.dfm,K:\Forms\ExportDoc\UFormaExportDoc.dfm=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

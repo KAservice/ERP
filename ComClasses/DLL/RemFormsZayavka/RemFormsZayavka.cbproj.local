@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.10.02 13:55:44.869.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\RemFormsZayavka\RemFormsZayavka.cpp</Transaction>
+    <Transaction>2010.10.02 13:55:59.840.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\RemFormsZayavka\RemFormsZayavka.cbproj</Transaction>
+    <Transaction>2010.12.08 12:47:32.308.cpp,K:\ComClasses\DLL\RemFormsZayavka\Unit1.cpp=K:\Forms\REM_GurZ\UREM_FormaZayavka1.cpp</Transaction>
+    <Transaction>2010.12.08 12:47:32.308.h,K:\ComClasses\DLL\RemFormsZayavka\Unit1.h=K:\Forms\REM_GurZ\UREM_FormaZayavka1.h</Transaction>
+    <Transaction>2010.12.08 12:47:32.308.dfm,K:\ComClasses\DLL\RemFormsZayavka\Unit1.dfm=K:\Forms\REM_GurZ\UREM_FormaZayavka1.dfm</Transaction>
+    <Transaction>2010.12.08 13:25:19.104.cpp,K:\Forms\REM_GurZ\UREM_FormaZayavka1.cpp=</Transaction>
+    <Transaction>2010.12.08 13:25:19.104.dfm,K:\Forms\REM_GurZ\UREM_FormaZayavka1.dfm=</Transaction>
+    <Transaction>2011.04.09 22:06:29.952.cpp,K:\Forms\REM_CustQuery\UREM_FormaRemCustQueryDv.cpp=K:\Forms\REM_CustQuery\UREM_FormaCustQueryDv.cpp</Transaction>
+    <Transaction>2011.04.09 22:06:29.952.h,K:\Forms\REM_CustQuery\UREM_FormaRemCustQueryDv.h=K:\Forms\REM_CustQuery\UREM_FormaCustQueryDv.h</Transaction>
+    <Transaction>2011.04.09 22:06:29.952.dfm,K:\Forms\REM_CustQuery\UREM_FormaRemCustQueryDv.dfm=K:\Forms\REM_CustQuery\UREM_FormaCustQueryDv.dfm</Transaction>
+    <Transaction>2011.04.09 22:06:47.455.cpp,K:\Forms\REM_CustQuery\UREM_FormaRemCustQueryDvCF.cpp=</Transaction>
+    <Transaction>2011.04.09 22:06:47.523.cpp,K:\Forms\REM_CustQuery\UREM_FormaRemCustQueryDvImpl.cpp=</Transaction>
+    <Transaction>2011.04.10 11:50:25.525.cpp,K:\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.cpp=</Transaction>
+    <Transaction>2011.04.10 11:50:25.525.dfm,K:\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.dfm=</Transaction>
+    <Transaction>2011.04.10 11:50:25.566.cpp,K:\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.cpp=</Transaction>
+    <Transaction>2011.04.10 11:50:25.566.dfm,K:\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.dfm=</Transaction>
+    <Transaction>2011.04.10 11:50:26.721.cpp,K:\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.cpp=</Transaction>
+    <Transaction>2011.04.10 11:50:26.721.dfm,K:\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.dfm=</Transaction>
+    <Transaction>2011.05.07 17:51:04.999.cpp,K:\FIB_DataModule\REM_GurZ\UREM_DMZayavka.cpp=</Transaction>
+    <Transaction>2011.05.07 17:51:04.999.dfm,K:\FIB_DataModule\REM_GurZ\UREM_DMZayavka.dfm=</Transaction>
+    <Transaction>2011.05.14 13:53:44.955.cpp,K:\FIB_DataModule\REM_GurZ\UREM_DMZayavka.cpp=</Transaction>
+    <Transaction>2011.05.14 13:53:44.955.dfm,K:\FIB_DataModule\REM_GurZ\UREM_DMZayavka.dfm=</Transaction>
+    <Transaction>2011.07.29 17:00:54.303.cpp,K:\Forms\Copy\UFormaSpiskaSprEd.cpp=</Transaction>
+    <Transaction>2011.07.29 17:00:54.303.dfm,K:\Forms\Copy\UFormaSpiskaSprEd.dfm=</Transaction>
+    <Transaction>2012.02.25 16:10:34.477.cpp,K:\Forms\REM_GurZ\UREM_FormaGurZ.cpp=K:\Forms\REM_GurZ\UREM_FormaGurZDop.cpp</Transaction>
+    <Transaction>2012.02.25 16:10:34.477.h,K:\Forms\REM_GurZ\UREM_FormaGurZ.h=K:\Forms\REM_GurZ\UREM_FormaGurZDop.h</Transaction>
+    <Transaction>2012.02.25 16:10:34.477.dfm,K:\Forms\REM_GurZ\UREM_FormaGurZ.dfm=K:\Forms\REM_GurZ\UREM_FormaGurZDop.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.10.02 10:13:44.153.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\RemFormsDoc\RemFormsDoc.cpp</Transaction>
+    <Transaction>2010.10.02 10:13:55.828.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\RemFormsDoc\RemFormsDoc.cbproj</Transaction>
+    <Transaction>2011.05.28 18:05:15.951.cpp,K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.cpp=</Transaction>
+    <Transaction>2011.05.28 18:05:15.951.dfm,K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.dfm=</Transaction>
+    <Transaction>2011.05.28 19:42:58.083.cpp,K:\FIB_DataModule\REM_DocReal\UREM_DMDocReal.cpp=</Transaction>
+    <Transaction>2011.05.28 19:42:58.083.dfm,K:\FIB_DataModule\REM_DocReal\UREM_DMDocReal.dfm=</Transaction>
+    <Transaction>2011.05.28 19:42:58.109.cpp,K:\FIB_DataModule\REM_DocReal\UREM_DMDocRealCF.cpp=</Transaction>
+    <Transaction>2011.05.28 19:42:58.148.cpp,K:\FIB_DataModule\REM_DocReal\UREM_DMDocRealImpl.cpp=</Transaction>
+    <Transaction>2012.02.08 11:17:58.326.cpp,K:\Forms\REM_DocReal\UREM_FormaDocReal.cpp=</Transaction>
+    <Transaction>2012.02.08 11:17:58.326.dfm,K:\Forms\REM_DocReal\UREM_FormaDocReal.dfm=</Transaction>
+    <Transaction>2013.10.01 17:19:46.134.cpp,K:\Classes\UkanIniFile.cpp=</Transaction>
+    <Transaction>2015.11.10 15:43:14.806.cpp,K:\Forms\REM_DocVigrska\UREM_FormaDocVigruska.cpp=</Transaction>
+    <Transaction>2015.11.10 15:43:14.806.dfm,K:\Forms\REM_DocVigrska\UREM_FormaDocVigruska.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

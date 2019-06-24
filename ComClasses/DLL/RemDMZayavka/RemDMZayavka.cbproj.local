@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.10.02 13:24:05.236.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\RemDMZayavka\RemDMZayavka.cpp</Transaction>
+    <Transaction>2010.10.02 13:24:24.838.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\RemDMZayavka\RemDMZayavka.cbproj</Transaction>
+    <Transaction>2011.07.29 16:43:40.152.cpp,K:\Forms\REM_GurZ\UREM_FormaElementaZayavkaImage.cpp=</Transaction>
+    <Transaction>2011.07.29 16:43:40.152.dfm,K:\Forms\REM_GurZ\UREM_FormaElementaZayavkaImage.dfm=</Transaction>
+    <Transaction>2016.02.26 16:32:34.803.cpp,K:\FIB_DataModule\REM_SprProducerSection\UREM_DMSprProducerSection.cpp=</Transaction>
+    <Transaction>2016.02.26 16:32:34.803.dfm,K:\FIB_DataModule\REM_SprProducerSection\UREM_DMSprProducerSection.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

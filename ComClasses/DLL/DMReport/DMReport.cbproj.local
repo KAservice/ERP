@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017.01.24 14:33:23.072.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\DMReport\DMReport.cpp</Transaction>
+    <Transaction>2017.01.24 14:33:37.417.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\DMReport\DMReport.cbproj</Transaction>
+    <Transaction>2017.03.21 12:10:09.141.h,K:\ComClasses\DLL\DMReport\File1.h=K:\Interface\IkasDMDataSet.h</Transaction>
+  </Transactions>
+</BorlandProject>
