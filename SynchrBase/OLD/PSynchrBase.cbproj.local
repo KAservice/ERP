@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.07.29 09:54:56.848.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.cpp=K:\Program\FIBPlus\SynchrBase\UMainForm.cpp</Transaction>
+    <Transaction>2009.07.29 09:54:56.848.h,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.h=K:\Program\FIBPlus\SynchrBase\UMainForm.h</Transaction>
+    <Transaction>2009.07.29 09:54:56.848.dfm,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.dfm=K:\Program\FIBPlus\SynchrBase\UMainForm.dfm</Transaction>
+    <Transaction>2009.07.29 09:56:41.977.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\Program\FIBPlus\SynchrBase\PSynchrBase.cbproj</Transaction>
+    <Transaction>2009.07.29 10:11:04.637.cpp,K:\Program\FIBPlus\SynchrBase\Unit2.cpp=K:\Program\FIBPlus\SynchrBase\FormSetup\UFormSetup.cpp</Transaction>
+    <Transaction>2009.07.29 10:11:04.637.h,K:\Program\FIBPlus\SynchrBase\Unit2.h=K:\Program\FIBPlus\SynchrBase\FormSetup\UFormSetup.h</Transaction>
+    <Transaction>2009.07.29 10:11:04.637.dfm,K:\Program\FIBPlus\SynchrBase\Unit2.dfm=K:\Program\FIBPlus\SynchrBase\FormSetup\UFormSetup.dfm</Transaction>
+    <Transaction>2009.07.29 10:12:44.185.cpp,K:\Program\FIBPlus\SynchrBase\Unit1.cpp=K:\Program\FIBPlus\SynchrBase\DM\UDM.cpp</Transaction>
+    <Transaction>2009.07.29 10:12:44.185.h,K:\Program\FIBPlus\SynchrBase\Unit1.h=K:\Program\FIBPlus\SynchrBase\DM\UDM.h</Transaction>
+    <Transaction>2009.07.29 10:12:44.185.dfm,K:\Program\FIBPlus\SynchrBase\Unit1.dfm=K:\Program\FIBPlus\SynchrBase\DM\UDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
