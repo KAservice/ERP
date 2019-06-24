@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.06.12 12:59:44.478.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.cpp=K:\Program\FIBPlus\MassaVp\UMainForm.cpp</Transaction>
+    <Transaction>2009.06.12 12:59:44.478.h,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.h=K:\Program\FIBPlus\MassaVp\UMainForm.h</Transaction>
+    <Transaction>2009.06.12 12:59:44.478.dfm,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.dfm=K:\Program\FIBPlus\MassaVp\UMainForm.dfm</Transaction>
+    <Transaction>2009.06.12 12:59:54.462.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\Program\FIBPlus\MassaVp\PMainForm.cbproj</Transaction>
+    <Transaction>2009.06.12 13:19:51.119.cbproj,K:\Program\FIBPlus\MassaVp\PMainForm.cbproj=K:\Program\FIBPlus\MassaVp\PMassaVp.cbproj</Transaction>
+    <Transaction>2009.06.14 12:01:00.446.cpp,K:\Program\FIBPlus\MassaVp\Unit1.cpp=K:\Program\FIBPlus\MassaVp\UScaleVP.cpp</Transaction>
+    <Transaction>2009.06.14 12:01:00.446.h,K:\Program\FIBPlus\MassaVp\Unit1.h=K:\Program\FIBPlus\MassaVp\UScaleVP.h</Transaction>
+    <Transaction>2009.06.15 17:30:45.433.cpp,K:\Program\FIBPlus\MassaVp\Unit1.cpp=K:\Program\FIBPlus\MassaVp\SetupScale\UFormaSetupScale.cpp</Transaction>
+    <Transaction>2009.06.15 17:30:45.433.h,K:\Program\FIBPlus\MassaVp\Unit1.h=K:\Program\FIBPlus\MassaVp\SetupScale\UFormaSetupScale.h</Transaction>
+    <Transaction>2009.06.15 17:30:45.433.dfm,K:\Program\FIBPlus\MassaVp\Unit1.dfm=K:\Program\FIBPlus\MassaVp\SetupScale\UFormaSetupScale.dfm</Transaction>
+    <Transaction>2011.02.14 15:25:23.449.cpp,K:\FIB_DataModule\Setup\UDMSetup.cpp=</Transaction>
+    <Transaction>2011.02.14 15:25:23.449.dfm,K:\FIB_DataModule\Setup\UDMSetup.dfm=</Transaction>
+    <Transaction>2011.02.14 15:25:23.549.cpp,K:\FIB_DataModule\SprARM\UDMSprARM.cpp=</Transaction>
+    <Transaction>2011.02.14 15:25:23.549.dfm,K:\FIB_DataModule\SprARM\UDMSprARM.dfm=</Transaction>
+    <Transaction>2011.02.14 15:25:23.550.cpp,K:\FIB_DataModule\SprOborud\UDMSprOborud.cpp=</Transaction>
+    <Transaction>2011.02.14 15:25:23.551.dfm,K:\FIB_DataModule\SprOborud\UDMSprOborud.dfm=</Transaction>
+    <Transaction>2011.02.14 15:25:23.552.cpp,K:\FIB_DataModule\SprScale\UDMSprScale.cpp=</Transaction>
+    <Transaction>2011.02.14 15:25:23.552.dfm,K:\FIB_DataModule\SprScale\UDMSprScale.dfm=</Transaction>
+    <Transaction>2011.02.14 15:25:23.562.cpp,K:\FIB_DataModule\SprUser\UDMSprUser.cpp=</Transaction>
+    <Transaction>2011.02.14 15:25:23.562.dfm,K:\FIB_DataModule\SprUser\UDMSprUser.dfm=</Transaction>
+    <Transaction>2011.02.14 15:25:23.566.cpp,K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.cpp=</Transaction>
+    <Transaction>2011.02.14 15:25:23.567.dfm,K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.dfm=</Transaction>
+    <Transaction>2011.02.14 15:26:14.673.h,K:\Global\glPCH.h=</Transaction>
+    <Transaction>2011.02.14 15:26:14.675.cpp,K:\FIB_DataModule\DM\UDM.cpp=</Transaction>
+    <Transaction>2011.02.14 15:26:14.749.dfm,K:\FIB_DataModule\DM\UDM.dfm=</Transaction>
+    <Transaction>2011.02.14 15:26:14.750.cpp,K:\FIB_DataModule\DMQuery\UDMQueryRead.cpp=</Transaction>
+    <Transaction>2011.02.14 15:26:14.750.dfm,K:\FIB_DataModule\DMQuery\UDMQueryRead.dfm=</Transaction>
+    <Transaction>2011.02.14 15:28:13.938.cpp,K:\Classes\UkanFile.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

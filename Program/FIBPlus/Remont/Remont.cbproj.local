@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.10.07 21:16:37.906.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\Program\FIBPlus\Remont\Remont.cbproj</Transaction>
+    <Transaction>2009.06.10 13:11:21.166.cpp,K:\FIB_DataModule\REM_SprTypeRemont\UREM_DMSprTypePrice.cpp=</Transaction>
+    <Transaction>2009.06.10 13:11:21.166.dfm,K:\FIB_DataModule\REM_SprTypeRemont\UREM_DMSprTypePrice.dfm=</Transaction>
+    <Transaction>2009.06.10 13:26:32.267.cpp,K:\FIB_DataModule\REM_SprTypeRemont\UREM_DMSprTypePrice.cpp=</Transaction>
+    <Transaction>2009.06.10 13:26:32.267.dfm,K:\FIB_DataModule\REM_SprTypeRemont\UREM_DMSprTypePrice.dfm=</Transaction>
+    <Transaction>2009.10.20 12:58:43.091.cpp,K:\FastScript\DocRealRozn\UScriptDMDocRealRozn.cpp=</Transaction>
+    <Transaction>2009.11.04 15:59:37.984.cpp,K:\Forms\REM_GurZ\UREM_FormaZayavkaDv.cpp=K:\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.cpp</Transaction>
+    <Transaction>2009.11.04 15:59:37.984.h,K:\Forms\REM_GurZ\UREM_FormaZayavkaDv.h=K:\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.h</Transaction>
+    <Transaction>2009.11.04 15:59:37.984.dfm,K:\Forms\REM_GurZ\UREM_FormaZayavkaDv.dfm=K:\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.dfm</Transaction>
+    <Transaction>2009.11.12 09:22:20.675.h,K:\Program\FIBPlus\Remont\File1.h=K:\Forms\GlobalConstant\ClobalConstant.h</Transaction>
+    <Transaction>2009.11.12 09:27:10.268.cpp,K:\Program\FIBPlus\Remont\Unit1.cpp=K:\Forms\GlobalModule\UGlobalFunction.cpp</Transaction>
+    <Transaction>2009.11.12 09:27:10.268.h,K:\Program\FIBPlus\Remont\Unit1.h=K:\Forms\GlobalModule\UGlobalFunction.h</Transaction>
+    <Transaction>2009.11.12 09:31:23.701.cpp,K:\Forms\GlobalModule\UGlobalFunction.cpp=K:\Forms\GlobalModule\UGlobalConstant.cpp</Transaction>
+    <Transaction>2009.11.12 09:31:23.701.h,K:\Forms\GlobalModule\UGlobalFunction.h=K:\Forms\GlobalModule\UGlobalConstant.h</Transaction>
+    <Transaction>2010.05.02 21:00:15.434.cpp,K:\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.cpp=</Transaction>
+    <Transaction>2010.05.02 21:00:15.434.dfm,K:\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.dfm=</Transaction>
+    <Transaction>2010.05.02 23:22:24.325.cpp,K:\Forms\ImageEditor\UImageEditor.cpp=</Transaction>
+    <Transaction>2010.05.02 23:22:24.325.dfm,K:\Forms\ImageEditor\UImageEditor.dfm=</Transaction>
+    <Transaction>2010.05.02 23:22:24.345.cpp,K:\Forms\LabelPrinter\ULabelPrinter.cpp=</Transaction>
+    <Transaction>2010.05.02 23:22:24.362.cpp,K:\Forms\PrintAnyLabel\UPrintAnyLabel.cpp=</Transaction>
+    <Transaction>2010.05.02 23:22:24.379.cpp,K:\Forms\PrintBarCodeClasses\UPrintBarCode1.cpp=</Transaction>
+    <Transaction>2010.05.02 23:22:24.389.cpp,K:\Forms\PrintBarCodeClasses\UPrintBarCode2.cpp=</Transaction>
+    <Transaction>2010.05.02 23:22:24.400.cpp,K:\Forms\PrintBarCodeClasses\UPrintBarCode3.cpp=</Transaction>
+    <Transaction>2010.05.02 23:22:24.416.cpp,K:\Forms\PrintDiscountCard\UPrintBarCodeDiscountCard.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

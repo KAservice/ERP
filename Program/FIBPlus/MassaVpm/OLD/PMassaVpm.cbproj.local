@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.10.26 09:49:34.031.cpp,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Unit1.cpp=K:\Program\FIBPlus\MassaVpm\UMainForm.cpp</Transaction>
+    <Transaction>2008.10.26 09:49:34.031.h,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Unit1.h=K:\Program\FIBPlus\MassaVpm\UMainForm.h</Transaction>
+    <Transaction>2008.10.26 09:49:34.031.dfm,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Unit1.dfm=K:\Program\FIBPlus\MassaVpm\UMainForm.dfm</Transaction>
+    <Transaction>2008.10.26 09:49:47.078.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\Program\FIBPlus\MassaVpm\PMassaVpm.cbproj</Transaction>
+    <Transaction>2008.10.26 09:50:43.859.cpp,K:\Program\FIBPlus\MassaVpm\Unit1.cpp=K:\Program\FIBPlus\MassaVpm\UScale.cpp</Transaction>
+    <Transaction>2008.10.26 09:50:43.859.h,K:\Program\FIBPlus\MassaVpm\Unit1.h=K:\Program\FIBPlus\MassaVpm\UScale.h</Transaction>
+    <Transaction>2008.10.27 15:07:13.828.cpp,K:\Program\FIBPlus\MassaVpm\Unit1.cpp=K:\Forms\Socket\UDMSocket.cpp</Transaction>
+    <Transaction>2008.10.27 15:07:13.828.h,K:\Program\FIBPlus\MassaVpm\Unit1.h=K:\Forms\Socket\UDMSocket.h</Transaction>
+    <Transaction>2008.10.27 15:07:13.828.dfm,K:\Program\FIBPlus\MassaVpm\Unit1.dfm=K:\Forms\Socket\UDMSocket.dfm</Transaction>
+    <Transaction>2008.10.27 15:31:52.203.cpp,K:\Program\FIBPlus\MassaVpm\Unit1.cpp=K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.cpp</Transaction>
+    <Transaction>2008.10.27 15:31:52.203.h,K:\Program\FIBPlus\MassaVpm\Unit1.h=K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.h</Transaction>
+    <Transaction>2008.10.27 15:31:52.203.dfm,K:\Program\FIBPlus\MassaVpm\Unit1.dfm=K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.dfm</Transaction>
+    <Transaction>2008.10.27 15:32:33.640.cpp,K:\Forms\Socket\UDMSocket.cpp=K:\Program\FIBPlus\MassaVpm\Socket\UDMSocket.cpp</Transaction>
+    <Transaction>2008.10.27 15:32:33.640.h,K:\Forms\Socket\UDMSocket.h=K:\Program\FIBPlus\MassaVpm\Socket\UDMSocket.h</Transaction>
+    <Transaction>2008.10.27 15:32:33.640.dfm,K:\Forms\Socket\UDMSocket.dfm=K:\Program\FIBPlus\MassaVpm\Socket\UDMSocket.dfm</Transaction>
+    <Transaction>2008.10.27 15:58:08.875.cpp,K:\FIB_DataModule\SprVesNom\UDMSprVesNom.cpp=</Transaction>
+    <Transaction>2008.10.27 15:58:08.875.dfm,K:\FIB_DataModule\SprVesNom\UDMSprVesNom.dfm=</Transaction>
+    <Transaction>2008.10.27 18:48:35.359.cpp,K:\Program\FIBPlus\MassaVpm\Socket\UDMSocket.cpp=</Transaction>
+    <Transaction>2008.10.27 18:48:35.359.dfm,K:\Program\FIBPlus\MassaVpm\Socket\UDMSocket.dfm=</Transaction>
+    <Transaction>2008.10.27 18:48:41.687.cpp,K:\Program\FIBPlus\MassaVpm\UScale.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

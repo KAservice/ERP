@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{936cdfe7-123d-4cc5-b611-cc101a6b68e6}</ProjectGuid>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <MainSource>PCSshminik.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Debug Build</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Debug Build' or '$(Cfg_1)'!=''">
+    <Base>true</Base>
+    <Cfg_1>true</Cfg_1>
+    <CfgParent>Base</CfgParent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Release Build' or '$(Cfg_2)'!=''">
+    <Base>true</Base>
+    <Cfg_2>true</Cfg_2>
+    <CfgParent>Base</CfgParent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <OutputExt>exe</OutputExt>
+    <DCC_Optimize>false</DCC_Optimize>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+    <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+    <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+    <ILINK_AppType>Windows</ILINK_AppType>
+    <BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+    <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+    <BCC_GenerateWindowsApp>true</BCC_GenerateWindowsApp>
+    <ILINK_ObjectSearchPath>..\Setup;..\ViborBase;..\SprSklad;..\RegOtrSpisNom;..\SprPrice;..\RegReal;..\RegVsRasch;..\DM;..\RegOstNom;..\DMXTableIsm;..\RegKassa;..\RegSebProd;..\SprOborud;..\RegVipuskProd;..\DocCheckKKM;..\SprEd;..\SprNomRest;..\SprSostProd;..\SprUser;..\SprARM;..\SprNom;..\SprKKM;..\SFirm</ILINK_ObjectSearchPath>
+    <DCC_MakeModifiedUnits>true</DCC_MakeModifiedUnits>
+    <BCC_ZeroLengthEmptyMemberFuncs>true</BCC_ZeroLengthEmptyMemberFuncs>
+    <FinalOutputDir>.</FinalOutputDir>
+    <PackageImports>vcl.bpi;rtl.bpi;dbrtl.bpi;adortl.bpi;vcldb.bpi;vclx.bpi;bdertl.bpi;vcldbx.bpi;ibxpress.bpi;dsnap.bpi;dsnap.bpi;dsnapcon.bpi;teeui.bpi;teedb.bpi;tee.bpi;dss.bpi;dsnapcon.bpi;bcbsmp.bpi;vclie.bpi;xmlrtl.bpi;inet.bpi;inetdbbde.bpi;inetdbxpress.bpi;inetdb.bpi;webdsnap.bpi;bcbie.bpi;websnap.bpi;soaprtl.bpi;dbexpress.bpi;dbxcds.bpi;indycore.bpi;indysystem.bpi;bcboffice2k.bpi;MercFPrtVCL_B6.bpi;dclusr.bpi</PackageImports>
+    <TASM_AdditionalSwitches> /w2</TASM_AdditionalSwitches>
+    <DCC_UnitSearchPath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_UnitSearchPath>
+    <BRCC_UserSuppliedOptions> -I..\SprOborud;..\SprARM;..\RegKassa;..\ViborBase;..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\SprUser;..\RegVsRasch;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\RegOstNom;..\Setup;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;..\ARM_MSK\Справочник товаров;..\ARM_MSK\Док Чек ККМ;..\ARM_MSK\DM;Форма запуска;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BRCC_UserSuppliedOptions>
+    <BCC_StackFrames>true</BCC_StackFrames>
+    <BCC_GenerateMultithreaded>true</BCC_GenerateMultithreaded>
+    <BCC_PCHCache>true</BCC_PCHCache>
+    <IncludePath>..\Setup;..\ViborBase;..\SprSklad;..\RegOtrSpisNom;..\SprPrice;..\RegReal;..\RegVsRasch;..\DM;..\RegOstNom;..\DMXTableIsm;..\RegKassa;..\RegSebProd;..\SprOborud;..\RegVipuskProd;..\DocCheckKKM;..\SprEd;..\SprNomRest;..\SprSostProd;..\SprUser;..\SprARM;..\SprNom;..\SprKKM;..\SFirm</IncludePath>
+    <BCC_IntegerSizedEnums>false</BCC_IntegerSizedEnums>
+    <DCC_IncludePath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_IncludePath>
+    <BRCC_IncludePath>..\SprOborud;..\SprARM;..\RegKassa;..\ViborBase;..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\SprUser;..\RegVsRasch;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\RegOstNom;..\Setup;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;..\ARM_MSK\Справочник товаров;..\ARM_MSK\Док Чек ККМ;..\ARM_MSK\DM;Форма запуска;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BRCC_IncludePath>
+    <AllPackageLibs>vcl.lib;rtl.lib;dbrtl.lib;vcldb.lib;ibxpress.lib;dsnap.lib;dsnapcon.lib;dsnap.lib;dbexpress.lib</AllPackageLibs>
+    <TASM_IncludePath>..\SprOborud;..\SprARM;..\RegKassa;..\ViborBase;..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\SprUser;..\RegVsRasch;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\RegOstNom;..\Setup;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;..\ARM_MSK\Справочник товаров;..\ARM_MSK\Док Чек ККМ;..\ARM_MSK\DM;Форма запуска;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</TASM_IncludePath>
+    <BCC_IncludePath>..\SprOborud;..\SprARM;..\RegKassa;..\ViborBase;..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\SprUser;..\RegVsRasch;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\RegOstNom;..\Setup;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;..\ARM_MSK\Справочник товаров;..\ARM_MSK\Док Чек ККМ;..\ARM_MSK\DM;Форма запуска;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BCC_IncludePath>
+    <ILINK_LibraryPath>..\SprOborud;..\SprARM;..\RegKassa;..\ViborBase;..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\SprUser;..\RegVsRasch;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\RegOstNom;..\Setup;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;..\ARM_MSK\Справочник товаров;..\ARM_MSK\Док Чек ККМ;..\ARM_MSK\DM;Форма запуска;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BDS)\Projects\Lib;C:\Program Files\Incotex\MercuryFPrt\1.2\MercFPrtVCL\CBuilder6;$(BDS)\lib\obj;$(BDS)\lib</ILINK_LibraryPath>
+    <BCC_ZeroLengthEmptyBaseClass>true</BCC_ZeroLengthEmptyBaseClass>
+    <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+    <Multithreaded>true</Multithreaded>
+    <TASM_Defines>_DEBUG</TASM_Defines>
+    <BRCC_Defines>_DEBUG</BRCC_Defines>
+    <BCC_Defines>NO_STRICT</BCC_Defines>
+    <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_1)'!=''">
+    <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+    <ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+    <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    <IntermediateOutputDir>Debug_Build</IntermediateOutputDir>
+    <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+    <ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <BCC_Defines>_DEBUG;$(BCC_Defines)</BCC_Defines>
+    <TASM_Debugging>Full</TASM_Debugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_2)'!=''">
+    <DCC_Optimize>true</DCC_Optimize>
+    <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+    <BCC_InlineFunctionExpansion>true</BCC_InlineFunctionExpansion>
+    <BCC_UseRegisterVariables>Always</BCC_UseRegisterVariables>
+    <DCC_DebugInformation>false</DCC_DebugInformation>
+    <IntermediateOutputDir>Release_Build</IntermediateOutputDir>
+    <BCC_StackFrames>false</BCC_StackFrames>
+    <ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <BCC_Defines>NDEBUG;$(BCC_Defines)</BCC_Defines>
+    <TASM_Debugging>None</TASM_Debugging>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject> <CPlusPlusBuilder.Personality>   <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+      <VersionInfo Name="MajorVer">1</VersionInfo>
+      <VersionInfo Name="MinorVer">0</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">0</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">1049</VersionInfo>
+      <VersionInfo Name="CodePage">1251</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+      <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+    </VersionInfoKeys>
+    <ExcludedPackages>
+      <ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclado60.bpl">Borland ADO DB Components</ExcludedPackages>
+      <ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclclxdb60.bpl">Borland CLX Database Components</ExcludedPackages>
+    </ExcludedPackages>
+    <Debugging>
+      <Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+    </Debugging>
+    <Parameters>
+      <Parameters Name="RunParams"></Parameters>
+      <Parameters Name="Launcher"></Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="DebugCWD"></Parameters>
+      <Parameters Name="HostApplication"></Parameters>
+      <Parameters Name="RemoteHost"></Parameters>
+      <Parameters Name="RemotePath"></Parameters>
+      <Parameters Name="RemoteLauncher"></Parameters>
+      <Parameters Name="RemoteCWD"></Parameters>
+      <Parameters Name="RemoteDebug">False</Parameters>
+      <Parameters Name="RemoteParams"></Parameters>
+      <Parameters Name="UseRemoteLauncher">False</Parameters>
+      <Parameters Name="Debug Symbols Search Path"></Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <Compiler>
+      <Compiler Name="ShowInfoMsgs">0</Compiler>
+      <Compiler Name="LinkDebugVcl">0</Compiler>
+      <Compiler Name="LinkCGLIB">0</Compiler>
+    </Compiler>
+    <CORBA>
+      <CORBA Name="AddServerUnit">1</CORBA>
+      <CORBA Name="AddClientUnit">1</CORBA>
+      <CORBA Name="PrecompiledHeaders">1</CORBA>
+    </CORBA>
+    <Language>
+      <Language Name="ActiveLang"></Language>
+      <Language Name="ProjectLang"></Language>
+      <Language Name="RootDir"></Language>
+    </Language>
+    <Linker>
+      <Linker Name="LibPrefix"></Linker>
+      <Linker Name="LibSuffix"></Linker>
+      <Linker Name="LibVersion"></Linker>
+    </Linker>
+    <ProjectProperties>
+      <ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+      <ProjectProperties Name="ManagePaths">True</ProjectProperties>
+      <ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+    </ProjectProperties>
+    <Source>
+      <Source Name="MainSource">PCSshminik.cpp</Source>
+    </Source>
+  </CPlusPlusBuilder.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Cpp.Targets" />
+  <ItemGroup>
+    <ResFiles Include="PCSshminik.res">
+      <BuildOrder>0</BuildOrder>
+    </ResFiles>
+    <CppCompile Include="..\DMXTableIsm\UDMXTableIsm.cpp">
+      <Form>DMXTableIsm</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>21</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\DM\UDM.cpp">
+      <Form>DM</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>4</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\DocCheckKKM\UDMDocCheck.cpp">
+      <Form>DMDocCheck</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>5</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegKassa\UDMRegKassa.cpp">
+      <Form>DMRegKassa</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>24</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegOstNom\UDMRegOstNom.cpp">
+      <Form>DMRegOstNom</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>12</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegOtrSpisNom\UDMRegOtrSpisNom.cpp">
+      <Form>DMRegOtrSpisNom</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>13</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegReal\UDMRegReal.cpp">
+      <Form>DMRegReal</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>14</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegSebProd\UDMRegSebProd.cpp">
+      <Form>DMRegSebProd</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>15</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegVipuskProd\UDMRegVipuskProd.cpp">
+      <Form>DMRegVipuskProd</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>16</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\RegVsRasch\UDMRegVsRasch.cpp">
+      <Form>DMRegVsRasch</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>17</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\Setup\UDMSetup.cpp">
+      <Form>DMSetup</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>11</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SFirm\UDMSprFirm.cpp">
+      <Form>DMSprFirm</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>27</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprARM\UDMSprARM.cpp">
+      <Form>DMSprARM</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>25</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprEd\UDMSprEd.cpp">
+      <Form>DMSprEd</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>6</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKKM\UDMSprKKM.cpp">
+      <Form>DMSprKKM</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>7</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprNomRest\UDMSprNomRest.cpp">
+      <Form>DMSprNomRest</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>20</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprNom\UDMSprNom.cpp">
+      <Form>DMSprNom</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>9</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprOborud\UDMSprOborud.cpp">
+      <Form>DMSprOborud</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>26</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprPrice\UDMSprPrice.cpp">
+      <Form>DMSprPrice</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>10</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprSklad\UDMSprSklad.cpp">
+      <Form>DMSprSklad</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>8</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprSostProd\UDMSostProd.cpp">
+      <Form>DMSprSostProd</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>19</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprUser\UDMSprUser.cpp">
+      <Form>DMSprUser</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <BuildOrder>18</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\ViborBase\UFormaEditBase.cpp">
+      <Form>FormaEditBase</Form>
+      <BuildOrder>22</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\ViborBase\UFormaViborBase.cpp">
+      <Form>FormaViborBase</Form>
+      <BuildOrder>23</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="PCSshminik.cpp">
+      <BuildOrder>1</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="UCS.cpp">
+      <BuildOrder>3</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="UF.cpp">
+      <Form>F</Form>
+      <DependentOn>UF.h</DependentOn>
+      <BuildOrder>2</BuildOrder>
+    </CppCompile>
+    <FormResources Include="..\DMXTableIsm\UDMXTableIsm.dfm" />
+    <FormResources Include="..\DM\UDM.dfm" />
+    <FormResources Include="..\DocCheckKKM\UDMDocCheck.dfm" />
+    <FormResources Include="..\RegKassa\UDMRegKassa.dfm" />
+    <FormResources Include="..\RegOstNom\UDMRegOstNom.dfm" />
+    <FormResources Include="..\RegOtrSpisNom\UDMRegOtrSpisNom.dfm" />
+    <FormResources Include="..\RegReal\UDMRegReal.dfm" />
+    <FormResources Include="..\RegSebProd\UDMRegSebProd.dfm" />
+    <FormResources Include="..\RegVipuskProd\UDMRegVipuskProd.dfm" />
+    <FormResources Include="..\RegVsRasch\UDMRegVsRasch.dfm" />
+    <FormResources Include="..\Setup\UDMSetup.dfm" />
+    <FormResources Include="..\SFirm\UDMSprFirm.dfm" />
+    <FormResources Include="..\SprARM\UDMSprARM.dfm" />
+    <FormResources Include="..\SprEd\UDMSprEd.dfm" />
+    <FormResources Include="..\SprKKM\UDMSprKKM.dfm" />
+    <FormResources Include="..\SprNomRest\UDMSprNomRest.dfm" />
+    <FormResources Include="..\SprNom\UDMSprNom.dfm" />
+    <FormResources Include="..\SprOborud\UDMSprOborud.dfm" />
+    <FormResources Include="..\SprPrice\UDMSprPrice.dfm" />
+    <FormResources Include="..\SprSklad\UDMSprSklad.dfm" />
+    <FormResources Include="..\SprSostProd\UDMSostProd.dfm" />
+    <FormResources Include="..\SprUser\UDMSprUser.dfm" />
+    <FormResources Include="..\ViborBase\UFormaEditBase.dfm" />
+    <FormResources Include="..\ViborBase\UFormaViborBase.dfm" />
+    <FormResources Include="UF.dfm" />
+    <BuildConfiguration Include="Debug Build">
+      <Key>Cfg_1</Key>
+    </BuildConfiguration>
+    <BuildConfiguration Include="Release Build">
+      <Key>Cfg_2</Key>
+    </BuildConfiguration>
+  </ItemGroup>
+</Project>

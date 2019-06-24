@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.08.16 15:27:45.070.ridl,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.ridl=K:\Program\FIBPlus\FibProvider\FibProvider.ridl</Transaction>
+    <Transaction>2010.08.16 15:27:45.119.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1_TLB.cpp=K:\Program\FIBPlus\FibProvider\Project1_TLB.cpp</Transaction>
+    <Transaction>2010.08.16 15:27:45.119.h,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1_TLB.h=K:\Program\FIBPlus\FibProvider\Project1_TLB.h</Transaction>
+    <Transaction>2010.08.16 15:27:45.130.cpp,K:\Program\FIBPlus\FibProvider\Project1_TLB.cpp=K:\Program\FIBPlus\FibProvider\FibProvider_TLB.cpp</Transaction>
+    <Transaction>2010.08.16 15:27:45.130.h,K:\Program\FIBPlus\FibProvider\Project1_TLB.h=K:\Program\FIBPlus\FibProvider\FibProvider_TLB.h</Transaction>
+    <Transaction>2010.08.16 15:27:51.615.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1_ATL.cpp=K:\Program\FIBPlus\FibProvider\Project1_ATL.cpp</Transaction>
+    <Transaction>2010.08.16 15:27:51.615.h,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1_ATL.h=K:\Program\FIBPlus\FibProvider\Project1_ATL.h</Transaction>
+    <Transaction>2010.08.16 15:28:02.588.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\Program\FIBPlus\FibProvider\FibProvider.cbproj</Transaction>
+    <Transaction>2010.08.16 15:29:07.007.cpp,K:\Program\FIBPlus\FibProvider\Unit1.cpp=K:\Program\FIBPlus\FibProvider\QueryReadImpl.cpp</Transaction>
+    <Transaction>2010.08.16 15:29:07.007.h,K:\Program\FIBPlus\FibProvider\Unit1.h=K:\Program\FIBPlus\FibProvider\QueryReadImpl.h</Transaction>
+    <Transaction>2010.08.16 15:31:44.331.cpp,K:\Program\FIBPlus\FibProvider\Unit1.cpp=K:\Program\FIBPlus\FibProvider\QueryUpdateImpl.cpp</Transaction>
+    <Transaction>2010.08.16 15:31:44.331.h,K:\Program\FIBPlus\FibProvider\Unit1.h=K:\Program\FIBPlus\FibProvider\QueryUpdateImpl.h</Transaction>
+    <Transaction>2010.08.16 15:35:45.326.cpp,K:\Program\FIBPlus\FibProvider\Unit1.cpp=K:\Program\FIBPlus\FibProvider\UDMConnection.cpp</Transaction>
+    <Transaction>2010.08.16 15:35:45.326.h,K:\Program\FIBPlus\FibProvider\Unit1.h=K:\Program\FIBPlus\FibProvider\UDMConnection.h</Transaction>
+    <Transaction>2010.08.16 15:35:45.326.dfm,K:\Program\FIBPlus\FibProvider\Unit1.dfm=K:\Program\FIBPlus\FibProvider\UDMConnection.dfm</Transaction>
+    <Transaction>2010.08.16 15:36:15.465.cpp,K:\Program\FIBPlus\FibProvider\Unit1.cpp=K:\Program\FIBPlus\FibProvider\UDMQueryRead.cpp</Transaction>
+    <Transaction>2010.08.16 15:36:15.465.h,K:\Program\FIBPlus\FibProvider\Unit1.h=K:\Program\FIBPlus\FibProvider\UDMQueryRead.h</Transaction>
+    <Transaction>2010.08.16 15:36:15.465.dfm,K:\Program\FIBPlus\FibProvider\Unit1.dfm=K:\Program\FIBPlus\FibProvider\UDMQueryRead.dfm</Transaction>
+    <Transaction>2010.08.16 15:36:52.297.cpp,K:\Program\FIBPlus\FibProvider\Unit1.cpp=K:\Program\FIBPlus\FibProvider\UDMQueryUpdate.cpp</Transaction>
+    <Transaction>2010.08.16 15:36:52.297.h,K:\Program\FIBPlus\FibProvider\Unit1.h=K:\Program\FIBPlus\FibProvider\UDMQueryUpdate.h</Transaction>
+    <Transaction>2010.08.16 15:36:52.297.dfm,K:\Program\FIBPlus\FibProvider\Unit1.dfm=K:\Program\FIBPlus\FibProvider\UDMQueryUpdate.dfm</Transaction>
+    <Transaction>2010.08.16 15:46:08.369.cpp,K:\Program\FIBPlus\FibProvider\Unit1.cpp=K:\Program\FIBPlus\FibProvider\UDMConnectionImpl.cpp</Transaction>
+    <Transaction>2010.08.16 15:46:08.369.h,K:\Program\FIBPlus\FibProvider\Unit1.h=K:\Program\FIBPlus\FibProvider\UDMConnectionImpl.h</Transaction>
+  </Transactions>
+</BorlandProject>

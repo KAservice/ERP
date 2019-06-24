@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.04.10 13:03:59.321.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\Program\FIBPlus\MassaVpm\PMassaVpm.cbproj</Transaction>
+    <Transaction>2010.04.10 13:12:33.460.cpp,K:\Program\FIBPlus\MassaVpm\UScale.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.703.cpp,K:\FIB_DataModule\DM\UDM.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.703.dfm,K:\FIB_DataModule\DM\UDM.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.753.cpp,K:\FIB_DataModule\DMQuery\UDMQueryRead.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.753.dfm,K:\FIB_DataModule\DMQuery\UDMQueryRead.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.787.cpp,K:\FIB_DataModule\Setup\UDMSetup.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.787.dfm,K:\FIB_DataModule\Setup\UDMSetup.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.816.cpp,K:\FIB_DataModule\SprARM\UDMSprARM.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.817.dfm,K:\FIB_DataModule\SprARM\UDMSprARM.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.828.cpp,K:\FIB_DataModule\SprOborud\UDMSprOborud.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.840.dfm,K:\FIB_DataModule\SprOborud\UDMSprOborud.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.861.cpp,K:\FIB_DataModule\SprScale\UDMSprScale.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.861.dfm,K:\FIB_DataModule\SprScale\UDMSprScale.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.893.cpp,K:\FIB_DataModule\SprTypePrice\UDMSprTypePrice.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.893.dfm,K:\FIB_DataModule\SprTypePrice\UDMSprTypePrice.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.915.cpp,K:\FIB_DataModule\SprUser\UDMSprUser.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.916.dfm,K:\FIB_DataModule\SprUser\UDMSprUser.dfm=</Transaction>
+    <Transaction>2010.08.04 18:35:19.923.cpp,K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.cpp=</Transaction>
+    <Transaction>2010.08.04 18:35:19.923.dfm,K:\FIB_DataModule\SprVesNom\UDMSprVesNomForScale.dfm=</Transaction>
+    <Transaction>2010.08.04 18:36:55.534.cpp,K:\Classes\UkanFile.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

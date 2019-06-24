@@ -1,0 +1,14 @@
+object DMSprSklad: TDMStSpr1
+    SelectSQL= (
+      select  * from SSKLAD
+		)
+
+    object TableNAMESKLAD: TFIBWideStringField
+      FieldName = NAMESKLAD
+      Size = 200
+    end
+    object TableADRSKLAD: TFIBWideStringField
+      FieldName = ADRSKLAD
+      Size = 200
+    end
+end

@@ -4,6 +4,7 @@
 *.ils
 *.ilf
 *.ild
+*.ilc
 *.map
 *.lib
 *.txt

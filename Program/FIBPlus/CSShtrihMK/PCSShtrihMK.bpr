@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="PCSShtrihMK.exe"/>
+    <OBJFILES value="PCSShtrihMK.obj UF.obj UCS.obj &quot;Форма запуска\UZapusk.obj&quot; 
+      &quot;Форма запуска\UChanche.obj&quot; ..\DM\UDM.obj ..\DocCheckKKM\UDMDocCheck.obj 
+      ..\SFirm\UDMSFirm.obj ..\SprEd\UDMSprEd.obj ..\SprKKM\UDMSprKKM.obj 
+      ..\SprSklad\UDMSprSklad.obj ..\SprNom\UDMSprNom.obj 
+      ..\SprPrice\UDMSprPrice.obj ..\RegOtrSpisNom\UDMRegOtrSpisNom.obj 
+      ..\RegReal\UDMRegReal.obj ..\RegSebProd\UDMRegSebProd.obj 
+      ..\RegVipuskProd\UDMRegVipuskProd.obj ..\RegOstNom\UDMRegOstNom.obj 
+      ..\RegVsRasch\UDMRegVsRasch.obj ..\SprUser\UDMSprUser.obj 
+      ..\Setup\UDMSetup.obj ..\SprSostProd\UDMSostProd.obj 
+      ..\SprNomRest\UDMSprNomRest.obj ..\DMXTableIsm\UDMXTableIsm.obj"/>
+    <RESFILES value="PCSShtrihMK.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) UF.dfm &quot;Форма запуска\UZapusk.dfm&quot; 
+      &quot;Форма запуска\UChanche.dfm&quot; ..\DM\UDM.dfm ..\DocCheckKKM\UDMDocCheck.dfm 
+      ..\SFirm\UDMSFirm.dfm ..\SprEd\UDMSprEd.dfm ..\SprKKM\UDMSprKKM.dfm 
+      ..\SprSklad\UDMSprSklad.dfm ..\SprNom\UDMSprNom.dfm 
+      ..\SprPrice\UDMSprPrice.dfm ..\RegOtrSpisNom\UDMRegOtrSpisNom.dfm 
+      ..\RegReal\UDMRegReal.dfm ..\RegSebProd\UDMRegSebProd.dfm 
+      ..\RegVipuskProd\UDMRegVipuskProd.dfm ..\RegOstNom\UDMRegOstNom.dfm 
+      ..\RegVsRasch\UDMRegVsRasch.dfm ..\SprUser\UDMSprUser.dfm 
+      ..\Setup\UDMSetup.dfm ..\SprSostProd\UDMSostProd.dfm 
+      ..\SprNomRest\UDMSprNomRest.dfm ..\DMXTableIsm\UDMXTableIsm.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dbexpress.lib dsnap.lib cds.lib ibxpress.lib vcldb.lib dbrtl.lib rtl.lib 
+      vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib vcldb.lib ibxpress.lib cds.lib dsnap.lib 
+      dbexpress.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi MercFPrtVCL_B6.bpi dclusr.bpi"/>
+    <PATHCPP value=".;&quot;Форма запуска&quot;;..\DM;..\DocCheckKKM;..\SFirm;..\SprEd;..\SprKKM;..\SprSklad;..\SprNom;..\SprPrice;..\RegOtrSpisNom;..\RegReal;..\RegSebProd;..\RegVipuskProd;..\RegOstNom;..\RegVsRasch;..\SprUser;..\Setup;..\SprSostProd;..\SprNomRest;..\DMXTableIsm"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="PCSShtrihMK.cpp"/>
+    <INCLUDEPATH value="..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\Setup;..\SprUser;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;&quot;..\ARM_MSK\Справочник товаров&quot;;&quot;..\ARM_MSK\Док Чек ККМ&quot;;..\ARM_MSK\DM;&quot;Форма запуска&quot;;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\DMXTableIsm;..\SprNomRest;..\SprSostProd;..\Setup;..\SprUser;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;..\SprPrice;..\SprNom;..\SprSklad;..\SprKKM;..\SprEd;..\SFirm;..\DocCheckKKM;..\DM;&quot;..\ARM_MSK\Справочник товаров&quot;;&quot;..\ARM_MSK\Док Чек ККМ&quot;;..\ARM_MSK\DM;&quot;Форма запуска&quot;;C:\Borland\CBuilder6\Projects;C:\Prog\CSshminik;$(BCB)\Projects\Lib;&quot;C:\Program Files\Incotex\MercuryFPrt\1.2\MercFPrtVCL\CBuilder6&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\DMXTableIsm -I..\SprNomRest -I..\SprSostProd -I..\Setup -I..\SprUser 
+      -I..\RegVsRasch -I..\RegOstNom -I..\RegVipuskProd -I..\RegSebProd 
+      -I..\RegReal -I..\RegOtrSpisNom -I..\SprPrice -I..\SprNom -I..\SprSklad 
+      -I..\SprKKM -I..\SprEd -I..\SFirm -I..\DocCheckKKM -I..\DM 
+      -I&quot;..\ARM_MSK\Справочник товаров&quot; -I&quot;..\ARM_MSK\Док Чек ККМ&quot; 
+      -I..\ARM_MSK\DM -I&quot;Форма запуска&quot; -IC:\Borland\CBuilder6\Projects 
+      -IC:\Prog\CSshminik -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="PCSShtrihMK.res" FORMNAME="" UNITNAME="PCSShtrihMK.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PCSShtrihMK.cpp" FORMNAME="" UNITNAME="PCSShtrihMK" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UF.cpp" FORMNAME="F" UNITNAME="UF" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UCS.cpp" FORMNAME="" UNITNAME="UCS" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Форма запуска\UZapusk.cpp" FORMNAME="FZapusk" UNITNAME="UZapusk" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Форма запуска\UChanche.cpp" FORMNAME="FChanche" UNITNAME="UChanche" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\DM\UDM.cpp" FORMNAME="DM" UNITNAME="UDM" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\DocCheckKKM\UDMDocCheck.cpp" FORMNAME="DMDocCheck" UNITNAME="UDMDocCheck" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SFirm\UDMSFirm.cpp" FORMNAME="DMSFirm" UNITNAME="UDMSFirm" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprEd\UDMSprEd.cpp" FORMNAME="DMSprEd" UNITNAME="UDMSprEd" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprKKM\UDMSprKKM.cpp" FORMNAME="DMSprKKM" UNITNAME="UDMSprKKM" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprSklad\UDMSprSklad.cpp" FORMNAME="DMSprSklad" UNITNAME="UDMSprSklad" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprNom\UDMSprNom.cpp" FORMNAME="DMSprNom" UNITNAME="UDMSprNom" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprPrice\UDMSprPrice.cpp" FORMNAME="DMSprPrice" UNITNAME="UDMSprPrice" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RegOtrSpisNom\UDMRegOtrSpisNom.cpp" FORMNAME="DMRegOtrSpisNom" UNITNAME="UDMRegOtrSpisNom" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RegReal\UDMRegReal.cpp" FORMNAME="DMRegReal" UNITNAME="UDMRegReal" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RegSebProd\UDMRegSebProd.cpp" FORMNAME="DMRegSebProd" UNITNAME="UDMRegSebProd" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RegVipuskProd\UDMRegVipuskProd.cpp" FORMNAME="DMRegVipuskProd" UNITNAME="UDMRegVipuskProd" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RegOstNom\UDMRegOstNom.cpp" FORMNAME="DMRegOstNom" UNITNAME="UDMRegOstNom" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RegVsRasch\UDMRegVsRasch.cpp" FORMNAME="DMRegVsRasch" UNITNAME="UDMRegVsRasch" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprUser\UDMSprUser.cpp" FORMNAME="DMSprUser" UNITNAME="UDMSprUser" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Setup\UDMSetup.cpp" FORMNAME="DMSetup" UNITNAME="UDMSetup" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprSostProd\UDMSostProd.cpp" FORMNAME="DMSprSostProd" UNITNAME="UDMSostProd" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\SprNomRest\UDMSprNomRest.cpp" FORMNAME="DMSprNomRest" UNITNAME="UDMSprNomRest" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\DMXTableIsm\UDMXTableIsm.cpp" FORMNAME="DMXTableIsm" UNITNAME="UDMXTableIsm" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

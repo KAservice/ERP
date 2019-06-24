@@ -1,0 +1,12 @@
+object FormaSpiskaSprSklad: TFormaSpiskaStSpr1
+  Caption=Справочник склады
+	HintLabel=Справочник складов компании
+      object cxGrid1DBTableView1Column1: TcxGridDBColumn
+	Caption=Наименование
+	FieldName=NAMESKLAD
+      end
+      object cxGrid1DBTableView1Column2: TcxGridDBColumn
+	Caption=Адрес
+	FieldName=ADRSKLAD
+      end
+end

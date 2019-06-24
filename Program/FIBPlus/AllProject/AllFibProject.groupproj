@@ -1,0 +1,804 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{EE9F6E01-DFA8-42DD-82D7-1A7884EAEC66}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="..\Admin\PAdmin.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\ArmOf\PArmOf.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMSpr\DMSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ArmKas1\DllArmKas1.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMDoc\DMDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ObBarCode\ObBarCode.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsDoc\FormsDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsGur\FormsGur.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsInput\FormsInput.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsSprVibor\FormsSprVibor.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\kanCOM\DLL\kanCom.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\Devices\Device.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FibConnection\DllFibConnection.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\SheetEditor\DllSheetEditor.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsSpr\FormsSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ExtModule\ExtModule.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ReportGrid\RepGrid.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\LoadXls\LoadXls.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\OutXml\OutXml.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\PrintPrice\PrintPrice.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\GurLog\GurLog.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMGur\DMGur.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\StReport\StReport.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMReg\DMReg.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\Interface\Interface.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ArmKas2\ArmKas2.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\PriemPlat\PrPlat.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsTouch\FormsTouch.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotDMDoc\HotDMDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotFormsDoc\HotFormsDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotDMSpr\HotDMSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotFormsSpr\HotFormsSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotStReport\HotStReport.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotRaschet\HotRaschet.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotDMGur\HotDMGur.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HotFormsGur\HotFormsGur.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\OperCreditCard\OperCreditCard.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\OperationKKT\OperKkt.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ExternalModule\DllRunExternalModule.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemDMSpr\RemDMSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemDMDoc\RemDMDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemDMGur\RemDMGur.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemFormsSpr\RemFormsSpr.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemFormsDoc\RemFormsDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemDMZayavka\RemDMZayavka.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemFormsZayavka\RemFormsZayavka.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemFormsGur\RemFormsGur.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\CheckDiscount\CheckDiscount.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\DLL\Report\ReportAnalisNom\RepAnalisNom.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\DLL\Report\AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMSpr2\DMSpr2.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsSpr2\FormsSpr2.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\RemReports\RemReports.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HLP\PDMHlp.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\HLP\Forms\PFormsHlp.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\CopyDoc\CopyDoc.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\SrRemOsn\SrRemOsn.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ImageEditor\DllImageEditor.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMReport\DMReport.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\ReportForms\ReportForms.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\1CVnComp\1CVnComp.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\1CVnCompCOM\1CVnCompCOM.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\DMSpr3\DMSpr3.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\ComClasses\DLL\FormsSpr3\FormsSpr3.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="PAdmin">
+			<MSBuild Projects="..\Admin\PAdmin.cbproj"/>
+		</Target>
+		<Target Name="PAdmin:Clean">
+			<MSBuild Targets="Clean" Projects="..\Admin\PAdmin.cbproj"/>
+		</Target>
+		<Target Name="PAdmin:Make">
+			<MSBuild Targets="Make" Projects="..\Admin\PAdmin.cbproj"/>
+		</Target>
+		<Target Name="PArmOf">
+			<MSBuild Projects="..\ArmOf\PArmOf.cbproj"/>
+		</Target>
+		<Target Name="PArmOf:Clean">
+			<MSBuild Targets="Clean" Projects="..\ArmOf\PArmOf.cbproj"/>
+		</Target>
+		<Target Name="PArmOf:Make">
+			<MSBuild Targets="Make" Projects="..\ArmOf\PArmOf.cbproj"/>
+		</Target>
+		<Target Name="DMSpr">
+			<MSBuild Projects="K:\ComClasses\DLL\DMSpr\DMSpr.cbproj"/>
+		</Target>
+		<Target Name="DMSpr:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMSpr\DMSpr.cbproj"/>
+		</Target>
+		<Target Name="DMSpr:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMSpr\DMSpr.cbproj"/>
+		</Target>
+		<Target Name="DllArmKas1">
+			<MSBuild Projects="K:\ComClasses\DLL\ArmKas1\DllArmKas1.cbproj"/>
+		</Target>
+		<Target Name="DllArmKas1:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ArmKas1\DllArmKas1.cbproj"/>
+		</Target>
+		<Target Name="DllArmKas1:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ArmKas1\DllArmKas1.cbproj"/>
+		</Target>
+		<Target Name="DMDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\DMDoc\DMDoc.cbproj"/>
+		</Target>
+		<Target Name="DMDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMDoc\DMDoc.cbproj"/>
+		</Target>
+		<Target Name="DMDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMDoc\DMDoc.cbproj"/>
+		</Target>
+		<Target Name="ObBarCode">
+			<MSBuild Projects="K:\ComClasses\DLL\ObBarCode\ObBarCode.cbproj"/>
+		</Target>
+		<Target Name="ObBarCode:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ObBarCode\ObBarCode.cbproj"/>
+		</Target>
+		<Target Name="ObBarCode:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ObBarCode\ObBarCode.cbproj"/>
+		</Target>
+		<Target Name="FormsDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsDoc\FormsDoc.cbproj"/>
+		</Target>
+		<Target Name="FormsDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsDoc\FormsDoc.cbproj"/>
+		</Target>
+		<Target Name="FormsDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsDoc\FormsDoc.cbproj"/>
+		</Target>
+		<Target Name="FormsGur">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsGur\FormsGur.cbproj"/>
+		</Target>
+		<Target Name="FormsGur:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsGur\FormsGur.cbproj"/>
+		</Target>
+		<Target Name="FormsGur:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsGur\FormsGur.cbproj"/>
+		</Target>
+		<Target Name="FormsInput">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsInput\FormsInput.cbproj"/>
+		</Target>
+		<Target Name="FormsInput:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsInput\FormsInput.cbproj"/>
+		</Target>
+		<Target Name="FormsInput:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsInput\FormsInput.cbproj"/>
+		</Target>
+		<Target Name="FormsSprVibor">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsSprVibor\FormsSprVibor.cbproj"/>
+		</Target>
+		<Target Name="FormsSprVibor:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsSprVibor\FormsSprVibor.cbproj"/>
+		</Target>
+		<Target Name="FormsSprVibor:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsSprVibor\FormsSprVibor.cbproj"/>
+		</Target>
+		<Target Name="kanCom">
+			<MSBuild Projects="K:\ComClasses\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="kanCom:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\kanCOM\DLL\kanCom.cbproj"/>
+		</Target>
+		<Target Name="Device">
+			<MSBuild Projects="K:\ComClasses\DLL\Devices\Device.cbproj"/>
+		</Target>
+		<Target Name="Device:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\Devices\Device.cbproj"/>
+		</Target>
+		<Target Name="Device:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\Devices\Device.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection">
+			<MSBuild Projects="K:\ComClasses\DLL\FibConnection\DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FibConnection\DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllFibConnection:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FibConnection\DllFibConnection.cbproj"/>
+		</Target>
+		<Target Name="DllSheetEditor">
+			<MSBuild Projects="K:\ComClasses\DLL\SheetEditor\DllSheetEditor.cbproj"/>
+		</Target>
+		<Target Name="DllSheetEditor:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\SheetEditor\DllSheetEditor.cbproj"/>
+		</Target>
+		<Target Name="DllSheetEditor:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\SheetEditor\DllSheetEditor.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsSpr\FormsSpr.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsSpr\FormsSpr.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsSpr\FormsSpr.cbproj"/>
+		</Target>
+		<Target Name="ExtModule">
+			<MSBuild Projects="K:\ComClasses\DLL\ExtModule\ExtModule.cbproj"/>
+		</Target>
+		<Target Name="ExtModule:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ExtModule\ExtModule.cbproj"/>
+		</Target>
+		<Target Name="ExtModule:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ExtModule\ExtModule.cbproj"/>
+		</Target>
+		<Target Name="RepGrid">
+			<MSBuild Projects="K:\ComClasses\DLL\ReportGrid\RepGrid.cbproj"/>
+		</Target>
+		<Target Name="RepGrid:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ReportGrid\RepGrid.cbproj"/>
+		</Target>
+		<Target Name="RepGrid:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ReportGrid\RepGrid.cbproj"/>
+		</Target>
+		<Target Name="LoadXls">
+			<MSBuild Projects="K:\ComClasses\DLL\LoadXls\LoadXls.cbproj"/>
+		</Target>
+		<Target Name="LoadXls:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\LoadXls\LoadXls.cbproj"/>
+		</Target>
+		<Target Name="LoadXls:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\LoadXls\LoadXls.cbproj"/>
+		</Target>
+		<Target Name="OutXml">
+			<MSBuild Projects="K:\ComClasses\DLL\OutXml\OutXml.cbproj"/>
+		</Target>
+		<Target Name="OutXml:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\OutXml\OutXml.cbproj"/>
+		</Target>
+		<Target Name="OutXml:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\OutXml\OutXml.cbproj"/>
+		</Target>
+		<Target Name="PrintPrice">
+			<MSBuild Projects="K:\ComClasses\DLL\PrintPrice\PrintPrice.cbproj"/>
+		</Target>
+		<Target Name="PrintPrice:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\PrintPrice\PrintPrice.cbproj"/>
+		</Target>
+		<Target Name="PrintPrice:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\PrintPrice\PrintPrice.cbproj"/>
+		</Target>
+		<Target Name="GurLog">
+			<MSBuild Projects="K:\ComClasses\DLL\GurLog\GurLog.cbproj"/>
+		</Target>
+		<Target Name="GurLog:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\GurLog\GurLog.cbproj"/>
+		</Target>
+		<Target Name="GurLog:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\GurLog\GurLog.cbproj"/>
+		</Target>
+		<Target Name="DMGur">
+			<MSBuild Projects="K:\ComClasses\DLL\DMGur\DMGur.cbproj"/>
+		</Target>
+		<Target Name="DMGur:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMGur\DMGur.cbproj"/>
+		</Target>
+		<Target Name="DMGur:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMGur\DMGur.cbproj"/>
+		</Target>
+		<Target Name="StReport">
+			<MSBuild Projects="K:\ComClasses\DLL\StReport\StReport.cbproj"/>
+		</Target>
+		<Target Name="StReport:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\StReport\StReport.cbproj"/>
+		</Target>
+		<Target Name="StReport:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\StReport\StReport.cbproj"/>
+		</Target>
+		<Target Name="DMReg">
+			<MSBuild Projects="K:\ComClasses\DLL\DMReg\DMReg.cbproj"/>
+		</Target>
+		<Target Name="DMReg:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMReg\DMReg.cbproj"/>
+		</Target>
+		<Target Name="DMReg:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMReg\DMReg.cbproj"/>
+		</Target>
+		<Target Name="Interface">
+			<MSBuild Projects="K:\ComClasses\DLL\Interface\Interface.cbproj"/>
+		</Target>
+		<Target Name="Interface:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\Interface\Interface.cbproj"/>
+		</Target>
+		<Target Name="Interface:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\Interface\Interface.cbproj"/>
+		</Target>
+		<Target Name="ArmKas2">
+			<MSBuild Projects="K:\ComClasses\DLL\ArmKas2\ArmKas2.cbproj"/>
+		</Target>
+		<Target Name="ArmKas2:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ArmKas2\ArmKas2.cbproj"/>
+		</Target>
+		<Target Name="ArmKas2:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ArmKas2\ArmKas2.cbproj"/>
+		</Target>
+		<Target Name="PrPlat">
+			<MSBuild Projects="K:\ComClasses\DLL\PriemPlat\PrPlat.cbproj"/>
+		</Target>
+		<Target Name="PrPlat:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\PriemPlat\PrPlat.cbproj"/>
+		</Target>
+		<Target Name="PrPlat:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\PriemPlat\PrPlat.cbproj"/>
+		</Target>
+		<Target Name="FormsTouch">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsTouch\FormsTouch.cbproj"/>
+		</Target>
+		<Target Name="FormsTouch:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsTouch\FormsTouch.cbproj"/>
+		</Target>
+		<Target Name="FormsTouch:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsTouch\FormsTouch.cbproj"/>
+		</Target>
+		<Target Name="HotDMDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\HotDMDoc\HotDMDoc.cbproj"/>
+		</Target>
+		<Target Name="HotDMDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotDMDoc\HotDMDoc.cbproj"/>
+		</Target>
+		<Target Name="HotDMDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotDMDoc\HotDMDoc.cbproj"/>
+		</Target>
+		<Target Name="HotFormsDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\HotFormsDoc\HotFormsDoc.cbproj"/>
+		</Target>
+		<Target Name="HotFormsDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotFormsDoc\HotFormsDoc.cbproj"/>
+		</Target>
+		<Target Name="HotFormsDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotFormsDoc\HotFormsDoc.cbproj"/>
+		</Target>
+		<Target Name="HotDMSpr">
+			<MSBuild Projects="K:\ComClasses\DLL\HotDMSpr\HotDMSpr.cbproj"/>
+		</Target>
+		<Target Name="HotDMSpr:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotDMSpr\HotDMSpr.cbproj"/>
+		</Target>
+		<Target Name="HotDMSpr:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotDMSpr\HotDMSpr.cbproj"/>
+		</Target>
+		<Target Name="HotFormsSpr">
+			<MSBuild Projects="K:\ComClasses\DLL\HotFormsSpr\HotFormsSpr.cbproj"/>
+		</Target>
+		<Target Name="HotFormsSpr:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotFormsSpr\HotFormsSpr.cbproj"/>
+		</Target>
+		<Target Name="HotFormsSpr:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotFormsSpr\HotFormsSpr.cbproj"/>
+		</Target>
+		<Target Name="HotStReport">
+			<MSBuild Projects="K:\ComClasses\DLL\HotStReport\HotStReport.cbproj"/>
+		</Target>
+		<Target Name="HotStReport:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotStReport\HotStReport.cbproj"/>
+		</Target>
+		<Target Name="HotStReport:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotStReport\HotStReport.cbproj"/>
+		</Target>
+		<Target Name="HotRaschet">
+			<MSBuild Projects="K:\ComClasses\DLL\HotRaschet\HotRaschet.cbproj"/>
+		</Target>
+		<Target Name="HotRaschet:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotRaschet\HotRaschet.cbproj"/>
+		</Target>
+		<Target Name="HotRaschet:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotRaschet\HotRaschet.cbproj"/>
+		</Target>
+		<Target Name="HotDMGur">
+			<MSBuild Projects="K:\ComClasses\DLL\HotDMGur\HotDMGur.cbproj"/>
+		</Target>
+		<Target Name="HotDMGur:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotDMGur\HotDMGur.cbproj"/>
+		</Target>
+		<Target Name="HotDMGur:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotDMGur\HotDMGur.cbproj"/>
+		</Target>
+		<Target Name="HotFormsGur">
+			<MSBuild Projects="K:\ComClasses\DLL\HotFormsGur\HotFormsGur.cbproj"/>
+		</Target>
+		<Target Name="HotFormsGur:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HotFormsGur\HotFormsGur.cbproj"/>
+		</Target>
+		<Target Name="HotFormsGur:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HotFormsGur\HotFormsGur.cbproj"/>
+		</Target>
+		<Target Name="OperCreditCard">
+			<MSBuild Projects="K:\ComClasses\DLL\OperCreditCard\OperCreditCard.cbproj"/>
+		</Target>
+		<Target Name="OperCreditCard:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\OperCreditCard\OperCreditCard.cbproj"/>
+		</Target>
+		<Target Name="OperCreditCard:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\OperCreditCard\OperCreditCard.cbproj"/>
+		</Target>
+		<Target Name="OperKkt">
+			<MSBuild Projects="K:\ComClasses\DLL\OperationKKT\OperKkt.cbproj"/>
+		</Target>
+		<Target Name="OperKkt:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\OperationKKT\OperKkt.cbproj"/>
+		</Target>
+		<Target Name="OperKkt:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\OperationKKT\OperKkt.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule">
+			<MSBuild Projects="K:\ComClasses\DLL\ExternalModule\DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ExternalModule\DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="DllRunExternalModule:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ExternalModule\DllRunExternalModule.cbproj"/>
+		</Target>
+		<Target Name="RemDMSpr">
+			<MSBuild Projects="K:\ComClasses\DLL\RemDMSpr\RemDMSpr.cbproj"/>
+		</Target>
+		<Target Name="RemDMSpr:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemDMSpr\RemDMSpr.cbproj"/>
+		</Target>
+		<Target Name="RemDMSpr:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemDMSpr\RemDMSpr.cbproj"/>
+		</Target>
+		<Target Name="RemDMDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\RemDMDoc\RemDMDoc.cbproj"/>
+		</Target>
+		<Target Name="RemDMDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemDMDoc\RemDMDoc.cbproj"/>
+		</Target>
+		<Target Name="RemDMDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemDMDoc\RemDMDoc.cbproj"/>
+		</Target>
+		<Target Name="RemDMGur">
+			<MSBuild Projects="K:\ComClasses\DLL\RemDMGur\RemDMGur.cbproj"/>
+		</Target>
+		<Target Name="RemDMGur:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemDMGur\RemDMGur.cbproj"/>
+		</Target>
+		<Target Name="RemDMGur:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemDMGur\RemDMGur.cbproj"/>
+		</Target>
+		<Target Name="RemFormsSpr">
+			<MSBuild Projects="K:\ComClasses\DLL\RemFormsSpr\RemFormsSpr.cbproj"/>
+		</Target>
+		<Target Name="RemFormsSpr:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemFormsSpr\RemFormsSpr.cbproj"/>
+		</Target>
+		<Target Name="RemFormsSpr:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemFormsSpr\RemFormsSpr.cbproj"/>
+		</Target>
+		<Target Name="RemFormsDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\RemFormsDoc\RemFormsDoc.cbproj"/>
+		</Target>
+		<Target Name="RemFormsDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemFormsDoc\RemFormsDoc.cbproj"/>
+		</Target>
+		<Target Name="RemFormsDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemFormsDoc\RemFormsDoc.cbproj"/>
+		</Target>
+		<Target Name="RemDMZayavka">
+			<MSBuild Projects="K:\ComClasses\DLL\RemDMZayavka\RemDMZayavka.cbproj"/>
+		</Target>
+		<Target Name="RemDMZayavka:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemDMZayavka\RemDMZayavka.cbproj"/>
+		</Target>
+		<Target Name="RemDMZayavka:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemDMZayavka\RemDMZayavka.cbproj"/>
+		</Target>
+		<Target Name="RemFormsZayavka">
+			<MSBuild Projects="K:\ComClasses\DLL\RemFormsZayavka\RemFormsZayavka.cbproj"/>
+		</Target>
+		<Target Name="RemFormsZayavka:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemFormsZayavka\RemFormsZayavka.cbproj"/>
+		</Target>
+		<Target Name="RemFormsZayavka:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemFormsZayavka\RemFormsZayavka.cbproj"/>
+		</Target>
+		<Target Name="RemFormsGur">
+			<MSBuild Projects="K:\ComClasses\DLL\RemFormsGur\RemFormsGur.cbproj"/>
+		</Target>
+		<Target Name="RemFormsGur:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemFormsGur\RemFormsGur.cbproj"/>
+		</Target>
+		<Target Name="RemFormsGur:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemFormsGur\RemFormsGur.cbproj"/>
+		</Target>
+		<Target Name="CheckDiscount">
+			<MSBuild Projects="K:\ComClasses\DLL\CheckDiscount\CheckDiscount.cbproj"/>
+		</Target>
+		<Target Name="CheckDiscount:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\CheckDiscount\CheckDiscount.cbproj"/>
+		</Target>
+		<Target Name="CheckDiscount:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\CheckDiscount\CheckDiscount.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNomPoPost">
+			<MSBuild Projects="K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNomPoPost:Clean">
+			<MSBuild Targets="Clean" Projects="K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNomPoPost:Make">
+			<MSBuild Targets="Make" Projects="K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNom">
+			<MSBuild Projects="K:\DLL\Report\ReportAnalisNom\RepAnalisNom.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNom:Clean">
+			<MSBuild Targets="Clean" Projects="K:\DLL\Report\ReportAnalisNom\RepAnalisNom.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNom:Make">
+			<MSBuild Targets="Make" Projects="K:\DLL\Report\ReportAnalisNom\RepAnalisNom.cbproj"/>
+		</Target>
+		<Target Name="RepAlcDeclVologda">
+			<MSBuild Projects="K:\DLL\Report\AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj"/>
+		</Target>
+		<Target Name="RepAlcDeclVologda:Clean">
+			<MSBuild Targets="Clean" Projects="K:\DLL\Report\AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj"/>
+		</Target>
+		<Target Name="RepAlcDeclVologda:Make">
+			<MSBuild Targets="Make" Projects="K:\DLL\Report\AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj"/>
+		</Target>
+		<Target Name="DMSpr2">
+			<MSBuild Projects="K:\ComClasses\DLL\DMSpr2\DMSpr2.cbproj"/>
+		</Target>
+		<Target Name="DMSpr2:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMSpr2\DMSpr2.cbproj"/>
+		</Target>
+		<Target Name="DMSpr2:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMSpr2\DMSpr2.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr2">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsSpr2\FormsSpr2.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr2:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsSpr2\FormsSpr2.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr2:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsSpr2\FormsSpr2.cbproj"/>
+		</Target>
+		<Target Name="RemReports">
+			<MSBuild Projects="K:\ComClasses\DLL\RemReports\RemReports.cbproj"/>
+		</Target>
+		<Target Name="RemReports:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\RemReports\RemReports.cbproj"/>
+		</Target>
+		<Target Name="RemReports:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\RemReports\RemReports.cbproj"/>
+		</Target>
+		<Target Name="PDMHlp">
+			<MSBuild Projects="K:\ComClasses\DLL\HLP\PDMHlp.cbproj"/>
+		</Target>
+		<Target Name="PDMHlp:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HLP\PDMHlp.cbproj"/>
+		</Target>
+		<Target Name="PDMHlp:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HLP\PDMHlp.cbproj"/>
+		</Target>
+		<Target Name="PFormsHlp">
+			<MSBuild Projects="K:\ComClasses\DLL\HLP\Forms\PFormsHlp.cbproj"/>
+		</Target>
+		<Target Name="PFormsHlp:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\HLP\Forms\PFormsHlp.cbproj"/>
+		</Target>
+		<Target Name="PFormsHlp:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\HLP\Forms\PFormsHlp.cbproj"/>
+		</Target>
+		<Target Name="CopyDoc">
+			<MSBuild Projects="K:\ComClasses\DLL\CopyDoc\CopyDoc.cbproj"/>
+		</Target>
+		<Target Name="CopyDoc:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\CopyDoc\CopyDoc.cbproj"/>
+		</Target>
+		<Target Name="CopyDoc:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\CopyDoc\CopyDoc.cbproj"/>
+		</Target>
+		<Target Name="SrRemOsn">
+			<MSBuild Projects="K:\ComClasses\DLL\SrRemOsn\SrRemOsn.cbproj"/>
+		</Target>
+		<Target Name="SrRemOsn:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\SrRemOsn\SrRemOsn.cbproj"/>
+		</Target>
+		<Target Name="SrRemOsn:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\SrRemOsn\SrRemOsn.cbproj"/>
+		</Target>
+		<Target Name="DllImageEditor">
+			<MSBuild Projects="K:\ComClasses\DLL\ImageEditor\DllImageEditor.cbproj"/>
+		</Target>
+		<Target Name="DllImageEditor:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ImageEditor\DllImageEditor.cbproj"/>
+		</Target>
+		<Target Name="DllImageEditor:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ImageEditor\DllImageEditor.cbproj"/>
+		</Target>
+		<Target Name="DMReport">
+			<MSBuild Projects="K:\ComClasses\DLL\DMReport\DMReport.cbproj"/>
+		</Target>
+		<Target Name="DMReport:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMReport\DMReport.cbproj"/>
+		</Target>
+		<Target Name="DMReport:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMReport\DMReport.cbproj"/>
+		</Target>
+		<Target Name="ReportForms">
+			<MSBuild Projects="K:\ComClasses\DLL\ReportForms\ReportForms.cbproj"/>
+		</Target>
+		<Target Name="ReportForms:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\ReportForms\ReportForms.cbproj"/>
+		</Target>
+		<Target Name="ReportForms:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\ReportForms\ReportForms.cbproj"/>
+		</Target>
+		<Target Name="1CVnComp">
+			<MSBuild Projects="K:\ComClasses\DLL\1CVnComp\1CVnComp.cbproj"/>
+		</Target>
+		<Target Name="1CVnComp:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\1CVnComp\1CVnComp.cbproj"/>
+		</Target>
+		<Target Name="1CVnComp:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\1CVnComp\1CVnComp.cbproj"/>
+		</Target>
+		<Target Name="1CVnCompCOM">
+			<MSBuild Projects="K:\ComClasses\DLL\1CVnCompCOM\1CVnCompCOM.cbproj"/>
+		</Target>
+		<Target Name="1CVnCompCOM:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\1CVnCompCOM\1CVnCompCOM.cbproj"/>
+		</Target>
+		<Target Name="1CVnCompCOM:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\1CVnCompCOM\1CVnCompCOM.cbproj"/>
+		</Target>
+		<Target Name="DMSpr3">
+			<MSBuild Projects="K:\ComClasses\DLL\DMSpr3\DMSpr3.cbproj"/>
+		</Target>
+		<Target Name="DMSpr3:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\DMSpr3\DMSpr3.cbproj"/>
+		</Target>
+		<Target Name="DMSpr3:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\DMSpr3\DMSpr3.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr3">
+			<MSBuild Projects="K:\ComClasses\DLL\FormsSpr3\FormsSpr3.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr3:Clean">
+			<MSBuild Targets="Clean" Projects="K:\ComClasses\DLL\FormsSpr3\FormsSpr3.cbproj"/>
+		</Target>
+		<Target Name="FormsSpr3:Make">
+			<MSBuild Targets="Make" Projects="K:\ComClasses\DLL\FormsSpr3\FormsSpr3.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="PAdmin;PArmOf;DMSpr;DllArmKas1;DMDoc;ObBarCode;FormsDoc;FormsGur;FormsInput;FormsSprVibor;kanCom;Device;DllFibConnection;DllSheetEditor;FormsSpr;ExtModule;RepGrid;LoadXls;OutXml;PrintPrice;GurLog;DMGur;StReport;DMReg;Interface;ArmKas2;PrPlat;FormsTouch;HotDMDoc;HotFormsDoc;HotDMSpr;HotFormsSpr;HotStReport;HotRaschet;HotDMGur;HotFormsGur;OperCreditCard;OperKkt;DllRunExternalModule;RemDMSpr;RemDMDoc;RemDMGur;RemFormsSpr;RemFormsDoc;RemDMZayavka;RemFormsZayavka;RemFormsGur;CheckDiscount;RepAnalisNomPoPost;RepAnalisNom;RepAlcDeclVologda;DMSpr2;FormsSpr2;RemReports;PDMHlp;PFormsHlp;CopyDoc;SrRemOsn;DllImageEditor;DMReport;ReportForms;1CVnComp;1CVnCompCOM;DMSpr3;FormsSpr3"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="PAdmin:Clean;PArmOf:Clean;DMSpr:Clean;DllArmKas1:Clean;DMDoc:Clean;ObBarCode:Clean;FormsDoc:Clean;FormsGur:Clean;FormsInput:Clean;FormsSprVibor:Clean;kanCom:Clean;Device:Clean;DllFibConnection:Clean;DllSheetEditor:Clean;FormsSpr:Clean;ExtModule:Clean;RepGrid:Clean;LoadXls:Clean;OutXml:Clean;PrintPrice:Clean;GurLog:Clean;DMGur:Clean;StReport:Clean;DMReg:Clean;Interface:Clean;ArmKas2:Clean;PrPlat:Clean;FormsTouch:Clean;HotDMDoc:Clean;HotFormsDoc:Clean;HotDMSpr:Clean;HotFormsSpr:Clean;HotStReport:Clean;HotRaschet:Clean;HotDMGur:Clean;HotFormsGur:Clean;OperCreditCard:Clean;OperKkt:Clean;DllRunExternalModule:Clean;RemDMSpr:Clean;RemDMDoc:Clean;RemDMGur:Clean;RemFormsSpr:Clean;RemFormsDoc:Clean;RemDMZayavka:Clean;RemFormsZayavka:Clean;RemFormsGur:Clean;CheckDiscount:Clean;RepAnalisNomPoPost:Clean;RepAnalisNom:Clean;RepAlcDeclVologda:Clean;DMSpr2:Clean;FormsSpr2:Clean;RemReports:Clean;PDMHlp:Clean;PFormsHlp:Clean;CopyDoc:Clean;SrRemOsn:Clean;DllImageEditor:Clean;DMReport:Clean;ReportForms:Clean;1CVnComp:Clean;1CVnCompCOM:Clean;DMSpr3:Clean;FormsSpr3:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="PAdmin:Make;PArmOf:Make;DMSpr:Make;DllArmKas1:Make;DMDoc:Make;ObBarCode:Make;FormsDoc:Make;FormsGur:Make;FormsInput:Make;FormsSprVibor:Make;kanCom:Make;Device:Make;DllFibConnection:Make;DllSheetEditor:Make;FormsSpr:Make;ExtModule:Make;RepGrid:Make;LoadXls:Make;OutXml:Make;PrintPrice:Make;GurLog:Make;DMGur:Make;StReport:Make;DMReg:Make;Interface:Make;ArmKas2:Make;PrPlat:Make;FormsTouch:Make;HotDMDoc:Make;HotFormsDoc:Make;HotDMSpr:Make;HotFormsSpr:Make;HotStReport:Make;HotRaschet:Make;HotDMGur:Make;HotFormsGur:Make;OperCreditCard:Make;OperKkt:Make;DllRunExternalModule:Make;RemDMSpr:Make;RemDMDoc:Make;RemDMGur:Make;RemFormsSpr:Make;RemFormsDoc:Make;RemDMZayavka:Make;RemFormsZayavka:Make;RemFormsGur:Make;CheckDiscount:Make;RepAnalisNomPoPost:Make;RepAnalisNom:Make;RepAlcDeclVologda:Make;DMSpr2:Make;FormsSpr2:Make;RemReports:Make;PDMHlp:Make;PFormsHlp:Make;CopyDoc:Make;SrRemOsn:Make;DllImageEditor:Make;DMReport:Make;ReportForms:Make;1CVnComp:Make;1CVnCompCOM:Make;DMSpr3:Make;FormsSpr3:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
