@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.11.08 11:15:35.250.cpp,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Unit1.cpp=K:\DataImport\FIBImport\UMainForm.cpp</Transaction>
+    <Transaction>2009.11.08 11:15:35.250.h,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Unit1.h=K:\DataImport\FIBImport\UMainForm.h</Transaction>
+    <Transaction>2009.11.08 11:15:35.250.dfm,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Unit1.dfm=K:\DataImport\FIBImport\UMainForm.dfm</Transaction>
+    <Transaction>2009.11.08 11:16:15.984.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DataImport\FIBImport\FibImport.cbproj</Transaction>
+    <Transaction>2009.11.08 11:20:29.265.cpp,K:\DataImport\FIBImport\Unit1.cpp=K:\DataImport\FIBImport\DataModuleMain\UDataModuleMain.cpp</Transaction>
+    <Transaction>2009.11.08 11:20:29.265.h,K:\DataImport\FIBImport\Unit1.h=K:\DataImport\FIBImport\DataModuleMain\UDataModuleMain.h</Transaction>
+    <Transaction>2009.11.08 11:20:29.265.dfm,K:\DataImport\FIBImport\Unit1.dfm=K:\DataImport\FIBImport\DataModuleMain\UDataModuleMain.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

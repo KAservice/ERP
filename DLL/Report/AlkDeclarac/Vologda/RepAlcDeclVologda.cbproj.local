@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.09.26 13:22:39.140.cpp,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\File1.cpp=K:\DLL\Report\AlkDeclarac\Vologda\RepAlcDeclVologda.cpp</Transaction>
+    <Transaction>2009.09.26 13:22:44.625.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DLL\Report\AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj</Transaction>
+    <Transaction>2009.10.01 12:40:17.663.cpp,K:\Forms\SheetEditor\USheetEditor.cpp=K:\Forms\SheetEditor\USheetEditor2.cpp</Transaction>
+    <Transaction>2009.10.01 12:40:17.663.h,K:\Forms\SheetEditor\USheetEditor.h=K:\Forms\SheetEditor\USheetEditor2.h</Transaction>
+    <Transaction>2009.10.01 12:40:17.663.dfm,K:\Forms\SheetEditor\USheetEditor.dfm=K:\Forms\SheetEditor\USheetEditor2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.12.10 16:15:25.406.cpp,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\File1.cpp=K:\DLL\ShtrihMFRK\ShtrihMFRK.cpp</Transaction>
+    <Transaction>2008.12.10 16:16:08.812.cpp,K:\DLL\ShtrihMFRK\ShtrihMFRK.cpp=K:\DLL\ShtrihMFRK\UShtrihMFRK.cpp</Transaction>
+    <Transaction>2008.12.10 16:17:21.328.cbproj,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DLL\ShtrihMFRK\ShtrihMFRK.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

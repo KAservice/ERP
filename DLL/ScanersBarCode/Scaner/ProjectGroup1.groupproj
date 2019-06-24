@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{D5F33B45-7B7C-4EBF-91B5-CF600E4DE834}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Scaner.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Scaner">
+			<MSBuild Projects="Scaner.cbproj"/>
+		</Target>
+		<Target Name="Scaner:Clean">
+			<MSBuild Targets="Clean" Projects="Scaner.cbproj"/>
+		</Target>
+		<Target Name="Scaner:Make">
+			<MSBuild Targets="Make" Projects="Scaner.cbproj"/>
+		</Target>
+		<Target Name="PArmKas">
+			<MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Clean">
+			<MSBuild Targets="Clean" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Make">
+			<MSBuild Targets="Make" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Scaner;PArmKas"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Scaner:Clean;PArmKas:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Scaner:Make;PArmKas:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

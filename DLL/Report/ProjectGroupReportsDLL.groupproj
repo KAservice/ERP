@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{d2984215-71b8-4c99-be72-b4fd95981d42}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj" />
+    <Projects Include="K:\Program\FIBPlus\Admin\PAdmin.cbproj" />
+    <Projects Include="ReportAnalisNom\RepAnalisNom.cbproj" />
+    <Projects Include="ReportCheckRev\PRepCheckRev.cbproj" />
+    <Projects Include="ReportGurCheck\RepGurCheck.cbproj" />
+    <Projects Include="ReportPoGrpNom\RepPoGrpNom.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="RepPoGrpNom">
+    <MSBuild Projects="ReportPoGrpNom\RepPoGrpNom.cbproj" Targets="" />
+  </Target>
+  <Target Name="RepPoGrpNom:Clean">
+    <MSBuild Projects="ReportPoGrpNom\RepPoGrpNom.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="RepPoGrpNom:Make">
+    <MSBuild Projects="ReportPoGrpNom\RepPoGrpNom.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="PAdmin">
+    <MSBuild Projects="K:\Program\FIBPlus\Admin\PAdmin.cbproj" Targets="" />
+  </Target>
+  <Target Name="PAdmin:Clean">
+    <MSBuild Projects="K:\Program\FIBPlus\Admin\PAdmin.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PAdmin:Make">
+    <MSBuild Projects="K:\Program\FIBPlus\Admin\PAdmin.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="RepGurCheck">
+    <MSBuild Projects="ReportGurCheck\RepGurCheck.cbproj" Targets="" />
+  </Target>
+  <Target Name="RepGurCheck:Clean">
+    <MSBuild Projects="ReportGurCheck\RepGurCheck.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="RepGurCheck:Make">
+    <MSBuild Projects="ReportGurCheck\RepGurCheck.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="RepAnalisNom">
+    <MSBuild Projects="ReportAnalisNom\RepAnalisNom.cbproj" Targets="" />
+  </Target>
+  <Target Name="RepAnalisNom:Clean">
+    <MSBuild Projects="ReportAnalisNom\RepAnalisNom.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="RepAnalisNom:Make">
+    <MSBuild Projects="ReportAnalisNom\RepAnalisNom.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="RepAlcDeclVologda">
+    <MSBuild Projects="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj" Targets="" />
+  </Target>
+  <Target Name="RepAlcDeclVologda:Clean">
+    <MSBuild Projects="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="RepAlcDeclVologda:Make">
+    <MSBuild Projects="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="PRepCheckRev">
+    <MSBuild Projects="ReportCheckRev\PRepCheckRev.cbproj" Targets="" />
+  </Target>
+  <Target Name="PRepCheckRev:Clean">
+    <MSBuild Projects="ReportCheckRev\PRepCheckRev.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PRepCheckRev:Make">
+    <MSBuild Projects="ReportCheckRev\PRepCheckRev.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="RepPoGrpNom;PAdmin;RepGurCheck;RepAnalisNom;RepAlcDeclVologda;PRepCheckRev" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="RepPoGrpNom:Clean;PAdmin:Clean;RepGurCheck:Clean;RepAnalisNom:Clean;RepAlcDeclVologda:Clean;PRepCheckRev:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="RepPoGrpNom:Make;PAdmin:Make;RepGurCheck:Make;RepAnalisNom:Make;RepAlcDeclVologda:Make;PRepCheckRev:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

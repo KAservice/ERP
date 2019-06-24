@@ -1,0 +1,684 @@
+object FormaReport: TFormaReport
+  Left = 0
+  Top = 0
+  Caption = 'FormaReport'
+  ClientHeight = 416
+  ClientWidth = 774
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 774
+    Height = 73
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 21
+      Top = 19
+      Width = 202
+      Height = 13
+      Caption = #1055#1088#1086#1074#1077#1088#1082#1072' '#1087#1088#1086#1074#1077#1076#1077#1085#1080#1103' '#1080#1085#1074#1077#1085#1090#1072#1088#1080#1079#1072#1094#1080#1080' '
+    end
+    object Label3: TLabel
+      Left = 426
+      Top = 17
+      Width = 44
+      Height = 16
+      Caption = #1060#1080#1088#1084#1072':'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 16
+      Top = 48
+      Width = 40
+      Height = 16
+      Caption = #1057#1082#1083#1072#1076':'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 291
+      Top = 48
+      Width = 102
+      Height = 16
+      Caption = #1048#1085#1074#1077#1085#1090#1072#1088#1080#1079#1072#1094#1080#1103':'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object cxDateEdit1: TcxDateEdit
+      Left = 233
+      Top = 12
+      Properties.Kind = ckDateTime
+      TabOrder = 0
+      Width = 152
+    end
+    object cxButton1: TcxButton
+      Left = 699
+      Top = 25
+      Width = 75
+      Height = 25
+      Caption = #1054#1073#1085#1086#1074#1080#1090#1100
+      TabOrder = 1
+      OnClick = cxButton1Click
+    end
+    object NameFirmcxLookupComboBox: TcxLookupComboBox
+      Left = 476
+      Top = 12
+      Properties.KeyFieldNames = 'IDFIRM'
+      Properties.ListColumns = <
+        item
+          FieldName = 'NAMEFIRM'
+        end>
+      Properties.ListSource = DataSourceFirma
+      TabOrder = 2
+      Width = 217
+    end
+    object NameSkladcxLookupComboBox: TcxLookupComboBox
+      Left = 62
+      Top = 46
+      Properties.KeyFieldNames = 'IDSKLAD'
+      Properties.ListColumns = <
+        item
+          FieldName = 'NAMESKLAD'
+        end>
+      Properties.ListSource = DataSourceSklad
+      TabOrder = 3
+      Width = 208
+    end
+    object NameInvcxLookupComboBox: TcxLookupComboBox
+      Left = 424
+      Top = 46
+      Properties.KeyFieldNames = 'ID_SINV'
+      Properties.ListColumns = <
+        item
+          FieldName = 'NAME_SINV'
+        end>
+      Properties.ListSource = DataSourceInv
+      TabOrder = 4
+      Width = 269
+    end
+  end
+  object cxPageControl1: TcxPageControl
+    Left = 0
+    Top = 73
+    Width = 774
+    Height = 343
+    ActivePage = cxTabSheet1
+    Align = alClient
+    TabOrder = 1
+    ClientRectBottom = 343
+    ClientRectRight = 774
+    ClientRectTop = 24
+    object cxTabSheet1: TcxTabSheet
+      Caption = #1056#1077#1074#1080#1079#1080#1080'  - '#1089#1082#1083#1072#1076
+      ImageIndex = 0
+      object cxGrid1: TcxGrid
+        Left = 0
+        Top = 0
+        Width = 774
+        Height = 319
+        Align = alClient
+        TabOrder = 0
+        object cxGrid1DBTableView1: TcxGridDBTableView
+          NavigatorButtons.ConfirmDelete = False
+          DataController.DataSource = DataSource1
+          DataController.Summary.DefaultGroupSummaryItems = <>
+          DataController.Summary.FooterSummaryItems = <
+            item
+              Kind = skSum
+              FieldName = 'OUT_KOL_RASNOST'
+              Column = cxGrid1DBTableView1OUT_KOL_RASNOST
+            end>
+          DataController.Summary.SummaryGroups = <>
+          OptionsView.ColumnAutoWidth = True
+          OptionsView.Footer = True
+          OptionsView.GroupByBox = False
+          Styles.Footer = cxStyle1
+          Styles.Header = cxStyle1
+          object cxGrid1DBTableView1RECNO: TcxGridDBColumn
+            Caption = #8470
+            DataBinding.FieldName = 'RECNO'
+          end
+          object cxGrid1DBTableView1RES: TcxGridDBColumn
+            Caption = #1056#1077#1079#1091#1083#1100#1090#1072#1090
+            DataBinding.FieldName = 'RESULT'
+            OnCustomDrawCell = cxGrid1DBTableView1RESCustomDrawCell
+            Width = 91
+          end
+          object cxGrid1DBTableView1OUT_NAMENOM: TcxGridDBColumn
+            Caption = #1053#1086#1084#1077#1085#1082#1083#1072#1090#1091#1088#1072
+            DataBinding.FieldName = 'OUT_NAMENOM'
+            Width = 205
+          end
+          object cxGrid1DBTableView1OUT_RPRICE: TcxGridDBColumn
+            Caption = #1056#1086#1079#1085'. '#1094#1077#1085#1072
+            DataBinding.FieldName = 'OUT_RPRICE'
+            Width = 51
+          end
+          object cxGrid1DBTableView1OUT_KOL_REV: TcxGridDBColumn
+            Caption = #1050#1086#1083'. '#1074' '#1088#1077#1074#1080#1079#1080#1103#1093
+            DataBinding.FieldName = 'OUT_KOL_REV'
+            Width = 52
+          end
+          object cxGrid1DBTableView1OUT_KOL_RGGOODS: TcxGridDBColumn
+            Caption = #1050#1086#1083'. '#1085#1072' '#1089#1082#1083#1072#1076#1077
+            DataBinding.FieldName = 'OUT_KOL_RGGOODS'
+            Width = 51
+          end
+          object cxGrid1DBTableView1OUT_KOL_RASNOST: TcxGridDBColumn
+            Caption = #1056#1072#1079#1085#1086#1089#1090#1100
+            DataBinding.FieldName = 'OUT_KOL_RASNOST'
+            Width = 94
+          end
+        end
+        object cxGrid1Level1: TcxGridLevel
+          GridView = cxGrid1DBTableView1
+        end
+      end
+    end
+    object cxTabSheet2: TcxTabSheet
+      Caption = #1057#1082#1083#1072#1076' - '#1088#1077#1074#1080#1079#1080#1080
+      ImageIndex = 1
+      ExplicitTop = 0
+      ExplicitWidth = 289
+      ExplicitHeight = 169
+      object cxGrid2: TcxGrid
+        Left = 0
+        Top = 0
+        Width = 774
+        Height = 319
+        Align = alClient
+        TabOrder = 0
+        ExplicitLeft = 104
+        ExplicitTop = 48
+        ExplicitWidth = 250
+        ExplicitHeight = 200
+        object cxGrid2DBTableView1: TcxGridDBTableView
+          NavigatorButtons.ConfirmDelete = False
+          DataController.DataSource = DataSource2
+          DataController.Summary.DefaultGroupSummaryItems = <>
+          DataController.Summary.FooterSummaryItems = <
+            item
+              Kind = skSum
+              FieldName = 'OUT_KOL_RASNOST'
+              Column = cxGrid2DBTableView1OUT_KOL_RASNOST
+            end>
+          DataController.Summary.SummaryGroups = <>
+          OptionsView.ColumnAutoWidth = True
+          OptionsView.Footer = True
+          OptionsView.GroupByBox = False
+          Styles.Footer = cxStyle1
+          Styles.Header = cxStyle1
+          object cxGrid2DBTableView1RECNO: TcxGridDBColumn
+            Caption = #8470
+            DataBinding.FieldName = 'RECNO'
+            Width = 31
+          end
+          object cxGrid2DBTableView1RESULT: TcxGridDBColumn
+            Caption = #1056#1077#1079#1091#1083#1100#1090#1072#1090
+            DataBinding.FieldName = 'RESULT'
+            OnCustomDrawCell = cxGrid2DBTableView1RESULTCustomDrawCell
+            Width = 89
+          end
+          object cxGrid2DBTableView1OUT_NAMENOM: TcxGridDBColumn
+            Caption = #1053#1086#1084#1077#1085#1082#1083#1072#1090#1091#1088#1072
+            DataBinding.FieldName = 'OUT_NAMENOM'
+            Width = 269
+          end
+          object cxGrid2DBTableView1OUT_NAMEED: TcxGridDBColumn
+            Caption = #1045#1076#1080#1085#1080#1094#1072
+            DataBinding.FieldName = 'OUT_NAMEED'
+            Width = 95
+          end
+          object cxGrid2DBTableView1OUT_RPRICE: TcxGridDBColumn
+            Caption = #1056#1086#1079#1085'. '#1094#1077#1085#1072
+            DataBinding.FieldName = 'OUT_RPRICE'
+            Width = 72
+          end
+          object cxGrid2DBTableView1OUT_KOL_RGGOODS: TcxGridDBColumn
+            Caption = #1050#1086#1083'. '#1085#1072' '#1089#1082#1083#1072#1076#1077
+            DataBinding.FieldName = 'OUT_KOL_RGGOODS'
+            Width = 72
+          end
+          object cxGrid2DBTableView1OUT_KOL_REV: TcxGridDBColumn
+            Caption = #1050#1086#1083'. '#1074' '#1088#1077#1074#1080#1079#1080#1103#1093
+            DataBinding.FieldName = 'OUT_KOL_REV'
+            Width = 72
+          end
+          object cxGrid2DBTableView1OUT_KOL_RASNOST: TcxGridDBColumn
+            Caption = #1056#1072#1079#1085#1086#1089#1090#1100
+            DataBinding.FieldName = 'OUT_KOL_RASNOST'
+            Width = 72
+          end
+        end
+        object cxGrid2Level1: TcxGridLevel
+          GridView = cxGrid2DBTableView1
+        end
+      end
+    end
+  end
+  object pFIBDatabase1: TpFIBDatabase
+    DBParams.Strings = (
+      'user_name=SYSDBA'
+      'password=masterkey')
+    DefaultTransaction = pFIBTransaction1
+    DefaultUpdateTransaction = pFIBTransaction1
+    SQLDialect = 3
+    Timeout = 0
+    LibraryName = 'fbclient.dll'
+    WaitForRestoreConnect = 0
+    Left = 616
+    Top = 48
+  end
+  object pFIBTransaction1: TpFIBTransaction
+    DefaultDatabase = pFIBDatabase1
+    TimeoutAction = TARollback
+    TRParams.Strings = (
+      'read'
+      'nowait'
+      'rec_version'
+      'read_committed')
+    CSMonitorSupport.Enabled = csmeDatabaseDriven
+    TPBMode = tpbDefault
+    Left = 648
+    Top = 48
+  end
+  object pFIBDataSet1: TpFIBDataSet
+    SelectSQL.Strings = (
+      ''
+      'select *'
+      
+        'from REPORT_CHECK_REV_RGGOODS(:PARAM_POS,:PARAM_IDFIRM,:PARAM_ID' +
+        'SKLAD,:PARAM_IDINV)')
+    OnCalcFields = pFIBDataSet1CalcFields
+    Transaction = pFIBTransaction1
+    Database = pFIBDatabase1
+    CSMonitorSupport.Enabled = csmeTransactionDriven
+    Left = 448
+    Top = 280
+    object pFIBDataSet1OUT_IDNOM: TFIBBCDField
+      FieldName = 'OUT_IDNOM'
+      Size = 0
+      RoundByScale = True
+    end
+    object pFIBDataSet1OUT_IDED: TFIBBCDField
+      FieldName = 'OUT_IDED'
+      Size = 0
+      RoundByScale = True
+    end
+    object pFIBDataSet1OUT_RPRICE: TFIBBCDField
+      FieldName = 'OUT_RPRICE'
+      Size = 2
+      RoundByScale = True
+    end
+    object pFIBDataSet1OUT_KOL_REV: TFIBBCDField
+      FieldName = 'OUT_KOL_REV'
+      Size = 3
+      RoundByScale = True
+    end
+    object pFIBDataSet1OUT_KOL_RGGOODS: TFIBBCDField
+      FieldName = 'OUT_KOL_RGGOODS'
+      Size = 3
+      RoundByScale = True
+    end
+    object pFIBDataSet1OUT_KOL_RASNOST: TFIBBCDField
+      FieldName = 'OUT_KOL_RASNOST'
+      Size = 3
+      RoundByScale = True
+    end
+    object pFIBDataSet1OUT_NAMENOM: TFIBStringField
+      FieldName = 'OUT_NAMENOM'
+      Size = 100
+      EmptyStrToNull = True
+    end
+    object pFIBDataSet1RESULT: TIntegerField
+      FieldKind = fkCalculated
+      FieldName = 'RESULT'
+      Calculated = True
+    end
+    object pFIBDataSet1RECNO: TIntegerField
+      FieldKind = fkCalculated
+      FieldName = 'RECNO'
+      Calculated = True
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = pFIBDataSet1
+    Left = 416
+    Top = 280
+  end
+  object ImageList1: TImageList
+    Left = 568
+    Top = 8
+    Bitmap = {
+      494C010102000400040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      0000000000003600000028000000400000001000000001002000000000000010
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000D8D8D800B0B5AF00BEC0BD00F2F2F200000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000FBFB
+      FB005A6B54001C7601001E8501001F8801001E8701001E83010020600B00B0B1
+      B000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000E2E2E2001A72
+      01001E8C030021970300229C0300239F0300229E0400229A0300209303001D89
+      0100496640000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FBFBFB001A7E03001D94
+      040021A206003AB1230085D2770085D1770045B82E0024AC080022A70600209D
+      05001C8D030056714F0000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000003A702F001A9506001FA7
+      070016AD0000EBFAED00EBFFED00EBFFED00E3F7E5001EB2040023B30A0020AE
+      08001DA006001A910500D5D5D500000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000F6F6F6001C970B001BA509001FB3
+      0C0066CA5B00ECFFEE00EBFFED00EBFFED00F3FFF60036BC260024B8120021B6
+      0D001DAE0A001B9C0A0035792900000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000101D0000B0BFF000B0BFF000B0B
+      FF000B0BFF000B0BFF000B0BFF000B0BFF000B0BFF000B0BFF000B0BFF000B0B
+      FF000B0BFF000A0AFF000B0BFF00000055009AA698001B9D10001FB2130010B6
+      0100F6FFF900EBFFED00D3EED400E3F6E500EBFFED00C4EBC20024BD16001FBC
+      12001FB911001EAA12001C980F00000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000A0ABF003131E2003131E4003131
+      E4003131E4003131E4003131E4003131E4003131E4003131E4003131E4003131
+      E4003131E4003030E3002F2FE900010158005B8C57001CA716001EBB17009EE1
+      9D00F0FFF200F7FFFA0030C429007FD57C00EEFFF000F7FFFA001FC1170027C4
+      1E0022C11B001EB317001CA21600000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000001818AB006767D6006666D7006666
+      D7006666D7006666D7006666D7006666D7006666D7006666D7006666D7006666
+      D7006666D7006565D6006262DA00000057005B9059001EAC1B0020C01D0032C6
+      2F0034C8320039CA37003DCE3A0035CB3300F6FEF800EDFFEF0098E1980028C8
+      260023C6210020B81D001DA81B00000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000029299A00A4A4DB00A3A3DB00A3A3
+      DB00A3A3DB00A3A3DB00A3A3DB00A3A3DB00A3A3DB00A3A3DB00A3A3DB00A3A3
+      DB00A3A3DB00A2A2DA00A1A1DC00020256008AA689001EAE220022C2260025CB
+      29002BCD2F0033CF360039D13C003BD23D00B6E6B800EDFFEF00F7FFF8001BCA
+      1F0024C9280021BB250020AB2300000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000076006C6CBA006969BA006969
+      BA006969BA006969BA006969BA006969BA006969BA006969BA006969BA006969
+      BA006969BA006767B9004444A90014146400E9EAE90020AE270024C32B0026CF
+      2E002AD233002FD3370034D43C0037D43F003BD44200F3FFF400EFFFF10063DA
+      690026CA2D0023BA29002FA23400000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000039AE400026BC310028CD
+      34002AD437002DD6390030D73C0031D73D0028D63500E0F2E100EDFFEE00EEFA
+      EF001DC62A0023B32F00B8C4B800000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000E7E8E6002BB8390029C6
+      3A002BD13C002CD73D002EDA3E002ED93F002FD9400061DB6D00F4FAF400F8FC
+      F80049C3550048B3500000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000C3D8C40030BB
+      40002DC53E002ECF41002ED441002ED641002FD541002CD2400022CA360020BC
+      32003EB94B000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000000ECF0
+      EC0046B8540031BC430030C4430030C6430030C5430031C1430032B843008FC7
+      9400000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000F3FAF400A4DBA90057BD610071C77900D3EDD500000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000424D3E000000000000003E000000
+      2800000040000000100000000100010000000000800000000000000000000000
+      000000000000000000000000FFFFFF00FFFFFC3F00000000FFFFE00F00000000
+      FFFFC00700000000FFFF800300000000FFFF800100000000FFFF000100000000
+      0000000100000000000000010000000000000001000000000000000100000000
+      0000000100000000FFFF800100000000FFFF800300000000FFFFC00700000000
+      FFFFE00F00000000FFFFF83F0000000000000000000000000000000000000000
+      000000000000}
+  end
+  object cxStyleRepository1: TcxStyleRepository
+    PixelsPerInch = 96
+    object cxStyle1: TcxStyle
+      AssignedValues = [svFont]
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clNavy
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+    end
+  end
+  object SpisokFirm: TpFIBDataSet
+    SelectSQL.Strings = (
+      'select '
+      '   IDFIRM,'
+      '   NAMEFIRM'
+      'from '
+      '   SFIRM'
+      'order by NAMEFIRM')
+    Transaction = pFIBTransaction1
+    Database = pFIBDatabase1
+    CSMonitorSupport.Enabled = csmeTransactionDriven
+    Left = 512
+    Top = 65528
+    object SpisokFirmIDFIRM: TFIBBCDField
+      FieldName = 'IDFIRM'
+      Size = 0
+      RoundByScale = True
+    end
+    object SpisokFirmNAMEFIRM: TFIBStringField
+      FieldName = 'NAMEFIRM'
+      Size = 50
+      EmptyStrToNull = True
+    end
+  end
+  object DataSourceFirma: TDataSource
+    DataSet = SpisokFirm
+    Left = 480
+    Top = 65528
+  end
+  object DataSourceSklad: TDataSource
+    DataSet = SpisokSklad
+    Left = 128
+    Top = 32
+  end
+  object SpisokSklad: TpFIBDataSet
+    SelectSQL.Strings = (
+      'select'
+      '   IDSKLAD,'
+      '   NAMESKLAD'
+      'from'
+      '   SSKLAD'
+      'order by NAMESKLAD')
+    Transaction = pFIBTransaction1
+    Database = pFIBDatabase1
+    CSMonitorSupport.Enabled = csmeTransactionDriven
+    Left = 192
+    Top = 32
+    object SpisokSkladIDSKLAD: TFIBBCDField
+      FieldName = 'IDSKLAD'
+      Size = 0
+      RoundByScale = True
+    end
+    object SpisokSkladNAMESKLAD: TFIBStringField
+      FieldName = 'NAMESKLAD'
+      Size = 100
+      EmptyStrToNull = True
+    end
+  end
+  object SpisokInv: TpFIBDataSet
+    SelectSQL.Strings = (
+      'select ID_SINV,'
+      '      NAME_SINV'
+      'from SINV'
+      'order by NAME_SINV')
+    Transaction = pFIBTransaction1
+    Database = pFIBDatabase1
+    CSMonitorSupport.Enabled = csmeTransactionDriven
+    Left = 504
+    Top = 48
+    object SpisokInvID_SINV: TFIBBCDField
+      FieldName = 'ID_SINV'
+      Size = 0
+      RoundByScale = True
+    end
+    object SpisokInvNAME_SINV: TFIBStringField
+      FieldName = 'NAME_SINV'
+      Size = 100
+      EmptyStrToNull = True
+    end
+  end
+  object DataSourceInv: TDataSource
+    DataSet = SpisokInv
+    Left = 472
+    Top = 40
+  end
+  object pFIBDataSet2: TpFIBDataSet
+    SelectSQL.Strings = (
+      ''
+      'select *'
+      
+        'from REPORT_CHECK_RGGOODS_REV(:PARAM_POS,:PARAM_IDFIRM,:PARAM_ID' +
+        'SKLAD,:PARAM_IDINV)'
+      ''
+      '')
+    OnCalcFields = pFIBDataSet2CalcFields
+    Transaction = pFIBTransaction1
+    Database = pFIBDatabase1
+    CSMonitorSupport.Enabled = csmeTransactionDriven
+    Left = 664
+    Top = 280
+    object pFIBDataSet2OUT_IDNOM: TFIBBCDField
+      FieldName = 'OUT_IDNOM'
+      Size = 0
+      RoundByScale = True
+    end
+    object pFIBDataSet2OUT_NAMENOM: TFIBStringField
+      FieldName = 'OUT_NAMENOM'
+      Size = 100
+      EmptyStrToNull = True
+    end
+    object pFIBDataSet2OUT_IDED: TFIBBCDField
+      FieldName = 'OUT_IDED'
+      Size = 0
+      RoundByScale = True
+    end
+    object pFIBDataSet2OUT_NAMEED: TFIBStringField
+      FieldName = 'OUT_NAMEED'
+      Size = 100
+      EmptyStrToNull = True
+    end
+    object pFIBDataSet2OUT_RPRICE: TFIBBCDField
+      FieldName = 'OUT_RPRICE'
+      Size = 2
+      RoundByScale = True
+    end
+    object pFIBDataSet2OUT_KOL_RGGOODS: TFIBBCDField
+      FieldName = 'OUT_KOL_RGGOODS'
+      Size = 3
+      RoundByScale = True
+    end
+    object pFIBDataSet2OUT_KOL_REV: TFIBBCDField
+      FieldName = 'OUT_KOL_REV'
+      Size = 3
+      RoundByScale = True
+    end
+    object pFIBDataSet2OUT_KOL_RASNOST: TFIBBCDField
+      FieldName = 'OUT_KOL_RASNOST'
+      Size = 3
+      RoundByScale = True
+    end
+    object pFIBDataSet2RESULT: TIntegerField
+      FieldKind = fkCalculated
+      FieldName = 'RESULT'
+      Calculated = True
+    end
+    object pFIBDataSet2RECNO: TIntegerField
+      FieldKind = fkCalculated
+      FieldName = 'RECNO'
+      Calculated = True
+    end
+  end
+  object DataSource2: TDataSource
+    DataSet = pFIBDataSet2
+    Left = 624
+    Top = 280
+  end
+end

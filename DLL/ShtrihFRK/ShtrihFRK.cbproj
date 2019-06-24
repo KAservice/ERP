@@ -1,0 +1,210 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{d7393dbd-eb49-48ef-a9c8-8672c2ee061d}</ProjectGuid>
+			<ProjectType>CppDynamicLibrary</ProjectType>
+			<Config Condition="'$(Config)'==''">Debug Build</Config>
+			<ProjectVersion>12.0</ProjectVersion>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug Build' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release Build' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<LinkPackageStatics>rtl.lib;vcl.lib</LinkPackageStatics>
+			<DCC_Optimize>false</DCC_Optimize>
+			<OutputExt>dll</OutputExt>
+			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+			<ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+			<BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+			<BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+			<ILINK_AppType>Windows</ILINK_AppType>
+			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
+			<BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+			<BCC_ZeroLengthEmptyMemberFuncs>true</BCC_ZeroLengthEmptyMemberFuncs>
+			<DCC_MakeModifiedUnits>true</DCC_MakeModifiedUnits>
+			<FinalOutputDir>.</FinalOutputDir>
+			<TASM_AdditionalSwitches> /w2</TASM_AdditionalSwitches>
+			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;Rave77VCL.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;fs14.bpi;frx14.bpi;frxcs14.bpi;fsDB14.bpi;frxDB14.bpi;fsBDE14.bpi;frxBDE14.bpi;fsADO14.bpi;frxADO14.bpi;fsIBX14.bpi;frxIBX14.bpi;frxDBX14.bpi;frxe14.bpi;fsTee14.bpi;frxTee14.bpi;frxFIB14.bpi;fqb140.bpi;FIBPlus_CB2010.bpi;pFIBPlusTools_CB2010.bpi</PackageImports>
+			<DCC_UnitSearchPath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_UnitSearchPath>
+			<BCC_GenerateMultithreaded>true</BCC_GenerateMultithreaded>
+			<BCC_StackFrames>true</BCC_StackFrames>
+			<ILINK_WinAppType>DLL</ILINK_WinAppType>
+			<BRCC_UserSuppliedOptions> -ID:\ShtrihFRK;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BRCC_UserSuppliedOptions>
+			<BCC_PCHCache>true</BCC_PCHCache>
+			<BCC_IntegerSizedEnums>false</BCC_IntegerSizedEnums>
+			<BCC_IncludePath>D:\ShtrihFRK;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BCC_IncludePath>
+			<TASM_IncludePath>D:\ShtrihFRK;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</TASM_IncludePath>
+			<AllPackageLibs>rtl.lib;vcl.lib</AllPackageLibs>
+			<BRCC_IncludePath>D:\ShtrihFRK;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BRCC_IncludePath>
+			<DCC_IncludePath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_IncludePath>
+			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+			<BCC_ZeroLengthEmptyBaseClass>true</BCC_ZeroLengthEmptyBaseClass>
+			<ILINK_LibraryPath>D:\ShtrihFRK;$(BDS)\lib\obj;$(BDS)\lib</ILINK_LibraryPath>
+			<BCC_Defines>NO_STRICT</BCC_Defines>
+			<BCC_GenerateDLL>true</BCC_GenerateDLL>
+			<BRCC_Defines>_DEBUG</BRCC_Defines>
+			<TASM_Defines>_DEBUG</TASM_Defines>
+			<Multithreaded>true</Multithreaded>
+			<TASM_Debugging>Full</TASM_Debugging>
+			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+			<DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<IntermediateOutputDir>Debug_Build</IntermediateOutputDir>
+			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+			<ILINK_LibraryPath>$(BDS)\lib\debug</ILINK_LibraryPath>
+			<BCC_Defines>_DEBUG;$(BCC_Defines)</BCC_Defines>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+			<DCC_Optimize>true</DCC_Optimize>
+			<BCC_InlineFunctionExpansion>true</BCC_InlineFunctionExpansion>
+			<BCC_UseRegisterVariables>Always</BCC_UseRegisterVariables>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+			<IntermediateOutputDir>Release_Build</IntermediateOutputDir>
+			<BCC_StackFrames>false</BCC_StackFrames>
+			<ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<BCC_Defines>NDEBUG;$(BCC_Defines)</BCC_Defines>
+			<TASM_Debugging>None</TASM_Debugging>
+		</PropertyGroup>
+		<ProjectExtensions>
+			<Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+			<Borland.ProjectType>CppDynamicLibrary</Borland.ProjectType>
+			<BorlandProject>
+				<CPlusPlusBuilder.Personality>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">3</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">5</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">www.vustug.ru</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">Компонент для Штрих-ФР-К</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.0.0.5</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">3.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<ExcludedPackages>
+						<ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclite60.bpl">Borland Integrated Translation Environment</ExcludedPackages>
+					</ExcludedPackages>
+					<Debugging>
+						<Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+					</Debugging>
+					<Parameters>
+						<Parameters Name="RunParams"/>
+						<Parameters Name="Launcher"/>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="DebugCWD"/>
+						<Parameters Name="HostApplication">K:\Program\FIBPlus\ArmKas\Debug\PArmKas.exe</Parameters>
+						<Parameters Name="RemoteHost"/>
+						<Parameters Name="RemotePath"/>
+						<Parameters Name="RemoteLauncher"/>
+						<Parameters Name="RemoteCWD"/>
+						<Parameters Name="RemoteDebug">False</Parameters>
+						<Parameters Name="RemoteParams"/>
+						<Parameters Name="UseRemoteLauncher">False</Parameters>
+						<Parameters Name="Debug Symbols Search Path"/>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Compiler>
+						<Compiler Name="ShowInfoMsgs">0</Compiler>
+						<Compiler Name="LinkDebugVcl">0</Compiler>
+						<Compiler Name="LinkCGLIB">0</Compiler>
+					</Compiler>
+					<CORBA>
+						<CORBA Name="AddServerUnit">1</CORBA>
+						<CORBA Name="AddClientUnit">1</CORBA>
+						<CORBA Name="PrecompiledHeaders">1</CORBA>
+					</CORBA>
+					<Linker>
+						<Linker Name="LibPrefix"/>
+						<Linker Name="LibSuffix"/>
+						<Linker Name="LibVersion"/>
+					</Linker>
+					<ProjectProperties>
+						<ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+						<ProjectProperties Name="ManagePaths">True</ProjectProperties>
+						<ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+					</ProjectProperties>
+					<HistoryLists_hlFinalOutputDir>
+						<HistoryLists_hlFinalOutputDir Name="Count">1</HistoryLists_hlFinalOutputDir>
+						<HistoryLists_hlFinalOutputDir Name="Item0">.</HistoryLists_hlFinalOutputDir>
+					</HistoryLists_hlFinalOutputDir>
+					<HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug</HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Item1">$(BDS)\lib\debug;$(BDS)\lib\obj;$(BDS)\lib</HistoryLists_hlILINK_LibraryPath>
+					</HistoryLists_hlILINK_LibraryPath>
+					<HistoryLists_hlIntermediateOutputDir>
+						<HistoryLists_hlIntermediateOutputDir Name="Count">1</HistoryLists_hlIntermediateOutputDir>
+						<HistoryLists_hlIntermediateOutputDir Name="Item0">Debug_Build</HistoryLists_hlIntermediateOutputDir>
+					</HistoryLists_hlIntermediateOutputDir>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcboffice2k140.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcbofficexp140.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+					</Excluded_Packages>
+					<HistoryLists_hlILINK_MaxErrors>
+						<HistoryLists_hlILINK_MaxErrors Name="Count">1</HistoryLists_hlILINK_MaxErrors>
+						<HistoryLists_hlILINK_MaxErrors Name="Item0">0</HistoryLists_hlILINK_MaxErrors>
+					</HistoryLists_hlILINK_MaxErrors>
+					<HistoryLists_hlILINK_FileAlignment>
+						<HistoryLists_hlILINK_FileAlignment Name="Count">1</HistoryLists_hlILINK_FileAlignment>
+						<HistoryLists_hlILINK_FileAlignment Name="Item0">0x200</HistoryLists_hlILINK_FileAlignment>
+					</HistoryLists_hlILINK_FileAlignment>
+					<HistoryLists_hlILINK_ObjectAlignment>
+						<HistoryLists_hlILINK_ObjectAlignment Name="Count">1</HistoryLists_hlILINK_ObjectAlignment>
+						<HistoryLists_hlILINK_ObjectAlignment Name="Item0">4096</HistoryLists_hlILINK_ObjectAlignment>
+					</HistoryLists_hlILINK_ObjectAlignment>
+				</CPlusPlusBuilder.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup>
+			<CppCompile Include="UShtrihFRK.cpp">
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="ShtrihFRK.res">
+				<BuildOrder>0</BuildOrder>
+			</ResFiles>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release Build">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug Build">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+	</Project>

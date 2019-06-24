@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.09.19 12:20:21.812.cpp,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\File1.cpp=K:\DLL\Report\ReportAnalisNom\RepAnalisNom.cpp</Transaction>
+    <Transaction>2009.09.19 12:20:31.906.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DLL\Report\ReportAnalisNom\RepAnalisNom.cbproj</Transaction>
+    <Transaction>2009.09.19 12:22:28.515.cpp,K:\DLL\Report\ReportAnalisNom\Unit1.cpp=K:\DLL\Report\ReportAnalisNom\UFormaDialoga.cpp</Transaction>
+    <Transaction>2009.09.19 12:22:28.515.h,K:\DLL\Report\ReportAnalisNom\Unit1.h=K:\DLL\Report\ReportAnalisNom\UFormaDialoga.h</Transaction>
+    <Transaction>2009.09.19 12:22:28.515.dfm,K:\DLL\Report\ReportAnalisNom\Unit1.dfm=K:\DLL\Report\ReportAnalisNom\UFormaDialoga.dfm</Transaction>
+    <Transaction>2009.09.19 17:48:31.375.cpp,K:\DLL\Report\ReportAnalisNom\Unit1.cpp=K:\DLL\Report\ReportAnalisNom\UFormaGrafikPoDnyam.cpp</Transaction>
+    <Transaction>2009.09.19 17:48:31.375.h,K:\DLL\Report\ReportAnalisNom\Unit1.h=K:\DLL\Report\ReportAnalisNom\UFormaGrafikPoDnyam.h</Transaction>
+    <Transaction>2009.09.19 17:48:31.375.dfm,K:\DLL\Report\ReportAnalisNom\Unit1.dfm=K:\DLL\Report\ReportAnalisNom\UFormaGrafikPoDnyam.dfm</Transaction>
+    <Transaction>2009.09.19 21:03:00.281.cpp,K:\DLL\Report\ReportAnalisNom\Unit1.cpp=K:\DLL\Report\ReportAnalisNom\UFormaChart.cpp</Transaction>
+    <Transaction>2009.09.19 21:03:00.281.h,K:\DLL\Report\ReportAnalisNom\Unit1.h=K:\DLL\Report\ReportAnalisNom\UFormaChart.h</Transaction>
+    <Transaction>2009.09.19 21:03:00.281.dfm,K:\DLL\Report\ReportAnalisNom\Unit1.dfm=K:\DLL\Report\ReportAnalisNom\UFormaChart.dfm</Transaction>
+    <Transaction>2009.09.23 09:36:29.952.cbproj,K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNom.cbproj=K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj</Transaction>
+    <Transaction>2009.09.23 10:43:26.990.cpp,K:\DLL\Report\ReportAnalisNomPoPost\RepAnalisNomPoPost.cpp=</Transaction>
+    <Transaction>2009.09.23 10:43:26.993.cpp,K:\DLL\Report\ReportAnalisNomPoPost\UFormaChart.cpp=</Transaction>
+    <Transaction>2009.09.23 10:43:26.993.dfm,K:\DLL\Report\ReportAnalisNomPoPost\UFormaChart.dfm=</Transaction>
+    <Transaction>2009.09.23 10:43:44.973.cpp,K:\DLL\Report\ReportAnalisNomPoPost\UFormaGrafikPoDnyam.cpp=</Transaction>
+    <Transaction>2009.09.23 10:43:44.973.dfm,K:\DLL\Report\ReportAnalisNomPoPost\UFormaGrafikPoDnyam.dfm=</Transaction>
+    <Transaction>2009.09.23 10:44:00.687.cpp,K:\DLL\Report\ReportAnalisNomPoPost\UFormaReport.cpp=</Transaction>
+    <Transaction>2009.09.23 10:44:00.687.dfm,K:\DLL\Report\ReportAnalisNomPoPost\UFormaReport.dfm=</Transaction>
+    <Transaction>2009.09.23 10:44:10.090.cpp,K:\DLL\Report\ReportAnalisNomPoPost\UFormaDialoga.cpp=</Transaction>
+    <Transaction>2009.09.23 10:44:10.090.dfm,K:\DLL\Report\ReportAnalisNomPoPost\UFormaDialoga.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

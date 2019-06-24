@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.09.12 19:32:49.468.cpp,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\File1.cpp=K:\DLL\Report\ReportPoGrpNom\RepPoGrpNom.cpp</Transaction>
+    <Transaction>2009.09.12 19:33:03.234.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DLL\Report\ReportPoGrpNom\RepPoGrpNom.cbproj</Transaction>
+    <Transaction>2009.09.12 19:33:53.468.cpp,K:\DLL\Report\ReportPoGrpNom\Unit1.cpp=K:\DLL\Report\ReportPoGrpNom\UFormaDialog.cpp</Transaction>
+    <Transaction>2009.09.12 19:33:53.468.h,K:\DLL\Report\ReportPoGrpNom\Unit1.h=K:\DLL\Report\ReportPoGrpNom\UFormaDialog.h</Transaction>
+    <Transaction>2009.09.12 19:33:53.468.dfm,K:\DLL\Report\ReportPoGrpNom\Unit1.dfm=K:\DLL\Report\ReportPoGrpNom\UFormaDialog.dfm</Transaction>
+    <Transaction>2009.09.16 10:28:32.721.cpp,K:\FIB_DataModule\DM\UDM.cpp=</Transaction>
+    <Transaction>2009.09.16 10:28:32.721.dfm,K:\FIB_DataModule\DM\UDM.dfm=</Transaction>
+    <Transaction>2009.09.16 10:28:36.903.cpp,K:\FIB_DataModule\Setup\UDMSetup.cpp=</Transaction>
+    <Transaction>2009.09.16 10:28:36.903.dfm,K:\FIB_DataModule\Setup\UDMSetup.dfm=</Transaction>
+    <Transaction>2009.09.16 10:28:41.812.cpp,K:\FIB_DataModule\SprUser\UDMSprUser.cpp=</Transaction>
+    <Transaction>2009.09.16 10:28:41.813.dfm,K:\FIB_DataModule\SprUser\UDMSprUser.dfm=</Transaction>
+    <Transaction>2009.09.16 12:41:45.890.cpp,K:\DLL\Report\ReportGurCheck\UFormaGur.cpp=</Transaction>
+    <Transaction>2009.09.16 12:41:45.890.dfm,K:\DLL\Report\ReportGurCheck\UFormaGur.dfm=</Transaction>
+    <Transaction>2009.09.16 17:31:39.702.cpp,K:\FIB_DataModule\DM\UDM.cpp=</Transaction>
+    <Transaction>2009.09.16 17:31:39.702.dfm,K:\FIB_DataModule\DM\UDM.dfm=</Transaction>
+    <Transaction>2009.09.16 17:31:43.777.cpp,K:\FIB_DataModule\Setup\UDMSetup.cpp=</Transaction>
+    <Transaction>2009.09.16 17:31:43.777.dfm,K:\FIB_DataModule\Setup\UDMSetup.dfm=</Transaction>
+    <Transaction>2009.09.16 17:31:51.728.cpp,K:\FIB_DataModule\SprUser\UDMSprUser.cpp=</Transaction>
+    <Transaction>2009.09.16 17:31:51.728.dfm,K:\FIB_DataModule\SprUser\UDMSprUser.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

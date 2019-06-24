@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.12.31 10:50:31.218.cpp,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\File1.cpp=K:\DLL\MskVcl\UMskVcl.cpp</Transaction>
+    <Transaction>2008.12.31 10:50:37.968.cbproj,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DLL\MskVcl\MskVcl.cbproj</Transaction>
+    <Transaction>2008.12.31 11:22:14.687.cpp,K:\DLL\MskVcl\Unit1.cpp=K:\DLL\MskVcl\UMSK.cpp</Transaction>
+    <Transaction>2008.12.31 11:22:14.687.h,K:\DLL\MskVcl\Unit1.h=K:\DLL\MskVcl\UMSK.h</Transaction>
+    <Transaction>2008.12.31 11:22:14.687.dfm,K:\DLL\MskVcl\Unit1.dfm=K:\DLL\MskVcl\UMSK.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

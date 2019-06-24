@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{1094BF2B-8E8E-4EBC-9628-EB843CAC02D6}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ShtrihFRK.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="ShtrihFRK">
+			<MSBuild Projects="ShtrihFRK.cbproj"/>
+		</Target>
+		<Target Name="ShtrihFRK:Clean">
+			<MSBuild Targets="Clean" Projects="ShtrihFRK.cbproj"/>
+		</Target>
+		<Target Name="ShtrihFRK:Make">
+			<MSBuild Targets="Make" Projects="ShtrihFRK.cbproj"/>
+		</Target>
+		<Target Name="PArmKas">
+			<MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Clean">
+			<MSBuild Targets="Clean" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="PArmKas:Make">
+			<MSBuild Targets="Make" Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="ShtrihFRK;PArmKas"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="ShtrihFRK:Clean;PArmKas:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="ShtrihFRK:Make;PArmKas:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

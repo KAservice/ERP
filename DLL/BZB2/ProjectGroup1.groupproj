@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{e1269387-bed2-4967-9640-db8cac5880df}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="bzb2.cbproj" />
+    <Projects Include="K:\Program\FIBPlus\Admin\PAdmin.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="bzb2">
+    <MSBuild Projects="bzb2.cbproj" Targets="" />
+  </Target>
+  <Target Name="bzb2:Clean">
+    <MSBuild Projects="bzb2.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="bzb2:Make">
+    <MSBuild Projects="bzb2.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="PAdmin">
+    <MSBuild Projects="K:\Program\FIBPlus\Admin\PAdmin.cbproj" Targets="" />
+  </Target>
+  <Target Name="PAdmin:Clean">
+    <MSBuild Projects="K:\Program\FIBPlus\Admin\PAdmin.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PAdmin:Make">
+    <MSBuild Projects="K:\Program\FIBPlus\Admin\PAdmin.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="bzb2;PAdmin" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="bzb2:Clean;PAdmin:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="bzb2:Make;PAdmin:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

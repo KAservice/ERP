@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5a3d1c30-145e-4b2d-82e0-5e63b25b4e7b}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="DisplayAtolDP04.cbproj" />
+    <Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="DisplayAtolDP04">
+    <MSBuild Projects="DisplayAtolDP04.cbproj" Targets="" />
+  </Target>
+  <Target Name="DisplayAtolDP04:Clean">
+    <MSBuild Projects="DisplayAtolDP04.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="DisplayAtolDP04:Make">
+    <MSBuild Projects="DisplayAtolDP04.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="PArmKas">
+    <MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" Targets="" />
+  </Target>
+  <Target Name="PArmKas:Clean">
+    <MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PArmKas:Make">
+    <MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="DisplayAtolDP04;PArmKas" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="DisplayAtolDP04:Clean;PArmKas:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="DisplayAtolDP04:Make;PArmKas:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

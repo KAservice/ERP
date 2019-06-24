@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{CAD9AB8C-8EAD-4248-BE62-509F05A86609}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ReportAnalisNom\RepAnalisNom.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="RepAnalisNom">
+			<MSBuild Projects="ReportAnalisNom\RepAnalisNom.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNom:Clean">
+			<MSBuild Targets="Clean" Projects="ReportAnalisNom\RepAnalisNom.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNom:Make">
+			<MSBuild Targets="Make" Projects="ReportAnalisNom\RepAnalisNom.cbproj"/>
+		</Target>
+		<Target Name="RepAlcDeclVologda">
+			<MSBuild Projects="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj"/>
+		</Target>
+		<Target Name="RepAlcDeclVologda:Clean">
+			<MSBuild Targets="Clean" Projects="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj"/>
+		</Target>
+		<Target Name="RepAlcDeclVologda:Make">
+			<MSBuild Targets="Make" Projects="AlkDeclarac\Vologda\RepAlcDeclVologda.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNomPoPost">
+			<MSBuild Projects="ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNomPoPost:Clean">
+			<MSBuild Targets="Clean" Projects="ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj"/>
+		</Target>
+		<Target Name="RepAnalisNomPoPost:Make">
+			<MSBuild Targets="Make" Projects="ReportAnalisNomPoPost\RepAnalisNomPoPost.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="RepAnalisNom;RepAlcDeclVologda;RepAnalisNomPoPost"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="RepAnalisNom:Clean;RepAlcDeclVologda:Clean;RepAnalisNomPoPost:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="RepAnalisNom:Make;RepAlcDeclVologda:Make;RepAnalisNomPoPost:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

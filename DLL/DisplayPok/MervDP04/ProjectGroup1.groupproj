@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{03d72c90-7db9-4dc4-acd2-842dd82dc7fa}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" />
+    <Projects Include="MercDP04.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="MercDP04">
+    <MSBuild Projects="MercDP04.cbproj" Targets="" />
+  </Target>
+  <Target Name="MercDP04:Clean">
+    <MSBuild Projects="MercDP04.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="MercDP04:Make">
+    <MSBuild Projects="MercDP04.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="PArmKas">
+    <MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" Targets="" />
+  </Target>
+  <Target Name="PArmKas:Clean">
+    <MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PArmKas:Make">
+    <MSBuild Projects="K:\Program\FIBPlus\ArmKas\PArmKas.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="MercDP04;PArmKas" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="MercDP04:Clean;PArmKas:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="MercDP04:Make;PArmKas:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

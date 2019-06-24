@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.09.16 10:00:33.276.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\File1.cpp=K:\DLL\Report\ReportGurCheck\ReportGurCheck.cpp</Transaction>
+    <Transaction>2009.09.16 10:00:45.640.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\DLL\Report\ReportGurCheck\RepGurCheck.cbproj</Transaction>
+    <Transaction>2009.09.16 10:03:46.860.cpp,K:\DLL\Report\ReportGurCheck\Unit1.cpp=K:\DLL\Report\ReportGurCheck\UFormaGur.cpp</Transaction>
+    <Transaction>2009.09.16 10:03:46.860.h,K:\DLL\Report\ReportGurCheck\Unit1.h=K:\DLL\Report\ReportGurCheck\UFormaGur.h</Transaction>
+    <Transaction>2009.09.16 10:03:46.860.dfm,K:\DLL\Report\ReportGurCheck\Unit1.dfm=K:\DLL\Report\ReportGurCheck\UFormaGur.dfm</Transaction>
+    <Transaction>2009.09.16 19:03:33.859.cpp,K:\FIB_DataModule\SprUser\UDMSprUser.cpp=</Transaction>
+    <Transaction>2009.09.16 19:03:33.859.dfm,K:\FIB_DataModule\SprUser\UDMSprUser.dfm=</Transaction>
+    <Transaction>2009.09.16 19:03:38.546.cpp,K:\FIB_DataModule\Setup\UDMSetup.cpp=</Transaction>
+    <Transaction>2009.09.16 19:03:38.546.dfm,K:\FIB_DataModule\Setup\UDMSetup.dfm=</Transaction>
+    <Transaction>2009.09.16 19:03:44.140.cpp,K:\FIB_DataModule\DM\UDM.cpp=</Transaction>
+    <Transaction>2009.09.16 19:03:44.140.dfm,K:\FIB_DataModule\DM\UDM.dfm=</Transaction>
+    <Transaction>2009.10.17 10:34:10.671.cpp,K:\DLL\Report\ReportGurCheck\UFormaGur.cpp=K:\DLL\Report\ReportCheckRev\UFormaReport.cpp</Transaction>
+    <Transaction>2009.10.17 10:34:10.671.h,K:\DLL\Report\ReportGurCheck\UFormaGur.h=K:\DLL\Report\ReportCheckRev\UFormaReport.h</Transaction>
+    <Transaction>2009.10.17 10:34:10.671.dfm,K:\DLL\Report\ReportGurCheck\UFormaGur.dfm=K:\DLL\Report\ReportCheckRev\UFormaReport.dfm</Transaction>
+    <Transaction>2010.03.11 09:21:00.891.cpp,K:\DLL\Report\ReportCheckRev\UFormaReport.cpp=</Transaction>
+    <Transaction>2010.03.11 09:21:00.891.dfm,K:\DLL\Report\ReportCheckRev\UFormaReport.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

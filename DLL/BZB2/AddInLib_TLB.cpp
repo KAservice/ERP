@@ -1,0 +1,64 @@
+// ************************************************************************ //
+// WARNING                                                                    
+// -------                                                                    
+// The types declared in this file were generated from data read from a       
+// Type Library. If this type library is explicitly or indirectly (via        
+// another type library referring to this type library) re-imported, or the   
+// 'Refresh' command of the Type Library Editor activated while editing the   
+// Type Library, the contents of this file will be regenerated and all        
+// manual modifications will be lost.                                         
+// ************************************************************************ //
+
+// $Rev: 5081 $
+// File generated on 25.03.2009 20:57:27 from Type Library described below.
+
+// ************************************************************************  //
+// Type Lib: C:\Program Files\SCANCODE\Компонента 1С для принтеров Godex (ESC)\GodexESC.dll (1)
+// LIBID: {4F0D4571-0E7B-11D1-A486-004095E1DAEA}
+// LCID: 0
+// Helpfile: 
+// HelpString: V7 AddIn 1.0 Type Library
+// DepndLst: 
+//   (1) v2.0 stdole, (C:\WINDOWS\system32\stdole2.tlb)
+// Errors:
+//   Error creating palette bitmap of (TAddIn) : No Server registered for this CoClass
+//   Error creating palette bitmap of (TAddInConnection) : No Server registered for this CoClass
+// ************************************************************************ //
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "AddInLib_TLB.h"
+
+#if !defined(__PRAGMA_PACKAGE_SMART_INIT)
+#define      __PRAGMA_PACKAGE_SMART_INIT
+#pragma package(smart_init)
+#endif
+
+namespace Addinlib_tlb
+{
+
+
+// *********************************************************************//
+// GUIDS declared in the TypeLibrary                                      
+// *********************************************************************//
+const GUID LIBID_AddInLib = {0x4F0D4571, 0x0E7B, 0x11D1,{ 0xA4, 0x86, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+const GUID CLSID_AddIn = {0xE69033E7, 0x1757, 0x459B,{ 0xB5, 0x2E, 0xB1,0x5C, 0xD7, 0xAC,0xBB, 0x55} };
+const GUID IID_IInitDone = {0xAB634001, 0xF13D, 0x11D0,{ 0xA4, 0x59, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+const GUID IID_ILanguageExtender = {0xAB634003, 0xF13D, 0x11D0,{ 0xA4, 0x59, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+const GUID IID_IPropertyPage = {0xB196B28D, 0xBAB4, 0x101A,{ 0xB6, 0x9C, 0x00,0xAA, 0x00, 0x34,0x1D, 0x07} };
+const GUID IID_IPropertyPageSite = {0xB196B28C, 0xBAB4, 0x101A,{ 0xB6, 0x9C, 0x00,0xAA, 0x00, 0x34,0x1D, 0x07} };
+const GUID GUID_tagMSG = {0x00000000, 0x0000, 0x0000,{ 0x00, 0x00, 0x00,0x00, 0x00, 0x00,0x00, 0x00} };
+const GUID GUID__RemotableHandle = {0x00000000, 0x0000, 0x0000,{ 0x00, 0x00, 0x00,0x00, 0x00, 0x00,0x00, 0x00} };
+const GUID GUID_tagPOINT = {0x00000000, 0x0000, 0x0000,{ 0x00, 0x00, 0x00,0x00, 0x00, 0x00,0x00, 0x00} };
+const GUID GUID_tagRECT = {0x00000000, 0x0000, 0x0000,{ 0x00, 0x00, 0x00,0x00, 0x00, 0x00,0x00, 0x00} };
+const GUID GUID_tagPROPPAGEINFO = {0x00000000, 0x0000, 0x0000,{ 0x00, 0x00, 0x00,0x00, 0x00, 0x00,0x00, 0x00} };
+const GUID GUID_tagSIZE = {0x00000000, 0x0000, 0x0000,{ 0x00, 0x00, 0x00,0x00, 0x00, 0x00,0x00, 0x00} };
+const GUID CLSID_AddInConnection = {0x912B7391, 0x250D, 0x11D1,{ 0xA4, 0xC8, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+const GUID IID_IPropertyProfile = {0xAB634002, 0xF13D, 0x11D0,{ 0xA4, 0x59, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+const GUID IID_IPropertyBag = {0x55272A00, 0x42CB, 0x11CE,{ 0x81, 0x35, 0x00,0xAA, 0x00, 0x4B,0xB8, 0x51} };
+const GUID IID_IErrorLog = {0x3127CA40, 0x446E, 0x11CE,{ 0x81, 0x35, 0x00,0xAA, 0x00, 0x4B,0xB8, 0x51} };
+const GUID IID_IAsyncEvent = {0xAB634004, 0xF13D, 0x11D0,{ 0xA4, 0x59, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+const GUID IID_IStatusLine = {0xAB634005, 0xF13D, 0x11D0,{ 0xA4, 0x59, 0x00,0x40, 0x95, 0xE1,0xDA, 0xEA} };
+
+};     // namespace Addinlib_tlb

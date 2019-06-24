@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.09.19 17:06:32.875.cbproj,C:\Documents and Settings\fgg\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\DLL\Scaner\Scaner.cbproj</Transaction>
+    <Transaction>2010.04.07 16:46:51.424.cbproj,K:\DLL\ScanersBarCode\Scaner64\Scaner.cbproj=K:\DLL\ScanersBarCode\Scaner64\Scaner64.cbproj</Transaction>
+    <Transaction>2010.04.08 12:19:58.457.cpp,K:\DLL\ScanersBarCode\Scaner64\UScaner.cpp=</Transaction>
+    <Transaction>2010.04.08 12:20:02.558.res,K:\DLL\ScanersBarCode\Scaner64\Scaner64.res=</Transaction>
+    <Transaction>2010.04.08 12:20:08.549.cpp,K:\DLL\ScanersBarCode\Scaner64\UTComPort.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>
