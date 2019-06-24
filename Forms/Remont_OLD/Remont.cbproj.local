@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.04.22 19:57:03.593.cpp,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\Unit1.cpp=F:\Hotel\Remont\UMainForm.cpp</Transaction>
+    <Transaction>2008.04.22 19:57:03.593.h,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\Unit1.h=F:\Hotel\Remont\UMainForm.h</Transaction>
+    <Transaction>2008.04.22 19:57:03.593.dfm,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\Unit1.dfm=F:\Hotel\Remont\UMainForm.dfm</Transaction>
+    <Transaction>2008.04.22 19:57:19.234.cbproj,C:\Documents and Settings\Администратор\Мои документы\RAD Studio\Projects\Project1.cbproj=F:\Hotel\Remont\Remont.cbproj</Transaction>
+    <Transaction>2008.04.23 11:36:18.203.cpp,F:\Hotel\REM_SprGrpNeispr\UREM_DMSprGrpNeispr.cpp=F:\Hotel\REM_SprNeispr\UREM_DMSprGrpNeispr.cpp</Transaction>
+    <Transaction>2008.04.23 11:36:18.218.h,F:\Hotel\REM_SprGrpNeispr\UREM_DMSprGrpNeispr.h=F:\Hotel\REM_SprNeispr\UREM_DMSprGrpNeispr.h</Transaction>
+    <Transaction>2008.04.23 11:36:18.218.dfm,F:\Hotel\REM_SprGrpNeispr\UREM_DMSprGrpNeispr.dfm=F:\Hotel\REM_SprNeispr\UREM_DMSprGrpNeispr.dfm</Transaction>
+    <Transaction>2008.04.23 11:36:29.890.cpp,F:\Hotel\REM_SprGrpNeispr\UREM_DMSprNeispr.cpp=F:\Hotel\REM_SprNeispr\UREM_DMSprNeispr.cpp</Transaction>
+    <Transaction>2008.04.23 11:36:29.890.h,F:\Hotel\REM_SprGrpNeispr\UREM_DMSprNeispr.h=F:\Hotel\REM_SprNeispr\UREM_DMSprNeispr.h</Transaction>
+    <Transaction>2008.04.23 11:36:29.890.dfm,F:\Hotel\REM_SprGrpNeispr\UREM_DMSprNeispr.dfm=F:\Hotel\REM_SprNeispr\UREM_DMSprNeispr.dfm</Transaction>
+    <Transaction>2008.04.23 11:39:50.078.cpp,F:\Hotel\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.cpp=</Transaction>
+    <Transaction>2008.04.23 19:14:22.625.cpp,F:\Hotel\REM_SprTypeRemont\UREM_DMSprTypePrice.cpp=F:\Hotel\REM_SprTypeRemont\UREM_DMSprTypeRemont.cpp</Transaction>
+    <Transaction>2008.04.23 19:14:22.625.h,F:\Hotel\REM_SprTypeRemont\UREM_DMSprTypePrice.h=F:\Hotel\REM_SprTypeRemont\UREM_DMSprTypeRemont.h</Transaction>
+    <Transaction>2008.04.23 19:14:22.625.dfm,F:\Hotel\REM_SprTypeRemont\UREM_DMSprTypePrice.dfm=F:\Hotel\REM_SprTypeRemont\UREM_DMSprTypeRemont.dfm</Transaction>
+    <Transaction>2008.04.26 11:18:46.609.cpp,F:\Hotel\REM_GurZ\UREM_DMZayavkaDv.cpp=</Transaction>
+    <Transaction>2008.04.26 11:18:46.609.dfm,F:\Hotel\REM_GurZ\UREM_DMZayavkaDv.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

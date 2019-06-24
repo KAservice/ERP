@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.06.25 14:38:14.509.cpp,C:\Users\1\Documents\RAD Studio\Projects\File1.cpp=K:\ComClasses\DLL\FibConnection\DllFibConnection.cpp</Transaction>
+    <Transaction>2010.06.25 14:38:29.062.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\ComClasses\DLL\FibConnection\PDllFibConnection.cbproj</Transaction>
+    <Transaction>2010.06.25 14:51:44.876.cpp,K:\ComClasses\DLL\FibConnection\UFibConnectionCF.cpp=K:\ComClasses\DLL\FibConnection\UDMFibConnectionCF.cpp</Transaction>
+    <Transaction>2010.06.25 14:51:44.876.h,K:\ComClasses\DLL\FibConnection\UFibConnectionCF.h=K:\ComClasses\DLL\FibConnection\UDMFibConnectionCF.h</Transaction>
+    <Transaction>2010.06.25 17:19:19.637.cbproj,K:\ComClasses\DLL\FibConnection\PDllFibConnection.cbproj=K:\ComClasses\DLL\FibConnection\DllFibConnection.cbproj</Transaction>
+    <Transaction>2010.06.29 18:01:00.506.h,K:\ComClasses\DLL\FibConnection\File1.h=K:\Interface\IMainInterface.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

@@ -1,0 +1,169 @@
+object FormaElementaSprDocKlientMod: TFormaElementaSprDocKlientMod
+  Left = 516
+  Top = 68
+  Caption = #1045#1083#1077#1084#1077#1085#1090' '#1089#1087#1088#1072#1074#1086#1095#1085#1080#1082#1072' "'#1044#1086#1082#1091#1084#1077#1085#1090#1099' '#1082#1086#1085#1090#1088#1072#1075#1077#1085#1090#1086#1074'"'
+  ClientHeight = 175
+  ClientWidth = 441
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 120
+  TextHeight = 20
+  object Label3: TLabel
+    Left = 10
+    Top = 20
+    Width = 117
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = #1053#1072#1080#1084#1077#1085#1086#1074#1072#1085#1080#1077':'
+  end
+  object Label4: TLabel
+    Left = 300
+    Top = 80
+    Width = 101
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = #1044#1072#1090#1072' '#1074#1099#1076#1072#1095#1080
+  end
+  object Label2: TLabel
+    Left = 10
+    Top = 80
+    Width = 51
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = #1057#1077#1088#1080#1103':'
+    FocusControl = SerDBEdit
+  end
+  object Label5: TLabel
+    Left = 150
+    Top = 80
+    Width = 54
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = #1053#1086#1084#1077#1088':'
+    FocusControl = NumDBEdit
+  end
+  object Label6: TLabel
+    Left = 10
+    Top = 140
+    Width = 55
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = #1042#1099#1076#1072#1085':'
+    FocusControl = VidDBEdit
+  end
+  object ButtonClose: TButton
+    Left = 460
+    Top = 200
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = #1047#1072#1082#1088#1099#1090#1100
+    TabOrder = 0
+    OnClick = ButtonCloseClick
+  end
+  object ButtonOK: TButton
+    Left = 360
+    Top = 200
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'OK'
+    TabOrder = 1
+    OnClick = ButtonOKClick
+  end
+  object DateVid: TDateTimePicker
+    Left = 300
+    Top = 100
+    Width = 141
+    Height = 28
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Date = 38821.455829525500000000
+    Time = 38821.455829525500000000
+    TabOrder = 2
+    OnChange = DateVidChange
+  end
+  object NameDocDBEdit: TDBEdit
+    Left = 10
+    Top = 40
+    Width = 541
+    Height = 24
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    DataField = 'NAME_SDOCKLIENT'
+    DataSource = DMSprDocKlient.DataSourceElement
+    TabOrder = 3
+  end
+  object SerDBEdit: TDBEdit
+    Left = 10
+    Top = 100
+    Width = 121
+    Height = 24
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    DataField = 'SER_SDOCKLIENT'
+    DataSource = DMSprDocKlient.DataSourceElement
+    TabOrder = 4
+  end
+  object NumDBEdit: TDBEdit
+    Left = 150
+    Top = 100
+    Width = 131
+    Height = 24
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    DataField = 'NUM_SDOCKLIENT'
+    DataSource = DMSprDocKlient.DataSourceElement
+    TabOrder = 5
+  end
+  object VidDBEdit: TDBEdit
+    Left = 10
+    Top = 160
+    Width = 541
+    Height = 24
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    DataField = 'VID_SDOCKLIENT'
+    DataSource = DMSprDocKlient.DataSourceElement
+    TabOrder = 6
+  end
+end

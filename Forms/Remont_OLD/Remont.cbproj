@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{bd822685-47ed-4475-8eeb-cca296e25cec}</ProjectGuid>
+    <MainSource>Remont.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Debug</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+    <Base>true</Base>
+    <Cfg_1>true</Cfg_1>
+    <CfgParent>Base</CfgParent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+    <Base>true</Base>
+    <Cfg_2>true</Cfg_2>
+    <CfgParent>Base</CfgParent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <OutputExt>exe</OutputExt>
+    <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+    <Defines>NO_STRICT</Defines>
+    <DynamicRTL>true</DynamicRTL>
+    <ILINK_ObjectSearchPath>F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</ILINK_ObjectSearchPath>
+    <UsePackages>true</UsePackages>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <PackageImports>vclx.bpi;vcl.bpi;dbrtl.bpi;Rave75VCL.bpi;bdertl.bpi;rtl.bpi;bcbie.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vcldb.bpi;vcldbx.bpi;dsnap.bpi;dsnapcon.bpi;teeUI.bpi;teedb.bpi;tee.bpi;adortl.bpi;vclib.bpi;ibxpress.bpi;dbxcds.bpi;dbexpress.bpi;DbxCommonDriver.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;IntrawebDB_90_100.bpi;Intraweb_90_100.bpi;vclie.bpi;websnap.bpi;webdsnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;dxGDIPlusC11.bpi;cxLibraryC11.bpi;dxThemeC11.bpi;cxEditorsC11.bpi;cxDataC11.bpi;cxExtEditorsC11.bpi;cxPageControlC11.bpi;cxGridC11.bpi;dxmdsC11.bpi;cxSpreadSheetC11.bpi;dxComnC11.bpi;dxPSCoreC11.bpi;dxPSLnksC11.bpi;dxPScxCommonC11.bpi;dxPScxGrid6LnkC11.bpi;dxPScxPCProdC11.bpi;dxPScxSSLnkC11.bpi;dxPSTeeChartC11.bpi;dxPScxExtCommonC11.bpi;dxPSDBTeeChartC11.bpi;FIBPlus_CB2007.bpi;FIBPlusEditors_CB2007.bpi;FIBPlusTools_CB2007.bpi</PackageImports>
+    <BCC_wpar>false</BCC_wpar>
+    <PackageLibs>cxExportC11.lib;cxExportC11.lib</PackageLibs>
+    <IncludePath>$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</IncludePath>
+    <AllPackageLibs>cxExportC11.lib;rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;ibxpress.lib;dsnap.lib;cxLibraryC11.lib;dxThemeC11.lib;dxGDIPlusC11.lib;cxEditorsC11.lib;cxDataC11.lib;cxGridC11.lib;cxExportC11.lib;cxExtEditorsC11.lib;vclx.lib;cxPageControlC11.lib;FIBPlus_CB2007.lib;adortl.lib</AllPackageLibs>
+    <ILINK_LibraryPath>$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</ILINK_LibraryPath>
+    <Multithreaded>true</Multithreaded>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_1)'!=''">
+    <BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+    <DCC_Optimize>false</DCC_Optimize>
+    <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+    <Defines>_DEBUG;$(Defines)</Defines>
+    <DynamicRTL>false</DynamicRTL>
+    <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+    <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+    <ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+    <BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+    <DCC_Define>DEBUG</DCC_Define>
+    <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+    <IntermediateOutputDir>Debug</IntermediateOutputDir>
+    <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+    <BCC_StackFrames>true</BCC_StackFrames>
+    <IncludePath>..\Remont;K:\Components\FIBPlus\sources;K:\Components\Gardant\KLKNANN\Include;$(IncludePath)</IncludePath>
+    <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+    <ILINK_LibraryPath>$(BDS)\lib\debug;..\Remont;K:\Components\FIBPlus\Library;K:\Components\Gardant\KLKNANN\Lib;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <TASM_Debugging>Full</TASM_Debugging>
+    <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_2)'!=''">
+    <Defines>NDEBUG;$(Defines)</Defines>
+    <IntermediateOutputDir>Release</IntermediateOutputDir>
+    <ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <TASM_Debugging>None</TASM_Debugging>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><CPlusPlusBuilder.Personality><Source><Source Name="MainSource">Remont.cpp</Source></Source><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">4</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">6</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">ООО "Оберон"</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Модуль "Сервисный центр"</VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.4.0.6</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.4.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Debugging><Debugging Name="DebugSourceDirs"></Debugging></Debugging><Parameters><Parameters Name="RunParams"></Parameters><Parameters Name="Launcher"></Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="DebugCWD"></Parameters><Parameters Name="HostApplication"></Parameters><Parameters Name="RemoteHost"></Parameters><Parameters Name="RemotePath"></Parameters><Parameters Name="RemoteParams"></Parameters><Parameters Name="RemoteLauncher"></Parameters><Parameters Name="UseRemoteLauncher">False</Parameters><Parameters Name="RemoteCWD"></Parameters><Parameters Name="RemoteDebug">False</Parameters><Parameters Name="Debug Symbols Search Path"></Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="$(BDS)\bin\bcboffice2k100.bpl">CodeGear C++Builder Office 2000 Servers Package</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\bcbofficexp100.bpl">CodeGear C++Builder Office XP Servers Package</Excluded_Packages>
+    </Excluded_Packages><Linker><Linker Name="LibPrefix"></Linker><Linker Name="LibSuffix"></Linker><Linker Name="LibVersion"></Linker></Linker><ProjectProperties><ProjectProperties Name="AutoShowDeps">False</ProjectProperties><ProjectProperties Name="ManagePaths">True</ProjectProperties><ProjectProperties Name="VerifyPackages">True</ProjectProperties></ProjectProperties><HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Count">10</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item0">..\Remont;K:\Components\FIBPlus\sources;K:\Components\Gardant\KLKNANN\Include;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item1">..\Remont;K:\Components\FIBPlus\sources;K:\Components\Gardant\KLKNANN\Include;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item2">C:\FIBPlus\sources;C:\Guardant;K:\Hotel\Remont;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item3">C:\FIBPlus\sources;C:\Guardant;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item4">C:\FIBPlus\sources;C:\Guardant;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item5">F:\Guardant;C:\FIBPlus\sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item6">D:\Devrace\sources;F:\Guardant;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda</HistoryLists_hlIncludePath>  <HistoryLists_hlIncludePath Name="Item7">D:\Devrace\sources;F:\Guardant;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase</HistoryLists_hlIncludePath>
+      <HistoryLists_hlIncludePath Name="Item8">D:\Devrace\sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup</HistoryLists_hlIncludePath>
+      <HistoryLists_hlIncludePath Name="Item9">D:\Devrace\sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;F:\Hotel\Remont;..\DM</HistoryLists_hlIncludePath>
+    </HistoryLists_hlIncludePath><HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Count">2</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;..\Remont;K:\Components\FIBPlus\Library;K:\Components\Gardant\KLKNANN\Lib;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item1">$(BDS)\lib\debug;C:\FIBPlus\sources;C:\Guardant;K:\Hotel\Remont;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;F:\Hotel\Remont;..\DM;..\SprUser;..\Setup;..\ViborBase;..\DMQuery;..\About;..\REM_SprGrpNeispr;..\REM_SprNeispr;..\REM_SprModel;..\REM_SprKomplModel;..\REM_SprTypeRemont;..\REM_SprSost;..\REM_GurZ;..\ViborPerioda;..\SFirm;..\SprInfBase;..\SprSklad;..\SprKlient;..\SprKlientDopFisL;..\SprKlientDopUrL;..\DMXTableIsm;..\SBSchet;..\SprBank;..\SRSchet;..\SprNumTel;..\SprDogovor;..\SprDocKlient;..\SprGrafikPlat;..\SprTypePrice;..\SprVidKlient;..\SprCountry;..\Kladr;..\SprDiscountCard;..\SprVidDiscountCard</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item2">$(BDS)\lib\debug;D:\Devrace\sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;F:\Hotel\Remont;..\DM</HistoryLists_hlILINK_LibraryPath></HistoryLists_hlILINK_LibraryPath><HistoryLists_hlDefines><HistoryLists_hlDefines Name="Count">1</HistoryLists_hlDefines><HistoryLists_hlDefines Name="Item0">_DEBUG;NO_STRICT</HistoryLists_hlDefines></HistoryLists_hlDefines><HistoryLists_hlIntermediateOutputDir><HistoryLists_hlIntermediateOutputDir Name="Count">1</HistoryLists_hlIntermediateOutputDir><HistoryLists_hlIntermediateOutputDir Name="Item0">Debug</HistoryLists_hlIntermediateOutputDir></HistoryLists_hlIntermediateOutputDir><HistoryLists_hlDCC_CodePage><HistoryLists_hlDCC_CodePage Name="Count">1</HistoryLists_hlDCC_CodePage><HistoryLists_hlDCC_CodePage Name="Item0">0</HistoryLists_hlDCC_CodePage></HistoryLists_hlDCC_CodePage><HistoryLists_hlBCC_MaxIdentifierLength><HistoryLists_hlBCC_MaxIdentifierLength Name="Count">1</HistoryLists_hlBCC_MaxIdentifierLength><HistoryLists_hlBCC_MaxIdentifierLength Name="Item0">250</HistoryLists_hlBCC_MaxIdentifierLength></HistoryLists_hlBCC_MaxIdentifierLength><HistoryLists_hlILINK_MaxErrors><HistoryLists_hlILINK_MaxErrors Name="Count">1</HistoryLists_hlILINK_MaxErrors><HistoryLists_hlILINK_MaxErrors Name="Item0">0</HistoryLists_hlILINK_MaxErrors></HistoryLists_hlILINK_MaxErrors><HistoryLists_hlILINK_FileAlignment><HistoryLists_hlILINK_FileAlignment Name="Count">1</HistoryLists_hlILINK_FileAlignment><HistoryLists_hlILINK_FileAlignment Name="Item0">0x200</HistoryLists_hlILINK_FileAlignment></HistoryLists_hlILINK_FileAlignment><HistoryLists_hlILINK_ObjectAlignment><HistoryLists_hlILINK_ObjectAlignment Name="Count">1</HistoryLists_hlILINK_ObjectAlignment><HistoryLists_hlILINK_ObjectAlignment Name="Item0">4096</HistoryLists_hlILINK_ObjectAlignment></HistoryLists_hlILINK_ObjectAlignment></CPlusPlusBuilder.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Cpp.Targets" />
+  <ItemGroup>
+    <ResFiles Include="Remont.res">
+      <BuildOrder>0</BuildOrder>
+    </ResFiles>
+    <CppCompile Include="..\About\UAbout.cpp">
+      <Form>FormAbout</Form>
+      <DependentOn>..\About\UAbout.h</DependentOn>
+      <BuildOrder>8</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\DMQuery\UDMQueryRead.cpp">
+      <Form>DMQueryRead</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\DMQuery\UDMQueryRead.h</DependentOn>
+      <BuildOrder>7</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\DMXTableIsm\UDMXTableIsm.cpp">
+      <Form>DMXTableIsm</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\DMXTableIsm\UDMXTableIsm.h</DependentOn>
+      <BuildOrder>53</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\DM\UDM.cpp">
+      <Form>DM</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\DM\UDM.h</DependentOn>
+      <BuildOrder>3</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\Kladr\UFormaKladr.cpp">
+      <Form>FormaKladr</Form>
+      <DependentOn>..\Kladr\UFormaKladr.h</DependentOn>
+      <BuildOrder>83</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\Kladr\UFormaKladrViborRegion.cpp">
+      <Form>FormaKladrViborRegion</Form>
+      <DependentOn>..\Kladr\UFormaKladrViborRegion.h</DependentOn>
+      <BuildOrder>84</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\Kladr\UFormaKladrViborStreet.cpp">
+      <Form>FormaKladrViborStreet</Form>
+      <DependentOn>..\Kladr\UFormaKladrViborStreet.h</DependentOn>
+      <BuildOrder>85</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_GurZ\UREM_DMGurZ.cpp">
+      <Form>REM_DMGurZ</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_GurZ\UREM_DMGurZ.h</DependentOn>
+      <BuildOrder>28</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_GurZ\UREM_DMZayavka.cpp">
+      <Form>REM_DMZayavka</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_GurZ\UREM_DMZayavka.h</DependentOn>
+      <BuildOrder>30</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_GurZ\UREM_DMZayavkaDv.cpp">
+      <Form>REM_DMZayavkaDv</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_GurZ\UREM_DMZayavkaDv.h</DependentOn>
+      <BuildOrder>32</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_GurZ\UREM_FormaGurZ.cpp">
+      <Form>REM_FormaGurZ</Form>
+      <DependentOn>..\REM_GurZ\UREM_FormaGurZ.h</DependentOn>
+      <BuildOrder>29</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_GurZ\UREM_FormaZayavka.cpp">
+      <Form>REM_FormaZayavka</Form>
+      <DependentOn>..\REM_GurZ\UREM_FormaZayavka.h</DependentOn>
+      <BuildOrder>31</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_GurZ\UREM_FormaZayavkaDv.cpp">
+      <Form>REM_FormaZayavkaDv</Form>
+      <DependentOn>..\REM_GurZ\UREM_FormaZayavkaDv.h</DependentOn>
+      <BuildOrder>33</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprKomplModel\UREM_DMSprKomplModel.cpp">
+      <Form>REM_DMSprKomplModel</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprKomplModel\UREM_DMSprKomplModel.h</DependentOn>
+      <BuildOrder>19</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.cpp">
+      <Form>REM_FormaElementaSprKomplModel</Form>
+      <DependentOn>..\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.h</DependentOn>
+      <BuildOrder>20</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.cpp">
+      <Form>REM_FormaSpiskaSprKomplModel</Form>
+      <DependentOn>..\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.h</DependentOn>
+      <BuildOrder>21</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprModel\UREM_DMSprGrpModel.cpp">
+      <Form>REM_DMSprGrpModel</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprModel\UREM_DMSprGrpModel.h</DependentOn>
+      <BuildOrder>14</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprModel\UREM_DMSprModel.cpp">
+      <Form>REM_DMSprModel</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprModel\UREM_DMSprModel.h</DependentOn>
+      <BuildOrder>15</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprModel\UREM_FormaElementaSprGrpModel.cpp">
+      <Form>REM_FormaElementaSprGrpModel</Form>
+      <DependentOn>..\REM_SprModel\UREM_FormaElementaSprGrpModel.h</DependentOn>
+      <BuildOrder>16</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprModel\UREM_FormaElementaSprModel.cpp">
+      <Form>REM_FormaElementaSprModel</Form>
+      <DependentOn>..\REM_SprModel\UREM_FormaElementaSprModel.h</DependentOn>
+      <BuildOrder>17</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprModel\UREM_FormaSpiskaSprModel.cpp">
+      <Form>REM_FormaSpiskaSprModel</Form>
+      <DependentOn>..\REM_SprModel\UREM_FormaSpiskaSprModel.h</DependentOn>
+      <BuildOrder>18</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprNeispr\UREM_DMSprGrpNeispr.cpp">
+      <Form>REM_DMSprGrpNeispr</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprNeispr\UREM_DMSprGrpNeispr.h</DependentOn>
+      <BuildOrder>9</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprNeispr\UREM_DMSprNeispr.cpp">
+      <Form>REM_DMSprNeispr</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprNeispr\UREM_DMSprNeispr.h</DependentOn>
+      <BuildOrder>10</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.cpp">
+      <Form>REM_FormaElementaSprGrpNeispr</Form>
+      <DependentOn>..\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.h</DependentOn>
+      <BuildOrder>11</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprNeispr\UREM_FormaElementaSprNeispr.cpp">
+      <Form>REM_FormaElementaSprNeispr</Form>
+      <DependentOn>..\REM_SprNeispr\UREM_FormaElementaSprNeispr.h</DependentOn>
+      <BuildOrder>12</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.cpp">
+      <Form>REM_FormaSpiskaSprNeispr</Form>
+      <DependentOn>..\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.h</DependentOn>
+      <BuildOrder>13</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprSost\UREM_DMSprSost.cpp">
+      <Form>REM_DMSprSost</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprSost\UREM_DMSprSost.h</DependentOn>
+      <BuildOrder>25</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprSost\UREM_FormaElementaSprSost.cpp">
+      <Form>REM_FormaElementaSprSost</Form>
+      <DependentOn>..\REM_SprSost\UREM_FormaElementaSprSost.h</DependentOn>
+      <BuildOrder>26</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprSost\UREM_FormaSpiskaSprSost.cpp">
+      <Form>REM_FormaSpiskaSprSost</Form>
+      <DependentOn>..\REM_SprSost\UREM_FormaSpiskaSprSost.h</DependentOn>
+      <BuildOrder>27</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprTypeRemont\UREM_DMSprTypeRemont.cpp">
+      <Form>REM_DMSprTypeRemont</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\REM_SprTypeRemont\UREM_DMSprTypeRemont.h</DependentOn>
+      <BuildOrder>22</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.cpp">
+      <Form>REM_FormaElementaSprTypeRemont</Form>
+      <DependentOn>..\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.h</DependentOn>
+      <BuildOrder>23</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRem.cpp">
+      <Form>REM_FormaSpiskaSprTypeRemont</Form>
+      <DependentOn>..\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRem.h</DependentOn>
+      <BuildOrder>24</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SBSchet\UDMSprBSchet.cpp">
+      <Form>DMSprBSchet</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SBSchet\UDMSprBSchet.h</DependentOn>
+      <BuildOrder>54</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SBSchet\UFormaElementaSprBSchet.cpp">
+      <Form>FormaElementaSprBSchet</Form>
+      <DependentOn>..\SBSchet\UFormaElementaSprBSchet.h</DependentOn>
+      <BuildOrder>55</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SBSchet\UFormaSpiskaSprBSchet.cpp">
+      <Form>FormaSpiskaSprBSchet</Form>
+      <DependentOn>..\SBSchet\UFormaSpiskaSprBSchet.h</DependentOn>
+      <BuildOrder>56</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\Setup\UDMSetup.cpp">
+      <Form>DMSetup</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\Setup\UDMSetup.h</DependentOn>
+      <BuildOrder>4</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SFirm\UDMSprFirm.cpp">
+      <Form>DMSprFirm</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SFirm\UDMSprFirm.h</DependentOn>
+      <BuildOrder>37</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SFirm\UFormaElementaSprFirm.cpp">
+      <Form>FormaElementaSprFirm</Form>
+      <DependentOn>..\SFirm\UFormaElementaSprFirm.h</DependentOn>
+      <BuildOrder>38</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SFirm\UFormaSpiskaSprFirm.cpp">
+      <Form>FormaSpiskaSprFirm</Form>
+      <DependentOn>..\SFirm\UFormaSpiskaSprFirm.h</DependentOn>
+      <BuildOrder>36</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprBank\UDMSprBank.cpp">
+      <Form>DMSprBank</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprBank\UDMSprBank.h</DependentOn>
+      <BuildOrder>57</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprBank\UFormaElementaSprBank.cpp">
+      <Form>FormaElementaSprBank</Form>
+      <DependentOn>..\SprBank\UFormaElementaSprBank.h</DependentOn>
+      <BuildOrder>58</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprBank\UFormaSpiskaSprBank.cpp">
+      <Form>FormaSpiskaSprBank</Form>
+      <DependentOn>..\SprBank\UFormaSpiskaSprBank.h</DependentOn>
+      <BuildOrder>59</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprCountry\UDMSprCountry.cpp">
+      <Form>DMSprCountry</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprCountry\UDMSprCountry.h</DependentOn>
+      <BuildOrder>80</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprCountry\UFormaElementaSprCountry.cpp">
+      <Form>FormaElementaSprCountry</Form>
+      <DependentOn>..\SprCountry\UFormaElementaSprCountry.h</DependentOn>
+      <BuildOrder>81</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprCountry\UFormaSpiskaSprCountry.cpp">
+      <Form>FormaSpiskaSprCountry</Form>
+      <DependentOn>..\SprCountry\UFormaSpiskaSprCountry.h</DependentOn>
+      <BuildOrder>82</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDiscountCard\UDMSprDiscountCard.cpp">
+      <Form>DMSprDiscountCard</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprDiscountCard\UDMSprDiscountCard.h</DependentOn>
+      <BuildOrder>86</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDiscountCard\UFormaElementaSprDiscountCard.cpp">
+      <Form>FormaElementaSprDiscountCard</Form>
+      <DependentOn>..\SprDiscountCard\UFormaElementaSprDiscountCard.h</DependentOn>
+      <BuildOrder>87</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDiscountCard\UFormaSpiskaSprDiscountCard.cpp">
+      <Form>FormaSpiskaSprDiscountCard</Form>
+      <DependentOn>..\SprDiscountCard\UFormaSpiskaSprDiscountCard.h</DependentOn>
+      <BuildOrder>88</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDocKlient\UDMSprDocKlient.cpp">
+      <Form>DMSprDocKlient</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprDocKlient\UDMSprDocKlient.h</DependentOn>
+      <BuildOrder>70</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDocKlient\UFormaElementaSprDocKlient.cpp">
+      <Form>FormaElementaSprDocKlient</Form>
+      <DependentOn>..\SprDocKlient\UFormaElementaSprDocKlient.h</DependentOn>
+      <BuildOrder>71</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDocKlient\UFormaSpiskaSprDocKlient.cpp">
+      <Form>FormaSpiskaSprDocKlient</Form>
+      <DependentOn>..\SprDocKlient\UFormaSpiskaSprDocKlient.h</DependentOn>
+      <BuildOrder>72</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDogovor\UDMSprDogovor.cpp">
+      <Form>DMSprDogovor</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprDogovor\UDMSprDogovor.h</DependentOn>
+      <BuildOrder>66</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDogovor\UFormaElementaSprDogovor.cpp">
+      <Form>FormaElementaSprDogovor</Form>
+      <DependentOn>..\SprDogovor\UFormaElementaSprDogovor.h</DependentOn>
+      <BuildOrder>67</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDogovor\UFormaSpiskaSprDogovor.cpp">
+      <Form>FormaSpiskaSprDogovor</Form>
+      <DependentOn>..\SprDogovor\UFormaSpiskaSprDogovor.h</DependentOn>
+      <BuildOrder>68</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprDogovor\UFormaViborSprDogovor.cpp">
+      <Form>FormaViborSprDogovor</Form>
+      <DependentOn>..\SprDogovor\UFormaViborSprDogovor.h</DependentOn>
+      <BuildOrder>69</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprGrafikPlat\UDMSprGrafikPlat.cpp">
+      <Form>DMSprGrafikPlat</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprGrafikPlat\UDMSprGrafikPlat.h</DependentOn>
+      <BuildOrder>73</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprGrafikPlat\UFormaSpiskaSprGrafikPlat.cpp">
+      <Form>FormaSpiskaSprGrafikPlat</Form>
+      <DependentOn>..\SprGrafikPlat\UFormaSpiskaSprGrafikPlat.h</DependentOn>
+      <BuildOrder>74</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprInfBase\UDMSprInfBase.cpp">
+      <Form>DMSprInfBase</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprInfBase\UDMSprInfBase.h</DependentOn>
+      <BuildOrder>40</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprInfBase\UFormaSpiskaSprInfBaseVibor.cpp">
+      <Form>FormaSpiskaSprInfBaseVibor</Form>
+      <DependentOn>..\SprInfBase\UFormaSpiskaSprInfBaseVibor.h</DependentOn>
+      <BuildOrder>39</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlientDopFisL\UDMSprKlientDopFisL.cpp">
+      <Form>DMSprKlientDopFisL</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprKlientDopFisL\UDMSprKlientDopFisL.h</DependentOn>
+      <BuildOrder>50</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlientDopFisL\UFormaElementaSprKlientDopFisL.cpp">
+      <Form>FormaElementaSprKlientDopFisL</Form>
+      <DependentOn>..\SprKlientDopFisL\UFormaElementaSprKlientDopFisL.h</DependentOn>
+      <BuildOrder>49</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlientDopUrL\UDMSprKlientDopUrL.cpp">
+      <Form>DMSprKlientDopUrL</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprKlientDopUrL\UDMSprKlientDopUrL.h</DependentOn>
+      <BuildOrder>51</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlientDopUrL\UFormaElementaSprKlientDopUrL.cpp">
+      <Form>FormaElementaSprKlientDopUrL</Form>
+      <DependentOn>..\SprKlientDopUrL\UFormaElementaSprKlientDopUrL.h</DependentOn>
+      <BuildOrder>52</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlient\UDMSprGrpKlient.cpp">
+      <Form>DMSprGrpKlient</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprKlient\UDMSprGrpKlient.h</DependentOn>
+      <BuildOrder>45</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlient\UDMSprKlient.cpp">
+      <Form>DMSprKlient</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprKlient\UDMSprKlient.h</DependentOn>
+      <BuildOrder>46</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlient\UFormaElementaSprGrpKlient.cpp">
+      <Form>FormaElementaSprGrpKlient</Form>
+      <DependentOn>..\SprKlient\UFormaElementaSprGrpKlient.h</DependentOn>
+      <BuildOrder>47</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlient\UFormaElementaSprKlient.cpp">
+      <Form>FormaElementaSprKlient</Form>
+      <DependentOn>..\SprKlient\UFormaElementaSprKlient.h</DependentOn>
+      <BuildOrder>48</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprKlient\UFormaSpiskaSprKlient.cpp">
+      <Form>FormaSpiskaSprKlient</Form>
+      <DependentOn>..\SprKlient\UFormaSpiskaSprKlient.h</DependentOn>
+      <BuildOrder>44</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprNumTel\UDMSprNumTel.cpp">
+      <Form>DMSprNumTel</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprNumTel\UDMSprNumTel.h</DependentOn>
+      <BuildOrder>63</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprNumTel\UFormaElementaSprNumTel.cpp">
+      <Form>FormaElementaSprNumTel</Form>
+      <DependentOn>..\SprNumTel\UFormaElementaSprNumTel.h</DependentOn>
+      <BuildOrder>64</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprNumTel\UFormaSpiskaSprNumTel.cpp">
+      <Form>FormaSpiskaSprNumTel</Form>
+      <DependentOn>..\SprNumTel\UFormaSpiskaSprNumTel.h</DependentOn>
+      <BuildOrder>65</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprSklad\UDMSprSklad.cpp">
+      <Form>DMSprSklad</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprSklad\UDMSprSklad.h</DependentOn>
+      <BuildOrder>42</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprSklad\UFormaElementaSprSklad.cpp">
+      <Form>FormaElementaSprSklad</Form>
+      <DependentOn>..\SprSklad\UFormaElementaSprSklad.h</DependentOn>
+      <BuildOrder>43</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprSklad\UFormaSpiskaSprSklad.cpp">
+      <Form>FormaSpiskaSprSklad</Form>
+      <DependentOn>..\SprSklad\UFormaSpiskaSprSklad.h</DependentOn>
+      <BuildOrder>41</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprTypePrice\UDMSprTypePrice.cpp">
+      <Form>DMSprTypePrice</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprTypePrice\UDMSprTypePrice.h</DependentOn>
+      <BuildOrder>75</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprTypePrice\UFormaElementaSprTypePrice.cpp">
+      <Form>FormaElementaSprTypePrice</Form>
+      <DependentOn>..\SprTypePrice\UFormaElementaSprTypePrice.h</DependentOn>
+      <BuildOrder>76</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprTypePrice\UFormaSpiskaSprTypePrice.cpp">
+      <Form>FormaSpiskaSprTypePrice</Form>
+      <DependentOn>..\SprTypePrice\UFormaSpiskaSprTypePrice.h</DependentOn>
+      <BuildOrder>77</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprUser\UDMSprUser.cpp">
+      <Form>DMSprUser</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprUser\UDMSprUser.h</DependentOn>
+      <BuildOrder>35</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprVidDiscountCard\UDMSprVidDiscountCard.cpp">
+      <Form>DMSprVidDiscountCard</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprVidDiscountCard\UDMSprVidDiscountCard.h</DependentOn>
+      <BuildOrder>89</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprVidDiscountCard\UFormaElementaSprVidDiscountCard.cpp">
+      <Form>FormaElementaSprVidDiscountCard</Form>
+      <DependentOn>..\SprVidDiscountCard\UFormaElementaSprVidDiscountCard.h</DependentOn>
+      <BuildOrder>90</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprVidDiscountCard\UFormaSpiskaSprVidDiscountCard.cpp">
+      <Form>FormaSpiskaSprVidDiscountCard</Form>
+      <DependentOn>..\SprVidDiscountCard\UFormaSpiskaSprVidDiscountCard.h</DependentOn>
+      <BuildOrder>91</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprVidKlient\UDMSprVidKlient.cpp">
+      <Form>DMSprVidKlient</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SprVidKlient\UDMSprVidKlient.h</DependentOn>
+      <BuildOrder>78</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SprVidKlient\UFormaSpiskaSprVidKlient.cpp">
+      <Form>FormaSpiskaSprVidKlient</Form>
+      <DependentOn>..\SprVidKlient\UFormaSpiskaSprVidKlient.h</DependentOn>
+      <BuildOrder>79</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SRSchet\UDMSprRaschSchet.cpp">
+      <Form>DMSprRaschSchet</Form>
+      <DesignClass>TDataModule</DesignClass>
+      <DependentOn>..\SRSchet\UDMSprRaschSchet.h</DependentOn>
+      <BuildOrder>60</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SRSchet\UFormaElementaSprRaschSchet.cpp">
+      <Form>FormaElementaSprRaschSchet</Form>
+      <DependentOn>..\SRSchet\UFormaElementaSprRaschSchet.h</DependentOn>
+      <BuildOrder>61</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\SRSchet\UFormaSpiskaSprRaschSchet.cpp">
+      <Form>FormaSpiskaSprRaschSchet</Form>
+      <DependentOn>..\SRSchet\UFormaSpiskaSprRaschSchet.h</DependentOn>
+      <BuildOrder>62</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\ViborBase\UFormaEditBase.cpp">
+      <Form>FormaEditBase</Form>
+      <DependentOn>..\ViborBase\UFormaEditBase.h</DependentOn>
+      <BuildOrder>5</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\ViborBase\UFormaViborBase.cpp">
+      <Form>FormaViborBase</Form>
+      <DependentOn>..\ViborBase\UFormaViborBase.h</DependentOn>
+      <BuildOrder>6</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="..\ViborPerioda\UFormaViborPerioda.cpp">
+      <Form>FormaViborPerioda</Form>
+      <DependentOn>..\ViborPerioda\UFormaViborPerioda.h</DependentOn>
+      <BuildOrder>34</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="Remont.cpp">
+      <BuildOrder>2</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="UMainForm.cpp">
+      <Form>MainForm</Form>
+      <DependentOn>UMainForm.h</DependentOn>
+      <BuildOrder>1</BuildOrder>
+    </CppCompile>
+    <ObjFiles Include="F:\Guardant\grdfwbo.obj">
+      <BuildOrder>92</BuildOrder>
+    </ObjFiles>
+    <FormResources Include="..\About\UAbout.dfm" />
+    <FormResources Include="..\DMQuery\UDMQueryRead.dfm" />
+    <FormResources Include="..\DMXTableIsm\UDMXTableIsm.dfm" />
+    <FormResources Include="..\DM\UDM.dfm" />
+    <FormResources Include="..\Kladr\UFormaKladr.dfm" />
+    <FormResources Include="..\Kladr\UFormaKladrViborRegion.dfm" />
+    <FormResources Include="..\Kladr\UFormaKladrViborStreet.dfm" />
+    <FormResources Include="..\REM_GurZ\UREM_DMGurZ.dfm" />
+    <FormResources Include="..\REM_GurZ\UREM_DMZayavka.dfm" />
+    <FormResources Include="..\REM_GurZ\UREM_DMZayavkaDv.dfm" />
+    <FormResources Include="..\REM_GurZ\UREM_FormaGurZ.dfm" />
+    <FormResources Include="..\REM_GurZ\UREM_FormaZayavka.dfm" />
+    <FormResources Include="..\REM_GurZ\UREM_FormaZayavkaDv.dfm" />
+    <FormResources Include="..\REM_SprKomplModel\UREM_DMSprKomplModel.dfm" />
+    <FormResources Include="..\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.dfm" />
+    <FormResources Include="..\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.dfm" />
+    <FormResources Include="..\REM_SprModel\UREM_DMSprGrpModel.dfm" />
+    <FormResources Include="..\REM_SprModel\UREM_DMSprModel.dfm" />
+    <FormResources Include="..\REM_SprModel\UREM_FormaElementaSprGrpModel.dfm" />
+    <FormResources Include="..\REM_SprModel\UREM_FormaElementaSprModel.dfm" />
+    <FormResources Include="..\REM_SprModel\UREM_FormaSpiskaSprModel.dfm" />
+    <FormResources Include="..\REM_SprNeispr\UREM_DMSprGrpNeispr.dfm" />
+    <FormResources Include="..\REM_SprNeispr\UREM_DMSprNeispr.dfm" />
+    <FormResources Include="..\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.dfm" />
+    <FormResources Include="..\REM_SprNeispr\UREM_FormaElementaSprNeispr.dfm" />
+    <FormResources Include="..\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.dfm" />
+    <FormResources Include="..\REM_SprSost\UREM_DMSprSost.dfm" />
+    <FormResources Include="..\REM_SprSost\UREM_FormaElementaSprSost.dfm" />
+    <FormResources Include="..\REM_SprSost\UREM_FormaSpiskaSprSost.dfm" />
+    <FormResources Include="..\REM_SprTypeRemont\UREM_DMSprTypeRemont.dfm" />
+    <FormResources Include="..\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.dfm" />
+    <FormResources Include="..\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRem.dfm" />
+    <FormResources Include="..\SBSchet\UDMSprBSchet.dfm" />
+    <FormResources Include="..\SBSchet\UFormaElementaSprBSchet.dfm" />
+    <FormResources Include="..\SBSchet\UFormaSpiskaSprBSchet.dfm" />
+    <FormResources Include="..\Setup\UDMSetup.dfm" />
+    <FormResources Include="..\SFirm\UDMSprFirm.dfm" />
+    <FormResources Include="..\SFirm\UFormaElementaSprFirm.dfm" />
+    <FormResources Include="..\SFirm\UFormaSpiskaSprFirm.dfm" />
+    <FormResources Include="..\SprBank\UDMSprBank.dfm" />
+    <FormResources Include="..\SprBank\UFormaElementaSprBank.dfm" />
+    <FormResources Include="..\SprBank\UFormaSpiskaSprBank.dfm" />
+    <FormResources Include="..\SprCountry\UDMSprCountry.dfm" />
+    <FormResources Include="..\SprCountry\UFormaElementaSprCountry.dfm" />
+    <FormResources Include="..\SprCountry\UFormaSpiskaSprCountry.dfm" />
+    <FormResources Include="..\SprDiscountCard\UDMSprDiscountCard.dfm" />
+    <FormResources Include="..\SprDiscountCard\UFormaElementaSprDiscountCard.dfm" />
+    <FormResources Include="..\SprDiscountCard\UFormaSpiskaSprDiscountCard.dfm" />
+    <FormResources Include="..\SprDocKlient\UDMSprDocKlient.dfm" />
+    <FormResources Include="..\SprDocKlient\UFormaElementaSprDocKlient.dfm" />
+    <FormResources Include="..\SprDocKlient\UFormaSpiskaSprDocKlient.dfm" />
+    <FormResources Include="..\SprDogovor\UDMSprDogovor.dfm" />
+    <FormResources Include="..\SprDogovor\UFormaElementaSprDogovor.dfm" />
+    <FormResources Include="..\SprDogovor\UFormaSpiskaSprDogovor.dfm" />
+    <FormResources Include="..\SprDogovor\UFormaViborSprDogovor.dfm" />
+    <FormResources Include="..\SprGrafikPlat\UDMSprGrafikPlat.dfm" />
+    <FormResources Include="..\SprGrafikPlat\UFormaSpiskaSprGrafikPlat.dfm" />
+    <FormResources Include="..\SprInfBase\UDMSprInfBase.dfm" />
+    <FormResources Include="..\SprInfBase\UFormaSpiskaSprInfBaseVibor.dfm" />
+    <FormResources Include="..\SprKlientDopFisL\UDMSprKlientDopFisL.dfm" />
+    <FormResources Include="..\SprKlientDopFisL\UFormaElementaSprKlientDopFisL.dfm" />
+    <FormResources Include="..\SprKlientDopUrL\UDMSprKlientDopUrL.dfm" />
+    <FormResources Include="..\SprKlientDopUrL\UFormaElementaSprKlientDopUrL.dfm" />
+    <FormResources Include="..\SprKlient\UDMSprGrpKlient.dfm" />
+    <FormResources Include="..\SprKlient\UDMSprKlient.dfm" />
+    <FormResources Include="..\SprKlient\UFormaElementaSprGrpKlient.dfm" />
+    <FormResources Include="..\SprKlient\UFormaElementaSprKlient.dfm" />
+    <FormResources Include="..\SprKlient\UFormaSpiskaSprKlient.dfm" />
+    <FormResources Include="..\SprNumTel\UDMSprNumTel.dfm" />
+    <FormResources Include="..\SprNumTel\UFormaElementaSprNumTel.dfm" />
+    <FormResources Include="..\SprNumTel\UFormaSpiskaSprNumTel.dfm" />
+    <FormResources Include="..\SprSklad\UDMSprSklad.dfm" />
+    <FormResources Include="..\SprSklad\UFormaElementaSprSklad.dfm" />
+    <FormResources Include="..\SprSklad\UFormaSpiskaSprSklad.dfm" />
+    <FormResources Include="..\SprTypePrice\UDMSprTypePrice.dfm" />
+    <FormResources Include="..\SprTypePrice\UFormaElementaSprTypePrice.dfm" />
+    <FormResources Include="..\SprTypePrice\UFormaSpiskaSprTypePrice.dfm" />
+    <FormResources Include="..\SprUser\UDMSprUser.dfm" />
+    <FormResources Include="..\SprVidDiscountCard\UDMSprVidDiscountCard.dfm" />
+    <FormResources Include="..\SprVidDiscountCard\UFormaElementaSprVidDiscountCard.dfm" />
+    <FormResources Include="..\SprVidDiscountCard\UFormaSpiskaSprVidDiscountCard.dfm" />
+    <FormResources Include="..\SprVidKlient\UDMSprVidKlient.dfm" />
+    <FormResources Include="..\SprVidKlient\UFormaSpiskaSprVidKlient.dfm" />
+    <FormResources Include="..\SRSchet\UDMSprRaschSchet.dfm" />
+    <FormResources Include="..\SRSchet\UFormaElementaSprRaschSchet.dfm" />
+    <FormResources Include="..\SRSchet\UFormaSpiskaSprRaschSchet.dfm" />
+    <FormResources Include="..\ViborBase\UFormaEditBase.dfm" />
+    <FormResources Include="..\ViborBase\UFormaViborBase.dfm" />
+    <FormResources Include="..\ViborPerioda\UFormaViborPerioda.dfm" />
+    <FormResources Include="UMainForm.dfm" />
+    <BuildConfiguration Include="Debug">
+      <Key>Cfg_1</Key>
+    </BuildConfiguration>
+    <BuildConfiguration Include="Release">
+      <Key>Cfg_2</Key>
+    </BuildConfiguration>
+  </ItemGroup>
+</Project>
