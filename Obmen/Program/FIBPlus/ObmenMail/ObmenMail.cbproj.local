@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.12.05 19:11:27.328.cbproj,C:\Documents and Settings\Пользователь\Мои документы\RAD Studio\Projects\Project1.cbproj=K:\Obmen\Program\FIBPlus\ObmenFTP\PObmen.cbproj</Transaction>
+    <Transaction>2010.05.02 11:27:58.857.cpp,K:\Forms\GlobalModule\UGlobalFunction.cpp=</Transaction>
+    <Transaction>2011.02.10 14:41:07.256.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UComandList.cpp</Transaction>
+    <Transaction>2011.02.10 14:41:07.256.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UComandList.h</Transaction>
+    <Transaction>2011.02.12 10:54:20.578.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UComand.cpp</Transaction>
+    <Transaction>2011.02.12 10:54:20.578.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UComand.h</Transaction>
+    <Transaction>2011.02.12 11:24:47.433.cpp,K:\Obmen\Program\FIBPlus\UComand.cpp=K:\Obmen\Program\FIBPlus\UkanComandExchange.cpp</Transaction>
+    <Transaction>2011.02.12 11:24:47.433.h,K:\Obmen\Program\FIBPlus\UComand.h=K:\Obmen\Program\FIBPlus\UkanComandExchange.h</Transaction>
+    <Transaction>2011.02.12 11:25:03.381.cpp,K:\Obmen\Program\FIBPlus\UComandList.cpp=K:\Obmen\Program\FIBPlus\UkanComandExchangeList.cpp</Transaction>
+    <Transaction>2011.02.12 11:25:03.381.h,K:\Obmen\Program\FIBPlus\UComandList.h=K:\Obmen\Program\FIBPlus\UkanComandExchangeList.h</Transaction>
+    <Transaction>2011.02.14 12:34:44.190.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UkanMAPI.cpp</Transaction>
+    <Transaction>2011.02.14 12:34:44.190.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UkanMAPI.h</Transaction>
+    <Transaction>2011.02.15 11:25:04.322.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UkanGlobalConstant.cpp</Transaction>
+    <Transaction>2011.02.15 11:25:04.322.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UkanGlobalConstant.h</Transaction>
+    <Transaction>2011.02.15 15:02:16.046.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UComandBuilder.cpp</Transaction>
+    <Transaction>2011.02.15 15:02:16.046.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UComandBuilder.h</Transaction>
+    <Transaction>2011.02.23 12:02:59.404.cpp,K:\Obmen\Program\FIBPlus\UComandBuilder.cpp=K:\Obmen\Program\FIBPlus\UkanComandBuilder.cpp</Transaction>
+    <Transaction>2011.02.23 12:02:59.404.h,K:\Obmen\Program\FIBPlus\UComandBuilder.h=K:\Obmen\Program\FIBPlus\UkanComandBuilder.h</Transaction>
+    <Transaction>2011.02.23 14:24:38.929.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UkanMapiMessage.cpp</Transaction>
+    <Transaction>2011.02.23 14:24:38.929.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UkanMapiMessage.h</Transaction>
+    <Transaction>2011.02.23 14:58:06.066.cpp,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.cpp=K:\Obmen\Program\FIBPlus\UkanMapiMessageList.cpp</Transaction>
+    <Transaction>2011.02.23 14:58:06.066.h,K:\Obmen\Program\FIBPlus\ObmenMail\Unit1.h=K:\Obmen\Program\FIBPlus\UkanMapiMessageList.h</Transaction>
+    <Transaction>2011.02.24 12:38:11.854.cbproj,K:\Obmen\Program\FIBPlus\ObmenMail\PObmen.cbproj=K:\Obmen\Program\FIBPlus\ObmenMail\ObmenMail.cbproj</Transaction>
+    <Transaction>2011.02.25 09:47:59.987.cpp,K:\Global\UGlobalFunction.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

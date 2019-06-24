@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.11.02 09:33:59.745.cpp,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.cpp=K:\Obmen\ServiceBase\UMainForm.cpp</Transaction>
+    <Transaction>2009.11.02 09:33:59.745.h,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.h=K:\Obmen\ServiceBase\UMainForm.h</Transaction>
+    <Transaction>2009.11.02 09:33:59.745.dfm,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.dfm=K:\Obmen\ServiceBase\UMainForm.dfm</Transaction>
+    <Transaction>2009.11.02 09:34:12.343.cbproj,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.cbproj=K:\Obmen\ServiceBase\PServiceBase.cbproj</Transaction>
+    <Transaction>2009.11.02 09:39:04.907.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\DataModuleMain\UDataModuleMain.cpp</Transaction>
+    <Transaction>2009.11.02 09:39:04.907.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\DataModuleMain\UDataModuleMain.h</Transaction>
+    <Transaction>2009.11.02 09:39:04.907.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\DataModuleMain\UDataModuleMain.dfm</Transaction>
+    <Transaction>2009.11.02 10:23:34.445.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\FormaTableXDataOut\UFormaTableXDataOut.cpp</Transaction>
+    <Transaction>2009.11.02 10:23:34.445.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\FormaTableXDataOut\UFormaTableXDataOut.h</Transaction>
+    <Transaction>2009.11.02 10:23:34.445.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\FormaTableXDataOut\UFormaTableXDataOut.dfm</Transaction>
+    <Transaction>2009.11.02 11:44:52.674.cpp,K:\Forms\ViborPerioda\UFormaViborPerioda.cpp=</Transaction>
+    <Transaction>2009.11.02 11:44:52.674.dfm,K:\Forms\ViborPerioda\UFormaViborPerioda.dfm=</Transaction>
+    <Transaction>2009.11.02 15:05:28.364.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\FormaTableIsm\UFormaTableIsm.cpp</Transaction>
+    <Transaction>2009.11.02 15:05:28.364.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\FormaTableIsm\UFormaTableIsm.h</Transaction>
+    <Transaction>2009.11.02 15:05:28.364.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\FormaTableIsm\UFormaTableIsm.dfm</Transaction>
+    <Transaction>2009.11.03 09:07:02.809.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\FormaAddDataInNewBase\UFormaAddDataInNewBase.cpp</Transaction>
+    <Transaction>2009.11.03 09:07:02.809.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\FormaAddDataInNewBase\UFormaAddDataInNewBase.h</Transaction>
+    <Transaction>2009.11.03 09:07:02.809.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\FormaAddDataInNewBase\UFormaAddDataInNewBase.dfm</Transaction>
+    <Transaction>2009.11.04 11:53:43.562.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\FormaXTableBase\UFormaXTableBase.cpp</Transaction>
+    <Transaction>2009.11.04 11:53:43.562.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\FormaXTableBase\UFormaXTableBase.h</Transaction>
+    <Transaction>2009.11.04 11:53:43.562.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\FormaXTableBase\UFormaXTableBase.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

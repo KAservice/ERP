@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.04.28 17:14:56.818.cbproj,C:\Users\1\Documents\RAD Studio\Projects\Project1.cbproj=K:\Obmen\ServiceBase\PServiceBase.cbproj</Transaction>
+    <Transaction>2010.04.28 17:25:55.893.h,K:\Global\glPCH.h=</Transaction>
+    <Transaction>2010.05.28 10:10:46.274.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\FormaSetValueGenerator\UFormaSetValueGenerator.cpp</Transaction>
+    <Transaction>2010.05.28 10:10:46.274.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\FormaSetValueGenerator\UFormaSetValueGenerator.h</Transaction>
+    <Transaction>2010.05.28 10:10:46.274.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\FormaSetValueGenerator\UFormaSetValueGenerator.dfm</Transaction>
+    <Transaction>2010.05.28 10:12:42.985.cpp,K:\Obmen\ServiceBase\FormaSetValueGenerator\UFormaSetValueGenerator.cpp=</Transaction>
+    <Transaction>2010.05.28 10:12:42.985.dfm,K:\Obmen\ServiceBase\FormaSetValueGenerator\UFormaSetValueGenerator.dfm=</Transaction>
+    <Transaction>2010.05.28 14:57:04.039.cpp,K:\Obmen\ServiceBase\Unit1.cpp=K:\Obmen\ServiceBase\DocRegGoods\UFormaDocRegGoods.cpp</Transaction>
+    <Transaction>2010.05.28 14:57:04.039.h,K:\Obmen\ServiceBase\Unit1.h=K:\Obmen\ServiceBase\DocRegGoods\UFormaDocRegGoods.h</Transaction>
+    <Transaction>2010.05.28 14:57:04.039.dfm,K:\Obmen\ServiceBase\Unit1.dfm=K:\Obmen\ServiceBase\DocRegGoods\UFormaDocRegGoods.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
