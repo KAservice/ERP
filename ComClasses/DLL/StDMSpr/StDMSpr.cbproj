@@ -18,7 +18,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;FIBPlus_CB2010.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;dxGDIPlusC14.bpi;dxCoreC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;vclimg.bpi;vcldb.bpi</LinkPackageImports>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<Multithreaded>true</Multithreaded>
@@ -29,8 +29,8 @@
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>..\StObjectInfo\;..\StFormSpr\FormaStSpr1\;DMStSpr1\;K:\FIB_DataModule\DM\;K:\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>..\StObjectInfo\;..\StFormSpr\FormaStSpr1\;DMStSpr1\;K:\FIB_DataModule\DM\;K:\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\StObjectInfo\;..\StFormSpr\FormaStSpr1\;DMStSpr1\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\StObjectInfo\;..\StFormSpr\FormaStSpr1\;DMStSpr1\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -86,25 +86,25 @@
 				<DependentOn>DMStSpr1\UDMStSpr1.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
+			<CppCompile Include="K:\ERP\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
+				<DependentOn>K:\ERP\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="K:\ERP\Global\UGlobalFunction.cpp">
+				<DependentOn>K:\ERP\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="K:\ERP\Global\UGlobalConstant.cpp">
+				<DependentOn>K:\ERP\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="StDMSpr.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
 			<FormResources Include="DMStSpr1\UDMStSpr1.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="K:\ERP\FIB_DataModule\DM\UDM.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

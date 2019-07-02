@@ -21,7 +21,7 @@
 			<DCC_DebugDCUs>true</DCC_DebugDCUs>
 			<OutputExt>dll</OutputExt>
 			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;vcldb.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;dxGDIPlusC14.bpi;dxCoreC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;vclimg.bpi;cxExtEditorsC14.bpi;vclx.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;FIBPlus_CB2010.bpi;cxSpreadSheetC14.bpi;dxPSCoreC14.bpi;dxPScxSSLnkC14.bpi;xmlrtl.bpi;vclactnband.bpi;ibxpress.bpi;dsnap.bpi</LinkPackageImports>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;Rave77VCL.bpi;FIBPlus_CB2010.bpi;pFIBPlusTools_CB2010.bpi;fs14.bpi;frx14.bpi;frxcs14.bpi;fsDB14.bpi;frxDB14.bpi;fsBDE14.bpi;frxBDE14.bpi;fsADO14.bpi;frxADO14.bpi;fsIBX14.bpi;frxIBX14.bpi;frxDBX14.bpi;frxe14.bpi;fsTee14.bpi;frxTee14.bpi;frxFIB14.bpi;fqb140.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;iw10tmsgridc2010.bpi;iw10tmsc2010.bpi;VclSmp.bpi;iw10tmsgriddec2010.bpi;iw10tmsxlsc2010.bpi</PackageImports>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
@@ -30,8 +30,8 @@
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\REM_DocRegOtchetPost\;K:\Forms\DocRegOtchetPost\;K:\Forms\DocOtchetPost\;K:\Forms\DocOstVs\;K:\Forms\DocZamena\;K:\Forms\DocVosvratPost\;K:\Forms\DocVosvratPok\;K:\Forms\DocVipuskProd\;K:\Forms\DocVipBanka\;K:\Forms\DocSpOtrOst\;K:\Forms\DocSpisNom\;K:\Forms\DocShet\;K:\Forms\DocSchetFact\;K:\Forms\DocSborkaKompl\;K:\Forms\DocRKORozn\;K:\Forms\DocRKO\;K:\Forms\DocRev\;K:\Forms\DocRepKKM\;K:\Forms\DocRegVsRasch\;K:\Forms\DocRegPaySale\;K:\Forms\DocRegOstNom\;K:\Forms\DocRegKassa\;K:\Forms\DocRegGoods\;K:\Forms\DocRegCardBalance\;K:\Forms\DocRegBank\;K:\Forms\DocRegAdvCust\;K:\Forms\DocRealRozn\;K:\Forms\DocReal\;K:\Forms\DocRasborkaKompl\;K:\Forms\DocPostNaSchet\;K:\Forms\DocPlP\;K:\Forms\DocPKORozn\;K:\Forms\DocPKO\;K:\Forms\DocPer\;K:\Forms\DocOstNom\;K:\Forms\DocKorrVS\;K:\Forms\DocInv\;K:\FIB_DataModule\SprOborud\;K:\Forms\SprOborud\;K:\Forms\DocCheckKKM\;K:\FIB_DataModule\RegGoods\;K:\Forms\SheetEditor\;K:\Forms\DocIsmPrice\;K:\Forms\FiskReg\;K:\Forms\Scaner\;K:\Forms\DisplayPok\;K:\Global\;K:\FIB_DataModule\DM\;K:\Forms\DocPrihNakl\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;K:\Components\DevExpress\ExpressPrinting System\Sources;K:\Components\DevExpress\Library\CBuilder14;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\REM_DocRegOtchetPost\;K:\Forms\DocRegOtchetPost\;K:\Forms\DocOtchetPost\;K:\Forms\DocOstVs\;K:\Forms\DocZamena\;K:\Forms\DocVosvratPost\;K:\Forms\DocVosvratPok\;K:\Forms\DocVipuskProd\;K:\Forms\DocVipBanka\;K:\Forms\DocSpOtrOst\;K:\Forms\DocSpisNom\;K:\Forms\DocShet\;K:\Forms\DocSchetFact\;K:\Forms\DocSborkaKompl\;K:\Forms\DocRKORozn\;K:\Forms\DocRKO\;K:\Forms\DocRev\;K:\Forms\DocRepKKM\;K:\Forms\DocRegVsRasch\;K:\Forms\DocRegPaySale\;K:\Forms\DocRegOstNom\;K:\Forms\DocRegKassa\;K:\Forms\DocRegGoods\;K:\Forms\DocRegCardBalance\;K:\Forms\DocRegBank\;K:\Forms\DocRegAdvCust\;K:\Forms\DocRealRozn\;K:\Forms\DocReal\;K:\Forms\DocRasborkaKompl\;K:\Forms\DocPostNaSchet\;K:\Forms\DocPlP\;K:\Forms\DocPKORozn\;K:\Forms\DocPKO\;K:\Forms\DocPer\;K:\Forms\DocOstNom\;K:\Forms\DocKorrVS\;K:\Forms\DocInv\;K:\FIB_DataModule\SprOborud\;K:\Forms\SprOborud\;K:\Forms\DocCheckKKM\;K:\FIB_DataModule\RegGoods\;K:\Forms\SheetEditor\;K:\Forms\DocIsmPrice\;K:\Forms\FiskReg\;K:\Forms\Scaner\;K:\Forms\DisplayPok\;K:\Global\;K:\FIB_DataModule\DM\;K:\Forms\DocPrihNakl\;$(BDS)\lib\obj;K:\Components\DevExpress\Library\CBuilder14;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Forms\DocRasborkaKompl\;..\..\..\Forms\DocRegOtchetPost\;..\..\..\Forms\SheetEditor\;..\..\..\Forms\DocCheckKKM\;..\..\..\Forms\DocRealRozn\;..\..\..\Forms\DocIsmPrice\;..\..\..\Forms\DocPrihNakl\;..\..\..\Forms\DocRegGoods\;..\..\..\Forms\DocRegKassa\;..\..\..\Forms\DocVipBanka\;..\..\..\Forms\DocSpOtrOst\;..\..\..\Forms\DocReal\;..\..\..\Forms\DocShet\;..\..\..\Forms\DocPKORozn\;..\..\..\Forms\DocRKORozn\;..\..\..\Forms\DocRegBank\;..\..\..\Forms\DocSpisNom\;..\..\..\Forms\DocKorrVS\;..\..\..\Forms\DocOstNom\;..\..\..\Forms\DocOstVs\;..\..\..\Forms\SprOborud\;..\..\..\Forms\DocRepKKM\;..\..\..\Global\;..\..\..\Forms\DocZamena\;..\..\..\Forms\DocPostNaSchet\;..\..\..\Forms\DocSborkaKompl\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\DocVosvratPost\;..\..\..\Forms\DocRegCardBalance\;..\..\..\Forms\DocSchetFact\;..\..\..\Forms\DocRegOstNom\;..\..\..\Forms\DocRegVsRasch\;..\..\..\Forms\DocVosvratPok\;..\..\..\Forms\DocRegAdvCust\;..\..\..\Forms\DocVipuskProd\;..\..\..\Forms\DocRegPaySale\;..\..\..\Forms\DocOtchetPost\;..\..\..\Forms\DocPlP\;..\..\..\Forms\DocPKO\;..\..\..\Forms\DocPer\;..\..\..\Forms\DocInv\;..\..\..\Forms\DocRKO\;..\..\..\Forms\DocRev\;..\..\..\FIB_DataModule\SprOborud\;K:\ERP\Forms\REM_DocRegOtchetPost\;K:\ERP\Forms\DocRegOtchetPost\;K:\ERP\Forms\DocOtchetPost\;K:\ERP\Forms\DocOstVs\;K:\ERP\Forms\DocZamena\;K:\ERP\Forms\DocVosvratPost\;K:\ERP\Forms\DocVosvratPok\;K:\ERP\Forms\DocVipuskProd\;K:\ERP\Forms\DocVipBanka\;K:\ERP\Forms\DocSpOtrOst\;K:\ERP\Forms\DocSpisNom\;K:\ERP\Forms\DocShet\;K:\ERP\Forms\DocSchetFact\;K:\ERP\Forms\DocSborkaKompl\;K:\ERP\Forms\DocRKORozn\;K:\ERP\Forms\DocRKO\;K:\ERP\Forms\DocRev\;K:\ERP\Forms\DocRepKKM\;K:\ERP\Forms\DocRegVsRasch\;K:\ERP\Forms\DocRegPaySale\;K:\ERP\Forms\DocRegOstNom\;K:\ERP\Forms\DocRegKassa\;K:\ERP\Forms\DocRegGoods\;K:\ERP\Forms\DocRegCardBalance\;K:\ERP\Forms\DocRegBank\;K:\ERP\Forms\DocRegAdvCust\;K:\ERP\Forms\DocRealRozn\;K:\ERP\Forms\DocReal\;K:\ERP\Forms\DocRasborkaKompl\;K:\ERP\Forms\DocPostNaSchet\;K:\ERP\Forms\DocPlP\;K:\ERP\Forms\DocPKORozn\;K:\ERP\Forms\DocPKO\;K:\ERP\Forms\DocPer\;K:\ERP\Forms\DocOstNom\;K:\ERP\Forms\DocKorrVS\;K:\ERP\Forms\DocInv\;K:\ERP\FIB_DataModule\SprOborud\;K:\ERP\Forms\SprOborud\;K:\ERP\Forms\DocCheckKKM\;K:\ERP\FIB_DataModule\RegGoods\;K:\ERP\Forms\SheetEditor\;K:\ERP\Forms\DocIsmPrice\;K:\ERP\Forms\FiskReg\;K:\ERP\Forms\Scaner\;K:\ERP\Forms\DisplayPok\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\DocPrihNakl\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;K:\ERP\Components\DevExpress\ExpressPrinting System\Sources;K:\ERP\Components\DevExpress\Library\CBuilder14;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Forms\DocRasborkaKompl\;..\..\..\Forms\DocRegOtchetPost\;..\..\..\Forms\SheetEditor\;..\..\..\Forms\DocCheckKKM\;..\..\..\Forms\DocRealRozn\;..\..\..\Forms\DocIsmPrice\;..\..\..\Forms\DocPrihNakl\;..\..\..\Forms\DocRegGoods\;..\..\..\Forms\DocRegKassa\;..\..\..\Forms\DocVipBanka\;..\..\..\Forms\DocSpOtrOst\;..\..\..\Forms\DocReal\;..\..\..\Forms\DocShet\;..\..\..\Forms\DocPKORozn\;..\..\..\Forms\DocRKORozn\;..\..\..\Forms\DocRegBank\;..\..\..\Forms\DocSpisNom\;..\..\..\Forms\DocKorrVS\;..\..\..\Forms\DocOstNom\;..\..\..\Forms\DocOstVs\;..\..\..\Forms\SprOborud\;..\..\..\Forms\DocRepKKM\;..\..\..\Global\;..\..\..\Forms\DocZamena\;..\..\..\Forms\DocPostNaSchet\;..\..\..\Forms\DocSborkaKompl\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\DocVosvratPost\;..\..\..\Forms\DocRegCardBalance\;..\..\..\Forms\DocSchetFact\;..\..\..\Forms\DocRegOstNom\;..\..\..\Forms\DocRegVsRasch\;..\..\..\Forms\DocVosvratPok\;..\..\..\Forms\DocRegAdvCust\;..\..\..\Forms\DocVipuskProd\;..\..\..\Forms\DocRegPaySale\;..\..\..\Forms\DocOtchetPost\;..\..\..\Forms\DocPlP\;..\..\..\Forms\DocPKO\;..\..\..\Forms\DocPer\;..\..\..\Forms\DocInv\;..\..\..\Forms\DocRKO\;..\..\..\Forms\DocRev\;..\..\..\FIB_DataModule\SprOborud\;K:\ERP\Forms\REM_DocRegOtchetPost\;K:\ERP\Forms\DocRegOtchetPost\;K:\ERP\Forms\DocOtchetPost\;K:\ERP\Forms\DocOstVs\;K:\ERP\Forms\DocZamena\;K:\ERP\Forms\DocVosvratPost\;K:\ERP\Forms\DocVosvratPok\;K:\ERP\Forms\DocVipuskProd\;K:\ERP\Forms\DocVipBanka\;K:\ERP\Forms\DocSpOtrOst\;K:\ERP\Forms\DocSpisNom\;K:\ERP\Forms\DocShet\;K:\ERP\Forms\DocSchetFact\;K:\ERP\Forms\DocSborkaKompl\;K:\ERP\Forms\DocRKORozn\;K:\ERP\Forms\DocRKO\;K:\ERP\Forms\DocRev\;K:\ERP\Forms\DocRepKKM\;K:\ERP\Forms\DocRegVsRasch\;K:\ERP\Forms\DocRegPaySale\;K:\ERP\Forms\DocRegOstNom\;K:\ERP\Forms\DocRegKassa\;K:\ERP\Forms\DocRegGoods\;K:\ERP\Forms\DocRegCardBalance\;K:\ERP\Forms\DocRegBank\;K:\ERP\Forms\DocRegAdvCust\;K:\ERP\Forms\DocRealRozn\;K:\ERP\Forms\DocReal\;K:\ERP\Forms\DocRasborkaKompl\;K:\ERP\Forms\DocPostNaSchet\;K:\ERP\Forms\DocPlP\;K:\ERP\Forms\DocPKORozn\;K:\ERP\Forms\DocPKO\;K:\ERP\Forms\DocPer\;K:\ERP\Forms\DocOstNom\;K:\ERP\Forms\DocKorrVS\;K:\ERP\Forms\DocInv\;K:\ERP\FIB_DataModule\SprOborud\;K:\ERP\Forms\SprOborud\;K:\ERP\Forms\DocCheckKKM\;K:\ERP\FIB_DataModule\RegGoods\;K:\ERP\Forms\SheetEditor\;K:\ERP\Forms\DocIsmPrice\;K:\ERP\Forms\FiskReg\;K:\ERP\Forms\Scaner\;K:\ERP\Forms\DisplayPok\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\DocPrihNakl\;$(BDS)\lib\obj;K:\ERP\Components\DevExpress\Library\CBuilder14;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,668 +61,668 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Forms\DocRev\UFormaDocRevImpl.cpp">
-				<DependentOn>K:\Forms\DocRev\UFormaDocRevImpl.h</DependentOn>
-				<BuildOrder>80</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRev\UFormaDocRev.cpp">
-				<Form>FormaDocRev</Form>
-				<DependentOn>K:\Forms\DocRev\UFormaDocRev.h</DependentOn>
-				<BuildOrder>78</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegOstNom\UFormaDocRegOstNomImpl.cpp">
-				<DependentOn>K:\Forms\DocRegOstNom\UFormaDocRegOstNomImpl.h</DependentOn>
-				<BuildOrder>68</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegBank\UFormaDocRegBank.cpp">
-				<Form>FormaDocRegBank</Form>
-				<DependentOn>K:\Forms\DocRegBank\UFormaDocRegBank.h</DependentOn>
-				<BuildOrder>54</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPrihNakl\UFormaDocPrihNaklImpl.cpp">
-				<DependentOn>K:\Forms\DocPrihNakl\UFormaDocPrihNaklImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocIsmPrice\UFormaDocIsmPrice.cpp">
-				<Form>FormaDocIsmPrice</Form>
-				<DependentOn>K:\Forms\DocIsmPrice\UFormaDocIsmPrice.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPrihNakl\UFormaDocPrihNaklCF.cpp">
-				<DependentOn>K:\Forms\DocPrihNakl\UFormaDocPrihNaklCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRepKKM\UFormaDocRepKKMCF.cpp">
-				<DependentOn>K:\Forms\DocRepKKM\UFormaDocRepKKMCF.h</DependentOn>
-				<BuildOrder>76</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocShet\UFormaDocSchetImpl.cpp">
-				<DependentOn>K:\Forms\DocShet\UFormaDocSchetImpl.h</DependentOn>
-				<BuildOrder>95</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSpisNom\UFormaDocSpisNom.cpp">
-				<Form>FormaDocSpisNom</Form>
-				<DependentOn>K:\Forms\DocSpisNom\UFormaDocSpisNom.h</DependentOn>
-				<BuildOrder>96</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSpisNom\UFormaDocSpisNomCF.cpp">
-				<DependentOn>K:\Forms\DocSpisNom\UFormaDocSpisNomCF.h</DependentOn>
-				<BuildOrder>97</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPostNaSchet\UFormaDocPostNaSchetCF.cpp">
-				<DependentOn>K:\Forms\DocPostNaSchet\UFormaDocPostNaSchetCF.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegKassa\UFormaDocRegKassa.cpp">
-				<Form>FormaDocRegKassa</Form>
-				<DependentOn>K:\Forms\DocRegKassa\UFormaDocRegKassa.h</DependentOn>
-				<BuildOrder>63</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegPaySale\UFormaDocRegPaySaleImpl.cpp">
-				<DependentOn>K:\Forms\DocRegPaySale\UFormaDocRegPaySaleImpl.h</DependentOn>
-				<BuildOrder>71</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVipBanka\UFormaDocVipBankaCF.cpp">
-				<DependentOn>K:\Forms\DocVipBanka\UFormaDocVipBankaCF.h</DependentOn>
-				<BuildOrder>103</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRev\UFormaDocRevCF.cpp">
-				<DependentOn>K:\Forms\DocRev\UFormaDocRevCF.h</DependentOn>
-				<BuildOrder>79</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocKorrVS\UFormaDocKorrVSImpl.cpp">
-				<DependentOn>K:\Forms\DocKorrVS\UFormaDocKorrVSImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPok.cpp">
-				<Form>FormaDocVosvratPok</Form>
-				<DependentOn>K:\Forms\DocVosvratPok\UFormaDocVosvratPok.h</DependentOn>
-				<BuildOrder>108</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocReal\UFormaDocRealImpl.cpp">
-				<DependentOn>K:\Forms\DocReal\UFormaDocRealImpl.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVipuskProd\UFormaDocVipuskProdCF.cpp">
-				<DependentOn>K:\Forms\DocVipuskProd\UFormaDocVipuskProdCF.h</DependentOn>
-				<BuildOrder>106</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVipuskProd\UFormaDocVipuskProdImpl.cpp">
-				<DependentOn>K:\Forms\DocVipuskProd\UFormaDocVipuskProdImpl.h</DependentOn>
-				<BuildOrder>107</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegAdvCust\UFormaDocRegAdvCustImpl.cpp">
-				<DependentOn>K:\Forms\DocRegAdvCust\UFormaDocRegAdvCustImpl.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegOstNom\UFormaDocRegOstNom.cpp">
-				<Form>FormaDocRegOstNom</Form>
-				<DependentOn>K:\Forms\DocRegOstNom\UFormaDocRegOstNom.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegAdvCust\UFormaDocRegAdvCust.cpp">
-				<Form>FormaDocRegAdvCust</Form>
-				<DependentOn>K:\Forms\DocRegAdvCust\UFormaDocRegAdvCust.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegCardBalance\UFormaDocRegCardBalanceCF.cpp">
-				<DependentOn>K:\Forms\DocRegCardBalance\UFormaDocRegCardBalanceCF.h</DependentOn>
-				<BuildOrder>58</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPokCF.cpp">
-				<DependentOn>K:\Forms\DocVosvratPok\UFormaDocVosvratPokCF.h</DependentOn>
-				<BuildOrder>109</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKORozn\UFormaDocPKORoznImpl.cpp">
-				<DependentOn>K:\Forms\DocPKORozn\UFormaDocPKORoznImpl.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegGoods\UFormaDocRegGoods.cpp">
-				<Form>FormaDocRegGoods</Form>
-				<DependentOn>K:\Forms\DocRegGoods\UFormaDocRegGoods.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegPaySale\UFormaDocRegPaySaleCF.cpp">
-				<DependentOn>K:\Forms\DocRegPaySale\UFormaDocRegPaySaleCF.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegPaySale\UFormaDocRegPaySale.cpp">
-				<Form>FormaDocRegPaySale</Form>
-				<DependentOn>K:\Forms\DocRegPaySale\UFormaDocRegPaySale.h</DependentOn>
-				<BuildOrder>69</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegGoods\UFormaDocRegGoodsCF.cpp">
-				<DependentOn>K:\Forms\DocRegGoods\UFormaDocRegGoodsCF.h</DependentOn>
-				<BuildOrder>61</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegBank\UFormaDocRegBankImpl.cpp">
-				<DependentOn>K:\Forms\DocRegBank\UFormaDocRegBankImpl.h</DependentOn>
-				<BuildOrder>56</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegBank\UFormaDocRegBankCF.cpp">
-				<DependentOn>K:\Forms\DocRegBank\UFormaDocRegBankCF.h</DependentOn>
-				<BuildOrder>55</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegCardBalance\UFormaDocRegCardBalance.cpp">
-				<Form>FormaDocRegCardBalance</Form>
-				<DependentOn>K:\Forms\DocRegCardBalance\UFormaDocRegCardBalance.h</DependentOn>
-				<BuildOrder>57</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSpOtrOst\UFormaDocSpOtrOstCF.cpp">
-				<DependentOn>K:\Forms\DocSpOtrOst\UFormaDocSpOtrOstCF.h</DependentOn>
-				<BuildOrder>100</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPlP\UFormaDocPlatPor.cpp">
-				<Form>FormaDocPlatPor</Form>
-				<DependentOn>K:\Forms\DocPlP\UFormaDocPlatPor.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegKassa\UFormaDocRegKassaCF.cpp">
-				<DependentOn>K:\Forms\DocRegKassa\UFormaDocRegKassaCF.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPost\UFormaDocVosvratPostCF.cpp">
-				<DependentOn>K:\Forms\DocVosvratPost\UFormaDocVosvratPostCF.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVipBanka\UFormaDocVipBanka.cpp">
-				<Form>FormaDocVipBanka</Form>
-				<DependentOn>K:\Forms\DocVipBanka\UFormaDocVipBanka.h</DependentOn>
-				<BuildOrder>102</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocZamena\UFormaDocZamena.cpp">
-				<Form>FormaDocZamena</Form>
-				<DependentOn>K:\Forms\DocZamena\UFormaDocZamena.h</DependentOn>
-				<BuildOrder>114</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocZamena\UFormaDocZamenaCF.cpp">
-				<DependentOn>K:\Forms\DocZamena\UFormaDocZamenaCF.h</DependentOn>
-				<BuildOrder>115</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocShet\UFormaDocSchetCF.cpp">
-				<DependentOn>K:\Forms\DocShet\UFormaDocSchetCF.h</DependentOn>
-				<BuildOrder>94</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRepKKM\UFormaDocRepKKMImpl.cpp">
-				<DependentOn>K:\Forms\DocRepKKM\UFormaDocRepKKMImpl.h</DependentOn>
-				<BuildOrder>77</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocShet\UFormaDocSchet.cpp">
-				<Form>FormaDocSchet</Form>
-				<DependentOn>K:\Forms\DocShet\UFormaDocSchet.h</DependentOn>
-				<BuildOrder>93</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPost.cpp">
-				<Form>FormaDocRegOtchetPost</Form>
-				<DependentOn>K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPost.h</DependentOn>
-				<BuildOrder>139</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostImpl.cpp">
-				<DependentOn>K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostImpl.h</DependentOn>
-				<BuildOrder>141</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostCF.cpp">
-				<DependentOn>K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostCF.h</DependentOn>
-				<BuildOrder>140</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOtchetPost\UFormaDocOtchetPost.cpp">
-				<Form>FormaDocOtchetPost</Form>
-				<DependentOn>K:\Forms\DocOtchetPost\UFormaDocOtchetPost.h</DependentOn>
-				<BuildOrder>135</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegKassa\UFormaDocRegKassaImpl.cpp">
-				<DependentOn>K:\Forms\DocRegKassa\UFormaDocRegKassaImpl.h</DependentOn>
-				<BuildOrder>65</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOtchetPost\UFormaDocOtchetPostImpl.cpp">
-				<DependentOn>K:\Forms\DocOtchetPost\UFormaDocOtchetPostImpl.h</DependentOn>
-				<BuildOrder>137</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOtchetPost\UFormaDocOtchetPostCF.cpp">
-				<DependentOn>K:\Forms\DocOtchetPost\UFormaDocOtchetPostCF.h</DependentOn>
-				<BuildOrder>136</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVipBanka\UFormaDocVipBankaImpl.cpp">
-				<DependentOn>K:\Forms\DocVipBanka\UFormaDocVipBankaImpl.h</DependentOn>
-				<BuildOrder>104</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKO\UFormaDocRKOCF.cpp">
-				<DependentOn>K:\Forms\DocRKO\UFormaDocRKOCF.h</DependentOn>
-				<BuildOrder>82</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocCheckKKM\UFormaDocCheckImpl.cpp">
-				<DependentOn>K:\Forms\DocCheckKKM\UFormaDocCheckImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\SprOborud\UDMViborFR.cpp">
-				<Form>DMViborFR</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\SprOborud\UDMViborFR.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSpisNom\UFormaDocSpisNomImpl.cpp">
-				<DependentOn>K:\Forms\DocSpisNom\UFormaDocSpisNomImpl.h</DependentOn>
-				<BuildOrder>98</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSpOtrOst\UFormaDocSpOtrOst.cpp">
-				<Form>FormaDocSpOtrOst</Form>
-				<DependentOn>K:\Forms\DocSpOtrOst\UFormaDocSpOtrOst.h</DependentOn>
-				<BuildOrder>99</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRealRozn\UFormaDocRealRoznImpl.cpp">
-				<DependentOn>K:\Forms\DocRealRozn\UFormaDocRealRoznImpl.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSpOtrOst\UFormaDocSpOtrOstImpl.cpp">
-				<DependentOn>K:\Forms\DocSpOtrOst\UFormaDocSpOtrOstImpl.h</DependentOn>
-				<BuildOrder>101</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocIsmPrice\UFormaDocIsmPriceImpl.cpp">
-				<DependentOn>K:\Forms\DocIsmPrice\UFormaDocIsmPriceImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPost\UFormaDocVosvratPost.cpp">
-				<Form>FormaDocVosvratPost</Form>
-				<DependentOn>K:\Forms\DocVosvratPost\UFormaDocVosvratPost.h</DependentOn>
-				<BuildOrder>111</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocZamena\UFormaDocZamenaImpl.cpp">
-				<DependentOn>K:\Forms\DocZamena\UFormaDocZamenaImpl.h</DependentOn>
-				<BuildOrder>116</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVipuskProd\UFormaDocVipuskProd.cpp">
-				<Form>FormaDocVipuskProd</Form>
-				<DependentOn>K:\Forms\DocVipuskProd\UFormaDocVipuskProd.h</DependentOn>
-				<BuildOrder>105</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPokImpl.cpp">
-				<DependentOn>K:\Forms\DocVosvratPok\UFormaDocVosvratPokImpl.h</DependentOn>
-				<BuildOrder>110</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOstNom\UFormaDocOstNom.cpp">
-				<Form>FormaDocOstNom</Form>
-				<DependentOn>K:\Forms\DocOstNom\UFormaDocOstNom.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
-				<Form>ModifyFormSheetEditor</Form>
-				<DependentOn>K:\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPost\UFormaDocVosvratPostImpl.cpp">
-				<DependentOn>K:\Forms\DocVosvratPost\UFormaDocVosvratPostImpl.h</DependentOn>
-				<BuildOrder>113</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegGoods\UFormaDocRegGoodsImpl.cpp">
-				<DependentOn>K:\Forms\DocRegGoods\UFormaDocRegGoodsImpl.h</DependentOn>
-				<BuildOrder>62</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKORozn\UFormaDocRKORoznCF.cpp">
-				<DependentOn>K:\Forms\DocRKORozn\UFormaDocRKORoznCF.h</DependentOn>
-				<BuildOrder>85</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSborkaKompl\UFormaDocSborkaKompl.cpp">
-				<Form>FormaDocSborkaKompl</Form>
-				<DependentOn>K:\Forms\DocSborkaKompl\UFormaDocSborkaKompl.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOstNom\UFormaDocOstNomImpl.cpp">
-				<DependentOn>K:\Forms\DocOstNom\UFormaDocOstNomImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocIsmPrice\UFormaDocIsmPriceCF.cpp">
-				<DependentOn>K:\Forms\DocIsmPrice\UFormaDocIsmPriceCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocCheckKKM\UFormaDocCheckCF.cpp">
-				<DependentOn>K:\Forms\DocCheckKKM\UFormaDocCheckCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKORozn\UFormaDocRKORoznImpl.cpp">
-				<DependentOn>K:\Forms\DocRKORozn\UFormaDocRKORoznImpl.h</DependentOn>
-				<BuildOrder>86</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKORozn\UFormaDocRKORozn.cpp">
-				<Form>FormaDocRKORozn</Form>
-				<DependentOn>K:\Forms\DocRKORozn\UFormaDocRKORozn.h</DependentOn>
-				<BuildOrder>84</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplCF.cpp">
-				<DependentOn>K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplCF.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPer\UFormaDocPerCF.cpp">
-				<DependentOn>K:\Forms\DocPer\UFormaDocPerCF.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPer\UFormaDocPerImpl.cpp">
-				<DependentOn>K:\Forms\DocPer\UFormaDocPerImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORozn.cpp">
+				<Form>FormaDocPKORozn</Form>
+				<DependentOn>..\..\..\Forms\DocPKORozn\UFormaDocPKORozn.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPlP\UFormaDocPlatPorImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPlP\UFormaDocPlatPorImpl.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRasch.cpp">
+				<Form>FormaDocRegVsRasch</Form>
+				<DependentOn>..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRasch.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
+				<Form>SheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotrCF.cpp">
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotrCF.h</DependentOn>
 				<BuildOrder>29</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPer\UFormaDocPer.cpp">
-				<Form>FormaDocPer</Form>
-				<DependentOn>K:\Forms\DocPer\UFormaDocPer.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheck.cpp">
+				<Form>FormaDocCheck</Form>
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheck.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRealRozn\UFormaDocRealRoznForCashierCF.cpp">
-				<DependentOn>K:\Forms\DocRealRozn\UFormaDocRealRoznForCashierCF.h</DependentOn>
-				<BuildOrder>124</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRozn.cpp">
+				<Form>FormaDocRealRozn</Form>
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRozn.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegVsRasch\UFormaDocRegVsRaschImpl.cpp">
-				<DependentOn>K:\Forms\DocRegVsRasch\UFormaDocRegVsRaschImpl.h</DependentOn>
-				<BuildOrder>74</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocReal\UFormaDocRealCF.cpp">
+				<DependentOn>..\..\..\Forms\DocReal\UFormaDocRealCF.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="FormsDoc.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocPlP\UFormaDocPlatPorCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPlP\UFormaDocPlatPorCF.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocKorrVS\UFormaDocKorrVS.cpp">
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznCF.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocKorrVS\UFormaDocKorrVSCF.cpp">
+				<DependentOn>..\..\..\Forms\DocKorrVS\UFormaDocKorrVSCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashier.cpp">
+				<Form>FormaDocRealRoznForCashier</Form>
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashier.h</DependentOn>
+				<BuildOrder>123</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocReal\UFormaDocReal.cpp">
+				<Form>FormaDocReal</Form>
+				<DependentOn>..\..\..\Forms\DocReal\UFormaDocReal.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchet.cpp">
+				<Form>FormaDocPostNaSchet</Form>
+				<DependentOn>..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchet.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotrImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotrImpl.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchetImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchetImpl.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRaschCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRaschCF.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKO\UFormaDocPKO.cpp">
+				<Form>FormaDocPKO</Form>
+				<DependentOn>..\..\..\Forms\DocPKO\UFormaDocPKO.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORozn.cpp">
+				<Form>FormaDocRKORozn</Form>
+				<DependentOn>..\..\..\Forms\DocRKORozn\UFormaDocRKORozn.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORoznImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRKORozn\UFormaDocRKORoznImpl.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPer\UFormaDocPerCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPer\UFormaDocPerCF.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplCF.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOstNom\UFormaDocOstNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocOstNom\UFormaDocOstNomImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKompl.cpp">
+				<Form>FormaDocSborkaKompl</Form>
+				<DependentOn>..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKompl.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckCF.cpp">
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocIsmPrice\UFormaDocIsmPriceCF.cpp">
+				<DependentOn>..\..\..\Forms\DocIsmPrice\UFormaDocIsmPriceCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPer\UFormaDocPerImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPer\UFormaDocPerImpl.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKO\UFormaDocPKOImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPKO\UFormaDocPKOImpl.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocKorrVS\UFormaDocKorrVS.cpp">
 				<Form>FormaDocKorrVS</Form>
-				<DependentOn>K:\Forms\DocKorrVS\UFormaDocKorrVS.h</DependentOn>
+				<DependentOn>..\..\..\Forms\DocKorrVS\UFormaDocKorrVS.h</DependentOn>
 				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKO\UFormaDocPKOImpl.cpp">
-				<DependentOn>K:\Forms\DocPKO\UFormaDocPKOImpl.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotr.cpp">
+				<Form>FormaDocCheckProsmotr</Form>
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotr.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
 			</CppCompile>
 			<ResFiles Include="FormsDoc.res">
 				<BuildOrder>9</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\Forms\DocCheckKKM\UFormaDocCheckProsmotr.cpp">
-				<Form>FormaDocCheckProsmotr</Form>
-				<DependentOn>K:\Forms\DocCheckKKM\UFormaDocCheckProsmotr.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashierCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashierCF.h</DependentOn>
+				<BuildOrder>124</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKO\UFormaDocPKO.cpp">
-				<Form>FormaDocPKO</Form>
-				<DependentOn>K:\Forms\DocPKO\UFormaDocPKO.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocPer\UFormaDocPer.cpp">
+				<Form>FormaDocPer</Form>
+				<DependentOn>..\..\..\Forms\DocPer\UFormaDocPer.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocCheckKKM\UFormaDocCheck.cpp">
-				<Form>FormaDocCheck</Form>
-				<DependentOn>K:\Forms\DocCheckKKM\UFormaDocCheck.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
+			<CppCompile Include="FormsDoc.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocCheckKKM\UFormaDocCheckProsmotrCF.cpp">
-				<DependentOn>K:\Forms\DocCheckKKM\UFormaDocCheckProsmotrCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRaschImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRaschImpl.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocReal\UFormaDocRealCF.cpp">
-				<DependentOn>K:\Forms\DocReal\UFormaDocRealCF.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRealRozn\UFormaDocRealRozn.cpp">
-				<Form>FormaDocRealRozn</Form>
-				<DependentOn>K:\Forms\DocRealRozn\UFormaDocRealRozn.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPlP\UFormaDocPlatPorImpl.cpp">
-				<DependentOn>K:\Forms\DocPlP\UFormaDocPlatPorImpl.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKORozn\UFormaDocPKORozn.cpp">
-				<Form>FormaDocPKORozn</Form>
-				<DependentOn>K:\Forms\DocPKORozn\UFormaDocPKORozn.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\SheetEditor\USheetEditor.cpp">
-				<Form>SheetEditor</Form>
-				<DependentOn>K:\Forms\SheetEditor\USheetEditor.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegVsRasch\UFormaDocRegVsRasch.cpp">
-				<Form>FormaDocRegVsRasch</Form>
-				<DependentOn>K:\Forms\DocRegVsRasch\UFormaDocRegVsRasch.h</DependentOn>
-				<BuildOrder>72</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPlP\UFormaDocPlatPorCF.cpp">
-				<DependentOn>K:\Forms\DocPlP\UFormaDocPlatPorCF.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocCheckKKM\UFormaDocCheckProsmotrImpl.cpp">
-				<DependentOn>K:\Forms\DocCheckKKM\UFormaDocCheckProsmotrImpl.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPostNaSchet\UFormaDocPostNaSchet.cpp">
-				<Form>FormaDocPostNaSchet</Form>
-				<DependentOn>K:\Forms\DocPostNaSchet\UFormaDocPostNaSchet.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegVsRasch\UFormaDocRegVsRaschCF.cpp">
-				<DependentOn>K:\Forms\DocRegVsRasch\UFormaDocRegVsRaschCF.h</DependentOn>
-				<BuildOrder>73</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPostNaSchet\UFormaDocPostNaSchetImpl.cpp">
-				<DependentOn>K:\Forms\DocPostNaSchet\UFormaDocPostNaSchetImpl.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocKorrVS\UFormaDocKorrVSCF.cpp">
-				<DependentOn>K:\Forms\DocKorrVS\UFormaDocKorrVSCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRealRozn\UFormaDocRealRoznCF.cpp">
-				<DependentOn>K:\Forms\DocRealRozn\UFormaDocRealRoznCF.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocReal\UFormaDocReal.cpp">
-				<Form>FormaDocReal</Form>
-				<DependentOn>K:\Forms\DocReal\UFormaDocReal.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRealRozn\UFormaDocRealRoznForCashier.cpp">
-				<Form>FormaDocRealRoznForCashier</Form>
-				<DependentOn>K:\Forms\DocRealRozn\UFormaDocRealRoznForCashier.h</DependentOn>
-				<BuildOrder>123</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\SprOborud\UFormaViborFR.cpp">
-				<Form>FormaViborFR</Form>
-				<DependentOn>K:\Forms\SprOborud\UFormaViborFR.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKO\UFormaDocRKO.cpp">
-				<Form>FormaDocRKO</Form>
-				<DependentOn>K:\Forms\DocRKO\UFormaDocRKO.h</DependentOn>
-				<BuildOrder>81</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocInv\UFormaDocInv.cpp">
-				<Form>FormaDocInv</Form>
-				<DependentOn>K:\Forms\DocInv\UFormaDocInv.h</DependentOn>
-				<BuildOrder>117</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplImpl.cpp">
-				<DependentOn>K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplImpl.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSborkaKompl\UFormaDocSborkaKomplImpl.cpp">
-				<DependentOn>K:\Forms\DocSborkaKompl\UFormaDocSborkaKomplImpl.h</DependentOn>
-				<BuildOrder>89</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSchetFact\UFormaDocSchetFactImpl.cpp">
-				<DependentOn>K:\Forms\DocSchetFact\UFormaDocSchetFactImpl.h</DependentOn>
-				<BuildOrder>92</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPrihNakl\UFormaDocPrihNakl.cpp">
-				<Form>FormaDocPrihNakl</Form>
-				<DependentOn>K:\Forms\DocPrihNakl\UFormaDocPrihNakl.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOstNom\UFormaDocOstNomCF.cpp">
-				<DependentOn>K:\Forms\DocOstNom\UFormaDocOstNomCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKORozn\UFormaDocPKORoznCF.cpp">
-				<DependentOn>K:\Forms\DocPKORozn\UFormaDocPKORoznCF.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegCardBalance\UFormaDocRegCardBalanceImpl.cpp">
-				<DependentOn>K:\Forms\DocRegCardBalance\UFormaDocRegCardBalanceImpl.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKO\UFormaDocRKOImpl.cpp">
-				<DependentOn>K:\Forms\DocRKO\UFormaDocRKOImpl.h</DependentOn>
-				<BuildOrder>83</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegOstNom\UFormaDocRegOstNomCF.cpp">
-				<DependentOn>K:\Forms\DocRegOstNom\UFormaDocRegOstNomCF.h</DependentOn>
-				<BuildOrder>67</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRegAdvCust\UFormaDocRegAdvCustCF.cpp">
-				<DependentOn>K:\Forms\DocRegAdvCust\UFormaDocRegAdvCustCF.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKompl.cpp">
-				<Form>FormaDocRasborkaKompl</Form>
-				<DependentOn>K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKompl.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRepKKM\UFormaDocRepKKM.cpp">
-				<Form>FormaDocRepKKM</Form>
-				<DependentOn>K:\Forms\DocRepKKM\UFormaDocRepKKM.h</DependentOn>
-				<BuildOrder>75</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKO\UFormaDocPKOCF.cpp">
-				<DependentOn>K:\Forms\DocPKO\UFormaDocPKOCF.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSchetFact\UFormaDocSchetFact.cpp">
-				<Form>FormaDocSchetFact</Form>
-				<DependentOn>K:\Forms\DocSchetFact\UFormaDocSchetFact.h</DependentOn>
-				<BuildOrder>90</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOstVs\UFormaDocOstVsCF.cpp">
-				<DependentOn>K:\Forms\DocOstVs\UFormaDocOstVsCF.h</DependentOn>
-				<BuildOrder>121</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOstVs\UFormaDocOstVsImpl.cpp">
-				<DependentOn>K:\Forms\DocOstVs\UFormaDocOstVsImpl.h</DependentOn>
-				<BuildOrder>122</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKORozn\UFormaDocPKORoznForCashierImpl.cpp">
-				<DependentOn>K:\Forms\DocPKORozn\UFormaDocPKORoznForCashierImpl.h</DependentOn>
-				<BuildOrder>131</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashier.cpp">
-				<Form>FormaDocVosvratPokForCashier</Form>
-				<DependentOn>K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashier.h</DependentOn>
-				<BuildOrder>132</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRealRozn\UFormaDocRealRoznForCashierImpl.cpp">
-				<DependentOn>K:\Forms\DocRealRozn\UFormaDocRealRoznForCashierImpl.h</DependentOn>
-				<BuildOrder>125</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKORozn\UFormaDocRKORoznForCashier.cpp">
+			<CppCompile Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashier.cpp">
 				<Form>FormaDocRKORoznForCashier</Form>
-				<DependentOn>K:\Forms\DocRKORozn\UFormaDocRKORoznForCashier.h</DependentOn>
+				<DependentOn>..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashier.h</DependentOn>
 				<BuildOrder>126</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocInv\UFormaDocInvImpl.cpp">
-				<DependentOn>K:\Forms\DocInv\UFormaDocInvImpl.h</DependentOn>
-				<BuildOrder>119</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashierImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashierImpl.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocOstVs\UFormaDocOstVs.cpp">
+			<CppCompile Include="..\..\..\Forms\DocOstVs\UFormaDocOstVs.cpp">
 				<Form>FormaDocOstVs</Form>
-				<DependentOn>K:\Forms\DocOstVs\UFormaDocOstVs.h</DependentOn>
+				<DependentOn>..\..\..\Forms\DocOstVs\UFormaDocOstVs.h</DependentOn>
 				<BuildOrder>120</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierImpl.cpp">
-				<DependentOn>K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\DocInv\UFormaDocInvImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocInv\UFormaDocInvImpl.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOstVs\UFormaDocOstVsImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocOstVs\UFormaDocOstVsImpl.h</DependentOn>
+				<BuildOrder>122</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOstVs\UFormaDocOstVsCF.cpp">
+				<DependentOn>..\..\..\Forms\DocOstVs\UFormaDocOstVsCF.h</DependentOn>
+				<BuildOrder>121</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashier.cpp">
+				<Form>FormaDocVosvratPokForCashier</Form>
+				<DependentOn>..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashier.h</DependentOn>
+				<BuildOrder>132</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashierImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashierImpl.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierImpl.h</DependentOn>
 				<BuildOrder>134</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocInv\UFormaDocInvCF.cpp">
-				<DependentOn>K:\Forms\DocInv\UFormaDocInvCF.h</DependentOn>
-				<BuildOrder>118</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKORozn\UFormaDocPKORoznForCashier.cpp">
-				<Form>FormaDocPKORoznForCashier</Form>
-				<DependentOn>K:\Forms\DocPKORozn\UFormaDocPKORoznForCashier.h</DependentOn>
-				<BuildOrder>129</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSborkaKompl\UFormaDocSborkaKomplCF.cpp">
-				<DependentOn>K:\Forms\DocSborkaKompl\UFormaDocSborkaKomplCF.h</DependentOn>
-				<BuildOrder>88</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocSchetFact\UFormaDocSchetFactCF.cpp">
-				<DependentOn>K:\Forms\DocSchetFact\UFormaDocSchetFactCF.h</DependentOn>
-				<BuildOrder>91</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKORozn\UFormaDocRKORoznForCashierImpl.cpp">
-				<DependentOn>K:\Forms\DocRKORozn\UFormaDocRKORoznForCashierImpl.h</DependentOn>
-				<BuildOrder>128</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierCF.cpp">
-				<DependentOn>K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierCF.cpp">
+				<DependentOn>..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashierCF.h</DependentOn>
 				<BuildOrder>133</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocPKORozn\UFormaDocPKORoznForCashierCF.cpp">
-				<DependentOn>K:\Forms\DocPKORozn\UFormaDocPKORoznForCashierCF.h</DependentOn>
-				<BuildOrder>130</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashierImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashierImpl.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\DocRKORozn\UFormaDocRKORoznForCashierCF.cpp">
-				<DependentOn>K:\Forms\DocRKORozn\UFormaDocRKORoznForCashierCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashierCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashierCF.h</DependentOn>
 				<BuildOrder>127</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\Forms\DocRev\UFormaDocRev.dfm"/>
-			<FormResources Include="K:\Forms\DocRegBank\UFormaDocRegBank.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\DocIsmPrice\UFormaDocIsmPrice.dfm"/>
-			<FormResources Include="K:\Forms\DocSpisNom\UFormaDocSpisNom.dfm"/>
-			<FormResources Include="K:\Forms\DocRegKassa\UFormaDocRegKassa.dfm"/>
-			<FormResources Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPok.dfm"/>
-			<FormResources Include="K:\Forms\DocRegOstNom\UFormaDocRegOstNom.dfm"/>
-			<FormResources Include="K:\Forms\DocRegAdvCust\UFormaDocRegAdvCust.dfm"/>
-			<FormResources Include="K:\Forms\DocRegGoods\UFormaDocRegGoods.dfm"/>
-			<FormResources Include="K:\Forms\DocRegPaySale\UFormaDocRegPaySale.dfm"/>
-			<FormResources Include="K:\Forms\DocRegCardBalance\UFormaDocRegCardBalance.dfm"/>
-			<FormResources Include="K:\Forms\DocPlP\UFormaDocPlatPor.dfm"/>
-			<FormResources Include="K:\Forms\DocVipBanka\UFormaDocVipBanka.dfm"/>
-			<FormResources Include="K:\Forms\DocZamena\UFormaDocZamena.dfm"/>
-			<FormResources Include="K:\Forms\DocShet\UFormaDocSchet.dfm"/>
-			<FormResources Include="K:\Forms\DocRegOtchetPost\UFormaDocRegOtchetPost.dfm"/>
-			<FormResources Include="K:\Forms\DocOtchetPost\UFormaDocOtchetPost.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\SprOborud\UDMViborFR.dfm"/>
-			<FormResources Include="K:\Forms\DocSpOtrOst\UFormaDocSpOtrOst.dfm"/>
-			<FormResources Include="K:\Forms\DocVosvratPost\UFormaDocVosvratPost.dfm"/>
-			<FormResources Include="K:\Forms\DocVipuskProd\UFormaDocVipuskProd.dfm"/>
-			<FormResources Include="K:\Forms\DocOstNom\UFormaDocOstNom.dfm"/>
-			<FormResources Include="K:\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
-			<FormResources Include="K:\Forms\DocSborkaKompl\UFormaDocSborkaKompl.dfm"/>
-			<FormResources Include="K:\Forms\DocRKORozn\UFormaDocRKORozn.dfm"/>
-			<FormResources Include="K:\Forms\DocPer\UFormaDocPer.dfm"/>
-			<FormResources Include="K:\Forms\DocKorrVS\UFormaDocKorrVS.dfm"/>
-			<FormResources Include="K:\Forms\DocCheckKKM\UFormaDocCheckProsmotr.dfm"/>
-			<FormResources Include="K:\Forms\DocPKO\UFormaDocPKO.dfm"/>
-			<FormResources Include="K:\Forms\DocCheckKKM\UFormaDocCheck.dfm"/>
-			<FormResources Include="K:\Forms\DocRealRozn\UFormaDocRealRozn.dfm"/>
-			<FormResources Include="K:\Forms\DocPKORozn\UFormaDocPKORozn.dfm"/>
-			<FormResources Include="K:\Forms\SheetEditor\USheetEditor.dfm"/>
-			<FormResources Include="K:\Forms\DocRegVsRasch\UFormaDocRegVsRasch.dfm"/>
-			<FormResources Include="K:\Forms\DocPostNaSchet\UFormaDocPostNaSchet.dfm"/>
-			<FormResources Include="K:\Forms\DocReal\UFormaDocReal.dfm"/>
-			<FormResources Include="K:\Forms\DocRealRozn\UFormaDocRealRoznForCashier.dfm"/>
-			<FormResources Include="K:\Forms\SprOborud\UFormaViborFR.dfm"/>
-			<FormResources Include="K:\Forms\DocRKO\UFormaDocRKO.dfm"/>
-			<FormResources Include="K:\Forms\DocInv\UFormaDocInv.dfm"/>
-			<FormResources Include="K:\Forms\DocPrihNakl\UFormaDocPrihNakl.dfm"/>
-			<FormResources Include="K:\Forms\DocRasborkaKompl\UFormaDocRasborkaKompl.dfm"/>
-			<FormResources Include="K:\Forms\DocRepKKM\UFormaDocRepKKM.dfm"/>
-			<FormResources Include="K:\Forms\DocSchetFact\UFormaDocSchetFact.dfm"/>
-			<FormResources Include="K:\Forms\DocVosvratPok\UFormaDocVosvratPokForCashier.dfm"/>
-			<FormResources Include="K:\Forms\DocRKORozn\UFormaDocRKORoznForCashier.dfm"/>
-			<FormResources Include="K:\Forms\DocOstVs\UFormaDocOstVs.dfm"/>
-			<FormResources Include="K:\Forms\DocPKORozn\UFormaDocPKORoznForCashier.dfm"/>
+			<CppCompile Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashierCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashierCF.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashier.cpp">
+				<Form>FormaDocPKORoznForCashier</Form>
+				<DependentOn>..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashier.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocInv\UFormaDocInvCF.cpp">
+				<DependentOn>..\..\..\Forms\DocInv\UFormaDocInvCF.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSchetFact\UFormaDocSchetFactCF.cpp">
+				<DependentOn>..\..\..\Forms\DocSchetFact\UFormaDocSchetFactCF.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKomplCF.cpp">
+				<DependentOn>..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKomplCF.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSchetFact\UFormaDocSchetFact.cpp">
+				<Form>FormaDocSchetFact</Form>
+				<DependentOn>..\..\..\Forms\DocSchetFact\UFormaDocSchetFact.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSchetFact\UFormaDocSchetFactImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocSchetFact\UFormaDocSchetFactImpl.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKomplImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKomplImpl.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOstNom\UFormaDocOstNomCF.cpp">
+				<DependentOn>..\..\..\Forms\DocOstNom\UFormaDocOstNomCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPrihNakl\UFormaDocPrihNakl.cpp">
+				<Form>FormaDocPrihNakl</Form>
+				<DependentOn>..\..\..\Forms\DocPrihNakl\UFormaDocPrihNakl.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRKO\UFormaDocRKO.cpp">
+				<Form>FormaDocRKO</Form>
+				<DependentOn>..\..\..\Forms\DocRKO\UFormaDocRKO.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprOborud\UFormaViborFR.cpp">
+				<Form>FormaViborFR</Form>
+				<DependentOn>..\..\..\Forms\SprOborud\UFormaViborFR.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKomplImpl.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocInv\UFormaDocInv.cpp">
+				<Form>FormaDocInv</Form>
+				<DependentOn>..\..\..\Forms\DocInv\UFormaDocInv.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORoznCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPKORozn\UFormaDocPKORoznCF.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRepKKM\UFormaDocRepKKM.cpp">
+				<Form>FormaDocRepKKM</Form>
+				<DependentOn>..\..\..\Forms\DocRepKKM\UFormaDocRepKKM.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKompl.cpp">
+				<Form>FormaDocRasborkaKompl</Form>
+				<DependentOn>..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKompl.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKO\UFormaDocPKOCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPKO\UFormaDocPKOCF.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRKO\UFormaDocRKOImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRKO\UFormaDocRKOImpl.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalanceImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalanceImpl.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCustCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCustCF.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNomCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNomCF.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORoznCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRKORozn\UFormaDocRKORoznCF.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNom.cpp">
+				<Form>FormaDocRegOstNom</Form>
+				<DependentOn>..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNom.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCustImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCustImpl.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalanceCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalanceCF.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCust.cpp">
+				<Form>FormaDocRegAdvCust</Form>
+				<DependentOn>..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCust.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocReal\UFormaDocRealImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocReal\UFormaDocRealImpl.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPok.cpp">
+				<Form>FormaDocVosvratPok</Form>
+				<DependentOn>..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPok.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProdImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProdImpl.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProdCF.cpp">
+				<DependentOn>..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProdCF.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokCF.cpp">
+				<DependentOn>..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokCF.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegBank\UFormaDocRegBankImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegBank\UFormaDocRegBankImpl.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegGoods\UFormaDocRegGoodsCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegGoods\UFormaDocRegGoodsCF.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalance.cpp">
+				<Form>FormaDocRegCardBalance</Form>
+				<DependentOn>..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalance.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegBank\UFormaDocRegBankCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegBank\UFormaDocRegBankCF.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegGoods\UFormaDocRegGoods.cpp">
+				<Form>FormaDocRegGoods</Form>
+				<DependentOn>..\..\..\Forms\DocRegGoods\UFormaDocRegGoods.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORoznImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPKORozn\UFormaDocPKORoznImpl.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySale.cpp">
+				<Form>FormaDocRegPaySale</Form>
+				<DependentOn>..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySale.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySaleCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySaleCF.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocKorrVS\UFormaDocKorrVSImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocKorrVS\UFormaDocKorrVSImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPrihNakl\UFormaDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocPrihNakl\UFormaDocPrihNaklImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPrihNakl\UFormaDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPrihNakl\UFormaDocPrihNaklCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocIsmPrice\UFormaDocIsmPrice.cpp">
+				<Form>FormaDocIsmPrice</Form>
+				<DependentOn>..\..\..\Forms\DocIsmPrice\UFormaDocIsmPrice.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRev\UFormaDocRev.cpp">
+				<Form>FormaDocRev</Form>
+				<DependentOn>..\..\..\Forms\DocRev\UFormaDocRev.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRev\UFormaDocRevImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRev\UFormaDocRevImpl.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegBank\UFormaDocRegBank.cpp">
+				<Form>FormaDocRegBank</Form>
+				<DependentOn>..\..\..\Forms\DocRegBank\UFormaDocRegBank.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNomImpl.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRepKKM\UFormaDocRepKKMCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRepKKM\UFormaDocRepKKMCF.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySaleImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySaleImpl.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegKassa\UFormaDocRegKassa.cpp">
+				<Form>FormaDocRegKassa</Form>
+				<DependentOn>..\..\..\Forms\DocRegKassa\UFormaDocRegKassa.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRev\UFormaDocRevCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRev\UFormaDocRevCF.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVipBanka\UFormaDocVipBankaCF.cpp">
+				<DependentOn>..\..\..\Forms\DocVipBanka\UFormaDocVipBankaCF.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSpisNom\UFormaDocSpisNom.cpp">
+				<Form>FormaDocSpisNom</Form>
+				<DependentOn>..\..\..\Forms\DocSpisNom\UFormaDocSpisNom.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocShet\UFormaDocSchetImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocShet\UFormaDocSchetImpl.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchetCF.cpp">
+				<DependentOn>..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchetCF.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSpisNom\UFormaDocSpisNomCF.cpp">
+				<DependentOn>..\..\..\Forms\DocSpisNom\UFormaDocSpisNomCF.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOst.cpp">
+				<Form>FormaDocSpOtrOst</Form>
+				<DependentOn>..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOst.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSpisNom\UFormaDocSpisNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocSpisNom\UFormaDocSpisNomImpl.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOstImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOstImpl.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznImpl.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRKO\UFormaDocRKOCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRKO\UFormaDocRKOCF.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprOborud\UDMViborFR.cpp">
+				<Form>DMViborFR</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprOborud\UDMViborFR.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocIsmPrice\UFormaDocIsmPriceImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocIsmPrice\UFormaDocIsmPriceImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
+				<Form>ModifyFormSheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOstNom\UFormaDocOstNom.cpp">
+				<Form>FormaDocOstNom</Form>
+				<DependentOn>..\..\..\Forms\DocOstNom\UFormaDocOstNom.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegGoods\UFormaDocRegGoodsImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegGoods\UFormaDocRegGoodsImpl.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPostImpl.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocZamena\UFormaDocZamenaImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocZamena\UFormaDocZamenaImpl.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPost.cpp">
+				<Form>FormaDocVosvratPost</Form>
+				<DependentOn>..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPost.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokImpl.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProd.cpp">
+				<Form>FormaDocVipuskProd</Form>
+				<DependentOn>..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProd.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVipBanka\UFormaDocVipBankaImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocVipBanka\UFormaDocVipBankaImpl.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocZamena\UFormaDocZamena.cpp">
+				<Form>FormaDocZamena</Form>
+				<DependentOn>..\..\..\Forms\DocZamena\UFormaDocZamena.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVipBanka\UFormaDocVipBanka.cpp">
+				<Form>FormaDocVipBanka</Form>
+				<DependentOn>..\..\..\Forms\DocVipBanka\UFormaDocVipBanka.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocShet\UFormaDocSchetCF.cpp">
+				<DependentOn>..\..\..\Forms\DocShet\UFormaDocSchetCF.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocZamena\UFormaDocZamenaCF.cpp">
+				<DependentOn>..\..\..\Forms\DocZamena\UFormaDocZamenaCF.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocPlP\UFormaDocPlatPor.cpp">
+				<Form>FormaDocPlatPor</Form>
+				<DependentOn>..\..\..\Forms\DocPlP\UFormaDocPlatPor.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOstCF.cpp">
+				<DependentOn>..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOstCF.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPostCF.cpp">
+				<DependentOn>..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPostCF.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegKassa\UFormaDocRegKassaCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegKassa\UFormaDocRegKassaCF.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRepKKM\UFormaDocRepKKMImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRepKKM\UFormaDocRepKKMImpl.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegKassa\UFormaDocRegKassaImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegKassa\UFormaDocRegKassaImpl.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPost.cpp">
+				<Form>FormaDocOtchetPost</Form>
+				<DependentOn>..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPost.h</DependentOn>
+				<BuildOrder>135</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPostCF.cpp">
+				<DependentOn>..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPostCF.h</DependentOn>
+				<BuildOrder>136</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPostImpl.h</DependentOn>
+				<BuildOrder>137</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPost.cpp">
+				<Form>FormaDocRegOtchetPost</Form>
+				<DependentOn>..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPost.h</DependentOn>
+				<BuildOrder>139</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocShet\UFormaDocSchet.cpp">
+				<Form>FormaDocSchet</Form>
+				<DependentOn>..\..\..\Forms\DocShet\UFormaDocSchet.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostCF.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPostImpl.h</DependentOn>
+				<BuildOrder>141</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORozn.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegVsRasch\UFormaDocRegVsRasch.dfm"/>
+			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheck.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRozn.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznForCashier.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocReal\UFormaDocReal.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocPostNaSchet\UFormaDocPostNaSchet.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocPKO\UFormaDocPKO.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORozn.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocSborkaKompl\UFormaDocSborkaKompl.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocKorrVS\UFormaDocKorrVS.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckProsmotr.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocPer\UFormaDocPer.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRKORozn\UFormaDocRKORoznForCashier.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocOstVs\UFormaDocOstVs.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPokForCashier.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocPKORozn\UFormaDocPKORoznForCashier.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocSchetFact\UFormaDocSchetFact.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocPrihNakl\UFormaDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRKO\UFormaDocRKO.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprOborud\UFormaViborFR.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocInv\UFormaDocInv.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRepKKM\UFormaDocRepKKM.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRasborkaKompl\UFormaDocRasborkaKompl.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegOstNom\UFormaDocRegOstNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegAdvCust\UFormaDocRegAdvCust.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocVosvratPok\UFormaDocVosvratPok.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegCardBalance\UFormaDocRegCardBalance.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegGoods\UFormaDocRegGoods.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegPaySale\UFormaDocRegPaySale.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocIsmPrice\UFormaDocIsmPrice.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRev\UFormaDocRev.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegBank\UFormaDocRegBank.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegKassa\UFormaDocRegKassa.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocSpisNom\UFormaDocSpisNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocSpOtrOst\UFormaDocSpOtrOst.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprOborud\UDMViborFR.dfm"/>
+			<FormResources Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocOstNom\UFormaDocOstNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocVosvratPost\UFormaDocVosvratPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocVipuskProd\UFormaDocVipuskProd.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocZamena\UFormaDocZamena.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocVipBanka\UFormaDocVipBanka.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocPlP\UFormaDocPlatPor.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocOtchetPost\UFormaDocOtchetPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocRegOtchetPost\UFormaDocRegOtchetPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocShet\UFormaDocSchet.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -747,7 +747,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">271</VersionInfo>
+						<VersionInfo Name="Build">274</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -759,7 +759,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.271</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.274</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

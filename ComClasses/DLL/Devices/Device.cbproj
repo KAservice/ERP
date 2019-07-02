@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>1COnLineFRCOM\;1COnLineFR\;Viki\;kasMSKFR\;K:\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>1COnLineFRCOM\;1COnLineFR\;Viki\;kasMSKFR\;K:\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Global\;1COnLineFRCOM\;1COnLineFR\;Viki\;kasMSKFR\;K:\ERP\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Global\;1COnLineFRCOM\;1COnLineFR\;Viki\;kasMSKFR\;K:\ERP\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,47 +61,17 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="UFiskRegCF.cpp">
-				<DependentOn>UFiskRegCF.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="kasMSKFR\UkasMSKFR.cpp">
+				<DependentOn>kasMSKFR\UkasMSKFR.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="Device.res">
-				<BuildOrder>10</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="UDisplayPok.cpp">
-				<DependentOn>UDisplayPok.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
+			<CppCompile Include="kasMSKFR\UkasMSKFRCF.cpp">
+				<DependentOn>kasMSKFR\UkasMSKFRCF.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="Device.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFiskRegImpl.cpp">
-				<DependentOn>UFiskRegImpl.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="kasMSKFR\MercFPrtX_TLB.cpp">
-				<DependentOn>kasMSKFR\MercFPrtX_TLB.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UDisplayPokCF.cpp">
-				<DependentOn>UDisplayPokCF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFiskReg.cpp">
-				<DependentOn>UFiskReg.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UScaner.cpp">
-				<DependentOn>UScaner.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UScanerImpl.cpp">
-				<DependentOn>UScanerImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
+			<CppCompile Include="UDisplayPokImpl.cpp">
+				<DependentOn>UDisplayPokImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UScanerCF.cpp">
 				<DependentOn>UScanerCF.h</DependentOn>
@@ -111,21 +81,21 @@
 				<DependentOn>kasMSKFR\UkasMSKFRImpl.h</DependentOn>
 				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UDisplayPokImpl.cpp">
-				<DependentOn>UDisplayPokImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="kasMSKFR\UkasMSKFR.cpp">
-				<DependentOn>kasMSKFR\UkasMSKFR.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="kasMSKFR\UkasMSKFRCF.cpp">
-				<DependentOn>kasMSKFR\UkasMSKFRCF.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="1COnLineFR\U1COnLineFR.cpp">
 				<DependentOn>1COnLineFR\U1COnLineFR.h</DependentOn>
 				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMCF.cpp">
+				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMImpl.cpp">
+				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOM.cpp">
+				<DependentOn>1COnLineFRCOM\U1COnLineFRCOM.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="1COnLineFR\U1COnLineFRImpl.cpp">
 				<DependentOn>1COnLineFR\U1COnLineFRImpl.h</DependentOn>
@@ -135,17 +105,47 @@
 				<DependentOn>1COnLineFR\U1COnLineFRCF.h</DependentOn>
 				<BuildOrder>18</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOM.cpp">
-				<DependentOn>1COnLineFRCOM\U1COnLineFRCOM.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
+			<CppCompile Include="Device.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMCF.cpp">
-				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
+			<CppCompile Include="UFiskRegImpl.cpp">
+				<DependentOn>UFiskRegImpl.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMImpl.cpp">
-				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
+			<CppCompile Include="UDisplayPok.cpp">
+				<DependentOn>UDisplayPok.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFiskRegCF.cpp">
+				<DependentOn>UFiskRegCF.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="Device.res">
+				<BuildOrder>10</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="kasMSKFR\MercFPrtX_TLB.cpp">
+				<DependentOn>kasMSKFR\MercFPrtX_TLB.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UScanerImpl.cpp">
+				<DependentOn>UScanerImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UScaner.cpp">
+				<DependentOn>UScaner.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UDisplayPokCF.cpp">
+				<DependentOn>UDisplayPokCF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFiskReg.cpp">
+				<DependentOn>UFiskReg.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
 			</CppCompile>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
@@ -171,7 +171,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">375</VersionInfo>
+						<VersionInfo Name="Build">378</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -183,7 +183,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.375</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.378</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

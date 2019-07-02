@@ -18,7 +18,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<LinkPackageImports>rtl.bpi;vcl.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;dxGDIPlusC14.bpi;dxCoreC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;dbrtl.bpi;vclimg.bpi;vcldb.bpi;cxGridC14.bpi;cxExportC14.bpi;cxExtEditorsC14.bpi;vclx.bpi;cxPageControlC14.bpi</LinkPackageImports>
 			<Multithreaded>true</Multithreaded>
 			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;Rave77VCL.bpi;pFIBPlusTools_CB2010.bpi;FIBPlus_CB2010.bpi;fs14.bpi;frx14.bpi;frxcs14.bpi;fsDB14.bpi;frxDB14.bpi;fsBDE14.bpi;frxBDE14.bpi;fsADO14.bpi;frxADO14.bpi;fsIBX14.bpi;frxIBX14.bpi;frxDBX14.bpi;frxe14.bpi;fsTee14.bpi;frxTee14.bpi;frxFIB14.bpi;fqb140.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;iw10tmsgridc2010.bpi;iw10tmsc2010.bpi;VclSmp.bpi;iw10tmsgriddec2010.bpi;iw10tmsxlsc2010.bpi</PackageImports>
@@ -26,12 +26,12 @@
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
 			<AllPackageLibs>rtl.lib;vcl.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;dbrtl.lib;vclimg.lib;vcldb.lib;cxGridC14.lib;cxExportC14.lib;cxExtEditorsC14.lib;vclx.lib;cxPageControlC14.lib</AllPackageLibs>
-			<BPILibOutputDir>K:\Program\FIBPlus\Exe\</BPILibOutputDir>
+			<BPILibOutputDir>K:\ERP\Program\FIBPlus\Exe\</BPILibOutputDir>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\FIB_DataModule\DM\;K:\Forms\UnversalReport\;K:\Interface\;K:\Global\;K:\ComClasses\DLL\ReportForms\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\FIB_DataModule\DM\;K:\Forms\UnversalReport\;K:\Interface\;K:\Global\;K:\ComClasses\DLL\ReportForms\;$(BDS)\lib\obj;K:\Interface;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Forms\UnversalReport\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\UnversalReport\;K:\ERP\Interface\;K:\ERP\Global\;K:\ERP\ComClasses\DLL\ReportForms\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Forms\UnversalReport\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\UnversalReport\;K:\ERP\Interface\;K:\ERP\Global\;K:\ERP\ComClasses\DLL\ReportForms\;$(BDS)\lib\obj;K:\ERP\Interface;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,34 +61,34 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Forms\UnversalReport\UFormaUnReportCF.cpp">
-				<DependentOn>K:\Forms\UnversalReport\UFormaUnReportCF.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\UnversalReport\UFormaUnReportImpl.cpp">
-				<DependentOn>K:\Forms\UnversalReport\UFormaUnReportImpl.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="ReportForms.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\UnversalReport\UFormaUnReport.cpp">
+			<CppCompile Include="..\..\..\Forms\UnversalReport\UFormaUnReport.cpp">
 				<Form>FormaUnReport</Form>
-				<DependentOn>K:\Forms\UnversalReport\UFormaUnReport.h</DependentOn>
+				<DependentOn>..\..\..\Forms\UnversalReport\UFormaUnReport.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\UnversalReport\UFormaUnReport.dfm"/>
+			<CppCompile Include="..\..\..\Forms\UnversalReport\UFormaUnReportCF.cpp">
+				<DependentOn>..\..\..\Forms\UnversalReport\UFormaUnReportCF.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\UnversalReport\UFormaUnReportImpl.cpp">
+				<DependentOn>..\..\..\Forms\UnversalReport\UFormaUnReportImpl.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\UnversalReport\UFormaUnReport.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

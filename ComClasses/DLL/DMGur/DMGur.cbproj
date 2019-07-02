@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;FIBPlus_CB2010.lib;ibxpress.lib;dsnap.lib;vcldb.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Interface\;K:\FIB_DataModule\GurRoznDoc\;K:\FIB_DataModule\GurPlat\;K:\FIB_DataModule\GurDocPrihNakl\;K:\FIB_DataModule\GurDocPer\;K:\FIB_DataModule\GurDocCheckKKM2\;K:\FIB_DataModule\GurDocCheckKKM\;K:\FIB_DataModule\GurAllDoc\;K:\Global\;K:\FIB_DataModule\GurOperDiscountCard\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Interface\;K:\FIB_DataModule\GurRoznDoc\;K:\FIB_DataModule\GurPlat\;K:\FIB_DataModule\GurDocPrihNakl\;K:\FIB_DataModule\GurDocPer\;K:\FIB_DataModule\GurDocCheckKKM2\;K:\FIB_DataModule\GurDocCheckKKM\;K:\FIB_DataModule\GurAllDoc\;K:\Global\;K:\FIB_DataModule\GurOperDiscountCard\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\FIB_DataModule\GurPlat\;..\..\..\FIB_DataModule\GurOperDiscountCard\;..\..\..\FIB_DataModule\GurDocCheckKKM2\;..\..\..\FIB_DataModule\GurDocPrihNakl\;..\..\..\FIB_DataModule\GurDocCheckKKM\;..\..\..\Global\;..\..\..\FIB_DataModule\GurRoznDoc\;..\..\..\FIB_DataModule\GurDocPer\;..\..\..\FIB_DataModule\GurAllDoc\;K:\ERP\Interface\;K:\ERP\FIB_DataModule\GurRoznDoc\;K:\ERP\FIB_DataModule\GurPlat\;K:\ERP\FIB_DataModule\GurDocPrihNakl\;K:\ERP\FIB_DataModule\GurDocPer\;K:\ERP\FIB_DataModule\GurDocCheckKKM2\;K:\ERP\FIB_DataModule\GurDocCheckKKM\;K:\ERP\FIB_DataModule\GurAllDoc\;K:\ERP\Global\;K:\ERP\FIB_DataModule\GurOperDiscountCard\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\FIB_DataModule\GurPlat\;..\..\..\FIB_DataModule\GurOperDiscountCard\;..\..\..\FIB_DataModule\GurDocCheckKKM2\;..\..\..\FIB_DataModule\GurDocPrihNakl\;..\..\..\FIB_DataModule\GurDocCheckKKM\;..\..\..\Global\;..\..\..\FIB_DataModule\GurRoznDoc\;..\..\..\FIB_DataModule\GurDocPer\;..\..\..\FIB_DataModule\GurAllDoc\;K:\ERP\Interface\;K:\ERP\FIB_DataModule\GurRoznDoc\;K:\ERP\FIB_DataModule\GurPlat\;K:\ERP\FIB_DataModule\GurDocPrihNakl\;K:\ERP\FIB_DataModule\GurDocPer\;K:\ERP\FIB_DataModule\GurDocCheckKKM2\;K:\ERP\FIB_DataModule\GurDocCheckKKM\;K:\ERP\FIB_DataModule\GurAllDoc\;K:\ERP\Global\;K:\ERP\FIB_DataModule\GurOperDiscountCard\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,137 +61,137 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPerImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPerImpl.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.cpp">
+				<Form>DMGurDocPrihNakl</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklCF.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDocImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDocImpl.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPer.cpp">
+				<Form>DMGurDocPer</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPer.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPerCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPerCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklImpl.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.cpp">
+				<Form>DMGurRoznDoc</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDocCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDocCF.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDocImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDocImpl.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurPlat\UDMGurPlat.cpp">
+				<Form>DMGurPlat</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\GurPlat\UDMGurPlat.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurPlat\UDMGurPlatCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurPlat\UDMGurPlatCF.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurPlat\UDMGurPlatImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurPlat\UDMGurPlatImpl.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDocCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDocCF.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2Impl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2Impl.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2CF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2CF.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.cpp">
+				<Form>DMGurDocCheckKKM2</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKM.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKM.cpp">
 				<Form>DMGurDocCheckKKM</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKM.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKM.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="DMGur.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2Impl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2Impl.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2CF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2CF.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.cpp">
-				<Form>DMGurDocCheckKKM2</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardImpl.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMImpl.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.cpp">
-				<Form>DMGurOperDiscountCard</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMCF.h</DependentOn>
 				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCardCF.h</DependentOn>
 				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDoc.cpp">
 				<Form>DMGurAllDoc</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDoc.h</DependentOn>
 				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurAllDoc\UDMGurAllDocCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurAllDoc\UDMGurAllDocCF.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKMImpl.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurAllDoc\UDMGurAllDocImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurAllDoc\UDMGurAllDocImpl.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocPer\UDMGurDocPer.cpp">
-				<Form>DMGurDocPer</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.cpp">
+				<Form>DMGurOperDiscountCard</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurDocPer\UDMGurDocPer.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocPer\UDMGurDocPerCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocPer\UDMGurDocPerCF.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocPer\UDMGurDocPerImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocPer\UDMGurDocPerImpl.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.cpp">
-				<Form>DMGurDocPrihNakl</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklCF.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNaklImpl.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurPlat\UDMGurPlat.cpp">
-				<Form>DMGurPlat</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurPlat\UDMGurPlat.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurPlat\UDMGurPlatCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurPlat\UDMGurPlatCF.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurPlat\UDMGurPlatImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurPlat\UDMGurPlatImpl.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.cpp">
-				<Form>DMGurRoznDoc</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDocCF.cpp">
-				<DependentOn>K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDocCF.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDocImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDocImpl.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<FormResources Include="K:\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKM.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurDocPer\UDMGurDocPer.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurPlat\UDMGurPlat.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurDocPrihNakl\UDMGurDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurDocPer\UDMGurDocPer.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurRoznDoc\UDMGurRoznDoc.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurPlat\UDMGurPlat.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurDocCheckKKM2\UDMGurDocCheckKKM2.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurDocCheckKKM\UDMGurDocCheckKKM.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurAllDoc\UDMGurAllDoc.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

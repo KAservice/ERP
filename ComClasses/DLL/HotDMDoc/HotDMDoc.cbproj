@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;FIBPlus_CB2010.lib;ibxpress.lib;dsnap.lib;vcldb.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\FIB_DataModule\HOT_DocViezd\;K:\FIB_DataModule\HOT_DocReal\;K:\FIB_DataModule\HOT_DocRasm\;K:\FIB_DataModule\HOT_DocRaschet\;K:\FIB_DataModule\HOT_DocOtmenaBron\;K:\Global\;K:\FIB_DataModule\HOT_DocBron\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\FIB_DataModule\HOT_DocViezd\;K:\FIB_DataModule\HOT_DocReal\;K:\FIB_DataModule\HOT_DocRasm\;K:\FIB_DataModule\HOT_DocRaschet\;K:\FIB_DataModule\HOT_DocOtmenaBron\;K:\Global\;K:\FIB_DataModule\HOT_DocBron\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\FIB_DataModule\HOT_DocViezd\;..\..\..\FIB_DataModule\HOT_DocOtmenaBron\;..\..\..\FIB_DataModule\HOT_DocRaschet\;..\..\..\FIB_DataModule\HOT_DocRasm\;..\..\..\FIB_DataModule\HOT_DocReal\;..\..\..\Global\;..\..\..\FIB_DataModule\HOT_DocBron\;K:\ERP\FIB_DataModule\HOT_DocViezd\;K:\ERP\FIB_DataModule\HOT_DocReal\;K:\ERP\FIB_DataModule\HOT_DocRasm\;K:\ERP\FIB_DataModule\HOT_DocRaschet\;K:\ERP\FIB_DataModule\HOT_DocOtmenaBron\;K:\ERP\Global\;K:\ERP\FIB_DataModule\HOT_DocBron\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\FIB_DataModule\HOT_DocViezd\;..\..\..\FIB_DataModule\HOT_DocOtmenaBron\;..\..\..\FIB_DataModule\HOT_DocRaschet\;..\..\..\FIB_DataModule\HOT_DocRasm\;..\..\..\FIB_DataModule\HOT_DocReal\;..\..\..\Global\;..\..\..\FIB_DataModule\HOT_DocBron\;K:\ERP\FIB_DataModule\HOT_DocViezd\;K:\ERP\FIB_DataModule\HOT_DocReal\;K:\ERP\FIB_DataModule\HOT_DocRasm\;K:\ERP\FIB_DataModule\HOT_DocRaschet\;K:\ERP\FIB_DataModule\HOT_DocOtmenaBron\;K:\ERP\Global\;K:\ERP\FIB_DataModule\HOT_DocBron\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,110 +61,110 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="HotDMDoc.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBron.cpp">
-				<Form>HOT_DMDocBron</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasm.cpp">
+				<Form>HOT_DMDocRasm</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBron.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasm.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocReal.cpp">
+				<Form>HOT_DMDocReal</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocReal.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezd.cpp">
+				<Form>HOT_DMDocViezd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezd.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
 			</CppCompile>
 			<ResFiles Include="HotDMDoc.res">
 				<BuildOrder>2</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
+			<CppCompile Include="HotDMDoc.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBron.cpp">
+				<Form>HOT_DMDocBron</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBron.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronCF.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronCF.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBron.cpp">
-				<Form>HOT_DMDocOtmenaBron</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBron.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronCF.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronImpl.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschet.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschet.cpp">
 				<Form>HOT_DMDocRaschet</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschet.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschet.h</DependentOn>
 				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetCF.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBronCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschetImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBronImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasm.cpp">
-				<Form>HOT_DMDocRasm</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBron.cpp">
+				<Form>HOT_DMDocOtmenaBron</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasm.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBron.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmCF.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasmImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocReal.cpp">
-				<Form>HOT_DMDocReal</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocReal.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealCF.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocRealImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezd.cpp">
-				<Form>HOT_DMDocViezd</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezd.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdCF.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezdImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<FormResources Include="K:\FIB_DataModule\HOT_DocBron\UHOT_DMDocBron.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBron.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschet.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasm.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\HOT_DocReal\UHOT_DMDocReal.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezd.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_DocRasm\UHOT_DMDocRasm.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_DocReal\UHOT_DMDocReal.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_DocViezd\UHOT_DMDocViezd.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_DocBron\UHOT_DMDocBron.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_DocRaschet\UHOT_DMDocRaschet.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_DocOtmenaBron\UHOT_DMDocOtmenaBron.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -189,7 +189,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">222</VersionInfo>
+						<VersionInfo Name="Build">224</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -201,7 +201,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.222</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.224</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

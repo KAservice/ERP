@@ -1,9 +1,12 @@
 #ifndef UFormaReportVipuskProdImplH
 #define UFormaReportVipuskProdImplH
-#include "IFormaReportVipuskProd.h"
+//#include "IFormaReportVipuskProd.h"
 #include "UFormaReportVipuskProd.h"
+#include "IMainInterface.h"
 //---------------------------------------------------------------
-class TFormaReportVipuskProdImpl : public IFormaReportVipuskProd, IkanCallBack
+//class TFormaReportVipuskProdImpl : public IFormaReportVipuskProd, IkanCallBack
+class __declspec(uuid(Global_CLSID_TFormaReportVipuskProdImpl)) TFormaReportVipuskProdImpl
+			 : public IMainInterface, IkanCallBack
 {
 public:
    TFormaReportVipuskProdImpl();

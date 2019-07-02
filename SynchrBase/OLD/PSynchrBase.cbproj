@@ -25,14 +25,14 @@
 			<Defines>NO_STRICT</Defines>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
-			<ILINK_ObjectSearchPath>K:\Program\FIBPlus\SynchrBase;FormSetup;DM</ILINK_ObjectSearchPath>
+			<ILINK_ObjectSearchPath>K:\ERP\Program\FIBPlus\SynchrBase;FormSetup;DM</ILINK_ObjectSearchPath>
 			<ProjectType>CppVCLApplication</ProjectType>
 			<PackageImports>vclx.bpi;vcl.bpi;dbrtl.bpi;Rave75VCL.bpi;bdertl.bpi;rtl.bpi;bcbie.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vcldb.bpi;vcldbx.bpi;dsnap.bpi;dsnapcon.bpi;teeUI.bpi;teedb.bpi;tee.bpi;adortl.bpi;vclib.bpi;ibxpress.bpi;dbxcds.bpi;dbexpress.bpi;DbxCommonDriver.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;IntrawebDB_90_100.bpi;Intraweb_90_100.bpi;vclie.bpi;websnap.bpi;webdsnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;dxPScxCommonC11.bpi;dxPSCoreC11.bpi;cxLibraryC11.bpi;dxThemeC11.bpi;dxGDIPlusC11.bpi;dxCoreC11.bpi;dxPSLnksC11.bpi;cxDataC11.bpi;cxEditorsC11.bpi;dxPScxGrid6LnkC11.bpi;cxGridC11.bpi;cxExtEditorsC11.bpi;cxPageControlC11.bpi;dxmdsC11.bpi;dxComnC11.bpi;dxPScxPCProdC11.bpi;dxPScxExtCommonC11.bpi;dxPSDBTeeChartC11.bpi;dxPSTeeChartC11.bpi;dxPScxSSLnkC11.bpi;cxSpreadSheetC11.bpi;cxExportC11.bpi;FIBPlus_CB2007.bpi;FIBPlusEditors_CB2007.bpi;FIBPlusTools_CB2007.bpi;frxFIB11.bpi;fqb110.bpi;frx11.bpi;frxDB11.bpi;fs11.bpi;fsDB11.bpi;frxcs11.bpi;fsBDE11.bpi;frxBDE11.bpi;fsADO11.bpi;frxADO11.bpi;fsIBX11.bpi;frxIBX11.bpi;frxe11.bpi;fsTee11.bpi;frxTee11.bpi</PackageImports>
 			<BCC_wpar>false</BCC_wpar>
 			<PackageLibs>DbxClientDriver.lib</PackageLibs>
-			<IncludePath>K:\Forms\Classes\;DM\;FormSetup\;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;FormSetup;DM;$(IncludePath)</IncludePath>
+			<IncludePath>K:\ERP\Forms\Classes\;DM\;FormSetup\;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;FormSetup;DM;$(IncludePath)</IncludePath>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;vclx.lib;dsnap.lib;dbxcds.lib;dbexpress.lib;DbxClientDriver.lib;DbxCommonDriver.lib;FIBPlus_CB2010.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxExtEditorsC14.lib;cxPageControlC14.lib;cxGridC14.lib;cxExportC14.lib</AllPackageLibs>
-			<ILINK_LibraryPath>K:\Forms\Classes\;DM\;FormSetup\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\Program\FIBPlus\SynchrBase;FormSetup;DM</ILINK_LibraryPath>
+			<ILINK_LibraryPath>K:\ERP\Forms\Classes\;DM\;FormSetup\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\Program\FIBPlus\SynchrBase;FormSetup;DM</ILINK_LibraryPath>
 			<Multithreaded>true</Multithreaded>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1)'!=''">
@@ -50,8 +50,8 @@
 			<IntermediateOutputDir>Debug</IntermediateOutputDir>
 			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
 			<BCC_StackFrames>true</BCC_StackFrames>
-			<IncludePath>K:\Components\FIBPlus\sources;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>K:\ERP\Components\FIBPlus\sources;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
 			<TASM_Debugging>Full</TASM_Debugging>
 			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
@@ -134,13 +134,13 @@
 					</ProjectProperties>
 					<HistoryLists_hlIncludePath>
 						<HistoryLists_hlIncludePath Name="Count">2</HistoryLists_hlIncludePath>
-						<HistoryLists_hlIncludePath Name="Item0">K:\Components\FIBPlus\sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\Program\FIBPlus\SynchrBase;FormSetup;DM</HistoryLists_hlIncludePath>
-						<HistoryLists_hlIncludePath Name="Item1">$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\Program\FIBPlus\SynchrBase</HistoryLists_hlIncludePath>
+						<HistoryLists_hlIncludePath Name="Item0">K:\ERP\Components\FIBPlus\sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\Program\FIBPlus\SynchrBase;FormSetup;DM</HistoryLists_hlIncludePath>
+						<HistoryLists_hlIncludePath Name="Item1">$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\Program\FIBPlus\SynchrBase</HistoryLists_hlIncludePath>
 					</HistoryLists_hlIncludePath>
 					<HistoryLists_hlILINK_LibraryPath>
 						<HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath>
-						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\Program\FIBPlus\SynchrBase;FormSetup;DM</HistoryLists_hlILINK_LibraryPath>
-						<HistoryLists_hlILINK_LibraryPath Name="Item1">$(BDS)\lib\debug;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\Program\FIBPlus\SynchrBase</HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\Program\FIBPlus\SynchrBase;FormSetup;DM</HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Item1">$(BDS)\lib\debug;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\Program\FIBPlus\SynchrBase</HistoryLists_hlILINK_LibraryPath>
 					</HistoryLists_hlILINK_LibraryPath>
 					<HistoryLists_hlDefines>
 						<HistoryLists_hlDefines Name="Count">1</HistoryLists_hlDefines>
@@ -176,8 +176,8 @@
 				<DependentOn>DM\UDM.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\Classes\UkanFile.cpp">
-				<DependentOn>K:\Forms\Classes\UkanFile.h</DependentOn>
+			<CppCompile Include="K:\ERP\Forms\Classes\UkanFile.cpp">
+				<DependentOn>K:\ERP\Forms\Classes\UkanFile.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="PSynchrBase.cpp">

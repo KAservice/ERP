@@ -24,13 +24,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;FIBPlus_CB2010.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxGridC14.lib;cxExportC14.lib;cxExtEditorsC14.lib;vclx.lib;cxPageControlC14.lib;ibxpress.lib;dsnap.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\REM_ReportKartTovara\;K:\Forms\SR_OstatkiTovarov\;K:\Forms\REM_StandartReport\;K:\Global\;K:\FIB_DataModule\DM\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\REM_ReportKartTovara\;K:\Forms\SR_OstatkiTovarov\;K:\Forms\REM_StandartReport\;K:\Global\;K:\FIB_DataModule\DM\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Forms\REM_ReportKartTovara\;..\..\..\Forms\REM_StandartReport\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;K:\ERP\Forms\REM_ReportKartTovara\;K:\ERP\Forms\SR_OstatkiTovarov\;K:\ERP\Forms\REM_StandartReport\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Forms\REM_ReportKartTovara\;..\..\..\Forms\REM_StandartReport\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;K:\ERP\Forms\REM_ReportKartTovara\;K:\ERP\Forms\SR_OstatkiTovarov\;K:\ERP\Forms\REM_StandartReport\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -63,52 +63,52 @@
 			<CppCompile Include="RemReports.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
 			<ResFiles Include="RemReports.res">
 				<BuildOrder>4</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\Forms\REM_StandartReport\UREM_FormaStandartReport.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.cpp">
 				<Form>REM_FormaStandartReport</Form>
-				<DependentOn>K:\Forms\REM_StandartReport\UREM_FormaStandartReport.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_StandartReport\UREM_FormaStandartReportCF.cpp">
-				<DependentOn>K:\Forms\REM_StandartReport\UREM_FormaStandartReportCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportCF.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.cpp">
-				<DependentOn>K:\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.h</DependentOn>
 				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.cpp">
 				<Form>REM_FormaReportKartTovara</Form>
-				<DependentOn>K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.cpp">
-				<DependentOn>K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.cpp">
-				<DependentOn>K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.h</DependentOn>
 				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\REM_StandartReport\UREM_FormaStandartReport.dfm"/>
-			<FormResources Include="K:\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -133,7 +133,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">201</VersionInfo>
+						<VersionInfo Name="Build">203</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -145,7 +145,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.201</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.203</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

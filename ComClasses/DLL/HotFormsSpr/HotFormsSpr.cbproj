@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;vcldb.lib;dbrtl.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxGridC14.lib;cxExportC14.lib;cxExtEditorsC14.lib;vclx.lib;cxPageControlC14.lib;FIBPlus_CB2010.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\HOT_TableSostNF\;K:\Forms\HOT_SprSostNom\;K:\Forms\HOT_SprTypePos\;K:\Forms\HOT_SprPrOsnUslug\;K:\Forms\HOT_SprObject\;K:\Forms\HOT_SprNF\;K:\Forms\HOT_SprCelPriesda\;K:\Global\;K:\FIB_DataModule\DM\;K:\Forms\HOT_SprCatNom\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\HOT_TableSostNF\;K:\Forms\HOT_SprSostNom\;K:\Forms\HOT_SprTypePos\;K:\Forms\HOT_SprPrOsnUslug\;K:\Forms\HOT_SprObject\;K:\Forms\HOT_SprNF\;K:\Forms\HOT_SprCelPriesda\;K:\Global\;K:\FIB_DataModule\DM\;K:\Forms\HOT_SprCatNom\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Forms\HOT_SprTypePos\;..\..\..\Forms\HOT_SprSostNom\;..\..\..\Forms\HOT_TableSostNF\;..\..\..\Global\;..\..\..\Forms\HOT_SprNF\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\HOT_SprCelPriesda\;..\..\..\Forms\HOT_SprPrOsnUslug\;..\..\..\Forms\HOT_SprCatNom\;..\..\..\Forms\HOT_SprObject\;K:\ERP\Forms\HOT_TableSostNF\;K:\ERP\Forms\HOT_SprSostNom\;K:\ERP\Forms\HOT_SprTypePos\;K:\ERP\Forms\HOT_SprPrOsnUslug\;K:\ERP\Forms\HOT_SprObject\;K:\ERP\Forms\HOT_SprNF\;K:\ERP\Forms\HOT_SprCelPriesda\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\HOT_SprCatNom\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Forms\HOT_SprTypePos\;..\..\..\Forms\HOT_SprSostNom\;..\..\..\Forms\HOT_TableSostNF\;..\..\..\Global\;..\..\..\Forms\HOT_SprNF\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\HOT_SprCelPriesda\;..\..\..\Forms\HOT_SprPrOsnUslug\;..\..\..\Forms\HOT_SprCatNom\;..\..\..\Forms\HOT_SprObject\;K:\ERP\Forms\HOT_TableSostNF\;K:\ERP\Forms\HOT_SprSostNom\;K:\ERP\Forms\HOT_SprTypePos\;K:\ERP\Forms\HOT_SprPrOsnUslug\;K:\ERP\Forms\HOT_SprObject\;K:\ERP\Forms\HOT_SprNF\;K:\ERP\Forms\HOT_SprCelPriesda\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\HOT_SprCatNom\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,237 +61,237 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslug.cpp">
-				<Form>HOT_FormaElementaSprPrOsnUslug</Form>
-				<DependentOn>K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslug.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselImpl.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNom.cpp">
+				<Form>HOT_FormaSpiskaSprCatNom</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNom.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugCF.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslug.cpp">
-				<Form>HOT_FormaSpiskaSprPrOsnUslug</Form>
-				<DependentOn>K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslug.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselCF.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePosel.cpp">
-				<Form>HOT_FormaElementaSprTypePosel</Form>
-				<DependentOn>K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePosel.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFImpl.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselCF.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePosel.cpp">
-				<Form>HOT_FormaSpiskaSprTypePosel</Form>
-				<DependentOn>K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePosel.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselImpl.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugImpl.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFImpl.cpp">
-				<DependentOn>K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFImpl.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFCF.cpp">
-				<DependentOn>K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFCF.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNF.cpp">
-				<Form>HOT_FormaElementaTableSostNF</Form>
-				<DependentOn>K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNF.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFImpl.cpp">
-				<DependentOn>K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFImpl.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFCF.cpp">
-				<DependentOn>K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFCF.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNF.cpp">
-				<Form>HOT_FormaSpiskaTableSostNF</Form>
-				<DependentOn>K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNF.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNom.cpp">
-				<Form>HOT_FormaElementaSprSostNom</Form>
-				<DependentOn>K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNom.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNom.cpp">
-				<Form>HOT_FormaSpiskaSprSostNom</Form>
-				<DependentOn>K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNom.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNom.cpp">
-				<Form>HOT_FormaElementaSprCatNom</Form>
-				<DependentOn>K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNom.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="HotFormsSpr.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
 			<ResFiles Include="HotFormsSpr.res">
 				<BuildOrder>1</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesda.cpp">
-				<Form>HOT_FormaSpiskaSprCelPriesda</Form>
-				<DependentOn>K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesda.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
+			<CppCompile Include="HotFormsSpr.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNom.cpp">
+				<Form>HOT_FormaElementaSprCatNom</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNom.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNom.cpp">
-				<Form>HOT_FormaSpiskaSprCatNom</Form>
-				<DependentOn>K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNom.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesda.cpp">
+				<Form>HOT_FormaSpiskaSprCelPriesda</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesda.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNomImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNomImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaCF.h</DependentOn>
 				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNFCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNFCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNF.cpp">
-				<Form>HOT_FormaElementaSprNF</Form>
-				<DependentOn>K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectImpl.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFCF.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNF.cpp">
-				<Form>HOT_FormaSpiskaSprNF</Form>
-				<DependentOn>K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNFImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNFImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectCF.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObject.cpp">
-				<Form>HOT_FormaElementaSprObject</Form>
-				<DependentOn>K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObject.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesdaImpl.h</DependentOn>
 				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectCF.cpp">
-				<DependentOn>K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectCF.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObject.cpp">
+				<Form>HOT_FormaElementaSprObject</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObject.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObject.cpp">
-				<Form>HOT_FormaSpiskaSprObject</Form>
-				<DependentOn>K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObject.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectImpl.cpp">
-				<DependentOn>K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObjectImpl.h</DependentOn>
 				<BuildOrder>17</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslug.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslug.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePosel.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePosel.dfm"/>
-			<FormResources Include="K:\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNF.dfm"/>
-			<FormResources Include="K:\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNF.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNom.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNom.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNom.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesda.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNom.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprNF\UHOT_FormaElementaSprNF.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNF.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprObject\UHOT_FormaElementaSprObject.dfm"/>
-			<FormResources Include="K:\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObject.dfm"/>
+			<CppCompile Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObject.cpp">
+				<Form>HOT_FormaSpiskaSprObject</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObject.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectCF.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObjectImpl.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNF.cpp">
+				<Form>HOT_FormaElementaSprNF</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNFCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNFCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNFImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNFImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNF.cpp">
+				<Form>HOT_FormaSpiskaSprNF</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFCF.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNFImpl.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePosel.cpp">
+				<Form>HOT_FormaElementaSprTypePosel</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePosel.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselCF.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePoselImpl.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePosel.cpp">
+				<Form>HOT_FormaSpiskaSprTypePosel</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePosel.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselCF.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePoselImpl.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslug.cpp">
+				<Form>HOT_FormaElementaSprPrOsnUslug</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslug.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslugImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslug.cpp">
+				<Form>HOT_FormaSpiskaSprPrOsnUslug</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslug.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugCF.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslugImpl.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNom.cpp">
+				<Form>HOT_FormaElementaSprSostNom</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNom.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNomImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNom.cpp">
+				<Form>HOT_FormaSpiskaSprSostNom</Form>
+				<DependentOn>..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNom.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNomImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNF.cpp">
+				<Form>HOT_FormaElementaTableSostNF</Form>
+				<DependentOn>..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNF.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFCF.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNFImpl.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNF.cpp">
+				<Form>HOT_FormaSpiskaTableSostNF</Form>
+				<DependentOn>..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNF.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFCF.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNFImpl.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaSpiskaSprCatNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprCatNom\UHOT_FormaElementaSprCatNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprCelPriesda\UHOT_FormaSpiskaSprCelPriesda.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaElementaSprObject.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprObject\UHOT_FormaSpiskaSprObject.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaElementaSprNF.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprNF\UHOT_FormaSpiskaSprNF.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaElementaSprTypePosel.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprTypePos\UHOT_FormaSpiskaSprTypePosel.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaElementaSprPrOsnUslug.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprPrOsnUslug\UHOT_FormaSpiskaSprPrOsnUslug.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaElementaSprSostNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_SprSostNom\UHOT_FormaSpiskaSprSostNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaElementaTableSostNF.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_TableSostNF\UHOT_FormaSpiskaTableSostNF.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -316,7 +316,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">249</VersionInfo>
+						<VersionInfo Name="Build">251</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -328,7 +328,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.249</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.251</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

@@ -61,7 +61,7 @@ int CompareDoubleValue(double v1, double v2, int pogr);
 
 		int LineLength;
 
-		int flTypeDocument;
+		int flTypeDocument;          //фискальный чек 2, нефискальный 1
  public:
 		T1COnLineFRCOM();
 		~T1COnLineFRCOM();

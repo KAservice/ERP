@@ -25,13 +25,13 @@
 			<ProjectType>VCppStyleDll</ProjectType>
 			<DCC_DebugDCUs>true</DCC_DebugDCUs>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxExtEditorsC14.lib;vclx.lib;cxGridC14.lib;cxExportC14.lib;cxPageControlC14.lib;ibxpress.lib;dsnap.lib;FIBPlus_CB2010.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\REM_DocVZipVosvratPost\;K:\Forms\REM_DocVZipPer\;K:\Forms\REM_DocOtprPost\;K:\Forms\REM_DocZakazPost\;K:\Forms\REM_DocVigruska\;K:\Forms\REM_DocVigrska\;K:\Forms\REM_DocProverka\;K:\Forms\REM_DocVosvratHW\;K:\Forms\REM_DocVidachaHW\;K:\Forms\REM_DocRegOtchetPost\;K:\Classes\;K:\Forms\REM_DocSpisNom\;K:\Forms\REM_DocZVosvrZap\;K:\Forms\REM_DocZAktPr\;K:\Forms\REM_DocZTreb\;K:\Forms\REM_DocZOper\;K:\Forms\REM_DocZEnd\;K:\Forms\REM_DocZStart\;K:\Forms\REM_DocZPer\;K:\Forms\REM_DocZVid\;K:\Forms\REM_DocZPost\;K:\Forms\REM_DocPer\;K:\Forms\REM_DocAkt\;K:\Forms\Rem_DocVosvratPok\;K:\Forms\REM_DocVosvratIsSC\;K:\Forms\REM_DocPerServCentr\;K:\Forms\REM_DocVosvratDileru\;K:\Forms\REM_DocPostOtDilera\;K:\Forms\REM_DocSborkaKompl\;K:\Forms\REM_DocOstNom\;K:\Forms\REM_DocReal\;K:\FIB_DataModule\REM_DocReal\;K:\FIB_DataModule\REM_DocPrihNakl\;K:\Forms\REM_DocPrihNakl\;K:\Forms\REM_DocSetServKKT\;K:\Forms\REM_DocSetServHW\;K:\Forms\REM_DocRemontKKT\;K:\Forms\REM_DocRemontHW\;K:\Forms\REM_DocRemont\;K:\Forms\REM_DocKM2\;K:\FIB_DataModule\DM\;K:\Global\;K:\Forms\REM_DocKM1\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\REM_DocVZipVosvratPost\;K:\Forms\REM_DocVZipPer\;K:\Forms\REM_DocOtprPost\;K:\Forms\REM_DocZakazPost\;K:\Forms\REM_DocVigruska\;K:\Forms\REM_DocVigrska\;K:\Forms\REM_DocProverka\;K:\Forms\REM_DocVosvratHW\;K:\Forms\REM_DocVidachaHW\;K:\Forms\REM_DocRegOtchetPost\;K:\Classes\;K:\Forms\REM_DocSpisNom\;K:\Forms\REM_DocZVosvrZap\;K:\Forms\REM_DocZAktPr\;K:\Forms\REM_DocZTreb\;K:\Forms\REM_DocZOper\;K:\Forms\REM_DocZEnd\;K:\Forms\REM_DocZStart\;K:\Forms\REM_DocZPer\;K:\Forms\REM_DocZVid\;K:\Forms\REM_DocZPost\;K:\Forms\REM_DocPer\;K:\Forms\REM_DocAkt\;K:\Forms\Rem_DocVosvratPok\;K:\Forms\REM_DocVosvratIsSC\;K:\Forms\REM_DocPerServCentr\;K:\Forms\REM_DocVosvratDileru\;K:\Forms\REM_DocPostOtDilera\;K:\Forms\REM_DocSborkaKompl\;K:\Forms\REM_DocOstNom\;K:\Forms\REM_DocReal\;K:\FIB_DataModule\REM_DocReal\;K:\FIB_DataModule\REM_DocPrihNakl\;K:\Forms\REM_DocPrihNakl\;K:\Forms\REM_DocSetServKKT\;K:\Forms\REM_DocSetServHW\;K:\Forms\REM_DocRemontKKT\;K:\Forms\REM_DocRemontHW\;K:\Forms\REM_DocRemont\;K:\Forms\REM_DocKM2\;K:\FIB_DataModule\DM\;K:\Global\;K:\Forms\REM_DocKM1\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Forms\REM_DocZEnd\;..\..\..\Forms\REM_DocZVid\;..\..\..\Forms\REM_DocZPer\;..\..\..\Forms\REM_DocReal\;..\..\..\Forms\REM_DocVosvratHW\;..\..\..\Forms\REM_DocVidachaHW\;..\..\..\Forms\REM_DocSetServHW\;..\..\..\Forms\REM_DocZVosvrZap\;..\..\..\Forms\REM_DocZakazPost\;..\..\..\Forms\REM_DocRemontKKT\;..\..\..\Forms\REM_DocVosvratDileru\;..\..\..\Forms\REM_DocRegOtchetPost\;..\..\..\Forms\REM_DocSpisNom\;..\..\..\Forms\REM_DocVZipPer\;..\..\..\Forms\REM_DocAkt\;..\..\..\Forms\REM_DocPer\;..\..\..\Forms\REM_DocSborkaKompl\;..\..\..\Forms\REM_DocKM1\;..\..\..\Forms\REM_DocVosvratIsSC\;..\..\..\Forms\REM_DocKM2\;..\..\..\Forms\REM_DocPrihNakl\;..\..\..\Forms\REM_DocRemontHW\;..\..\..\Forms\REM_DocVigruska\;..\..\..\Forms\REM_DocProverka\;..\..\..\Forms\REM_DocOtprPost\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\REM_DocSetServKKT\;..\..\..\Forms\Rem_DocVosvratPok\;..\..\..\Forms\REM_DocZOper\;..\..\..\Forms\REM_DocZTreb\;..\..\..\Forms\REM_DocZPost\;..\..\..\Forms\REM_DocZStart\;..\..\..\Forms\REM_DocRemont\;..\..\..\Forms\REM_DocOstNom\;..\..\..\Forms\REM_DocZAktPr\;..\..\..\Forms\REM_DocVZipVosvratPost\;..\..\..\Forms\REM_DocPostOtDilera\;..\..\..\Forms\REM_DocPerServCentr\;K:\ERP\Forms\REM_DocVZipVosvratPost\;K:\ERP\Forms\REM_DocVZipPer\;K:\ERP\Forms\REM_DocOtprPost\;K:\ERP\Forms\REM_DocZakazPost\;K:\ERP\Forms\REM_DocVigruska\;K:\ERP\Forms\REM_DocVigrska\;K:\ERP\Forms\REM_DocProverka\;K:\ERP\Forms\REM_DocVosvratHW\;K:\ERP\Forms\REM_DocVidachaHW\;K:\ERP\Forms\REM_DocRegOtchetPost\;K:\ERP\Classes\;K:\ERP\Forms\REM_DocSpisNom\;K:\ERP\Forms\REM_DocZVosvrZap\;K:\ERP\Forms\REM_DocZAktPr\;K:\ERP\Forms\REM_DocZTreb\;K:\ERP\Forms\REM_DocZOper\;K:\ERP\Forms\REM_DocZEnd\;K:\ERP\Forms\REM_DocZStart\;K:\ERP\Forms\REM_DocZPer\;K:\ERP\Forms\REM_DocZVid\;K:\ERP\Forms\REM_DocZPost\;K:\ERP\Forms\REM_DocPer\;K:\ERP\Forms\REM_DocAkt\;K:\ERP\Forms\Rem_DocVosvratPok\;K:\ERP\Forms\REM_DocVosvratIsSC\;K:\ERP\Forms\REM_DocPerServCentr\;K:\ERP\Forms\REM_DocVosvratDileru\;K:\ERP\Forms\REM_DocPostOtDilera\;K:\ERP\Forms\REM_DocSborkaKompl\;K:\ERP\Forms\REM_DocOstNom\;K:\ERP\Forms\REM_DocReal\;K:\ERP\FIB_DataModule\REM_DocReal\;K:\ERP\FIB_DataModule\REM_DocPrihNakl\;K:\ERP\Forms\REM_DocPrihNakl\;K:\ERP\Forms\REM_DocSetServKKT\;K:\ERP\Forms\REM_DocSetServHW\;K:\ERP\Forms\REM_DocRemontKKT\;K:\ERP\Forms\REM_DocRemontHW\;K:\ERP\Forms\REM_DocRemont\;K:\ERP\Forms\REM_DocKM2\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;K:\ERP\Forms\REM_DocKM1\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Forms\REM_DocZEnd\;..\..\..\Forms\REM_DocZVid\;..\..\..\Forms\REM_DocZPer\;..\..\..\Forms\REM_DocReal\;..\..\..\Forms\REM_DocVosvratHW\;..\..\..\Forms\REM_DocVidachaHW\;..\..\..\Forms\REM_DocSetServHW\;..\..\..\Forms\REM_DocZVosvrZap\;..\..\..\Forms\REM_DocZakazPost\;..\..\..\Forms\REM_DocRemontKKT\;..\..\..\Forms\REM_DocVosvratDileru\;..\..\..\Forms\REM_DocRegOtchetPost\;..\..\..\Forms\REM_DocSpisNom\;..\..\..\Forms\REM_DocVZipPer\;..\..\..\Forms\REM_DocAkt\;..\..\..\Forms\REM_DocPer\;..\..\..\Forms\REM_DocSborkaKompl\;..\..\..\Forms\REM_DocKM1\;..\..\..\Forms\REM_DocVosvratIsSC\;..\..\..\Forms\REM_DocKM2\;..\..\..\Forms\REM_DocPrihNakl\;..\..\..\Forms\REM_DocRemontHW\;..\..\..\Forms\REM_DocVigruska\;..\..\..\Forms\REM_DocProverka\;..\..\..\Forms\REM_DocOtprPost\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\REM_DocSetServKKT\;..\..\..\Forms\Rem_DocVosvratPok\;..\..\..\Forms\REM_DocZOper\;..\..\..\Forms\REM_DocZTreb\;..\..\..\Forms\REM_DocZPost\;..\..\..\Forms\REM_DocZStart\;..\..\..\Forms\REM_DocRemont\;..\..\..\Forms\REM_DocOstNom\;..\..\..\Forms\REM_DocZAktPr\;..\..\..\Forms\REM_DocVZipVosvratPost\;..\..\..\Forms\REM_DocPostOtDilera\;..\..\..\Forms\REM_DocPerServCentr\;K:\ERP\Forms\REM_DocVZipVosvratPost\;K:\ERP\Forms\REM_DocVZipPer\;K:\ERP\Forms\REM_DocOtprPost\;K:\ERP\Forms\REM_DocZakazPost\;K:\ERP\Forms\REM_DocVigruska\;K:\ERP\Forms\REM_DocVigrska\;K:\ERP\Forms\REM_DocProverka\;K:\ERP\Forms\REM_DocVosvratHW\;K:\ERP\Forms\REM_DocVidachaHW\;K:\ERP\Forms\REM_DocRegOtchetPost\;K:\ERP\Classes\;K:\ERP\Forms\REM_DocSpisNom\;K:\ERP\Forms\REM_DocZVosvrZap\;K:\ERP\Forms\REM_DocZAktPr\;K:\ERP\Forms\REM_DocZTreb\;K:\ERP\Forms\REM_DocZOper\;K:\ERP\Forms\REM_DocZEnd\;K:\ERP\Forms\REM_DocZStart\;K:\ERP\Forms\REM_DocZPer\;K:\ERP\Forms\REM_DocZVid\;K:\ERP\Forms\REM_DocZPost\;K:\ERP\Forms\REM_DocPer\;K:\ERP\Forms\REM_DocAkt\;K:\ERP\Forms\Rem_DocVosvratPok\;K:\ERP\Forms\REM_DocVosvratIsSC\;K:\ERP\Forms\REM_DocPerServCentr\;K:\ERP\Forms\REM_DocVosvratDileru\;K:\ERP\Forms\REM_DocPostOtDilera\;K:\ERP\Forms\REM_DocSborkaKompl\;K:\ERP\Forms\REM_DocOstNom\;K:\ERP\Forms\REM_DocReal\;K:\ERP\FIB_DataModule\REM_DocReal\;K:\ERP\FIB_DataModule\REM_DocPrihNakl\;K:\ERP\Forms\REM_DocPrihNakl\;K:\ERP\Forms\REM_DocSetServKKT\;K:\ERP\Forms\REM_DocSetServHW\;K:\ERP\Forms\REM_DocRemontKKT\;K:\ERP\Forms\REM_DocRemontHW\;K:\ERP\Forms\REM_DocRemont\;K:\ERP\Forms\REM_DocKM2\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;K:\ERP\Forms\REM_DocKM1\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,545 +61,545 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Forms\REM_DocZTreb\UREM_FormaDocZTreb.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTreb.cpp">
 				<Form>REM_FormaDocZTreb</Form>
-				<DependentOn>K:\Forms\REM_DocZTreb\UREM_FormaDocZTreb.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTreb.h</DependentOn>
 				<BuildOrder>65</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZap.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZap.cpp">
 				<Form>REM_FormaDocZVosvrZap</Form>
-				<DependentOn>K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZap.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZap.h</DependentOn>
 				<BuildOrder>67</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklCF.cpp">
-				<DependentOn>K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklCF.h</DependentOn>
 				<BuildOrder>27</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZPost\UREM_FormaDocZPost.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPost.cpp">
 				<Form>REM_FormaDocZPost</Form>
-				<DependentOn>K:\Forms\REM_DocZPost\UREM_FormaDocZPost.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPost.h</DependentOn>
 				<BuildOrder>59</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplImpl.h</DependentOn>
 				<BuildOrder>37</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileru.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileru.cpp">
 				<Form>REM_FormaDocVosvratDileru</Form>
-				<DependentOn>K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileru.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileru.h</DependentOn>
 				<BuildOrder>41</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWImpl.h</DependentOn>
 				<BuildOrder>22</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHW.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHW.cpp">
 				<Form>REM_FormaDocSetServHW</Form>
-				<DependentOn>K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHW.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHW.h</DependentOn>
 				<BuildOrder>20</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruImpl.h</DependentOn>
 				<BuildOrder>43</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTImpl.h</DependentOn>
 				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocReal\UREM_FormaDocRealCF.cpp">
-				<DependentOn>K:\Forms\REM_DocReal\UREM_FormaDocRealCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocReal\UREM_FormaDocRealCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocReal\UREM_FormaDocRealCF.h</DependentOn>
 				<BuildOrder>30</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNakl.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNakl.cpp">
 				<Form>REM_FormaDocPrihNakl</Form>
-				<DependentOn>K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNakl.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNakl.h</DependentOn>
 				<BuildOrder>26</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKT.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKT.cpp">
 				<Form>REM_FormaDocRemontKKT</Form>
-				<DependentOn>K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKT.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKT.h</DependentOn>
 				<BuildOrder>17</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKompl.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKompl.cpp">
 				<Form>REM_FormaDocSborkaKompl</Form>
-				<DependentOn>K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKompl.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKompl.h</DependentOn>
 				<BuildOrder>35</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHW.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHW.cpp">
 				<Form>REM_FormaDocRemontHW</Form>
-				<DependentOn>K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHW.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHW.h</DependentOn>
 				<BuildOrder>14</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWImpl.h</DependentOn>
 				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemont\UREM_FormaDocRemontImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocRemont\UREM_FormaDocRemontImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemontImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemontImpl.h</DependentOn>
 				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocKM2\UREM_FormaDocKM2Impl.cpp">
-				<DependentOn>K:\Forms\REM_DocKM2\UREM_FormaDocKM2Impl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2Impl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2Impl.h</DependentOn>
 				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDilera.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDilera.cpp">
 				<Form>REM_FormaDocPostOtDilera</Form>
-				<DependentOn>K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDilera.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDilera.h</DependentOn>
 				<BuildOrder>38</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSC.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSC.cpp">
 				<Form>REM_FormaDocVosvratIsSC</Form>
-				<DependentOn>K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSC.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSC.h</DependentOn>
 				<BuildOrder>47</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPr.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPr.cpp">
 				<Form>REM_FormaDocZAktPr</Form>
-				<DependentOn>K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPr.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPr.h</DependentOn>
 				<BuildOrder>66</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTImpl.h</DependentOn>
 				<BuildOrder>25</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocKM2\UREM_FormaDocKM2CF.cpp">
-				<DependentOn>K:\Forms\REM_DocKM2\UREM_FormaDocKM2CF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2CF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2CF.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocKM2\UREM_FormaDocKM2.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2.cpp">
 				<Form>REM_FormaDocKM2</Form>
-				<DependentOn>K:\Forms\REM_DocKM2\UREM_FormaDocKM2.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrCF.cpp">
-				<DependentOn>K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrCF.h</DependentOn>
 				<BuildOrder>45</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemont\UREM_FormaDocRemont.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemont.cpp">
 				<Form>REM_FormaDocRemont</Form>
-				<DependentOn>K:\Forms\REM_DocRemont\UREM_FormaDocRemont.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemont.h</DependentOn>
 				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokImpl.cpp">
-				<DependentOn>K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokImpl.cpp">
+				<DependentOn>..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokImpl.h</DependentOn>
 				<BuildOrder>52</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocProverka\UREM_FormaDocProverka.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverka.cpp">
 				<Form>REM_FormaDocProverka</Form>
-				<DependentOn>K:\Forms\REM_DocProverka\UREM_FormaDocProverka.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverka.h</DependentOn>
 				<BuildOrder>98</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPost.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPost.cpp">
 				<Form>REM_FormaDocOtprPost</Form>
-				<DependentOn>K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPost.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPost.h</DependentOn>
 				<BuildOrder>107</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostCF.cpp">
-				<DependentOn>K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostCF.h</DependentOn>
 				<BuildOrder>108</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVigruska\UREM_FormaDocVigruskaImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVigruska\UREM_FormaDocVigruskaImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruskaImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruskaImpl.h</DependentOn>
 				<BuildOrder>103</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocProverka\UREM_FormaDocProverkaImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocProverka\UREM_FormaDocProverkaImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverkaImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverkaImpl.h</DependentOn>
 				<BuildOrder>100</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocReal\UREM_FormaDocReal.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocReal\UREM_FormaDocReal.cpp">
 				<Form>REM_FormaDocReal</Form>
-				<DependentOn>K:\Forms\REM_DocReal\UREM_FormaDocReal.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocReal\UREM_FormaDocReal.h</DependentOn>
 				<BuildOrder>56</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVigruska\UREM_FormaDocVigruskaCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVigruska\UREM_FormaDocVigruskaCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruskaCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruskaCF.h</DependentOn>
 				<BuildOrder>102</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPost.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPost.cpp">
 				<Form>REM_FormaDocVZipVosvratPost</Form>
-				<DependentOn>K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPost.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPost.h</DependentOn>
 				<BuildOrder>113</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostCF.h</DependentOn>
 				<BuildOrder>114</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPostImpl.h</DependentOn>
 				<BuildOrder>115</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerImpl.h</DependentOn>
 				<BuildOrder>112</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPostImpl.h</DependentOn>
 				<BuildOrder>109</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPer.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPer.cpp">
 				<Form>REM_FormaDocVZipPer</Form>
-				<DependentOn>K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPer.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPer.h</DependentOn>
 				<BuildOrder>110</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPerCF.h</DependentOn>
 				<BuildOrder>111</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocProverka\UREM_FormaDocProverkaCF.cpp">
-				<DependentOn>K:\Forms\REM_DocProverka\UREM_FormaDocProverkaCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverkaCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverkaCF.h</DependentOn>
 				<BuildOrder>99</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="RemFormsDoc.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentrImpl.h</DependentOn>
 				<BuildOrder>46</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokCF.cpp">
-				<DependentOn>K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokCF.cpp">
+				<DependentOn>..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPokCF.h</DependentOn>
 				<BuildOrder>51</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocKM1\UREM_FormaDocKM1Impl.cpp">
-				<DependentOn>K:\Forms\REM_DocKM1\UREM_FormaDocKM1Impl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1Impl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1Impl.h</DependentOn>
 				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostImpl.h</DependentOn>
 				<BuildOrder>91</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNom.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNom.cpp">
 				<Form>REM_FormaDocSpisNom</Form>
-				<DependentOn>K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNom.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNom.h</DependentOn>
 				<BuildOrder>86</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostCF.cpp">
-				<DependentOn>K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPostCF.h</DependentOn>
 				<BuildOrder>90</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomCF.cpp">
-				<DependentOn>K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomCF.h</DependentOn>
 				<BuildOrder>87</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPer\UREM_FormaDocPerImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocPer\UREM_FormaDocPerImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPer\UREM_FormaDocPerImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPer\UREM_FormaDocPerImpl.h</DependentOn>
 				<BuildOrder>58</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVigruska\UREM_FormaDocVigruska.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruska.cpp">
 				<Form>REM_FormaDocVigruska</Form>
-				<DependentOn>K:\Forms\REM_DocVigruska\UREM_FormaDocVigruska.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruska.h</DependentOn>
 				<BuildOrder>101</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPost.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPost.cpp">
 				<Form>REM_FormaDocRegOtchetPost</Form>
-				<DependentOn>K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPost.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPost.h</DependentOn>
 				<BuildOrder>89</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPok.cpp">
+			<CppCompile Include="..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPok.cpp">
 				<Form>REM_FormaDocVosvratPok</Form>
-				<DependentOn>K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPok.h</DependentOn>
+				<DependentOn>..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPok.h</DependentOn>
 				<BuildOrder>50</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNomImpl.h</DependentOn>
 				<BuildOrder>88</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraImpl.h</DependentOn>
 				<BuildOrder>40</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemont\UREM_FormaDocRemontCF.cpp">
-				<DependentOn>K:\Forms\REM_DocRemont\UREM_FormaDocRemontCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemontCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemontCF.h</DependentOn>
 				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocOstNom\UREM_FormaDocOstNom.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNom.cpp">
 				<Form>REM_FormaDocOstNom</Form>
-				<DependentOn>K:\Forms\REM_DocOstNom\UREM_FormaDocOstNom.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNom.h</DependentOn>
 				<BuildOrder>32</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocKM1\UREM_FormaDocKM1CF.cpp">
-				<DependentOn>K:\Forms\REM_DocKM1\UREM_FormaDocKM1CF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1CF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1CF.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocAkt\UREM_FormaDocAkt.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocAkt\UREM_FormaDocAkt.cpp">
 				<Form>REM_FormaDocAkt</Form>
-				<DependentOn>K:\Forms\REM_DocAkt\UREM_FormaDocAkt.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocAkt\UREM_FormaDocAkt.h</DependentOn>
 				<BuildOrder>53</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraCF.cpp">
-				<DependentOn>K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDileraCF.h</DependentOn>
 				<BuildOrder>39</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZOper\UREM_FormaDocZOperImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZOper\UREM_FormaDocZOperImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOperImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOperImpl.h</DependentOn>
 				<BuildOrder>79</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZTreb\UREM_FormaDocZTrebCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZTreb\UREM_FormaDocZTrebCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTrebCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTrebCF.h</DependentOn>
 				<BuildOrder>80</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWCF.h</DependentOn>
 				<BuildOrder>96</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWImpl.h</DependentOn>
 				<BuildOrder>94</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocOstNom\UREM_FormaDocOstNomImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocOstNom\UREM_FormaDocOstNomImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNomImpl.h</DependentOn>
 				<BuildOrder>34</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNaklImpl.h</DependentOn>
 				<BuildOrder>28</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrCF.h</DependentOn>
 				<BuildOrder>82</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCImpl.h</DependentOn>
 				<BuildOrder>49</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplCF.cpp">
-				<DependentOn>K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKomplCF.h</DependentOn>
 				<BuildOrder>36</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPer\UREM_FormaDocPer.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocPer\UREM_FormaDocPer.cpp">
 				<Form>REM_FormaDocPer</Form>
-				<DependentOn>K:\Forms\REM_DocPer\UREM_FormaDocPer.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocPer\UREM_FormaDocPer.h</DependentOn>
 				<BuildOrder>55</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTCF.cpp">
-				<DependentOn>K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKTCF.h</DependentOn>
 				<BuildOrder>24</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZPer\UREM_FormaDocZPerImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZPer\UREM_FormaDocZPerImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPerImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPerImpl.h</DependentOn>
 				<BuildOrder>73</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZVid\UREM_FormaDocZVid.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVid.cpp">
 				<Form>REM_FormaDocZVid</Form>
-				<DependentOn>K:\Forms\REM_DocZVid\UREM_FormaDocZVid.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVid.h</DependentOn>
 				<BuildOrder>60</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocAkt\UREM_FormaDocAktCF.cpp">
-				<DependentOn>K:\Forms\REM_DocAkt\UREM_FormaDocAktCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocAkt\UREM_FormaDocAktCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocAkt\UREM_FormaDocAktCF.h</DependentOn>
 				<BuildOrder>54</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZStart\UREM_FormaDocZStartCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZStart\UREM_FormaDocZStartCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStartCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStartCF.h</DependentOn>
 				<BuildOrder>74</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZEnd\UREM_FormaDocZEnd.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEnd.cpp">
 				<Form>REM_FormaDocZEnd</Form>
-				<DependentOn>K:\Forms\REM_DocZEnd\UREM_FormaDocZEnd.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEnd.h</DependentOn>
 				<BuildOrder>63</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZOper\UREM_FormaDocZOper.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOper.cpp">
 				<Form>REM_FormaDocZOper</Form>
-				<DependentOn>K:\Forms\REM_DocZOper\UREM_FormaDocZOper.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOper.h</DependentOn>
 				<BuildOrder>64</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZPer\UREM_FormaDocZPer.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPer.cpp">
 				<Form>REM_FormaDocZPer</Form>
-				<DependentOn>K:\Forms\REM_DocZPer\UREM_FormaDocZPer.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPer.h</DependentOn>
 				<BuildOrder>61</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocReal\UREM_FormaDocRealImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocReal\UREM_FormaDocRealImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocReal\UREM_FormaDocRealImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocReal\UREM_FormaDocRealImpl.h</DependentOn>
 				<BuildOrder>31</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZStart\UREM_FormaDocZStart.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStart.cpp">
 				<Form>REM_FormaDocZStart</Form>
-				<DependentOn>K:\Forms\REM_DocZStart\UREM_FormaDocZStart.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStart.h</DependentOn>
 				<BuildOrder>62</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocAkt\UREM_FormaDocAktImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocAkt\UREM_FormaDocAktImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocAkt\UREM_FormaDocAktImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocAkt\UREM_FormaDocAktImpl.h</DependentOn>
 				<BuildOrder>55</BuildOrder>
 			</CppCompile>
 			<ResFiles Include="RemFormsDoc.res">
 				<BuildOrder>2</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\Forms\REM_DocZEnd\UREM_FormaDocZEndCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZEnd\UREM_FormaDocZEndCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEndCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEndCF.h</DependentOn>
 				<BuildOrder>76</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZPost\UREM_FormaDocZPostCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZPost\UREM_FormaDocZPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPostCF.h</DependentOn>
 				<BuildOrder>68</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHW.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHW.cpp">
 				<Form>REM_FormaDocVosvratHW</Form>
-				<DependentOn>K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHW.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHW.h</DependentOn>
 				<BuildOrder>95</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZPost\UREM_FormaDocZPostImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZPost\UREM_FormaDocZPostImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPostImpl.h</DependentOn>
 				<BuildOrder>69</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZStart\UREM_FormaDocZStartImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZStart\UREM_FormaDocZStartImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStartImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStartImpl.h</DependentOn>
 				<BuildOrder>75</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZPer\UREM_FormaDocZPerCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZPer\UREM_FormaDocZPerCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPerCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPerCF.h</DependentOn>
 				<BuildOrder>72</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileruCF.h</DependentOn>
 				<BuildOrder>42</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWCF.cpp">
-				<DependentOn>K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHWCF.h</DependentOn>
 				<BuildOrder>15</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPer\UREM_FormaDocPerCF.cpp">
-				<DependentOn>K:\Forms\REM_DocPer\UREM_FormaDocPerCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocPer\UREM_FormaDocPerCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocPer\UREM_FormaDocPerCF.h</DependentOn>
 				<BuildOrder>57</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSCCF.h</DependentOn>
 				<BuildOrder>48</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentr.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentr.cpp">
 				<Form>REM_FormaDocPerServCentr</Form>
-				<DependentOn>K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentr.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentr.h</DependentOn>
 				<BuildOrder>44</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKT.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKT.cpp">
 				<Form>REM_FormaDocSetServKKT</Form>
-				<DependentOn>K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKT.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKT.h</DependentOn>
 				<BuildOrder>23</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZEnd\UREM_FormaDocZEndImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZEnd\UREM_FormaDocZEndImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEndImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEndImpl.h</DependentOn>
 				<BuildOrder>77</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapImpl.h</DependentOn>
 				<BuildOrder>84</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocOstNom\UREM_FormaDocOstNomCF.cpp">
-				<DependentOn>K:\Forms\REM_DocOstNom\UREM_FormaDocOstNomCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNomCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNomCF.h</DependentOn>
 				<BuildOrder>33</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZVid\UREM_FormaDocZVidImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZVid\UREM_FormaDocZVidImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVidImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVidImpl.h</DependentOn>
 				<BuildOrder>71</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZVid\UREM_FormaDocZVidCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZVid\UREM_FormaDocZVidCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVidCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVidCF.h</DependentOn>
 				<BuildOrder>70</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPost.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPost.cpp">
 				<Form>REM_FormaDocZakazPost</Form>
-				<DependentOn>K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPost.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPost.h</DependentOn>
 				<BuildOrder>104</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostCF.h</DependentOn>
 				<BuildOrder>105</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZapCF.h</DependentOn>
 				<BuildOrder>85</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWCF.cpp">
-				<DependentOn>K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHWCF.h</DependentOn>
 				<BuildOrder>21</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPrImpl.h</DependentOn>
 				<BuildOrder>83</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZTreb\UREM_FormaDocZTrebImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZTreb\UREM_FormaDocZTrebImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTrebImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTrebImpl.h</DependentOn>
 				<BuildOrder>81</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZOper\UREM_FormaDocZOperCF.cpp">
-				<DependentOn>K:\Forms\REM_DocZOper\UREM_FormaDocZOperCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOperCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOperCF.h</DependentOn>
 				<BuildOrder>78</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTCF.cpp">
-				<DependentOn>K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKTCF.h</DependentOn>
 				<BuildOrder>18</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocKM1\UREM_FormaDocKM1.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1.cpp">
 				<Form>REM_FormaDocKM1</Form>
-				<DependentOn>K:\Forms\REM_DocKM1\UREM_FormaDocKM1.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWCF.cpp">
-				<DependentOn>K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHWCF.h</DependentOn>
 				<BuildOrder>93</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPostImpl.h</DependentOn>
 				<BuildOrder>106</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWImpl.cpp">
-				<DependentOn>K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHWImpl.h</DependentOn>
 				<BuildOrder>97</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHW.cpp">
+			<CppCompile Include="..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHW.cpp">
 				<Form>REM_FormaDocVidachaHW</Form>
-				<DependentOn>K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHW.h</DependentOn>
+				<DependentOn>..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHW.h</DependentOn>
 				<BuildOrder>92</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\Forms\REM_DocZTreb\UREM_FormaDocZTreb.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZap.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZPost\UREM_FormaDocZPost.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileru.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocSetServHW\UREM_FormaDocSetServHW.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNakl.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKT.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKompl.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocRemontHW\UREM_FormaDocRemontHW.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDilera.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSC.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZAktPr\UREM_FormaDocZAktPr.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocKM2\UREM_FormaDocKM2.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocRemont\UREM_FormaDocRemont.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocProverka\UREM_FormaDocProverka.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocOtprPost\UREM_FormaDocOtprPost.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocReal\UREM_FormaDocReal.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPost.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVZipPer\UREM_FormaDocVZipPer.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocSpisNom\UREM_FormaDocSpisNom.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVigruska\UREM_FormaDocVigruska.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPost.dfm"/>
-			<FormResources Include="K:\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPok.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocOstNom\UREM_FormaDocOstNom.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocAkt\UREM_FormaDocAkt.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocPer\UREM_FormaDocPer.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZVid\UREM_FormaDocZVid.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZEnd\UREM_FormaDocZEnd.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZOper\UREM_FormaDocZOper.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZPer\UREM_FormaDocZPer.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZStart\UREM_FormaDocZStart.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHW.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentr.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKT.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocZakazPost\UREM_FormaDocZakazPost.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocKM1\UREM_FormaDocKM1.dfm"/>
-			<FormResources Include="K:\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHW.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZTreb\UREM_FormaDocZTreb.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZVosvrZap\UREM_FormaDocZVosvrZap.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZPost\UREM_FormaDocZPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVosvratDileru\UREM_FormaDocVosvratDileru.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocSetServHW\UREM_FormaDocSetServHW.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocPrihNakl\UREM_FormaDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocRemontKKT\UREM_FormaDocRemontKKT.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocSborkaKompl\UREM_FormaDocSborkaKompl.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocRemontHW\UREM_FormaDocRemontHW.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocPostOtDilera\UREM_FormaDocPostOtDilera.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVosvratIsSC\UREM_FormaDocVosvratIsSC.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZAktPr\UREM_FormaDocZAktPr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocKM2\UREM_FormaDocKM2.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocRemont\UREM_FormaDocRemont.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocProverka\UREM_FormaDocProverka.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocOtprPost\UREM_FormaDocOtprPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocReal\UREM_FormaDocReal.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVZipVosvratPost\UREM_FormaDocVZipVosvratPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVZipPer\UREM_FormaDocVZipPer.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocSpisNom\UREM_FormaDocSpisNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVigruska\UREM_FormaDocVigruska.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocRegOtchetPost\UREM_FormaDocRegOtchetPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\Rem_DocVosvratPok\UREM_FormaDocVosvratPok.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocOstNom\UREM_FormaDocOstNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocAkt\UREM_FormaDocAkt.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocPer\UREM_FormaDocPer.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZVid\UREM_FormaDocZVid.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZEnd\UREM_FormaDocZEnd.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZOper\UREM_FormaDocZOper.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZPer\UREM_FormaDocZPer.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZStart\UREM_FormaDocZStart.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVosvratHW\UREM_FormaDocVosvratHW.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocPerServCentr\UREM_FormaDocPerServCentr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocSetServKKT\UREM_FormaDocSetServKKT.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocZakazPost\UREM_FormaDocZakazPost.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocKM1\UREM_FormaDocKM1.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_DocVidachaHW\UREM_FormaDocVidachaHW.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -624,7 +624,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">585</VersionInfo>
+						<VersionInfo Name="Build">587</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -636,7 +636,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.585</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.587</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

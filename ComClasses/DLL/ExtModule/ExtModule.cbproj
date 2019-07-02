@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;FIBPlus_CB2010.lib;vcldb.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxExtEditorsC14.lib;vclx.lib;cxGridC14.lib;cxExportC14.lib;cxPageControlC14.lib;ibxpress.lib;dsnap.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\ExtModule\;K:\FIB_DataModule\DM\;K:\Global\;K:\FIB_DataModule\ExtModule\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\ExtModule\;K:\FIB_DataModule\DM\;K:\Global\;K:\FIB_DataModule\ExtModule\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Global\;..\..\..\Forms\ExtModule\;..\..\..\FIB_DataModule\DM\;..\..\..\FIB_DataModule\ExtModule\;K:\ERP\Forms\ExtModule\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;K:\ERP\FIB_DataModule\ExtModule\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Global\;..\..\..\Forms\ExtModule\;..\..\..\FIB_DataModule\DM\;..\..\..\FIB_DataModule\ExtModule\;K:\ERP\Forms\ExtModule\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;K:\ERP\FIB_DataModule\ExtModule\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,114 +61,114 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaElementaExtModuleCF.cpp">
-				<DependentOn>K:\Forms\ExtModule\UFormaElementaExtModuleCF.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaElementaExtModuleImpl.cpp">
-				<DependentOn>K:\Forms\ExtModule\UFormaElementaExtModuleImpl.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaElementaExtModule.cpp">
-				<Form>FormaElementaZayavkaImage</Form>
-				<DependentOn>K:\Forms\ExtModule\UFormaElementaExtModule.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModulePrivCF.cpp">
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModulePrivCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModulePrivImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModulePrivImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaElementaExtModuleGrp.cpp">
-				<Form>FormaElementaExtModuleGrp</Form>
-				<DependentOn>K:\Forms\ExtModule\UFormaElementaExtModuleGrp.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaSpiskaExtModuleCF.cpp">
-				<DependentOn>K:\Forms\ExtModule\UFormaSpiskaExtModuleCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaSpiskaExtModuleImpl.cpp">
-				<DependentOn>K:\Forms\ExtModule\UFormaSpiskaExtModuleImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaSpiskaExtModule.cpp">
-				<Form>FormaSpiskaExtModule</Form>
-				<DependentOn>K:\Forms\ExtModule\UFormaSpiskaExtModule.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaElementaExtModuleGrpCF.cpp">
-				<DependentOn>K:\Forms\ExtModule\UFormaElementaExtModuleGrpCF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ExtModule\UFormaElementaExtModuleGrpImpl.cpp">
-				<DependentOn>K:\Forms\ExtModule\UFormaElementaExtModuleGrpImpl.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModulePriv.cpp">
-				<Form>DMExtModulePriv</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModulePriv.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModule.cpp">
-				<Form>DMExtModule</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModule.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="ExtModule.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
 			<ResFiles Include="ExtModule.res">
 				<BuildOrder>1</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModuleCF.cpp">
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModuleCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModule.cpp">
+				<Form>DMExtModule</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModule.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleCF.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModuleGrpImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModuleGrpImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModuleGrpCF.cpp">
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModuleGrpCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModuleImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModuleImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleImpl.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\ExtModule\UDMExtModuleGrp.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.cpp">
 				<Form>DMExtModuleGrp</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\ExtModule\UDMExtModuleGrp.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.h</DependentOn>
 				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\Forms\ExtModule\UFormaElementaExtModule.dfm"/>
-			<FormResources Include="K:\Forms\ExtModule\UFormaElementaExtModuleGrp.dfm"/>
-			<FormResources Include="K:\Forms\ExtModule\UFormaSpiskaExtModule.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\ExtModule\UDMExtModulePriv.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\ExtModule\UDMExtModule.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\ExtModule\UDMExtModuleGrp.dfm"/>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrpCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrpImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.cpp">
+				<Form>DMExtModulePriv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePrivCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModulePrivCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePrivImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModulePrivImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModule.cpp">
+				<Form>FormaElementaZayavkaImage</Form>
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModule.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleCF.cpp">
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModuleCF.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleImpl.cpp">
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModuleImpl.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrp.cpp">
+				<Form>FormaElementaExtModuleGrp</Form>
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrp.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrpCF.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrpImpl.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.cpp">
+				<Form>FormaSpiskaExtModule</Form>
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModuleCF.cpp">
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaSpiskaExtModuleCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModuleImpl.cpp">
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaSpiskaExtModuleImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModule.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.dfm"/>
+			<FormResources Include="..\..\..\Forms\ExtModule\UFormaElementaExtModule.dfm"/>
+			<FormResources Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -193,7 +193,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">233</VersionInfo>
+						<VersionInfo Name="Build">236</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -205,7 +205,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.233</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.236</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

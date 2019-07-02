@@ -4,12 +4,12 @@
 
 #include <tchar.h>
 //---------------------------------------------------------------------------
-USEFORM("K:\Forms\ViborBase\UFormaViborBase.cpp", FormaViborBase);
-USEFORM("K:\Forms\About\UAbout.cpp", FormAbout);
+USEFORM("..\..\..\FIB_DataModule\DM\UDM.cpp", DM); /* TDataModule: File Type */
 USEFORM("UF1.cpp", F1);
-USEFORM("K:\FIB_DataModule\DM\UDM.cpp", DM); /* TDataModule: File Type */
-USEFORM("K:\Forms\Indicator\UFormIndicator.cpp", FormIndicator);
-USEFORM("K:\Forms\ViborBase\UFormaEditBase.cpp", FormaEditBase);
+USEFORM("..\..\..\Forms\Indicator\UFormIndicator.cpp", FormIndicator);
+USEFORM("..\..\..\Forms\ViborBase\UFormaEditBase.cpp", FormaEditBase);
+USEFORM("..\..\..\Forms\ViborBase\UFormaViborBase.cpp", FormaViborBase);
+USEFORM("..\..\..\Forms\About\UAbout.cpp", FormAbout);
 //---------------------------------------------------------------------------
 WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

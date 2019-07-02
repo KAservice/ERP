@@ -27,7 +27,7 @@
     <BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
     <ILINK_AppType>Windows</ILINK_AppType>
     <ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
-    <ILINK_ObjectSearchPath>DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom;K:\FIB_DataModule\DocVipuskProd;K:\FIB_DataModule\DocRasborkaKompl;K:\FIB_DataModule\DocSborkaKompl;K:\FIB_DataModule\DocKorrVS;K:\FIB_DataModule\DocVipBanka;K:\FIB_DataModule\DocZamena;K:\Forms\ObjectBarCode</ILINK_ObjectSearchPath>
+    <ILINK_ObjectSearchPath>DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom;K:\ERP\FIB_DataModule\DocVipuskProd;K:\ERP\FIB_DataModule\DocRasborkaKompl;K:\ERP\FIB_DataModule\DocSborkaKompl;K:\ERP\FIB_DataModule\DocKorrVS;K:\ERP\FIB_DataModule\DocVipBanka;K:\ERP\FIB_DataModule\DocZamena;K:\ERP\Forms\ObjectBarCode</ILINK_ObjectSearchPath>
     <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
     <BCC_ZeroLengthEmptyMemberFuncs>true</BCC_ZeroLengthEmptyMemberFuncs>
     <DCC_MakeModifiedUnits>true</DCC_MakeModifiedUnits>
@@ -40,7 +40,7 @@
     <BCC_StackFrames>true</BCC_StackFrames>
     <ILINK_WinAppType>DLL</ILINK_WinAppType>
     <BRCC_UserSuppliedOptions> -I..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\atl;$(BDS)\include\dinkumware</BRCC_UserSuppliedOptions>
-    <IncludePath>DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom;K:\FIB_DataModule\DocVipuskProd;K:\FIB_DataModule\DocRasborkaKompl;K:\FIB_DataModule\DocSborkaKompl;K:\FIB_DataModule\DocKorrVS;K:\FIB_DataModule\DocVipBanka;K:\FIB_DataModule\DocZamena;K:\Forms\ObjectBarCode</IncludePath>
+    <IncludePath>DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom;K:\ERP\FIB_DataModule\DocVipuskProd;K:\ERP\FIB_DataModule\DocRasborkaKompl;K:\ERP\FIB_DataModule\DocSborkaKompl;K:\ERP\FIB_DataModule\DocKorrVS;K:\ERP\FIB_DataModule\DocVipBanka;K:\ERP\FIB_DataModule\DocZamena;K:\ERP\Forms\ObjectBarCode</IncludePath>
     <BCC_PCHCache>true</BCC_PCHCache>
     <BCC_IntegerSizedEnums>false</BCC_IntegerSizedEnums>
     <BCC_IncludePath>..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\atl;$(BDS)\include\dinkumware</BCC_IncludePath>
@@ -50,7 +50,7 @@
     <DCC_IncludePath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_IncludePath>
     <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
     <BCC_ZeroLengthEmptyBaseClass>true</BCC_ZeroLengthEmptyBaseClass>
-    <ILINK_LibraryPath>..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\lib\obj;$(BDS)\lib;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom;K:\FIB_DataModule\DocVipuskProd;K:\FIB_DataModule\DocRasborkaKompl;K:\FIB_DataModule\DocSborkaKompl;K:\FIB_DataModule\DocKorrVS;K:\FIB_DataModule\DocVipBanka;K:\FIB_DataModule\DocZamena;K:\Forms\ObjectBarCode</ILINK_LibraryPath>
+    <ILINK_LibraryPath>..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\lib\obj;$(BDS)\lib;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom;K:\ERP\FIB_DataModule\DocVipuskProd;K:\ERP\FIB_DataModule\DocRasborkaKompl;K:\ERP\FIB_DataModule\DocSborkaKompl;K:\ERP\FIB_DataModule\DocKorrVS;K:\ERP\FIB_DataModule\DocVipBanka;K:\ERP\FIB_DataModule\DocZamena;K:\ERP\Forms\ObjectBarCode</ILINK_LibraryPath>
     <BCC_Defines>NO_STRICT;_ATL_APARTMENT_THREADED;USING_ATLVCL;_ATL_NO_SECURITY;INC_ATL_HEADERS;_BCB_ATL_DEBUG</BCC_Defines>
     <BCC_GenerateDLL>true</BCC_GenerateDLL>
     <BRCC_Defines>_DEBUG</BRCC_Defines>
@@ -66,8 +66,8 @@
     <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
     <IntermediateOutputDir>Debug_Build</IntermediateOutputDir>
     <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
-    <IncludePath>K:\Components\FIBPlus\sources;$(IncludePath)</IncludePath>
-    <ILINK_LibraryPath>$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <IncludePath>K:\ERP\Components\FIBPlus\sources;$(IncludePath)</IncludePath>
+    <ILINK_LibraryPath>$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
     <BCC_Defines>_DEBUG;$(BCC_Defines)</BCC_Defines>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Cfg_2)'!=''">
@@ -86,7 +86,7 @@
     <Borland.Personality>CPlusPlusBuilder.Personality</Borland.Personality>
     <Borland.ProjectType>CppDynamicLibrary</Borland.ProjectType>
     <BorlandProject>
-<BorlandProject><CPlusPlusBuilder.Personality><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">7</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">3</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">www.vustug.ru</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Компонент обмена с 1С</VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.7.0.3</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.7.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><ExcludedPackages><ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclite60.bpl">Borland Integrated Translation Environment</ExcludedPackages><ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclado60.bpl">Borland ADO DB Components</ExcludedPackages><ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclclxdb60.bpl">Borland CLX Database Components</ExcludedPackages></ExcludedPackages><Debugging><Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging></Debugging><Parameters><Parameters Name="RunParams"></Parameters><Parameters Name="Launcher"></Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="DebugCWD"></Parameters><Parameters Name="HostApplication"></Parameters><Parameters Name="RemoteHost"></Parameters><Parameters Name="RemotePath"></Parameters><Parameters Name="RemoteLauncher"></Parameters><Parameters Name="RemoteCWD"></Parameters><Parameters Name="RemoteDebug">False</Parameters><Parameters Name="RemoteParams"></Parameters><Parameters Name="UseRemoteLauncher">False</Parameters><Parameters Name="Debug Symbols Search Path"></Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Compiler><Compiler Name="ShowInfoMsgs">0</Compiler><Compiler Name="LinkDebugVcl">0</Compiler><Compiler Name="LinkCGLIB">0</Compiler></Compiler><CORBA><CORBA Name="AddServerUnit">1</CORBA><CORBA Name="AddClientUnit">1</CORBA><CORBA Name="PrecompiledHeaders">1</CORBA></CORBA><Linker><Linker Name="LibPrefix"></Linker><Linker Name="LibSuffix"></Linker><Linker Name="LibVersion"></Linker></Linker><ProjectProperties><ProjectProperties Name="AutoShowDeps">False</ProjectProperties><ProjectProperties Name="ManagePaths">True</ProjectProperties><ProjectProperties Name="VerifyPackages">True</ProjectProperties></ProjectProperties><HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Count">10</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item0">K:\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom;K:\FIB_DataModule\DocVipuskProd</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item1">K:\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item2">DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item3">K:\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item4">K:\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item5">K:\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item6">C:\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item7">C:\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item8">D:\Devrace\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item9">D:\Devrace\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd</HistoryLists_hlIncludePath></HistoryLists_hlIncludePath><HistoryLists_hlFinalOutputDir><HistoryLists_hlFinalOutputDir Name="Count">1</HistoryLists_hlFinalOutputDir><HistoryLists_hlFinalOutputDir Name="Item0">.</HistoryLists_hlFinalOutputDir></HistoryLists_hlFinalOutputDir><HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\sources;..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\lib\obj;$(BDS)\lib;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\FIB_DataModule\DM;K:\FIB_DataModule\DMQuery;K:\FIB_DataModule\DMXTableIsm;K:\FIB_DataModule\DocCheckKKM;K:\FIB_DataModule\DocInv;K:\FIB_DataModule\DocIsmPrice;K:\FIB_DataModule\DocOstNom;K:\FIB_DataModule\DocOstVs;K:\FIB_DataModule\DocPer;K:\FIB_DataModule\DocPKO;K:\FIB_DataModule\DocPKORozn;K:\FIB_DataModule\DocPlP;K:\FIB_DataModule\DocPostNaSchet;K:\FIB_DataModule\DocPrihNakl;K:\FIB_DataModule\DocReal;K:\FIB_DataModule\DocRealRozn;K:\FIB_DataModule\DocRepKKM;K:\FIB_DataModule\DocRev;K:\FIB_DataModule\DocRKO;K:\FIB_DataModule\DocRKORozn;K:\FIB_DataModule\DocSchetFact;K:\FIB_DataModule\DocShet;K:\FIB_DataModule\DocSpisNom;K:\FIB_DataModule\DocSpOtrOst;K:\FIB_DataModule\DocVosvratPok;K:\FIB_DataModule\DocVosvratPost;K:\FIB_DataModule\GurAllDoc;K:\FIB_DataModule\RegAdvanceCustomer;K:\FIB_DataModule\RegBank;K:\FIB_DataModule\RegGoods;K:\FIB_DataModule\RegKassa;K:\FIB_DataModule\RegOstNom;K:\FIB_DataModule\RegPaySale;K:\FIB_DataModule\RegReal;K:\FIB_DataModule\RegSebProd;K:\FIB_DataModule\RegVipuskProd;K:\FIB_DataModule\RegVsRasch;K:\FIB_DataModule\Setup;K:\FIB_DataModule\SFirm;K:\FIB_DataModule\SprEd;K:\FIB_DataModule\SprNom;K:\FIB_DataModule\SprInfBase;K:\FIB_DataModule\SprNomRest;K:\FIB_DataModule\SprNacenka;K:\FIB_DataModule\SprPart;K:\FIB_DataModule\SprPrice;K:\FIB_DataModule\SprSklad;K:\FIB_DataModule\SprSostProd;K:\FIB_DataModule\SprTypePrice;K:\FIB_DataModule\SprUser;K:\FIB_DataModule\TableNumberDoc;K:\FIB_DataModule\GurOperDiscountCard;K:\FIB_DataModule\SprDiscountAuto;K:\FIB_DataModule\SprDiscountCard;K:\FIB_DataModule\DocRealRest;K:\FIB_DataModule\RegOtrSpisNom;K:\FIB_DataModule\DocVipuskProd</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item1">$(BDS)\lib\debug;..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\lib\obj;$(BDS)\lib;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard</HistoryLists_hlILINK_LibraryPath></HistoryLists_hlILINK_LibraryPath><HistoryLists_hlIntermediateOutputDir><HistoryLists_hlIntermediateOutputDir Name="Count">1</HistoryLists_hlIntermediateOutputDir><HistoryLists_hlIntermediateOutputDir Name="Item0">Debug_Build</HistoryLists_hlIntermediateOutputDir></HistoryLists_hlIntermediateOutputDir><Excluded_Packages>
+<BorlandProject><CPlusPlusBuilder.Personality><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">7</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">3</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">www.vustug.ru</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Компонент обмена с 1С</VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.7.0.3</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.7.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><ExcludedPackages><ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclite60.bpl">Borland Integrated Translation Environment</ExcludedPackages><ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclado60.bpl">Borland ADO DB Components</ExcludedPackages><ExcludedPackages Name="c:\borland\cbuilder6\Bin\dclclxdb60.bpl">Borland CLX Database Components</ExcludedPackages></ExcludedPackages><Debugging><Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging></Debugging><Parameters><Parameters Name="RunParams"></Parameters><Parameters Name="Launcher"></Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="DebugCWD"></Parameters><Parameters Name="HostApplication"></Parameters><Parameters Name="RemoteHost"></Parameters><Parameters Name="RemotePath"></Parameters><Parameters Name="RemoteLauncher"></Parameters><Parameters Name="RemoteCWD"></Parameters><Parameters Name="RemoteDebug">False</Parameters><Parameters Name="RemoteParams"></Parameters><Parameters Name="UseRemoteLauncher">False</Parameters><Parameters Name="Debug Symbols Search Path"></Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Compiler><Compiler Name="ShowInfoMsgs">0</Compiler><Compiler Name="LinkDebugVcl">0</Compiler><Compiler Name="LinkCGLIB">0</Compiler></Compiler><CORBA><CORBA Name="AddServerUnit">1</CORBA><CORBA Name="AddClientUnit">1</CORBA><CORBA Name="PrecompiledHeaders">1</CORBA></CORBA><Linker><Linker Name="LibPrefix"></Linker><Linker Name="LibSuffix"></Linker><Linker Name="LibVersion"></Linker></Linker><ProjectProperties><ProjectProperties Name="AutoShowDeps">False</ProjectProperties><ProjectProperties Name="ManagePaths">True</ProjectProperties><ProjectProperties Name="VerifyPackages">True</ProjectProperties></ProjectProperties><HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Count">10</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item0">K:\ERP\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom;K:\ERP\FIB_DataModule\DocVipuskProd</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item1">K:\ERP\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item2">DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item3">K:\ERP\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item4">K:\ERP\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item5">K:\ERP\Components\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item6">C:\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item7">C:\FIBPlus\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item8">D:\Devrace\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item9">D:\Devrace\sources;DMSprTypePrice;..\DocReal;..\DocCheckKKM;DMSprPrice;DMSprFirm;..\RegBank;DMSprSklad;..\RegReal;..\RegOstNom;..\RegPaySale;..\RegSebProd;..\RegAdvanceCustomer;..\SprInfBase;DMSprNom;..\Setup;..\DocRKO;..\DocRealRozn;..\DocPKO;DMDocSpisNom;..\SprSostProd;DMSprGrpNom;..\RegVsRasch;..\DocRecKDR;..\RegVipuskProd;..\SprNom;..\DocPostNaSchet;DMGurAllDoc;..\DocPKORozn;..\DocRKORozn;..\DocSpisNom;..\GurAllDoc;DMSprInfBase;..\DocInv;..\SprTypePrice;..\DocVosvratPost;..\DocRealRest;DMDocInv;..\DocOstNom;..\DocPer;..\DocRepKKM;..\SFirm;..\DocPlP;DMDocOstNom;DMDocPrihNakl;DMDocRepKKM;..\SprSklad;..\DM;..\DocSchetFact;DMDocPer;..\SprPrice;DM;..\SprNomRest;..\DocShet;..\SprUser;..\RegOtrSpisNom;..\DMXTableIsm;..\SprPart;..\SprEd;..\DocOstVs;..\RegKassa;..\DocPrihNakl;DMSprEd</HistoryLists_hlIncludePath></HistoryLists_hlIncludePath><HistoryLists_hlFinalOutputDir><HistoryLists_hlFinalOutputDir Name="Count">1</HistoryLists_hlFinalOutputDir><HistoryLists_hlFinalOutputDir Name="Item0">.</HistoryLists_hlFinalOutputDir></HistoryLists_hlFinalOutputDir><HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\sources;..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\lib\obj;$(BDS)\lib;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard;K:\ERP\FIB_DataModule\DM;K:\ERP\FIB_DataModule\DMQuery;K:\ERP\FIB_DataModule\DMXTableIsm;K:\ERP\FIB_DataModule\DocCheckKKM;K:\ERP\FIB_DataModule\DocInv;K:\ERP\FIB_DataModule\DocIsmPrice;K:\ERP\FIB_DataModule\DocOstNom;K:\ERP\FIB_DataModule\DocOstVs;K:\ERP\FIB_DataModule\DocPer;K:\ERP\FIB_DataModule\DocPKO;K:\ERP\FIB_DataModule\DocPKORozn;K:\ERP\FIB_DataModule\DocPlP;K:\ERP\FIB_DataModule\DocPostNaSchet;K:\ERP\FIB_DataModule\DocPrihNakl;K:\ERP\FIB_DataModule\DocReal;K:\ERP\FIB_DataModule\DocRealRozn;K:\ERP\FIB_DataModule\DocRepKKM;K:\ERP\FIB_DataModule\DocRev;K:\ERP\FIB_DataModule\DocRKO;K:\ERP\FIB_DataModule\DocRKORozn;K:\ERP\FIB_DataModule\DocSchetFact;K:\ERP\FIB_DataModule\DocShet;K:\ERP\FIB_DataModule\DocSpisNom;K:\ERP\FIB_DataModule\DocSpOtrOst;K:\ERP\FIB_DataModule\DocVosvratPok;K:\ERP\FIB_DataModule\DocVosvratPost;K:\ERP\FIB_DataModule\GurAllDoc;K:\ERP\FIB_DataModule\RegAdvanceCustomer;K:\ERP\FIB_DataModule\RegBank;K:\ERP\FIB_DataModule\RegGoods;K:\ERP\FIB_DataModule\RegKassa;K:\ERP\FIB_DataModule\RegOstNom;K:\ERP\FIB_DataModule\RegPaySale;K:\ERP\FIB_DataModule\RegReal;K:\ERP\FIB_DataModule\RegSebProd;K:\ERP\FIB_DataModule\RegVipuskProd;K:\ERP\FIB_DataModule\RegVsRasch;K:\ERP\FIB_DataModule\Setup;K:\ERP\FIB_DataModule\SFirm;K:\ERP\FIB_DataModule\SprEd;K:\ERP\FIB_DataModule\SprNom;K:\ERP\FIB_DataModule\SprInfBase;K:\ERP\FIB_DataModule\SprNomRest;K:\ERP\FIB_DataModule\SprNacenka;K:\ERP\FIB_DataModule\SprPart;K:\ERP\FIB_DataModule\SprPrice;K:\ERP\FIB_DataModule\SprSklad;K:\ERP\FIB_DataModule\SprSostProd;K:\ERP\FIB_DataModule\SprTypePrice;K:\ERP\FIB_DataModule\SprUser;K:\ERP\FIB_DataModule\TableNumberDoc;K:\ERP\FIB_DataModule\GurOperDiscountCard;K:\ERP\FIB_DataModule\SprDiscountAuto;K:\ERP\FIB_DataModule\SprDiscountCard;K:\ERP\FIB_DataModule\DocRealRest;K:\ERP\FIB_DataModule\RegOtrSpisNom;K:\ERP\FIB_DataModule\DocVipuskProd</HistoryLists_hlILINK_LibraryPath><HistoryLists_hlILINK_LibraryPath Name="Item1">$(BDS)\lib\debug;..\DocPKORozn;..\DocSchetFact;..\DocOstVs;..\DocRKO;..\RegPaySale;..\RegAdvanceCustomer;..\RegBank;..\RegKassa;..\DocRecKDR;..\DocShet;..\DocRKORozn;..\DocRealRozn;..\DocPKO;..\DocVosvratPost;..\DocRealRest;..\DocReal;..\DocPostNaSchet;..\DocPlP;..\DocCheckKKM;DM\;DM;..\SprInfBase;DMSprInfBase;DMDocOstNom;..\DocOstNom;DMDocSpisNom;..\DocSpisNom;DMDocInv;..\DocInv;DMDocPrihNakl;..\DocPrihNakl;..\SprPart;DMDocPer;..\DocPer;DMSprPrice;..\SprPrice;DMSprTypePrice;..\SprTypePrice;DMSprGrpNom;..\SprNomRest;..\SprSostProd;..\RegVsRasch;..\RegOstNom;..\RegVipuskProd;..\RegSebProd;..\RegReal;..\RegOtrSpisNom;DMDocRepKKM;..\DocRepKKM;..\SprEd;DMSprEd;DMSprNom;..\SprNom;DMSprFirm;..\SFirm;..\DMXTableIsm;DMSprSklad;..\SprSklad;..\SprUser;..\Setup;DMGurAllDoc;..\GurAllDoc;..\DM;C:\Program Files\Borland\CBuilder6\Projects;C:\Hotel\DBServ10;$(BDS)\lib\obj;$(BDS)\lib;..\DocVosvratPok;..\DocIsmPrice;..\DocRev;..\DocSpOtrOst;..\DMQuery;..\SprNacenka;..\RegGoods;..\TableNumberDoc;..\GurOperDiscountCard;..\SprDiscountCard</HistoryLists_hlILINK_LibraryPath></HistoryLists_hlILINK_LibraryPath><HistoryLists_hlIntermediateOutputDir><HistoryLists_hlIntermediateOutputDir Name="Count">1</HistoryLists_hlIntermediateOutputDir><HistoryLists_hlIntermediateOutputDir Name="Item0">Debug_Build</HistoryLists_hlIntermediateOutputDir></HistoryLists_hlIntermediateOutputDir><Excluded_Packages>
       
       
       
@@ -194,458 +194,458 @@
       <DependentOn>DM\OleDMImpl.h</DependentOn>
       <BuildOrder>6</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DMQuery\UDMQueryRead.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DMQuery\UDMQueryRead.cpp">
       <Form>DMQueryRead</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DMQuery\UDMQueryRead.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DMQuery\UDMQueryRead.h</DependentOn>
       <BuildOrder>21</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DMQuery\UDMQueryUpdate.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DMQuery\UDMQueryUpdate.cpp">
       <Form>DMQueryUpdate</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DMQuery\UDMQueryUpdate.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DMQuery\UDMQueryUpdate.h</DependentOn>
       <BuildOrder>22</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DMXTableIsm\UDMXTableIsm.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DMXTableIsm\UDMXTableIsm.cpp">
       <Form>DMXTableIsm</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DMXTableIsm\UDMXTableIsm.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DMXTableIsm\UDMXTableIsm.h</DependentOn>
       <BuildOrder>23</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DM\UDM.cpp">
       <Form>DM</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DM\UDM.h</DependentOn>
       <BuildOrder>20</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocCheckKKM\UDMDocCheck.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocCheckKKM\UDMDocCheck.cpp">
       <Form>DMDocCheck</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocCheckKKM\UDMDocCheck.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocCheckKKM\UDMDocCheck.h</DependentOn>
       <BuildOrder>24</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocInv\UDMDocInv.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocInv\UDMDocInv.cpp">
       <Form>DMDocInv</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocInv\UDMDocInv.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocInv\UDMDocInv.h</DependentOn>
       <BuildOrder>25</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.cpp">
       <Form>DMDocIsmPrice</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.h</DependentOn>
       <BuildOrder>26</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocKorrVS\UDMDocKorrVs.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocKorrVS\UDMDocKorrVs.cpp">
       <Form>DMDocKorrVS</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocKorrVS\UDMDocKorrVs.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocKorrVS\UDMDocKorrVs.h</DependentOn>
       <BuildOrder>81</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocOstNom\UDMDocOstNom.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocOstNom\UDMDocOstNom.cpp">
       <Form>DMDocOstNom</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocOstNom\UDMDocOstNom.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocOstNom\UDMDocOstNom.h</DependentOn>
       <BuildOrder>27</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocOstVs\UDMDocOstVs.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocOstVs\UDMDocOstVs.cpp">
       <Form>DMDocOstVs</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocOstVs\UDMDocOstVs.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocOstVs\UDMDocOstVs.h</DependentOn>
       <BuildOrder>28</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocPer\UDMDocPer.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocPer\UDMDocPer.cpp">
       <Form>DMDocPer</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocPer\UDMDocPer.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocPer\UDMDocPer.h</DependentOn>
       <BuildOrder>29</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocPKORozn\UDMDocPKORozn.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocPKORozn\UDMDocPKORozn.cpp">
       <Form>DMDocPKORozn</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocPKORozn\UDMDocPKORozn.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocPKORozn\UDMDocPKORozn.h</DependentOn>
       <BuildOrder>31</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocPKO\UDMDocPKO.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocPKO\UDMDocPKO.cpp">
       <Form>DMDocPKO</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocPKO\UDMDocPKO.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocPKO\UDMDocPKO.h</DependentOn>
       <BuildOrder>30</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocPlP\UDMDocPlP.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocPlP\UDMDocPlP.cpp">
       <Form>DMDocPLP</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocPlP\UDMDocPlP.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocPlP\UDMDocPlP.h</DependentOn>
       <BuildOrder>32</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.cpp">
       <Form>DMDocPostNaSchet</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.h</DependentOn>
       <BuildOrder>33</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.cpp">
       <Form>DMDocPrihNakl</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.h</DependentOn>
       <BuildOrder>34</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.cpp">
       <Form>DMDocRasborkaKompl</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.h</DependentOn>
       <BuildOrder>79</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRealRest\UDMDocRealRest.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRealRest\UDMDocRealRest.cpp">
       <Form>DMDocRealRest</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRealRest\UDMDocRealRest.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRealRest\UDMDocRealRest.h</DependentOn>
       <BuildOrder>65</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRealRozn\UDMDocRealRozn.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRealRozn\UDMDocRealRozn.cpp">
       <Form>DMDocRealRozn</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRealRozn\UDMDocRealRozn.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRealRozn\UDMDocRealRozn.h</DependentOn>
       <BuildOrder>35</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocReal\UDMDocReal.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocReal\UDMDocReal.cpp">
       <Form>DMDocReal</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocReal\UDMDocReal.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocReal\UDMDocReal.h</DependentOn>
       <BuildOrder>77</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRepKKM\UDMDocRepKKM.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRepKKM\UDMDocRepKKM.cpp">
       <Form>DMDocRepKKM</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRepKKM\UDMDocRepKKM.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRepKKM\UDMDocRepKKM.h</DependentOn>
       <BuildOrder>36</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRev\UDMDocRev.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRev\UDMDocRev.cpp">
       <Form>DMDocRev</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRev\UDMDocRev.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRev\UDMDocRev.h</DependentOn>
       <BuildOrder>37</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRKORozn\UDMDocRKORozn.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRKORozn\UDMDocRKORozn.cpp">
       <Form>DMDocRKORozn</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRKORozn\UDMDocRKORozn.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRKORozn\UDMDocRKORozn.h</DependentOn>
       <BuildOrder>39</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocRKO\UDMDocRKO.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocRKO\UDMDocRKO.cpp">
       <Form>DMDocRKO</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocRKO\UDMDocRKO.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocRKO\UDMDocRKO.h</DependentOn>
       <BuildOrder>38</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.cpp">
       <Form>DMDocSborkaKompl</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.h</DependentOn>
       <BuildOrder>80</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocSchetFact\UDMDocSchetFact.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocSchetFact\UDMDocSchetFact.cpp">
       <Form>DMDocSchetFact</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocSchetFact\UDMDocSchetFact.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocSchetFact\UDMDocSchetFact.h</DependentOn>
       <BuildOrder>40</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocShet\UDMDocSchet.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocShet\UDMDocSchet.cpp">
       <Form>DMDocSchet</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocShet\UDMDocSchet.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocShet\UDMDocSchet.h</DependentOn>
       <BuildOrder>41</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocSpisNom\UDMDocSpisNom.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocSpisNom\UDMDocSpisNom.cpp">
       <Form>DMDocSpisNom</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocSpisNom\UDMDocSpisNom.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocSpisNom\UDMDocSpisNom.h</DependentOn>
       <BuildOrder>42</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.cpp">
       <Form>DMDocSpOtrOst</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.h</DependentOn>
       <BuildOrder>43</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocVipBanka\UDMDocVipBanka.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocVipBanka\UDMDocVipBanka.cpp">
       <Form>DMDocVipBanka</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocVipBanka\UDMDocVipBanka.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocVipBanka\UDMDocVipBanka.h</DependentOn>
       <BuildOrder>82</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.cpp">
       <Form>DMDocVipuskProd</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.h</DependentOn>
       <BuildOrder>78</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.cpp">
       <Form>DMDocVosvratPok</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.h</DependentOn>
       <BuildOrder>44</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.cpp">
       <Form>DMDocVosvratPost</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.h</DependentOn>
       <BuildOrder>45</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\DocZamena\UDMDocZamena.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\DocZamena\UDMDocZamena.cpp">
       <Form>DMDocZamena</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\DocZamena\UDMDocZamena.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\DocZamena\UDMDocZamena.h</DependentOn>
       <BuildOrder>83</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\GurAllDoc\UDMGurAllDoc.cpp">
       <Form>DMGurAllDoc</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\GurAllDoc\UDMGurAllDoc.h</DependentOn>
       <BuildOrder>46</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.cpp">
       <Form>DMGurOperDiscountCard</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.h</DependentOn>
       <BuildOrder>62</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegAdvanceCustomer\UDMRegAdvanceCustomer.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegAdvanceCustomer\UDMRegAdvanceCustomer.cpp">
       <Form>DMRegAdvanceCustomer</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegAdvanceCustomer\UDMRegAdvanceCustomer.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegAdvanceCustomer\UDMRegAdvanceCustomer.h</DependentOn>
       <BuildOrder>66</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegBank\UDMRegBank.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegBank\UDMRegBank.cpp">
       <Form>DMRegBank</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegBank\UDMRegBank.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegBank\UDMRegBank.h</DependentOn>
       <BuildOrder>67</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegGoods\UDMRegGoods.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegGoods\UDMRegGoods.cpp">
       <Form>DMRegGoods</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegGoods\UDMRegGoods.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegGoods\UDMRegGoods.h</DependentOn>
       <BuildOrder>68</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegKassa\UDMRegKassa.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegKassa\UDMRegKassa.cpp">
       <Form>DMRegKassa</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegKassa\UDMRegKassa.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegKassa\UDMRegKassa.h</DependentOn>
       <BuildOrder>69</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegOstNom\UDMRegOstNom.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegOstNom\UDMRegOstNom.cpp">
       <Form>DMRegOstNom</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegOstNom\UDMRegOstNom.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegOstNom\UDMRegOstNom.h</DependentOn>
       <BuildOrder>70</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegOtrSpisNom\UDMRegOtrSpisNom.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegOtrSpisNom\UDMRegOtrSpisNom.cpp">
       <Form>DMRegOtrSpisNom</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegOtrSpisNom\UDMRegOtrSpisNom.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegOtrSpisNom\UDMRegOtrSpisNom.h</DependentOn>
       <BuildOrder>71</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegPaySale\UDMRegPaySale.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegPaySale\UDMRegPaySale.cpp">
       <Form>DMRegPaySale</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegPaySale\UDMRegPaySale.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegPaySale\UDMRegPaySale.h</DependentOn>
       <BuildOrder>72</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegReal\UDMRegReal.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegReal\UDMRegReal.cpp">
       <Form>DMRegReal</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegReal\UDMRegReal.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegReal\UDMRegReal.h</DependentOn>
       <BuildOrder>73</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegSebProd\UDMRegSebProd.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegSebProd\UDMRegSebProd.cpp">
       <Form>DMRegSebProd</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegSebProd\UDMRegSebProd.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegSebProd\UDMRegSebProd.h</DependentOn>
       <BuildOrder>74</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegVipuskProd\UDMRegVipuskProd.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegVipuskProd\UDMRegVipuskProd.cpp">
       <Form>DMRegVipuskProd</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegVipuskProd\UDMRegVipuskProd.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegVipuskProd\UDMRegVipuskProd.h</DependentOn>
       <BuildOrder>75</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\RegVsRasch\UDMRegVsRasch.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\RegVsRasch\UDMRegVsRasch.cpp">
       <Form>DMRegVsRasch</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\RegVsRasch\UDMRegVsRasch.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\RegVsRasch\UDMRegVsRasch.h</DependentOn>
       <BuildOrder>76</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\Setup\UDMSetup.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\Setup\UDMSetup.cpp">
       <Form>DMSetup</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\Setup\UDMSetup.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\Setup\UDMSetup.h</DependentOn>
       <BuildOrder>47</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SFirm\UDMSprFirm.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SFirm\UDMSprFirm.cpp">
       <Form>DMSprFirm</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SFirm\UDMSprFirm.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SFirm\UDMSprFirm.h</DependentOn>
       <BuildOrder>48</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.cpp">
       <Form>DMSprDiscountAuto</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.h</DependentOn>
       <BuildOrder>63</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.cpp">
       <Form>DMSprDiscountCard</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.h</DependentOn>
       <BuildOrder>64</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprEd\UDMSprEd.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprEd\UDMSprEd.cpp">
       <Form>DMSprEd</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprEd\UDMSprEd.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprEd\UDMSprEd.h</DependentOn>
       <BuildOrder>49</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprInfBase\UDMSprInfBase.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprInfBase\UDMSprInfBase.cpp">
       <Form>DMSprInfBase</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprInfBase\UDMSprInfBase.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprInfBase\UDMSprInfBase.h</DependentOn>
       <BuildOrder>52</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprNacenka\UDMSprNacenka.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprNacenka\UDMSprNacenka.cpp">
       <Form>DMSprNacenka</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprNacenka\UDMSprNacenka.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprNacenka\UDMSprNacenka.h</DependentOn>
       <BuildOrder>54</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprNomRest\UDMSprNomRest.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprNomRest\UDMSprNomRest.cpp">
       <Form>DMSprNomRest</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprNomRest\UDMSprNomRest.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprNomRest\UDMSprNomRest.h</DependentOn>
       <BuildOrder>53</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprNom\UDMSprGrpNom.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprNom\UDMSprGrpNom.cpp">
       <Form>DMSprGrpNom</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprNom\UDMSprGrpNom.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprNom\UDMSprGrpNom.h</DependentOn>
       <BuildOrder>50</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprNom\UDMSprNom.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprNom\UDMSprNom.cpp">
       <Form>DMSprNom</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprNom\UDMSprNom.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprNom\UDMSprNom.h</DependentOn>
       <BuildOrder>51</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprPart\UDMSprPart.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprPart\UDMSprPart.cpp">
       <Form>DMSprPart</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprPart\UDMSprPart.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprPart\UDMSprPart.h</DependentOn>
       <BuildOrder>55</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprPrice\UDMSprPrice.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprPrice\UDMSprPrice.cpp">
       <Form>DMSprPrice</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprPrice\UDMSprPrice.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprPrice\UDMSprPrice.h</DependentOn>
       <BuildOrder>56</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprSklad\UDMSprSklad.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprSklad\UDMSprSklad.cpp">
       <Form>DMSprSklad</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprSklad\UDMSprSklad.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprSklad\UDMSprSklad.h</DependentOn>
       <BuildOrder>57</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprSostProd\UDMSprSostProd.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprSostProd\UDMSprSostProd.cpp">
       <Form>DMSprSostProd</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprSostProd\UDMSprSostProd.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprSostProd\UDMSprSostProd.h</DependentOn>
       <BuildOrder>58</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprTypePrice\UDMSprTypePrice.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprTypePrice\UDMSprTypePrice.cpp">
       <Form>DMSprTypePrice</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprTypePrice\UDMSprTypePrice.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprTypePrice\UDMSprTypePrice.h</DependentOn>
       <BuildOrder>59</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\SprUser\UDMSprUser.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\SprUser\UDMSprUser.cpp">
       <Form>DMSprUser</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\SprUser\UDMSprUser.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\SprUser\UDMSprUser.h</DependentOn>
       <BuildOrder>60</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.cpp">
+    <CppCompile Include="K:\ERP\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.cpp">
       <Form>DMTableNumberDoc</Form>
       <DesignClass>TDataModule</DesignClass>
-      <DependentOn>K:\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.h</DependentOn>
+      <DependentOn>K:\ERP\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.h</DependentOn>
       <BuildOrder>61</BuildOrder>
     </CppCompile>
-    <CppCompile Include="K:\Forms\ObjectBarCode\UObjectBarCode.cpp">
-      <DependentOn>K:\Forms\ObjectBarCode\UObjectBarCode.h</DependentOn>
+    <CppCompile Include="K:\ERP\Forms\ObjectBarCode\UObjectBarCode.cpp">
+      <DependentOn>K:\ERP\Forms\ObjectBarCode\UObjectBarCode.h</DependentOn>
       <BuildOrder>84</BuildOrder>
     </CppCompile>
-    <FormResources Include="K:\FIB_DataModule\DMQuery\UDMQueryRead.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DMQuery\UDMQueryUpdate.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DMXTableIsm\UDMXTableIsm.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DM\UDM.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocCheckKKM\UDMDocCheck.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocInv\UDMDocInv.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocKorrVS\UDMDocKorrVs.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocOstNom\UDMDocOstNom.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocOstVs\UDMDocOstVs.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocPer\UDMDocPer.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocPKORozn\UDMDocPKORozn.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocPKO\UDMDocPKO.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocPlP\UDMDocPlP.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRealRest\UDMDocRealRest.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRealRozn\UDMDocRealRozn.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocReal\UDMDocReal.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRepKKM\UDMDocRepKKM.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRev\UDMDocRev.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRKORozn\UDMDocRKORozn.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocRKO\UDMDocRKO.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocSchetFact\UDMDocSchetFact.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocShet\UDMDocSchet.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocSpisNom\UDMDocSpisNom.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocVipBanka\UDMDocVipBanka.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.dfm" />
-    <FormResources Include="K:\FIB_DataModule\DocZamena\UDMDocZamena.dfm" />
-    <FormResources Include="K:\FIB_DataModule\GurAllDoc\UDMGurAllDoc.dfm" />
-    <FormResources Include="K:\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegAdvanceCustomer\UDMRegAdvanceCustomer.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegBank\UDMRegBank.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegGoods\UDMRegGoods.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegKassa\UDMRegKassa.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegOstNom\UDMRegOstNom.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegOtrSpisNom\UDMRegOtrSpisNom.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegPaySale\UDMRegPaySale.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegReal\UDMRegReal.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegSebProd\UDMRegSebProd.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegVipuskProd\UDMRegVipuskProd.dfm" />
-    <FormResources Include="K:\FIB_DataModule\RegVsRasch\UDMRegVsRasch.dfm" />
-    <FormResources Include="K:\FIB_DataModule\Setup\UDMSetup.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SFirm\UDMSprFirm.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprEd\UDMSprEd.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprInfBase\UDMSprInfBase.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprNacenka\UDMSprNacenka.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprNomRest\UDMSprNomRest.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprNom\UDMSprGrpNom.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprNom\UDMSprNom.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprPart\UDMSprPart.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprPrice\UDMSprPrice.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprSklad\UDMSprSklad.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprSostProd\UDMSprSostProd.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprTypePrice\UDMSprTypePrice.dfm" />
-    <FormResources Include="K:\FIB_DataModule\SprUser\UDMSprUser.dfm" />
-    <FormResources Include="K:\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DMQuery\UDMQueryRead.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DMQuery\UDMQueryUpdate.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DMXTableIsm\UDMXTableIsm.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DM\UDM.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocCheckKKM\UDMDocCheck.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocInv\UDMDocInv.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocKorrVS\UDMDocKorrVs.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocOstNom\UDMDocOstNom.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocOstVs\UDMDocOstVs.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocPer\UDMDocPer.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocPKORozn\UDMDocPKORozn.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocPKO\UDMDocPKO.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocPlP\UDMDocPlP.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRealRest\UDMDocRealRest.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRealRozn\UDMDocRealRozn.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocReal\UDMDocReal.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRepKKM\UDMDocRepKKM.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRev\UDMDocRev.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRKORozn\UDMDocRKORozn.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocRKO\UDMDocRKO.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocSchetFact\UDMDocSchetFact.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocShet\UDMDocSchet.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocSpisNom\UDMDocSpisNom.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocVipBanka\UDMDocVipBanka.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\DocZamena\UDMDocZamena.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\GurAllDoc\UDMGurAllDoc.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\GurOperDiscountCard\UDMGurOperDiscountCard.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegAdvanceCustomer\UDMRegAdvanceCustomer.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegBank\UDMRegBank.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegGoods\UDMRegGoods.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegKassa\UDMRegKassa.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegOstNom\UDMRegOstNom.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegOtrSpisNom\UDMRegOtrSpisNom.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegPaySale\UDMRegPaySale.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegReal\UDMRegReal.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegSebProd\UDMRegSebProd.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegVipuskProd\UDMRegVipuskProd.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\RegVsRasch\UDMRegVsRasch.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\Setup\UDMSetup.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SFirm\UDMSprFirm.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprEd\UDMSprEd.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprInfBase\UDMSprInfBase.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprNacenka\UDMSprNacenka.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprNomRest\UDMSprNomRest.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprNom\UDMSprGrpNom.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprNom\UDMSprNom.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprPart\UDMSprPart.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprPrice\UDMSprPrice.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprSklad\UDMSprSklad.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprSostProd\UDMSprSostProd.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprTypePrice\UDMSprTypePrice.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\SprUser\UDMSprUser.dfm" />
+    <FormResources Include="K:\ERP\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.dfm" />
     <BuildConfiguration Include="Debug Build">
       <Key>Cfg_1</Key>
     </BuildConfiguration>

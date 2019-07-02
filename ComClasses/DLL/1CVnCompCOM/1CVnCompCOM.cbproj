@@ -25,13 +25,13 @@
 			<ProjectType>VCppStyleDll</ProjectType>
 			<Multithreaded>true</Multithreaded>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>Include1C\;K:\ComClasses\DLL\1CVnCompCOM\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Global;K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>Include1C\;K:\ComClasses\DLL\1CVnCompCOM\;$(BDS)\lib\obj;K:\Global;K:\Interface;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>Include1C\;K:\ERP\ComClasses\DLL\1CVnCompCOM\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Global;K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>Include1C\;K:\ERP\ComClasses\DLL\1CVnCompCOM\;$(BDS)\lib\obj;K:\ERP\Global;K:\ERP\Interface;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,6 +61,16 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<CppCompile Include="Ukas1CSystemCOM.cpp">
+				<DependentOn>Ukas1CSystemCOM.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="1CVnCompCOM.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<None Include="Include1C\AddIn_i.h">
+				<BuildOrder>5</BuildOrder>
+			</None>
 			<CppCompile Include="UObject1CVnCompCOM.cpp">
 				<DependentOn>UObject1CVnCompCOM.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
@@ -73,16 +83,6 @@
 				<DependentOn>UObject1CVnCompCOMCF.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="Ukas1CSystemCOM.cpp">
-				<DependentOn>Ukas1CSystemCOM.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="1CVnCompCOM.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<None Include="Include1C\AddIn_i.h">
-				<BuildOrder>5</BuildOrder>
-			</None>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

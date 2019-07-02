@@ -8,7 +8,6 @@
 #include "UFiskReg.h"
 #include "IDMSprARM.h"
 #include "IDMSprOborud.h"
-#include "grdapi.h"
 #include "IDMQueryRead.h"
 #include "math.h"
 #include "UGlobalConstant.h"
@@ -158,9 +157,9 @@ DM_Connection->glSaveProtocol("Закрытие ArmOf.exe");
 DM_Connection->kanRelease();
 DM_Connection=0;
 
-GrdLogout(grd,0);
-GrdCloseHandle(grd);
-GrdCleanup();
+//GrdLogout(grd,0);
+//GrdCloseHandle(grd);
+//GrdCleanup();
 
 if (ShowMessageOnClose==true)
 	{
@@ -388,42 +387,7 @@ DMSprOborud->kanRelease();
 //---------------------------------------------------------------------------
 void TArmOf::CheckKey(void)
 {
-GrdStartup(GrdFMR_Local | GrdFMR_Remote );         //   && 
 
-grd=GrdCreateHandle(0, GrdCHM_SingleThread, 0);
-GrdSetAccessCodes(grd, 2103077223, 1365184227,2585575258, 5244555225);
-GrdSetFindMode(grd,
-			GrdFMR_Local | GrdFMR_Remote,        //локальный ключ   и сетвой ключ     GrdFMR_Local &&
-			GrdFM_NProg,
-			1,                   //номер программы
-			0,
-			0,
-			0,
-			0,
-			0,
-			GrdFMM_ALL,
-			GrdFMI_ALL );
-
-unsigned long  id_key=0;
-GrdFind(grd,
-			GrdF_First,
-			&id_key,
-			0);
-GrdLogin(grd,
-			0xFFFFFFFF,
-			GrdLM_PerStation );
-
-
-
-//if (id_key==0)
-//	{
-//	glDemo=true;
-//	StatusBar->Panels->Items[5]->Text="Демонстрационный режим";
-//	}
-glRegNumber=id_key;
-//GrdLogout(grd,0);
-//GrdCloseHandle(grd);
-//GrdCleanup();
 }
 //---------------------------------------------------------------------------
 bool TArmOf::CheckEnableNew(void)

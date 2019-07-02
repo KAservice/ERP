@@ -18,7 +18,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;dsnap.bpi;vcldb.bpi;vclx.bpi;xmlrtl.bpi;vclactnband.bpi;FIBPlus_CB2010.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;dxGDIPlusC14.bpi;dxCoreC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;vclimg.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxPSCoreC14.bpi;dxPScxCommonC14.bpi;dxPSLnksC14.bpi;dxPScxGrid6LnkC14.bpi</LinkPackageImports>
 			<DynamicRTL>true</DynamicRTL>
 			<DCC_DebugDCUs>true</DCC_DebugDCUs>
@@ -27,13 +27,13 @@
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<UsePackages>true</UsePackages>
-			<ILINK_ObjectSearchPath>K:\DLL\Report\ReportAnalisNom</ILINK_ObjectSearchPath>
+			<ILINK_ObjectSearchPath>K:\ERP\DLL\Report\ReportAnalisNom</ILINK_ObjectSearchPath>
 			<ProjectType>CppDynamicLibrary</ProjectType>
 			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;Rave77VCL.bpi;pFIBPlusTools_CB2010.bpi;FIBPlus_CB2010.bpi;fs14.bpi;frx14.bpi;frxcs14.bpi;fsDB14.bpi;frxDB14.bpi;fsBDE14.bpi;frxBDE14.bpi;fsADO14.bpi;frxADO14.bpi;fsIBX14.bpi;frxIBX14.bpi;frxDBX14.bpi;frxe14.bpi;fsTee14.bpi;frxTee14.bpi;frxFIB14.bpi;fqb140.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;iw10tmsgridc2010.bpi;iw10tmsc2010.bpi;VclSmp.bpi;iw10tmsgriddec2010.bpi;iw10tmsxlsc2010.bpi</PackageImports>
 			<BCC_wpar>false</BCC_wpar>
-			<IncludePath>K:\FIB_DataModule\DM\;K:\Global\;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\DLL\Report\ReportAnalisNom;K:\Interface;$(IncludePath)</IncludePath>
+			<IncludePath>..\..\..\Global\;..\..\..\FIB_DataModule\DM\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\DLL\Report\ReportAnalisNom;K:\ERP\Interface;$(IncludePath)</IncludePath>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;dsnap.lib;vcldb.lib;vclx.lib;xmlrtl.lib;vclactnband.lib;FIBPlus_CB2010.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxExtEditorsC14.lib;cxPageControlC14.lib;cxGridC14.lib;cxExportC14.lib;dxPSCoreC14.lib;dxPScxCommonC14.lib;dxPSLnksC14.lib;dxPScxGrid6LnkC14.lib</AllPackageLibs>
-			<ILINK_LibraryPath>K:\FIB_DataModule\DM\;K:\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\DLL\Report\ReportAnalisNom</ILINK_LibraryPath>
+			<ILINK_LibraryPath>..\..\..\Global\;..\..\..\FIB_DataModule\DM\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\DLL\Report\ReportAnalisNom</ILINK_LibraryPath>
 			<Multithreaded>true</Multithreaded>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1)'!=''">
@@ -50,8 +50,8 @@
 			<IntermediateOutputDir>Debug</IntermediateOutputDir>
 			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
 			<BCC_StackFrames>true</BCC_StackFrames>
-			<IncludePath>K:\Components\FIBPlus\Sources;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\Sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>K:\ERP\Components\FIBPlus\Sources;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\Sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
 			<TASM_Debugging>Full</TASM_Debugging>
 			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
@@ -130,11 +130,11 @@
 					</ProjectProperties>
 					<HistoryLists_hlIncludePath>
 						<HistoryLists_hlIncludePath Name="Count">1</HistoryLists_hlIncludePath>
-						<HistoryLists_hlIncludePath Name="Item0">K:\Components\FIBPlus\Sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\DLL\Report\ReportAnalisNom</HistoryLists_hlIncludePath>
+						<HistoryLists_hlIncludePath Name="Item0">K:\ERP\Components\FIBPlus\Sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\DLL\Report\ReportAnalisNom</HistoryLists_hlIncludePath>
 					</HistoryLists_hlIncludePath>
 					<HistoryLists_hlILINK_LibraryPath>
 						<HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath>
-						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\Sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\DLL\Report\ReportAnalisNom</HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\Sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\DLL\Report\ReportAnalisNom</HistoryLists_hlILINK_LibraryPath>
 					</HistoryLists_hlILINK_LibraryPath>
 					<HistoryLists_hlDefines>
 						<HistoryLists_hlDefines Name="Count">1</HistoryLists_hlDefines>
@@ -149,59 +149,59 @@
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>
 		<ItemGroup>
-			<CppCompile Include="UFormaDialoga.cpp">
-				<Form>FormaDialoga</Form>
-				<DependentOn>UFormaDialoga.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaGrafikPoDnyam.cpp">
-				<Form>FormaGrafikPoDnyam</Form>
-				<DependentOn>UFormaGrafikPoDnyam.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaReport.cpp">
-				<Form>FormaReport</Form>
-				<DependentOn>UFormaReport.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="RepAnalisNomPoPost.res">
-				<BuildOrder>0</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="RepAnalisNomPoPost.cpp">
-				<BuildOrder>5</BuildOrder>
+			<CppCompile Include="UFormaDialogaImpl.cpp">
+				<DependentOn>UFormaDialogaImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaDialogaCF.cpp">
+				<DependentOn>UFormaDialogaCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UFormaChart.cpp">
 				<Form>FormaChart</Form>
 				<DependentOn>UFormaChart.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
+			<CppCompile Include="UFormaGrafikPoDnyam.cpp">
+				<Form>FormaGrafikPoDnyam</Form>
+				<DependentOn>UFormaGrafikPoDnyam.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+			<CppCompile Include="UFormaDialoga.cpp">
+				<Form>FormaDialoga</Form>
+				<DependentOn>UFormaDialoga.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
+			<CppCompile Include="UFormaReport.cpp">
+				<Form>FormaReport</Form>
+				<DependentOn>UFormaReport.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaDialogaCF.cpp">
-				<DependentOn>UFormaDialogaCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
+			<CppCompile Include="RepAnalisNomPoPost.cpp">
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaDialogaImpl.cpp">
-				<DependentOn>UFormaDialogaImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<FormResources Include="UFormaDialoga.dfm"/>
-			<FormResources Include="UFormaGrafikPoDnyam.dfm"/>
-			<FormResources Include="UFormaReport.dfm"/>
+			<ResFiles Include="RepAnalisNomPoPost.res">
+				<BuildOrder>0</BuildOrder>
+			</ResFiles>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<FormResources Include="UFormaChart.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="UFormaGrafikPoDnyam.dfm"/>
+			<FormResources Include="UFormaDialoga.dfm"/>
+			<FormResources Include="UFormaReport.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

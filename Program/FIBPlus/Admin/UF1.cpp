@@ -63,7 +63,6 @@
 #include "IFormaDocIsmPrice.h"
 #include "IFormaDocRev.h"
 #include "IFormaDocSpOtrOst.h"
-#include "grdapi.h"
 #include "IDMQueryRead.h"
 
 #include "IFormaGurLog.h"
@@ -362,9 +361,9 @@ if (ShowMessageOnClose==true)
 	ShowMessage("MainObject  удален");
 	}
 
-GrdLogout(grd,0);
-GrdCloseHandle(grd);
-GrdCleanup();
+//GrdLogout(grd,0);
+//GrdCloseHandle(grd);
+//GrdCleanup();
 
 if (ShowMessageOnClose==true)
 	{

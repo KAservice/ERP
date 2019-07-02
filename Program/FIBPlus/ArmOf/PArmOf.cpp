@@ -3,11 +3,11 @@
 #include <vcl.h>
 #pragma hdrstop
 //---------------------------------------------------------------------------
-USEFORM("K:\FIB_DataModule\DM\UDM.cpp", DM); /* TDataModule: File Type */
-USEFORM("K:\Forms\ViborBase\UFormaEditBase.cpp", FormaEditBase);
-USEFORM("K:\Forms\ViborBase\UFormaViborBaseTouch.cpp", FormaViborBaseTouch);
+USEFORM("..\..\..\FIB_DataModule\DM\UDM.cpp", DM); /* TDataModule: File Type */
+USEFORM("..\..\..\Forms\ViborBase\UFormaEditBase.cpp", FormaEditBase);
+USEFORM("..\..\..\Forms\ViborBase\UFormaViborBaseTouch.cpp", FormaViborBaseTouch);
 USEFORM("UArmOf.cpp", ArmOf);
-USEFORM("K:\Forms\ViborBase\UKalkulator.cpp", Kalkulator);
+USEFORM("..\..\..\Forms\ViborBase\UKalkulator.cpp", Kalkulator);
 //---------------------------------------------------------------------------
 WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {

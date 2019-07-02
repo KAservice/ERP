@@ -24,13 +24,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;vcldb.lib;dbrtl.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxGridC14.lib;cxExportC14.lib;cxExtEditorsC14.lib;vclx.lib;cxPageControlC14.lib;frx14.lib;fs14.lib;fqb140.lib;bdertl.lib;FIBPlus_CB2010.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\HLP_SprNaborInfBlock\;K:\Forms\HLP_SprInfBlock\;K:\Forms\ART_SprNaborInfBlock\;K:\Forms\ART_SprInfBlock\;K:\Forms\ART_SprImage\;K:\Forms\HLP_SprImage\;K:\Forms\HLP_SprPage\;K:\FIB_DataModule\DM\;K:\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\HLP_SprNaborInfBlock\;K:\Forms\HLP_SprInfBlock\;K:\Forms\ART_SprNaborInfBlock\;K:\Forms\ART_SprInfBlock\;K:\Forms\ART_SprImage\;K:\Forms\HLP_SprImage\;K:\Forms\HLP_SprPage\;K:\FIB_DataModule\DM\;K:\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\..\Forms\ART_SprNaborInfBlock\;..\..\..\..\Forms\HLP_SprNaborInfBlock\;..\..\..\..\Forms\HLP_SprInfBlock\;..\..\..\..\Forms\ART_SprInfBlock\;..\..\..\..\Global\;..\..\..\..\FIB_DataModule\DM\;..\..\..\..\Forms\HLP_SprImage\;..\..\..\..\Forms\ART_SprImage\;K:\ERP\Forms\HLP_SprNaborInfBlock\;K:\ERP\Forms\HLP_SprInfBlock\;K:\ERP\Forms\ART_SprNaborInfBlock\;K:\ERP\Forms\ART_SprInfBlock\;K:\ERP\Forms\ART_SprImage\;K:\ERP\Forms\HLP_SprImage\;K:\ERP\Forms\HLP_SprPage\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\..\Forms\ART_SprNaborInfBlock\;..\..\..\..\Forms\HLP_SprNaborInfBlock\;..\..\..\..\Forms\HLP_SprInfBlock\;..\..\..\..\Forms\ART_SprInfBlock\;..\..\..\..\Global\;..\..\..\..\FIB_DataModule\DM\;..\..\..\..\Forms\HLP_SprImage\;..\..\..\..\Forms\ART_SprImage\;K:\ERP\Forms\HLP_SprNaborInfBlock\;K:\ERP\Forms\HLP_SprInfBlock\;K:\ERP\Forms\ART_SprNaborInfBlock\;K:\ERP\Forms\ART_SprInfBlock\;K:\ERP\Forms\ART_SprImage\;K:\ERP\Forms\HLP_SprImage\;K:\ERP\Forms\HLP_SprPage\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Global\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -63,360 +63,360 @@
 			<ResFiles Include="PFormsHlp.res">
 				<BuildOrder>1</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="FormsHlp.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
+			<CppCompile Include="..\..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
+				<DependentOn>..\..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpImpl.h</DependentOn>
 				<BuildOrder>58</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpCF.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrpCF.h</DependentOn>
 				<BuildOrder>57</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.cpp">
 				<Form>ART_FormaElementaSprNaborInfBlockSostavGrp</Form>
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.h</DependentOn>
 				<BuildOrder>56</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostav.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostav.cpp">
 				<Form>ART_FormaSpiskaSprNaborInfBlockSostav</Form>
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostav.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostav.h</DependentOn>
 				<BuildOrder>59</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavImpl.h</DependentOn>
 				<BuildOrder>61</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavCF.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostavCF.h</DependentOn>
 				<BuildOrder>60</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlock.cpp">
 				<Form>ART_FormaSpiskaSprNaborInfBlock</Form>
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlock.h</DependentOn>
 				<BuildOrder>59</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockImpl.h</DependentOn>
 				<BuildOrder>55</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpCF.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpCF.h</DependentOn>
 				<BuildOrder>49</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlock.cpp">
 				<Form>ART_FormaElementaSprNaborInfBlock</Form>
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlock.h</DependentOn>
 				<BuildOrder>48</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrp.cpp">
 				<Form>ART_FormaElementaSprNaborInfBlockGrp</Form>
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrp.h</DependentOn>
 				<BuildOrder>47</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrpImpl.h</DependentOn>
 				<BuildOrder>50</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockCF.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockCF.h</DependentOn>
 				<BuildOrder>54</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockImpl.h</DependentOn>
 				<BuildOrder>52</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockCF.cpp">
-				<DependentOn>K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockCF.h</DependentOn>
 				<BuildOrder>51</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImage.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImage.cpp">
 				<Form>ART_FormaElementaSprImage</Form>
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaElementaSprImage.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImage.h</DependentOn>
 				<BuildOrder>27</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaSpiskaSprImage.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImage.cpp">
 				<Form>ART_FormaSpiskaSprImage</Form>
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaSpiskaSprImage.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImage.h</DependentOn>
 				<BuildOrder>28</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrp.cpp">
 				<Form>ART_FormaElementaSprImageGrp</Form>
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrp.h</DependentOn>
 				<BuildOrder>26</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostav.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostav.cpp">
 				<Form>ART_FormaSpiskaSprInfBlockSostav</Form>
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostav.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostav.h</DependentOn>
 				<BuildOrder>35</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlock.cpp">
 				<Form>ART_FormaSpiskaSprInfBlock</Form>
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlock.h</DependentOn>
 				<BuildOrder>44</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpCF.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpCF.h</DependentOn>
 				<BuildOrder>42</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrpImpl.h</DependentOn>
 				<BuildOrder>43</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrpImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrpImpl.h</DependentOn>
 				<BuildOrder>32</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImageImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaElementaSprImageImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageImpl.h</DependentOn>
 				<BuildOrder>30</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrpCF.cpp">
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrpCF.h</DependentOn>
 				<BuildOrder>31</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaSpiskaSprImageImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaSpiskaSprImageImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImageImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImageImpl.h</DependentOn>
 				<BuildOrder>34</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImageCF.cpp">
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaElementaSprImageCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageCF.h</DependentOn>
 				<BuildOrder>29</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprImage\UART_FormaSpiskaSprImageCF.cpp">
-				<DependentOn>K:\Forms\ART_SprImage\UART_FormaSpiskaSprImageCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImageCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImageCF.h</DependentOn>
 				<BuildOrder>33</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockImpl.h</DependentOn>
 				<BuildOrder>46</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavImpl.h</DependentOn>
 				<BuildOrder>37</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrp.cpp">
 				<Form>ART_FormaElementaSprInfBlockGrp</Form>
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrp.h</DependentOn>
 				<BuildOrder>41</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockCF.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockCF.h</DependentOn>
 				<BuildOrder>45</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavCF.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostavCF.h</DependentOn>
 				<BuildOrder>36</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockCF.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockCF.h</DependentOn>
 				<BuildOrder>39</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockImpl.h</DependentOn>
 				<BuildOrder>40</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlock.cpp">
 				<Form>ART_FormaElementaSprInfBlock</Form>
-				<DependentOn>K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlock.h</DependentOn>
 				<BuildOrder>38</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.cpp">
 				<Form>HLP_FormaElementaSprImage</Form>
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.h</DependentOn>
 				<BuildOrder>41</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageCF.h</DependentOn>
 				<BuildOrder>42</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageImpl.h</DependentOn>
 				<BuildOrder>43</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.cpp">
 				<Form>HLP_FormaElementaSprImageGrp</Form>
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.h</DependentOn>
 				<BuildOrder>44</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpCF.h</DependentOn>
 				<BuildOrder>45</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrpImpl.h</DependentOn>
 				<BuildOrder>46</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.cpp">
 				<Form>HLP_FormaSpiskaSprImage</Form>
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.h</DependentOn>
 				<BuildOrder>47</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageCF.h</DependentOn>
 				<BuildOrder>48</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImageImpl.h</DependentOn>
 				<BuildOrder>49</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlock.cpp">
 				<Form>HLP_FormaElementaSprInfBlock</Form>
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlock.h</DependentOn>
 				<BuildOrder>50</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostav.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostav.cpp">
 				<Form>HLP_FormaSpiskaSprInfBlockSostav</Form>
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostav.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostav.h</DependentOn>
 				<BuildOrder>51</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavCF.h</DependentOn>
 				<BuildOrder>52</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostavImpl.h</DependentOn>
 				<BuildOrder>53</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockCF.h</DependentOn>
 				<BuildOrder>54</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockImpl.h</DependentOn>
 				<BuildOrder>55</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrp.cpp">
 				<Form>HLP_FormaElementaSprInfBlockGrp</Form>
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrp.h</DependentOn>
 				<BuildOrder>56</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpCF.h</DependentOn>
 				<BuildOrder>57</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrpImpl.h</DependentOn>
 				<BuildOrder>58</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlock.cpp">
 				<Form>HLP_FormaSpiskaSprInfBlock</Form>
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlock.h</DependentOn>
 				<BuildOrder>59</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockCF.h</DependentOn>
 				<BuildOrder>60</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockImpl.h</DependentOn>
 				<BuildOrder>61</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrp.cpp">
 				<Form>HLP_FormaElementaSprNaborInfBlockSostavGrp</Form>
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrp.h</DependentOn>
 				<BuildOrder>62</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpCF.h</DependentOn>
 				<BuildOrder>63</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrpImpl.h</DependentOn>
 				<BuildOrder>64</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlock.cpp">
 				<Form>HLP_FormaElementaSprNaborInfBlock</Form>
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlock.h</DependentOn>
 				<BuildOrder>65</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockCF.h</DependentOn>
 				<BuildOrder>66</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockImpl.h</DependentOn>
 				<BuildOrder>67</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrp.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrp.cpp">
 				<Form>HLP_FormaElementaSprNaborInfBlockGrp</Form>
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrp.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrp.h</DependentOn>
 				<BuildOrder>68</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpCF.h</DependentOn>
 				<BuildOrder>69</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrpImpl.h</DependentOn>
 				<BuildOrder>70</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlock.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlock.cpp">
 				<Form>HLP_FormaSpiskaSprNaborInfBlock</Form>
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlock.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlock.h</DependentOn>
 				<BuildOrder>71</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockCF.h</DependentOn>
 				<BuildOrder>72</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockImpl.h</DependentOn>
 				<BuildOrder>73</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostav.cpp">
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostav.cpp">
 				<Form>HLP_FormaSpiskaSprNaborInfBlockSostav</Form>
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostav.h</DependentOn>
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostav.h</DependentOn>
 				<BuildOrder>74</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavCF.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavCF.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavCF.h</DependentOn>
 				<BuildOrder>75</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavImpl.cpp">
-				<DependentOn>K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostavImpl.h</DependentOn>
 				<BuildOrder>76</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostav.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrp.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImage.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprImage\UART_FormaSpiskaSprImage.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprImage\UART_FormaElementaSprImageGrp.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostav.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrp.dfm"/>
-			<FormResources Include="K:\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostav.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrp.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrp.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrp.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlock.dfm"/>
-			<FormResources Include="K:\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockSostavGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaSpiskaSprNaborInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprNaborInfBlock\UART_FormaElementaSprNaborInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImage.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprImage\UART_FormaSpiskaSprImage.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprImage\UART_FormaElementaSprImageGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaSpiskaSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\ART_SprInfBlock\UART_FormaElementaSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImage.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaElementaSprImageGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprImage\UHLP_FormaSpiskaSprImage.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaElementaSprInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprInfBlock\UHLP_FormaSpiskaSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockSostavGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaElementaSprNaborInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlock.dfm"/>
+			<FormResources Include="..\..\..\..\Forms\HLP_SprNaborInfBlock\UHLP_FormaSpiskaSprNaborInfBlockSostav.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -441,7 +441,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">3</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">260</VersionInfo>
+						<VersionInfo Name="Build">262</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -453,7 +453,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.3.0.260</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.3.0.262</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

@@ -122,7 +122,7 @@
 						<Parameters Name="Launcher"/>
 						<Parameters Name="UseLauncher">False</Parameters>
 						<Parameters Name="DebugCWD"/>
-						<Parameters Name="HostApplication">K:\Program\FIBPlus\ArmKas\Debug\PArmKas.exe</Parameters>
+						<Parameters Name="HostApplication">K:\ERP\Program\FIBPlus\ArmKas\Debug\PArmKas.exe</Parameters>
 						<Parameters Name="RemoteHost"/>
 						<Parameters Name="RemotePath"/>
 						<Parameters Name="RemoteLauncher"/>

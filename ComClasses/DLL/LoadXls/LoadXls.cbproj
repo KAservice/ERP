@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;vcldb.lib;cxPageControlC14.lib;cxGridC14.lib;cxExportC14.lib;cxExtEditorsC14.lib;vclx.lib;cxSpreadSheetC14.lib;FIBPlus_CB2010.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Forms\ImportProducerSection\;K:\Forms\ImportProducerCondition\;K:\Forms\ImportProducerRabota\;K:\Forms\ImportProducerDefect\;K:\Forms\ImportProducerNeispr\;K:\Forms\ImportSprProducerNom\;K:\Global\;K:\FIB_DataModule\DM\;K:\Forms\ImportDocPrihNakl\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Forms\ImportProducerSection\;K:\Forms\ImportProducerCondition\;K:\Forms\ImportProducerRabota\;K:\Forms\ImportProducerDefect\;K:\Forms\ImportProducerNeispr\;K:\Forms\ImportSprProducerNom\;K:\Global\;K:\FIB_DataModule\DM\;K:\Forms\ImportDocPrihNakl\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Forms\ImportProducerSection\;..\..\..\Forms\ImportProducerCondition\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\ImportSprProducerNom\;..\..\..\Forms\ImportDocPrihNakl\;..\..\..\Forms\ImportProducerNeispr\;..\..\..\Forms\ImportProducerDefect\;..\..\..\Forms\ImportProducerRabota\;K:\ERP\Forms\ImportProducerSection\;K:\ERP\Forms\ImportProducerCondition\;K:\ERP\Forms\ImportProducerRabota\;K:\ERP\Forms\ImportProducerDefect\;K:\ERP\Forms\ImportProducerNeispr\;K:\ERP\Forms\ImportSprProducerNom\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\ImportDocPrihNakl\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Forms\ImportProducerSection\;..\..\..\Forms\ImportProducerCondition\;..\..\..\Global\;..\..\..\FIB_DataModule\DM\;..\..\..\Forms\ImportSprProducerNom\;..\..\..\Forms\ImportDocPrihNakl\;..\..\..\Forms\ImportProducerNeispr\;..\..\..\Forms\ImportProducerDefect\;..\..\..\Forms\ImportProducerRabota\;K:\ERP\Forms\ImportProducerSection\;K:\ERP\Forms\ImportProducerCondition\;K:\ERP\Forms\ImportProducerRabota\;K:\ERP\Forms\ImportProducerDefect\;K:\ERP\Forms\ImportProducerNeispr\;K:\ERP\Forms\ImportSprProducerNom\;K:\ERP\Global\;K:\ERP\FIB_DataModule\DM\;K:\ERP\Forms\ImportDocPrihNakl\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,122 +61,122 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprImpl.cpp">
-				<DependentOn>K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefect.cpp">
-				<Form>FormaImportSprProducerDefect</Form>
-				<DependentOn>K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefect.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNomImpl.cpp">
-				<DependentOn>K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNomImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprCF.cpp">
-				<DependentOn>K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefectCF.cpp">
-				<DependentOn>K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefectCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaCF.cpp">
-				<DependentOn>K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaImpl.cpp">
-				<DependentOn>K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefectImpl.cpp">
-				<DependentOn>K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefectImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabota.cpp">
-				<Form>FormaImportSprProducerRabota</Form>
-				<DependentOn>K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabota.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNomCF.cpp">
-				<DependentOn>K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNomCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNakl.cpp">
-				<Form>FormaImportDocPrihNakl</Form>
-				<DependentOn>K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNakl.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeispr.cpp">
-				<Form>FormaImportSprProducerNeispr</Form>
-				<DependentOn>K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeispr.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklImpl.cpp">
-				<DependentOn>K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNom.cpp">
+			<CppCompile Include="..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNom.cpp">
 				<Form>FormaImportSprProducerNom</Form>
-				<DependentOn>K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNom.h</DependentOn>
+				<DependentOn>..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNom.h</DependentOn>
 				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklCF.cpp">
-				<DependentOn>K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklCF.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="LoadXls.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerCondition\UFormaImportSprProducerCondition.cpp">
-				<Form>FormaImportSprProducerCondition</Form>
-				<DependentOn>K:\Forms\ImportProducerCondition\UFormaImportSprProducerCondition.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerCondition\UFormaImportSprProducerConditionCF.cpp">
-				<DependentOn>K:\Forms\ImportProducerCondition\UFormaImportSprProducerConditionCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerCondition\UFormaImportSprProducerConditionImpl.cpp">
-				<DependentOn>K:\Forms\ImportProducerCondition\UFormaImportSprProducerConditionImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerSection\UFormaImportSprProducerSection.cpp">
+			<CppCompile Include="..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSection.cpp">
 				<Form>FormaImportSprProducerSection</Form>
-				<DependentOn>K:\Forms\ImportProducerSection\UFormaImportSprProducerSection.h</DependentOn>
+				<DependentOn>..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSection.h</DependentOn>
 				<BuildOrder>22</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerSection\UFormaImportSprProducerSectionCF.cpp">
-				<DependentOn>K:\Forms\ImportProducerSection\UFormaImportSprProducerSectionCF.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSectionCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSectionCF.h</DependentOn>
 				<BuildOrder>23</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Forms\ImportProducerSection\UFormaImportSprProducerSectionImpl.cpp">
-				<DependentOn>K:\Forms\ImportProducerSection\UFormaImportSprProducerSectionImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSectionImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSectionImpl.h</DependentOn>
 				<BuildOrder>24</BuildOrder>
 			</CppCompile>
-			<FormResources Include="K:\Forms\ImportProducerDefect\UFormaImportSprProducerDefect.dfm"/>
-			<FormResources Include="K:\Forms\ImportProducerRabota\UFormaImportSprProducerRabota.dfm"/>
-			<FormResources Include="K:\Forms\ImportDocPrihNakl\UFormaImportDocPrihNakl.dfm"/>
-			<FormResources Include="K:\Forms\ImportProducerNeispr\UFormaImportSprProducerNeispr.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="K:\Forms\ImportSprProducerNom\UFormaImportSprProducerNom.dfm"/>
-			<FormResources Include="K:\Forms\ImportProducerCondition\UFormaImportSprProducerCondition.dfm"/>
-			<FormResources Include="K:\Forms\ImportProducerSection\UFormaImportSprProducerSection.dfm"/>
+			<CppCompile Include="..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerCondition.cpp">
+				<Form>FormaImportSprProducerCondition</Form>
+				<DependentOn>..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerCondition.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerConditionCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerConditionCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerConditionImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerConditionImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNaklImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefectCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefectCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeisprImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefect.cpp">
+				<Form>FormaImportSprProducerDefect</Form>
+				<DependentOn>..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefect.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNomImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNomCF.cpp">
+				<DependentOn>..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNomCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNakl.cpp">
+				<Form>FormaImportDocPrihNakl</Form>
+				<DependentOn>..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNakl.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeispr.cpp">
+				<Form>FormaImportSprProducerNeispr</Form>
+				<DependentOn>..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeispr.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabotaImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefectImpl.cpp">
+				<DependentOn>..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefectImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabota.cpp">
+				<Form>FormaImportSprProducerRabota</Form>
+				<DependentOn>..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabota.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\ImportSprProducerNom\UFormaImportSprProducerNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\ImportProducerSection\UFormaImportSprProducerSection.dfm"/>
+			<FormResources Include="..\..\..\Forms\ImportProducerCondition\UFormaImportSprProducerCondition.dfm"/>
+			<FormResources Include="..\..\..\Forms\ImportProducerDefect\UFormaImportSprProducerDefect.dfm"/>
+			<FormResources Include="..\..\..\Forms\ImportDocPrihNakl\UFormaImportDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\Forms\ImportProducerNeispr\UFormaImportSprProducerNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\ImportProducerRabota\UFormaImportSprProducerRabota.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

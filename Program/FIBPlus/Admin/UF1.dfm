@@ -44,8 +44,6 @@ object F1: TF1
       item
         Width = 50
       end>
-    ExplicitTop = 430
-    ExplicitWidth = 833
   end
   object ToolBar1: TToolBar
     Left = 0
@@ -58,7 +56,6 @@ object F1: TF1
     Images = ImageListToolBar
     TabOrder = 1
     Transparent = False
-    ExplicitWidth = 833
   end
   object MainMenu1: TMainMenu
     Left = 24

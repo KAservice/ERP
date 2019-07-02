@@ -24,13 +24,13 @@
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<Defines>NO_STRICT</Defines>
-			<ILINK_ObjectSearchPath>K:\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</ILINK_ObjectSearchPath>
+			<ILINK_ObjectSearchPath>K:\ERP\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</ILINK_ObjectSearchPath>
 			<ProjectType>CppVCLApplication</ProjectType>
 			<PackageImports>vclx.bpi;vcl.bpi;dbrtl.bpi;Rave75VCL.bpi;bdertl.bpi;rtl.bpi;bcbie.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vcldb.bpi;vcldbx.bpi;dsnap.bpi;dsnapcon.bpi;teeUI.bpi;teedb.bpi;tee.bpi;adortl.bpi;vclib.bpi;ibxpress.bpi;dbxcds.bpi;dbexpress.bpi;DbxCommonDriver.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;IntrawebDB_90_100.bpi;Intraweb_90_100.bpi;vclie.bpi;websnap.bpi;webdsnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;dxGDIPlusC11.bpi;dxCoreC11.bpi;cxLibraryC11.bpi;dxThemeC11.bpi;dxPSTeeChartC11.bpi;dxPSCoreC11.bpi;dxPScxExtCommonC11.bpi;dxPSLnksC11.bpi;cxDataC11.bpi;cxEditorsC11.bpi;cxExtEditorsC11.bpi;dxPScxCommonC11.bpi;dxPSDBTeeChartC11.bpi;cxPageControlC11.bpi;cxGridC11.bpi;cxExportC11.bpi;dxmdsC11.bpi;cxSpreadSheetC11.bpi;dxComnC11.bpi;dxPScxGrid6LnkC11.bpi;dxPScxPCProdC11.bpi;dxPScxSSLnkC11.bpi;FIBPlus_CB2007.bpi;FIBPlusEditors_CB2007.bpi;FIBPlusTools_CB2007.bpi;fs11.bpi;frx11.bpi;frxcs11.bpi;fsDB11.bpi;frxDB11.bpi;fsBDE11.bpi;frxBDE11.bpi;fsADO11.bpi;frxADO11.bpi;fsIBX11.bpi;frxIBX11.bpi;frxe11.bpi;fsTee11.bpi;frxTee11.bpi;frxFIB11.bpi;fqb110.bpi</PackageImports>
 			<BCC_wpar>false</BCC_wpar>
-			<IncludePath>..\;K:\Global\;K:\Forms\GlobalModule\;K:\Classes\;..\..\..\Forms\FormaSetupObmen\;..\..\..\FIB_DataModule\DM\;..\..\..\FIB_DataModule\DMUribOut\;..\..\..\FIB_DataModule\XDataOut\;..\..\..\FIB_DataModule\DMUribIn\;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</IncludePath>
+			<IncludePath>..\;K:\ERP\Global\;K:\ERP\Forms\GlobalModule\;K:\ERP\Classes\;..\..\..\Forms\FormaSetupObmen\;..\..\..\FIB_DataModule\DM\;..\..\..\FIB_DataModule\DMUribOut\;..\..\..\FIB_DataModule\XDataOut\;..\..\..\FIB_DataModule\DMUribIn\;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</IncludePath>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;dsnap.lib;vcldb.lib;xmlrtl.lib;ibxpress.lib;IndyCore.lib;IndySystem.lib;IndyProtocols.lib;FIBPlus_CB2010.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxExtEditorsC14.lib;vclx.lib;cxPageControlC14.lib;soaprtl.lib;inet.lib</AllPackageLibs>
-			<ILINK_LibraryPath>..\;K:\Global\;K:\Forms\GlobalModule\;K:\Classes\;..\..\..\Forms\FormaSetupObmen\;..\..\..\FIB_DataModule\DM\;..\..\..\FIB_DataModule\DMUribOut\;..\..\..\FIB_DataModule\XDataOut\;..\..\..\FIB_DataModule\DMUribIn\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</ILINK_LibraryPath>
+			<ILINK_LibraryPath>..\;K:\ERP\Global\;K:\ERP\Forms\GlobalModule\;K:\ERP\Classes\;..\..\..\Forms\FormaSetupObmen\;..\..\..\FIB_DataModule\DM\;..\..\..\FIB_DataModule\DMUribOut\;..\..\..\FIB_DataModule\XDataOut\;..\..\..\FIB_DataModule\DMUribIn\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</ILINK_LibraryPath>
 			<Multithreaded>true</Multithreaded>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1)'!=''">
@@ -48,9 +48,9 @@
 			<IntermediateOutputDir>Debug</IntermediateOutputDir>
 			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
 			<BCC_StackFrames>true</BCC_StackFrames>
-			<IncludePath>K:\Components\FIBPlus\Sources;$(IncludePath)</IncludePath>
+			<IncludePath>K:\ERP\Components\FIBPlus\Sources;$(IncludePath)</IncludePath>
 			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
-			<ILINK_LibraryPath>$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\Sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<ILINK_LibraryPath>$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\Sources;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<TASM_Debugging>Full</TASM_Debugging>
 			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
 		</PropertyGroup>
@@ -131,12 +131,12 @@
 					</ProjectProperties>
 					<HistoryLists_hlIncludePath>
 						<HistoryLists_hlIncludePath Name="Count">2</HistoryLists_hlIncludePath>
-						<HistoryLists_hlIncludePath Name="Item0">K:\Components\FIBPlus\Sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</HistoryLists_hlIncludePath>
-						<HistoryLists_hlIncludePath Name="Item1">K:\Components\FIBPlus\Sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\Obmen\Program\FIBPlus\ObmenFTP</HistoryLists_hlIncludePath>
+						<HistoryLists_hlIncludePath Name="Item0">K:\ERP\Components\FIBPlus\Sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</HistoryLists_hlIncludePath>
+						<HistoryLists_hlIncludePath Name="Item1">K:\ERP\Components\FIBPlus\Sources;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;K:\ERP\Obmen\Program\FIBPlus\ObmenFTP</HistoryLists_hlIncludePath>
 					</HistoryLists_hlIncludePath>
 					<HistoryLists_hlILINK_LibraryPath>
 						<HistoryLists_hlILINK_LibraryPath Name="Count">1</HistoryLists_hlILINK_LibraryPath>
-						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\Components\FIBPlus\Library;K:\Components\FIBPlus\Sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</HistoryLists_hlILINK_LibraryPath>
+						<HistoryLists_hlILINK_LibraryPath Name="Item0">$(BDS)\lib\debug;K:\ERP\Components\FIBPlus\Library;K:\ERP\Components\FIBPlus\Sources;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;K:\ERP\Obmen\Program\FIBPlus\ObmenFTP;..\..\..\FIB_DataModule\DM;..\..\..\FIB_DataModule\DMUribIn;..\..\..\FIB_DataModule\DMUribOut;..\..\..\FIB_DataModule\XDataOut;..\..\..\Forms\FormaSetupObmen</HistoryLists_hlILINK_LibraryPath>
 					</HistoryLists_hlILINK_LibraryPath>
 					<HistoryLists_hlDefines>
 						<HistoryLists_hlDefines Name="Count">1</HistoryLists_hlDefines>
@@ -163,8 +163,8 @@
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>
 		<ItemGroup>
-			<CppCompile Include="K:\Classes\UkanIniFile.cpp">
-				<DependentOn>K:\Classes\UkanIniFile.h</DependentOn>
+			<CppCompile Include="K:\ERP\Classes\UkanIniFile.cpp">
+				<DependentOn>K:\ERP\Classes\UkanIniFile.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UMainForm.cpp">
@@ -175,20 +175,20 @@
 			<CppCompile Include="ObmenMail.cpp">
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Classes\UkanTxtFile.cpp">
-				<DependentOn>K:\Classes\UkanTxtFile.h</DependentOn>
+			<CppCompile Include="K:\ERP\Classes\UkanTxtFile.cpp">
+				<DependentOn>K:\ERP\Classes\UkanTxtFile.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\UkanComandExchange.cpp">
 				<DependentOn>..\UkanComandExchange.h</DependentOn>
 				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Classes\UkanXmlFile.cpp">
-				<DependentOn>K:\Classes\UkanXmlFile.h</DependentOn>
+			<CppCompile Include="K:\ERP\Classes\UkanXmlFile.cpp">
+				<DependentOn>K:\ERP\Classes\UkanXmlFile.h</DependentOn>
 				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="K:\ERP\Global\UGlobalFunction.cpp">
+				<DependentOn>K:\ERP\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>18</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DMUribIn\UDMUribIn.cpp">

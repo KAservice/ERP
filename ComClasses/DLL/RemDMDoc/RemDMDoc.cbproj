@@ -25,13 +25,13 @@
 			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
 			<ProjectType>VCppStyleDll</ProjectType>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;FIBPlus_CB2010.lib;ibxpress.lib;dsnap.lib;vcldb.lib;cxLibraryC14.lib;dxThemeC14.lib;dxGDIPlusC14.lib;dxCoreC14.lib;cxEditorsC14.lib;cxDataC14.lib;vclimg.lib;cxExtEditorsC14.lib;vclx.lib;cxPageControlC14.lib;cxGridC14.lib;cxExportC14.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
 			<UsePackages>true</UsePackages>
-			<IncludePath>K:\Classes\;K:\FIB_DataModule\REM_DocVZipVosvratPost\;K:\FIB_DataModule\REM_DocVZipVosvartPost\;K:\FIB_DataModule\REM_DocVZipPer\;K:\FIB_DataModule\REM_DocVosvratZipPer\;K:\FIB_DataModule\REM_DocOtprPost\;K:\FIB_DataModule\REM_DocZakazPost\;K:\FIB_DataModule\REM_DocVigruska\;K:\FIB_DataModule\REM_DocProverka\;K:\FIB_DataModule\REM_DocVosvratHW\;K:\FIB_DataModule\REM_DocVidachaHW\;K:\FIB_DataModule\REM_DocRegOtchetPost\;K:\FIB_DataModule\REM_DocSpisNom\;K:\FIB_DataModule\REM_DocZVosvrZap\;K:\FIB_DataModule\REM_DocZAktPr\;K:\FIB_DataModule\REM_DocZTreb\;K:\FIB_DataModule\REM_DocZOper\;K:\FIB_DataModule\REM_DocZEnd\;K:\FIB_DataModule\REM_DocZStart\;K:\FIB_DataModule\REM_DocZPer\;K:\FIB_DataModule\REM_DocZVid\;K:\FIB_DataModule\REM_DocZPost\;K:\FIB_DataModule\REM_DocPer\;K:\FIB_DataModule\REM_DocAkt\;K:\FIB_DataModule\REM_DocVosvratPok\;K:\FIB_DataModule\REM_DocVosvratIsSC\;K:\FIB_DataModule\REM_DocPerServCentr\;K:\FIB_DataModule\REM_DocVosvratDileru\;K:\FIB_DataModule\REM_DocPostOtDilera\;K:\FIB_DataModule\REM_DocSborkaKompl\;K:\FIB_DataModule\REM_DocOstNom\;K:\FIB_DataModule\REM_DocReal\;K:\Forms\REM_FormaDocPrihNakl\;K:\FIB_DataModule\REM_DMDocReal\;K:\FIB_DataModule\REM_DocPrihNakl\;K:\FIB_DataModule\REM_DocSetServKKT\;K:\FIB_DataModule\REM_DocSetServHW\;K:\FIB_DataModule\REM_DocRemontKKT\;K:\FIB_DataModule\REM_DocRemontHW\;K:\FIB_DataModule\REM_DocRemont\;K:\FIB_DataModule\REM_DocKM2\;K:\FIB_DataModule\REM_DocKM1\;K:\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\Interface;K:\Global;K:\Classes;$(IncludePath)</IncludePath>
-			<ILINK_LibraryPath>K:\Classes\;K:\FIB_DataModule\REM_DocVZipVosvratPost\;K:\FIB_DataModule\REM_DocVZipVosvartPost\;K:\FIB_DataModule\REM_DocVZipPer\;K:\FIB_DataModule\REM_DocVosvratZipPer\;K:\FIB_DataModule\REM_DocOtprPost\;K:\FIB_DataModule\REM_DocZakazPost\;K:\FIB_DataModule\REM_DocVigruska\;K:\FIB_DataModule\REM_DocProverka\;K:\FIB_DataModule\REM_DocVosvratHW\;K:\FIB_DataModule\REM_DocVidachaHW\;K:\FIB_DataModule\REM_DocRegOtchetPost\;K:\FIB_DataModule\REM_DocSpisNom\;K:\FIB_DataModule\REM_DocZVosvrZap\;K:\FIB_DataModule\REM_DocZAktPr\;K:\FIB_DataModule\REM_DocZTreb\;K:\FIB_DataModule\REM_DocZOper\;K:\FIB_DataModule\REM_DocZEnd\;K:\FIB_DataModule\REM_DocZStart\;K:\FIB_DataModule\REM_DocZPer\;K:\FIB_DataModule\REM_DocZVid\;K:\FIB_DataModule\REM_DocZPost\;K:\FIB_DataModule\REM_DocPer\;K:\FIB_DataModule\REM_DocAkt\;K:\FIB_DataModule\REM_DocVosvratPok\;K:\FIB_DataModule\REM_DocVosvratIsSC\;K:\FIB_DataModule\REM_DocPerServCentr\;K:\FIB_DataModule\REM_DocVosvratDileru\;K:\FIB_DataModule\REM_DocPostOtDilera\;K:\FIB_DataModule\REM_DocSborkaKompl\;K:\FIB_DataModule\REM_DocOstNom\;K:\FIB_DataModule\REM_DocReal\;K:\Forms\REM_FormaDocPrihNakl\;K:\FIB_DataModule\REM_DMDocReal\;K:\FIB_DataModule\REM_DocPrihNakl\;K:\FIB_DataModule\REM_DocSetServKKT\;K:\FIB_DataModule\REM_DocSetServHW\;K:\FIB_DataModule\REM_DocRemontKKT\;K:\FIB_DataModule\REM_DocRemontHW\;K:\FIB_DataModule\REM_DocRemont\;K:\FIB_DataModule\REM_DocKM2\;K:\FIB_DataModule\REM_DocKM1\;K:\Global\;$(BDS)\lib\obj;K:\Classes;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>..\..\..\Classes\;..\..\..\FIB_DataModule\REM_DocVosvratDileru\;..\..\..\FIB_DataModule\REM_DocRegOtchetPost\;..\..\..\FIB_DataModule\REM_DocZPost\;..\..\..\FIB_DataModule\REM_DocZOper\;..\..\..\FIB_DataModule\REM_DocVosvratPok\;..\..\..\FIB_DataModule\REM_DocZTreb\;..\..\..\FIB_DataModule\REM_DocSetServKKT\;..\..\..\FIB_DataModule\REM_DocPostOtDilera\;..\..\..\FIB_DataModule\REM_DocPerServCentr\;..\..\..\FIB_DataModule\REM_DocPrihNakl\;..\..\..\FIB_DataModule\REM_DocSborkaKompl\;..\..\..\FIB_DataModule\REM_DocVigruska\;..\..\..\FIB_DataModule\REM_DocProverka\;..\..\..\FIB_DataModule\REM_DocVosvratIsSC\;..\..\..\FIB_DataModule\REM_DocRemontHW\;..\..\..\FIB_DataModule\REM_DocOtprPost\;..\..\..\FIB_DataModule\REM_DocVZipPer\;..\..\..\FIB_DataModule\REM_DocSpisNom\;..\..\..\FIB_DataModule\REM_DocZAktPr\;..\..\..\FIB_DataModule\REM_DocOstNom\;..\..\..\FIB_DataModule\REM_DocZStart\;..\..\..\FIB_DataModule\REM_DocRemont\;..\..\..\FIB_DataModule\REM_DocZVid\;..\..\..\FIB_DataModule\REM_DocZEnd\;..\..\..\FIB_DataModule\REM_DocReal\;..\..\..\FIB_DataModule\REM_DocZPer\;..\..\..\Global\;..\..\..\FIB_DataModule\REM_DocKM2\;..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\;..\..\..\FIB_DataModule\REM_DocKM1\;..\..\..\FIB_DataModule\REM_DocAkt\;..\..\..\FIB_DataModule\REM_DocPer\;..\..\..\FIB_DataModule\REM_DocSetServHW\;..\..\..\FIB_DataModule\REM_DocRemontKKT\;..\..\..\FIB_DataModule\REM_DocZVosvrZap\;..\..\..\FIB_DataModule\REM_DocZakazPost\;..\..\..\FIB_DataModule\REM_DocVidachaHW\;..\..\..\FIB_DataModule\REM_DocVosvratHW\;K:\ERP\Classes\;K:\ERP\FIB_DataModule\REM_DocVZipVosvratPost\;K:\ERP\FIB_DataModule\REM_DocVZipVosvartPost\;K:\ERP\FIB_DataModule\REM_DocVZipPer\;K:\ERP\FIB_DataModule\REM_DocVosvratZipPer\;K:\ERP\FIB_DataModule\REM_DocOtprPost\;K:\ERP\FIB_DataModule\REM_DocZakazPost\;K:\ERP\FIB_DataModule\REM_DocVigruska\;K:\ERP\FIB_DataModule\REM_DocProverka\;K:\ERP\FIB_DataModule\REM_DocVosvratHW\;K:\ERP\FIB_DataModule\REM_DocVidachaHW\;K:\ERP\FIB_DataModule\REM_DocRegOtchetPost\;K:\ERP\FIB_DataModule\REM_DocSpisNom\;K:\ERP\FIB_DataModule\REM_DocZVosvrZap\;K:\ERP\FIB_DataModule\REM_DocZAktPr\;K:\ERP\FIB_DataModule\REM_DocZTreb\;K:\ERP\FIB_DataModule\REM_DocZOper\;K:\ERP\FIB_DataModule\REM_DocZEnd\;K:\ERP\FIB_DataModule\REM_DocZStart\;K:\ERP\FIB_DataModule\REM_DocZPer\;K:\ERP\FIB_DataModule\REM_DocZVid\;K:\ERP\FIB_DataModule\REM_DocZPost\;K:\ERP\FIB_DataModule\REM_DocPer\;K:\ERP\FIB_DataModule\REM_DocAkt\;K:\ERP\FIB_DataModule\REM_DocVosvratPok\;K:\ERP\FIB_DataModule\REM_DocVosvratIsSC\;K:\ERP\FIB_DataModule\REM_DocPerServCentr\;K:\ERP\FIB_DataModule\REM_DocVosvratDileru\;K:\ERP\FIB_DataModule\REM_DocPostOtDilera\;K:\ERP\FIB_DataModule\REM_DocSborkaKompl\;K:\ERP\FIB_DataModule\REM_DocOstNom\;K:\ERP\FIB_DataModule\REM_DocReal\;K:\ERP\Forms\REM_FormaDocPrihNakl\;K:\ERP\FIB_DataModule\REM_DMDocReal\;K:\ERP\FIB_DataModule\REM_DocPrihNakl\;K:\ERP\FIB_DataModule\REM_DocSetServKKT\;K:\ERP\FIB_DataModule\REM_DocSetServHW\;K:\ERP\FIB_DataModule\REM_DocRemontKKT\;K:\ERP\FIB_DataModule\REM_DocRemontHW\;K:\ERP\FIB_DataModule\REM_DocRemont\;K:\ERP\FIB_DataModule\REM_DocKM2\;K:\ERP\FIB_DataModule\REM_DocKM1\;K:\ERP\Global\;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);K:\ERP\Interface;K:\ERP\Global;K:\ERP\Classes;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\..\..\Classes\;..\..\..\FIB_DataModule\REM_DocVosvratDileru\;..\..\..\FIB_DataModule\REM_DocRegOtchetPost\;..\..\..\FIB_DataModule\REM_DocZPost\;..\..\..\FIB_DataModule\REM_DocZOper\;..\..\..\FIB_DataModule\REM_DocVosvratPok\;..\..\..\FIB_DataModule\REM_DocZTreb\;..\..\..\FIB_DataModule\REM_DocSetServKKT\;..\..\..\FIB_DataModule\REM_DocPostOtDilera\;..\..\..\FIB_DataModule\REM_DocPerServCentr\;..\..\..\FIB_DataModule\REM_DocPrihNakl\;..\..\..\FIB_DataModule\REM_DocSborkaKompl\;..\..\..\FIB_DataModule\REM_DocVigruska\;..\..\..\FIB_DataModule\REM_DocProverka\;..\..\..\FIB_DataModule\REM_DocVosvratIsSC\;..\..\..\FIB_DataModule\REM_DocRemontHW\;..\..\..\FIB_DataModule\REM_DocOtprPost\;..\..\..\FIB_DataModule\REM_DocVZipPer\;..\..\..\FIB_DataModule\REM_DocSpisNom\;..\..\..\FIB_DataModule\REM_DocZAktPr\;..\..\..\FIB_DataModule\REM_DocOstNom\;..\..\..\FIB_DataModule\REM_DocZStart\;..\..\..\FIB_DataModule\REM_DocRemont\;..\..\..\FIB_DataModule\REM_DocZVid\;..\..\..\FIB_DataModule\REM_DocZEnd\;..\..\..\FIB_DataModule\REM_DocReal\;..\..\..\FIB_DataModule\REM_DocZPer\;..\..\..\Global\;..\..\..\FIB_DataModule\REM_DocKM2\;..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\;..\..\..\FIB_DataModule\REM_DocKM1\;..\..\..\FIB_DataModule\REM_DocAkt\;..\..\..\FIB_DataModule\REM_DocPer\;..\..\..\FIB_DataModule\REM_DocSetServHW\;..\..\..\FIB_DataModule\REM_DocRemontKKT\;..\..\..\FIB_DataModule\REM_DocZVosvrZap\;..\..\..\FIB_DataModule\REM_DocZakazPost\;..\..\..\FIB_DataModule\REM_DocVidachaHW\;..\..\..\FIB_DataModule\REM_DocVosvratHW\;K:\ERP\Classes\;K:\ERP\FIB_DataModule\REM_DocVZipVosvratPost\;K:\ERP\FIB_DataModule\REM_DocVZipVosvartPost\;K:\ERP\FIB_DataModule\REM_DocVZipPer\;K:\ERP\FIB_DataModule\REM_DocVosvratZipPer\;K:\ERP\FIB_DataModule\REM_DocOtprPost\;K:\ERP\FIB_DataModule\REM_DocZakazPost\;K:\ERP\FIB_DataModule\REM_DocVigruska\;K:\ERP\FIB_DataModule\REM_DocProverka\;K:\ERP\FIB_DataModule\REM_DocVosvratHW\;K:\ERP\FIB_DataModule\REM_DocVidachaHW\;K:\ERP\FIB_DataModule\REM_DocRegOtchetPost\;K:\ERP\FIB_DataModule\REM_DocSpisNom\;K:\ERP\FIB_DataModule\REM_DocZVosvrZap\;K:\ERP\FIB_DataModule\REM_DocZAktPr\;K:\ERP\FIB_DataModule\REM_DocZTreb\;K:\ERP\FIB_DataModule\REM_DocZOper\;K:\ERP\FIB_DataModule\REM_DocZEnd\;K:\ERP\FIB_DataModule\REM_DocZStart\;K:\ERP\FIB_DataModule\REM_DocZPer\;K:\ERP\FIB_DataModule\REM_DocZVid\;K:\ERP\FIB_DataModule\REM_DocZPost\;K:\ERP\FIB_DataModule\REM_DocPer\;K:\ERP\FIB_DataModule\REM_DocAkt\;K:\ERP\FIB_DataModule\REM_DocVosvratPok\;K:\ERP\FIB_DataModule\REM_DocVosvratIsSC\;K:\ERP\FIB_DataModule\REM_DocPerServCentr\;K:\ERP\FIB_DataModule\REM_DocVosvratDileru\;K:\ERP\FIB_DataModule\REM_DocPostOtDilera\;K:\ERP\FIB_DataModule\REM_DocSborkaKompl\;K:\ERP\FIB_DataModule\REM_DocOstNom\;K:\ERP\FIB_DataModule\REM_DocReal\;K:\ERP\Forms\REM_FormaDocPrihNakl\;K:\ERP\FIB_DataModule\REM_DMDocReal\;K:\ERP\FIB_DataModule\REM_DocPrihNakl\;K:\ERP\FIB_DataModule\REM_DocSetServKKT\;K:\ERP\FIB_DataModule\REM_DocSetServHW\;K:\ERP\FIB_DataModule\REM_DocRemontKKT\;K:\ERP\FIB_DataModule\REM_DocRemontHW\;K:\ERP\FIB_DataModule\REM_DocRemont\;K:\ERP\FIB_DataModule\REM_DocKM2\;K:\ERP\FIB_DataModule\REM_DocKM1\;K:\ERP\Global\;$(BDS)\lib\obj;K:\ERP\Classes;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<BCC_wpar>false</BCC_wpar>
 			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
@@ -61,579 +61,579 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKompl.cpp">
-				<Form>REM_DMDocSborkaKompl</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2.cpp">
+				<Form>REM_DMDocKM2</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKompl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPer.cpp">
-				<Form>REM_DMDocZPer</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostImpl.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperCF.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHW.cpp">
+				<Form>REM_DMDocSetServHW</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPer.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHW.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrImpl.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomImpl.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNom.cpp">
-				<Form>REM_DMDocOstNom</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostCF.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidImpl.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartCF.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrCF.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraCF.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndImpl.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapCF.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPok.cpp">
+				<Form>REM_DMDocVosvratPok</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNom.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPok.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEnd.cpp">
-				<Form>REM_DMDocZEnd</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2Impl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2Impl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndCF.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklCF.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklImpl.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKT.cpp">
+				<Form>REM_DMDocRemontKKT</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEnd.h</DependentOn>
-				<BuildOrder>62</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKT.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomCF.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartImpl.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTreb.cpp">
-				<Form>REM_DMDocZTreb</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemont.cpp">
+				<Form>REM_DMDocRemont</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTreb.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemont.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAktCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAktCF.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperImpl.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapImpl.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPer\UREM_DMDocPerImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPer\UREM_DMDocPerImpl.h</DependentOn>
-				<BuildOrder>57</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2CF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2CF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCImpl.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplCF.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentr.cpp">
-				<Form>REM_DMDocPerServCentr</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentr.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPer\UREM_DMDocPerCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPer\UREM_DMDocPerCF.h</DependentOn>
-				<BuildOrder>56</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruCF.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraImpl.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalFunction.cpp">
-				<DependentOn>K:\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAktImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAktImpl.h</DependentOn>
-				<BuildOrder>54</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1Impl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1Impl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVid.cpp">
-				<Form>REM_DMDocZVid</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVid.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocReal\UREM_DMDocReal.cpp">
-				<Form>REM_DMDocReal</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocReal\UREM_DMDocReal.h</DependentOn>
+			<ResFiles Include="RemDMDoc.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocRealImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocRealImpl.h</DependentOn>
 				<BuildOrder>30</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCCF.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocReal\UREM_DMDocRealCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocReal\UREM_DMDocRealCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSC.cpp">
-				<Form>REM_DMDocVosvratIsSC</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSC.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileru.cpp">
-				<Form>REM_DMDocVosvratDileru</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileru.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAkt.cpp">
-				<Form>REM_DMDocAkt</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAkt.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStart.cpp">
-				<Form>REM_DMDocZStart</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStart.h</DependentOn>
-				<BuildOrder>61</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.cpp">
-				<Form>REM_DMDocPrihNakl</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomImpl.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPost.cpp">
-				<Form>REM_DMDocZPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPost.h</DependentOn>
-				<BuildOrder>58</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNom.cpp">
-				<Form>REM_DMDocSpisNom</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNom.h</DependentOn>
-				<BuildOrder>85</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokCF.h</DependentOn>
 				<BuildOrder>86</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaImpl.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPost.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPost.cpp">
+				<Form>REM_DMDocZakazPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPost.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostCF.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaCF.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruska.cpp">
+				<Form>REM_DMDocVigruska</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruska.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaCF.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaImpl.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPost.cpp">
+				<Form>REM_DMDocVZipVosvratPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPost.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostCF.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostImpl.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerImpl.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostImpl.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPer.cpp">
+				<Form>REM_DMDocVZipPer</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPer.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerCF.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrImpl.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHW.cpp">
+				<Form>REM_DMDocVidachaHW</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHW.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHW.cpp">
+				<Form>REM_DMDocVosvratHW</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHW.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokImpl.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebCF.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebImpl.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidCF.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWCF.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWImpl.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverka.cpp">
+				<Form>REM_DMDocProverka</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverka.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWImpl.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerCF.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerImpl.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWCF.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrCF.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVid.cpp">
+				<Form>REM_DMDocZVid</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVid.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocReal.cpp">
+				<Form>REM_DMDocReal</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocReal.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCCF.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1Impl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1Impl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraImpl.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAktImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAktImpl.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStart.cpp">
+				<Form>REM_DMDocZStart</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStart.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.cpp">
+				<Form>REM_DMDocPrihNakl</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomImpl.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAkt.cpp">
+				<Form>REM_DMDocAkt</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAkt.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocRealCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocRealCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSC.cpp">
+				<Form>REM_DMDocVosvratIsSC</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSC.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileru.cpp">
+				<Form>REM_DMDocVosvratDileru</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileru.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruCF.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNom.cpp">
+				<Form>REM_DMDocOstNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNom.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEnd.cpp">
+				<Form>REM_DMDocZEnd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEnd.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomCF.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKompl.cpp">
+				<Form>REM_DMDocSborkaKompl</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKompl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPer.cpp">
+				<Form>REM_DMDocZPer</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPer.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSCImpl.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentr.cpp">
+				<Form>REM_DMDocPerServCentr</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentr.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPerCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPerCF.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPerImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPerImpl.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTreb.cpp">
+				<Form>REM_DMDocZTreb</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTreb.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAktCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAktCF.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKTCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKT.cpp">
+				<Form>REM_DMDocSetServKKT</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKT.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostImpl.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZap.cpp">
+				<Form>REM_DMDocZVosvrZap</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZap.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplImpl.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDilera.cpp">
+				<Form>REM_DMDocPostOtDilera</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDilera.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPr.cpp">
+				<Form>REM_DMDocZAktPr</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPr.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruImpl.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHW.cpp">
+				<Form>REM_DMDocRemontHW</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHW.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPost.cpp">
+				<Form>REM_DMDocRegOtchetPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPost.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1.cpp">
+				<Form>REM_DMDocKM1</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPer.cpp">
+				<Form>REM_DMDocPer</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPer.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPost.cpp">
 				<Form>REM_DMDocOtprPost</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPost.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPost.h</DependentOn>
 				<BuildOrder>106</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostCF.h</DependentOn>
 				<BuildOrder>107</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostCF.h</DependentOn>
 				<BuildOrder>89</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1CF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1CF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemontImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPost.cpp">
+				<Form>REM_DMDocZPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPost.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Classes\UkanTxtFile.cpp">
-				<DependentOn>K:\Classes\UkanTxtFile.h</DependentOn>
-				<BuildOrder>115</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNom.cpp">
+				<Form>REM_DMDocSpisNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNom.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostImpl.h</DependentOn>
-				<BuildOrder>108</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNomCF.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOper.cpp">
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOper.cpp">
 				<Form>REM_DMDocZOper</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOper.h</DependentOn>
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOper.h</DependentOn>
 				<BuildOrder>63</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\Global\UGlobalConstant.cpp">
-				<DependentOn>K:\Global\UGlobalConstant.h</DependentOn>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="RemDMDoc.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPer\UREM_DMDocPer.cpp">
-				<Form>REM_DMDocPer</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocPer\UREM_DMDocPer.h</DependentOn>
-				<BuildOrder>55</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplImpl.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDilera.cpp">
-				<Form>REM_DMDocPostOtDilera</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDilera.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPr.cpp">
-				<Form>REM_DMDocZAktPr</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPr.h</DependentOn>
-				<BuildOrder>65</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZap.cpp">
-				<Form>REM_DMDocZVosvrZap</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZap.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKT.cpp">
-				<Form>REM_DMDocSetServKKT</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKT.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPostImpl.h</DependentOn>
-				<BuildOrder>90</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPost.cpp">
-				<Form>REM_DMDocRegOtchetPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPost.h</DependentOn>
-				<BuildOrder>88</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1.cpp">
-				<Form>REM_DMDocKM1</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileruImpl.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHW.cpp">
-				<Form>REM_DMDocRemontHW</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHW.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHWImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKT.cpp">
-				<Form>REM_DMDocRemontKKT</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKT.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartImpl.h</DependentOn>
-				<BuildOrder>78</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemont.cpp">
-				<Form>REM_DMDocRemont</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemont.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklImpl.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2Impl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2Impl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndCF.h</DependentOn>
-				<BuildOrder>69</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNaklCF.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="RemDMDoc.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocReal\UREM_DMDocRealImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocReal\UREM_DMDocRealImpl.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokCF.h</DependentOn>
-				<BuildOrder>86</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKomplCF.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperImpl.h</DependentOn>
-				<BuildOrder>72</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapImpl.h</DependentOn>
-				<BuildOrder>84</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2CF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2CF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPok.cpp">
-				<Form>REM_DMDocVosvratPok</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPok.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrImpl.h</DependentOn>
-				<BuildOrder>68</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNomImpl.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKTCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHW.cpp">
-				<Form>REM_DMDocSetServHW</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHW.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2.cpp">
-				<Form>REM_DMDocKM2</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostImpl.h</DependentOn>
-				<BuildOrder>76</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOperCF.h</DependentOn>
-				<BuildOrder>71</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDileraCF.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEndImpl.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZapCF.h</DependentOn>
-				<BuildOrder>83</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPrCF.h</DependentOn>
-				<BuildOrder>67</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPostCF.h</DependentOn>
-				<BuildOrder>75</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidImpl.h</DependentOn>
-				<BuildOrder>82</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStartCF.h</DependentOn>
-				<BuildOrder>77</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebImpl.h</DependentOn>
-				<BuildOrder>80</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVidCF.h</DependentOn>
-				<BuildOrder>81</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWCF.h</DependentOn>
-				<BuildOrder>95</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTrebCF.h</DependentOn>
-				<BuildOrder>79</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHW.cpp">
-				<Form>REM_DMDocVidachaHW</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHW.h</DependentOn>
-				<BuildOrder>91</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHW.cpp">
-				<Form>REM_DMDocVosvratHW</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHW.h</DependentOn>
-				<BuildOrder>92</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPokImpl.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerImpl.h</DependentOn>
-				<BuildOrder>74</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWCF.h</DependentOn>
-				<BuildOrder>93</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrCF.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPerCF.h</DependentOn>
-				<BuildOrder>73</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHWImpl.h</DependentOn>
-				<BuildOrder>96</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverka.cpp">
-				<Form>REM_DMDocProverka</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverka.h</DependentOn>
-				<BuildOrder>97</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHWImpl.h</DependentOn>
-				<BuildOrder>94</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentrImpl.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruska.cpp">
-				<Form>REM_DMDocVigruska</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruska.h</DependentOn>
-				<BuildOrder>98</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaCF.h</DependentOn>
-				<BuildOrder>99</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverkaImpl.h</DependentOn>
-				<BuildOrder>100</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaCF.h</DependentOn>
-				<BuildOrder>101</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruskaImpl.h</DependentOn>
-				<BuildOrder>102</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPost.cpp">
-				<Form>REM_DMDocZakazPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPost.h</DependentOn>
-				<BuildOrder>103</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostCF.h</DependentOn>
-				<BuildOrder>104</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPostImpl.h</DependentOn>
-				<BuildOrder>105</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPer.cpp">
-				<Form>REM_DMDocVZipPer</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPer.h</DependentOn>
-				<BuildOrder>109</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerCF.h</DependentOn>
-				<BuildOrder>111</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPerImpl.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPost.cpp">
-				<Form>REM_DMDocVZipVosvratPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPost.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostCF.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostCF.h</DependentOn>
-				<BuildOrder>113</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostImpl.cpp">
-				<DependentOn>K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPostImpl.h</DependentOn>
-				<BuildOrder>114</BuildOrder>
-			</CppCompile>
-			<FormResources Include="K:\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKompl.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZPer\UREM_DMDocZPer.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNom.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEnd.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTreb.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentr.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZVid\UREM_DMDocZVid.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocReal\UREM_DMDocReal.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSC.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileru.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocAkt\UREM_DMDocAkt.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZStart\UREM_DMDocZStart.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZPost\UREM_DMDocZPost.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNom.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPost.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZOper\UREM_DMDocZOper.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocPer\UREM_DMDocPer.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDilera.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPr.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZap.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKT.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPost.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHW.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKT.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocRemont\UREM_DMDocRemont.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPok.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHW.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHW.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHW.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocProverka\UREM_DMDocProverka.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruska.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPost.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPer.dfm"/>
-			<FormResources Include="K:\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPost.dfm"/>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPostImpl.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1CF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1CF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHWImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Classes\UkanTxtFile.cpp">
+				<DependentOn>..\..\..\Classes\UkanTxtFile.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocKM2\UREM_DMDocKM2.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocSetServHW\UREM_DMDocSetServHW.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVosvratPok\UREM_DMDocVosvratPok.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocRemontKKT\UREM_DMDocRemontKKT.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocRemont\UREM_DMDocRemont.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZakazPost\UREM_DMDocZakazPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVigruska\UREM_DMDocVigruska.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVZipVosvratPost\UREM_DMDocVZipVosvratPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVZipPer\UREM_DMDocVZipPer.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVidachaHW\UREM_DMDocVidachaHW.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVosvratHW\UREM_DMDocVosvratHW.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocProverka\UREM_DMDocProverka.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZVid\UREM_DMDocZVid.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocReal\UREM_DMDocReal.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZStart\UREM_DMDocZStart.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocPrihNakl\UREM_DMDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocAkt\UREM_DMDocAkt.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVosvratIsSC\UREM_DMDocVosvratIsSC.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocVosvratDileru\UREM_DMDocVosvratDileru.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocOstNom\UREM_DMDocOstNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZEnd\UREM_DMDocZEnd.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocSborkaKompl\UREM_DMDocSborkaKompl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZPer\UREM_DMDocZPer.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocPerServCentr\UREM_DMDocPerServCentr.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZTreb\UREM_DMDocZTreb.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocSetServKKT\UREM_DMDocSetServKKT.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZVosvrZap\UREM_DMDocZVosvrZap.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocPostOtDilera\UREM_DMDocPostOtDilera.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZAktPr\UREM_DMDocZAktPr.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocRemontHW\UREM_DMDocRemontHW.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocRegOtchetPost\UREM_DMDocRegOtchetPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocKM1\UREM_DMDocKM1.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocPer\UREM_DMDocPer.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocOtprPost\UREM_DMDocOtprPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZPost\UREM_DMDocZPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocSpisNom\UREM_DMDocSpisNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_DocZOper\UREM_DMDocZOper.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -658,7 +658,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">468</VersionInfo>
+						<VersionInfo Name="Build">470</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -670,7 +670,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.468</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.470</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>
