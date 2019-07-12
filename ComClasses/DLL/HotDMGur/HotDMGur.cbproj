@@ -61,6 +61,21 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<ResFiles Include="HotDMGur.res">
+				<BuildOrder>4</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocCF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="HotDMGur.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
@@ -73,21 +88,6 @@
 			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
 				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="HotDMGur.res">
-				<BuildOrder>4</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocCF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDocImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<FormResources Include="..\..\..\FIB_DataModule\HOT_GAllDoc\UHOT_DMGurAllDoc.dfm"/>
 			<BuildConfiguration Include="Base">
@@ -114,7 +114,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">201</VersionInfo>
+						<VersionInfo Name="Build">205</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -126,7 +126,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.201</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.205</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

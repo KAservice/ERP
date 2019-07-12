@@ -61,20 +61,6 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="UObjectBarCode.cpp">
-				<DependentOn>UObjectBarCode.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UObjectBarCodeCF.cpp">
-				<DependentOn>UObjectBarCodeCF.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="ObBarCode.res">
-				<BuildOrder>6</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="ObBarCode.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="UObjectBarCodeImpl.cpp">
 				<DependentOn>UObjectBarCodeImpl.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
@@ -87,6 +73,20 @@
 				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="ObBarCode.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UObjectBarCode.cpp">
+				<DependentOn>UObjectBarCode.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UObjectBarCodeCF.cpp">
+				<DependentOn>UObjectBarCodeCF.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="ObBarCode.res">
+				<BuildOrder>6</BuildOrder>
+			</ResFiles>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -111,7 +111,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">212</VersionInfo>
+						<VersionInfo Name="Build">216</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -123,7 +123,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.212</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.216</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

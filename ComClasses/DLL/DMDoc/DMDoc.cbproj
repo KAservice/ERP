@@ -61,73 +61,307 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="DMDoc.res">
-				<BuildOrder>6</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocInv\UDMDocInvCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocInv\UDMDocInvCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="DMDoc.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckCF.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckImpl.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheck.cpp">
-				<Form>DMDocCheck</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKO.cpp">
+				<Form>DMDocRKO</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheck.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocRKO\UDMDocRKO.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocInv\UDMDocInvImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocInv\UDMDocInvImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKOCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRKO\UDMDocRKOCF.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKOImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRKO\UDMDocRKOImpl.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPKO\UDMDocPKOCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPKO\UDMDocPKOCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRev\UDMDocRevImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRev\UDMDocRevImpl.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySale.cpp">
-				<Form>DMDocRegPaySale</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMImpl.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRev\UDMDocRev.cpp">
+				<Form>DMDocRev</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySale.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocRev\UDMDocRev.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRev\UDMDocRevCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRev\UDMDocRevCF.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.cpp">
-				<Form>DMDocIsmPrice</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplCF.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplImpl.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFact.cpp">
+				<Form>DMDocSchetFact</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFact.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocInv\UDMDocInv.cpp">
-				<Form>DMDocInv</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.cpp">
+				<Form>DMDocSborkaKompl</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocInv\UDMDocInv.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.cpp">
-				<Form>DMDocPrihNakl</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORozn.cpp">
+				<Form>DMDocRKORozn</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORozn.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznCF.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznImpl.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMCF.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassa.cpp">
+				<Form>DMDocRegKassa</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassa.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaCF.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaImpl.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsImpl.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceImpl.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoods.cpp">
+				<Form>DMDocRegGoods</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoods.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsCF.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschCF.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschImpl.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKM.cpp">
+				<Form>DMDocRepKKM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKM.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRasch.cpp">
+				<Form>DMDocRegVsRasch</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRasch.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNom.cpp">
+				<Form>DMDocRegOstNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNom.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomCF.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomImpl.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactCF.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.cpp">
+				<Form>DMDocVosvratPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostCF.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostImpl.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokImpl.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdImpl.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.cpp">
+				<Form>DMDocVosvratPok</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokCF.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostCF.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostImpl.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPost.cpp">
+				<Form>DMDocRegOtchetPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPost.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPost.cpp">
+				<Form>DMDocOtchetPost</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPost.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamena.cpp">
+				<Form>DMDocZamena</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocZamena\UDMDocZamena.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaCF.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaImpl.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdCF.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNom.cpp">
+				<Form>DMDocSpisNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNom.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomCF.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomImpl.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchetImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocShet\UDMDocSchetImpl.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactImpl.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchet.cpp">
+				<Form>DMDocSchet</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocShet\UDMDocSchet.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchetCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocShet\UDMDocSchetCF.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaCF.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaImpl.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.cpp">
+				<Form>DMDocVipuskProd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBanka.cpp">
+				<Form>DMDocVipBanka</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBanka.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.cpp">
+				<Form>DMDocSpOtrOst</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstCF.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstImpl.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceCF.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNom.cpp">
+				<Form>DMDocOstNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNom.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocKorrVS\UDMDocKorrVsImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocKorrVS\UDMDocKorrVsImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DocKorrVS\UDMDocKorrVs.cpp">
 				<Form>DMDocKorrVS</Form>
@@ -143,41 +377,9 @@
 				<DependentOn>..\..\..\FIB_DataModule\DocPer\UDMDocPerCF.h</DependentOn>
 				<BuildOrder>26</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNomImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocKorrVS\UDMDocKorrVsImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocKorrVS\UDMDocKorrVsImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DocPer\UDMDocPerImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\DocPer\UDMDocPerImpl.h</DependentOn>
 				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DocPKO\UDMDocPKO.cpp">
 				<Form>DMDocPKO</Form>
@@ -197,73 +399,105 @@
 				<DependentOn>..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVs.h</DependentOn>
 				<BuildOrder>22</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORozn.cpp">
-				<Form>DMDocPKORozn</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVsImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPriceCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckCF.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheckImpl.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheck.cpp">
+				<Form>DMDocCheck</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORozn.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheck.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznCF.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
+			<CppCompile Include="DMDoc.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplCF.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPKO\UDMDocPKOImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPKO\UDMDocPKOImpl.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
+			<ResFiles Include="DMDoc.res">
+				<BuildOrder>6</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocInv\UDMDocInvCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocInv\UDMDocInvCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlPCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPlP\UDMDocPlPCF.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocInv\UDMDocInvImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocInv\UDMDocInvImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlPImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPlP\UDMDocPlPImpl.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznImpl.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplImpl.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetImpl.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostCF.h</DependentOn>
-				<BuildOrder>119</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostImpl.h</DependentOn>
-				<BuildOrder>120</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetCF.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocReal\UDMDocReal.cpp">
-				<Form>DMDocReal</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.cpp">
+				<Form>DMDocIsmPrice</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocReal\UDMDocReal.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.cpp">
-				<Form>DMDocRasborkaKompl</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocInv\UDMDocInv.cpp">
+				<Form>DMDocInv</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocInv\UDMDocInv.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.cpp">
-				<Form>DMDocPostNaSchet</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.cpp">
+				<Form>DMDocPrihNakl</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNaklImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPKO\UDMDocPKOCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPKO\UDMDocPKOCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySale.cpp">
+				<Form>DMDocRegPaySale</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySale.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleCF.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleImpl.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRoznImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRoznImpl.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocReal\UDMDocRealImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocReal\UDMDocRealImpl.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRozn.cpp">
 				<Form>DMDocRealRozn</Form>
@@ -279,43 +513,9 @@
 				<DependentOn>..\..\..\FIB_DataModule\DocRegBank\UDMDocRegBankCF.h</DependentOn>
 				<BuildOrder>56</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocReal\UDMDocRealImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocReal\UDMDocRealImpl.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleCF.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySaleImpl.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRoznImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRoznImpl.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DocRegBank\UDMDocRegBankImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\DocRegBank\UDMDocRegBankImpl.h</DependentOn>
 				<BuildOrder>57</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustImpl.h</DependentOn>
-				<BuildOrder>54</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocReal\UDMDocRealCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocReal\UDMDocRealCF.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlP.cpp">
-				<Form>DMDocPLP</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocPlP\UDMDocPlP.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustCF.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalance.cpp">
 				<Form>DMDocRegCardBalance</Form>
@@ -335,331 +535,131 @@
 				<DependentOn>..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCust.h</DependentOn>
 				<BuildOrder>52</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNom.cpp">
-				<Form>DMDocOstNom</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustCF.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCustImpl.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocReal\UDMDocRealCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocReal\UDMDocRealCF.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlP.cpp">
+				<Form>DMDocPLP</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNom.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocPlP\UDMDocPlP.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceImpl.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlPCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPlP\UDMDocPlPCF.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoods.cpp">
-				<Form>DMDocRegGoods</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlPImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPlP\UDMDocPlPImpl.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznImpl.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPKO\UDMDocPKOImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPKO\UDMDocPKOImpl.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORozn.cpp">
+				<Form>DMDocPKORozn</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoods.h</DependentOn>
-				<BuildOrder>61</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORozn.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsCF.h</DependentOn>
-				<BuildOrder>62</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORoznCF.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoodsImpl.h</DependentOn>
-				<BuildOrder>63</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplCF.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassa.cpp">
-				<Form>DMDocRegKassa</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKomplImpl.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocReal\UDMDocReal.cpp">
+				<Form>DMDocReal</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassa.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocReal\UDMDocReal.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaCF.h</DependentOn>
-				<BuildOrder>65</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassaImpl.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschCF.h</DependentOn>
-				<BuildOrder>71</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomCF.h</DependentOn>
-				<BuildOrder>68</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNomImpl.h</DependentOn>
-				<BuildOrder>69</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactCF.h</DependentOn>
-				<BuildOrder>89</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNom.cpp">
-				<Form>DMDocRegOstNom</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.cpp">
+				<Form>DMDocRasborkaKompl</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNom.h</DependentOn>
-				<BuildOrder>67</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRaschImpl.h</DependentOn>
-				<BuildOrder>72</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKM.cpp">
-				<Form>DMDocRepKKM</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.cpp">
+				<Form>DMDocPostNaSchet</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKM.h</DependentOn>
-				<BuildOrder>73</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRasch.cpp">
-				<Form>DMDocRegVsRasch</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRasch.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetCF.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMImpl.h</DependentOn>
-				<BuildOrder>75</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchetImpl.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRev\UDMDocRev.cpp">
-				<Form>DMDocRev</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRev\UDMDocRev.h</DependentOn>
-				<BuildOrder>76</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostCF.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRev\UDMDocRevCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRev\UDMDocRevCF.h</DependentOn>
-				<BuildOrder>77</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPostImpl.h</DependentOn>
+				<BuildOrder>120</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRev\UDMDocRevImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRev\UDMDocRevImpl.h</DependentOn>
-				<BuildOrder>78</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKO.cpp">
-				<Form>DMDocRKO</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRKO\UDMDocRKO.h</DependentOn>
-				<BuildOrder>79</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKOCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRKO\UDMDocRKOCF.h</DependentOn>
-				<BuildOrder>80</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKOImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRKO\UDMDocRKOImpl.h</DependentOn>
-				<BuildOrder>81</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplCF.h</DependentOn>
-				<BuildOrder>86</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznCF.h</DependentOn>
-				<BuildOrder>83</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORoznImpl.h</DependentOn>
-				<BuildOrder>84</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKMCF.h</DependentOn>
-				<BuildOrder>74</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORozn.cpp">
-				<Form>DMDocRKORozn</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORozn.h</DependentOn>
-				<BuildOrder>82</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKomplImpl.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFact.cpp">
-				<Form>DMDocSchetFact</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFact.h</DependentOn>
-				<BuildOrder>88</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.cpp">
-				<Form>DMDocSborkaKompl</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.h</DependentOn>
-				<BuildOrder>85</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFactImpl.h</DependentOn>
-				<BuildOrder>90</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchet.cpp">
-				<Form>DMDocSchet</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocShet\UDMDocSchet.h</DependentOn>
-				<BuildOrder>91</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchetCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocShet\UDMDocSchetCF.h</DependentOn>
-				<BuildOrder>92</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchetImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocShet\UDMDocSchetImpl.h</DependentOn>
-				<BuildOrder>93</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNom.cpp">
-				<Form>DMDocSpisNom</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNom.h</DependentOn>
-				<BuildOrder>94</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomCF.h</DependentOn>
-				<BuildOrder>95</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNomImpl.h</DependentOn>
-				<BuildOrder>96</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaCF.h</DependentOn>
-				<BuildOrder>101</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstCF.h</DependentOn>
-				<BuildOrder>98</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOstImpl.h</DependentOn>
-				<BuildOrder>99</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalanceCF.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.cpp">
-				<Form>DMDocSpOtrOst</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.h</DependentOn>
-				<BuildOrder>97</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBankaImpl.h</DependentOn>
-				<BuildOrder>102</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.cpp">
-				<Form>DMDocVipuskProd</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.h</DependentOn>
-				<BuildOrder>103</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBanka.cpp">
-				<Form>DMDocVipBanka</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBanka.h</DependentOn>
-				<BuildOrder>100</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdImpl.h</DependentOn>
-				<BuildOrder>105</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.cpp">
-				<Form>DMDocVosvratPok</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.h</DependentOn>
-				<BuildOrder>106</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokCF.h</DependentOn>
-				<BuildOrder>107</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPokImpl.h</DependentOn>
-				<BuildOrder>108</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.cpp">
-				<Form>DMDocVosvratPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.h</DependentOn>
-				<BuildOrder>109</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostCF.h</DependentOn>
-				<BuildOrder>110</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPostImpl.h</DependentOn>
-				<BuildOrder>111</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostCF.h</DependentOn>
-				<BuildOrder>116</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaCF.h</DependentOn>
-				<BuildOrder>113</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocZamena\UDMDocZamenaImpl.h</DependentOn>
-				<BuildOrder>114</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProdCF.h</DependentOn>
-				<BuildOrder>104</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamena.cpp">
-				<Form>DMDocZamena</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocZamena\UDMDocZamena.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPostImpl.h</DependentOn>
-				<BuildOrder>117</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPost.cpp">
-				<Form>DMDocRegOtchetPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPost.h</DependentOn>
-				<BuildOrder>118</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPost.cpp">
-				<Form>DMDocOtchetPost</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPost.h</DependentOn>
-				<BuildOrder>115</BuildOrder>
-			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheck.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySale.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocInv\UDMDocInv.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKO.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRev\UDMDocRev.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFact.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORozn.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassa.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoods.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKM.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRasch.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPost.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamena.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchet.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBanka.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNom.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocKorrVS\UDMDocKorrVs.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocPKO\UDMDocPKO.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocPer\UDMDocPer.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocOstVs\UDMDocOstVs.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocCheckKKM\UDMDocCheck.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocIsmPrice\UDMDocIsmPrice.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocInv\UDMDocInv.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocPrihNakl\UDMDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegPaySale\UDMDocRegPaySale.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRozn.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalance.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegBank\UDMDocRegBank.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCust.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlP.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocPKORozn\UDMDocPKORozn.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocReal\UDMDocReal.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocRasborkaKompl\UDMDocRasborkaKompl.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DocPostNaSchet\UDMDocPostNaSchet.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRealRozn\UDMDocRealRozn.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocPlP\UDMDocPlP.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegCardBalance\UDMDocRegCardBalance.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegBank\UDMDocRegBank.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegAdvCust\UDMDocRegAdvCust.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocOstNom\UDMDocOstNom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegGoods\UDMDocRegGoods.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegKassa\UDMDocRegKassa.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegOstNom\UDMDocRegOstNom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRepKKM\UDMDocRepKKM.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegVsRasch\UDMDocRegVsRasch.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRev\UDMDocRev.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRKO\UDMDocRKO.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRKORozn\UDMDocRKORozn.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocSchetFact\UDMDocSchetFact.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocSborkaKompl\UDMDocSborkaKompl.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocShet\UDMDocSchet.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocSpisNom\UDMDocSpisNom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocSpOtrOst\UDMDocSpOtrOst.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocVipuskProd\UDMDocVipuskProd.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocVipBanka\UDMDocVipBanka.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocVosvratPok\UDMDocVosvratPok.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocVosvratPost\UDMDocVosvratPost.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocZamena\UDMDocZamena.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocRegOtchetPost\UDMDocRegOtchetPost.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DocOtchetPost\UDMDocOtchetPost.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -684,7 +684,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">303</VersionInfo>
+						<VersionInfo Name="Build">307</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -696,7 +696,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.303</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.307</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

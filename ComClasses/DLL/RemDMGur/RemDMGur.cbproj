@@ -61,6 +61,48 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDoc.cpp">
+				<Form>REM_DMGurAllDoc</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDoc.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocCF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="RemDMGur.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="RemDMGur.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPr.cpp">
+				<Form>REM_DMGurZAktPr</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPr.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverok.cpp">
 				<Form>REM_DMGurProverok</Form>
 				<DesignClass>TDataModule</DesignClass>
@@ -73,13 +115,13 @@
 				<DependentOn>..\..\..\FIB_DataModule\REM_GurVigrusok\UREM_DMGurVigrusok.h</DependentOn>
 				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPrImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurVigrusok\UREM_DMGurVigrusokCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\REM_GurVigrusok\UREM_DMGurVigrusokCF.h</DependentOn>
@@ -89,52 +131,10 @@
 				<DependentOn>..\..\..\FIB_DataModule\REM_GurVigrusok\UREM_DMGurVigrusokImpl.h</DependentOn>
 				<BuildOrder>15</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverokImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDoc.cpp">
-				<Form>REM_DMGurAllDoc</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDoc.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDocCF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPr.cpp">
-				<Form>REM_DMGurZAktPr</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPr.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="RemDMGur.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="RemDMGur.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverok.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_GurVigrusok\UREM_DMGurVigrusok.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\REM_GurAllDoc\UREM_DMGurAllDoc.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZAktPr\UREM_DMGurZAktPr.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_GurProverok\UREM_DMGurProverok.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_GurVigrusok\UREM_DMGurVigrusok.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -159,7 +159,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">273</VersionInfo>
+						<VersionInfo Name="Build">277</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -171,7 +171,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.273</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.277</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

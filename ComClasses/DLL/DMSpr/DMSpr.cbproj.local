@@ -197,6 +197,10 @@
     <Transaction>2010.07.26 16:56:29.643.dfm,K:\FIB_DataModule\SprOborud\UDMViborOborud.dfm=</Transaction>
     <Transaction>2010.07.26 16:56:29.663.cpp,K:\FIB_DataModule\SprOborud\UDMViborOborudCF.cpp=</Transaction>
     <Transaction>2010.07.26 16:56:29.667.cpp,K:\FIB_DataModule\SprOborud\UDMViborOborudImpl.cpp=</Transaction>
+    <Transaction>2019.07.08 14:56:56.724.cbproj,K:\ERP\ComClasses\DLL\DMSpr\DMSpr.cbproj=K:\ERP\Project\DMSpr\DMSpr.cbproj</Transaction>
+    <Transaction>2019.07.08 14:57:39.291.cbproj,K:\ERP\Project\DMSpr\DMSpr.cbproj=K:\ERP\Project\DMSpr.cbproj</Transaction>
+    <Transaction>2019.07.08 14:58:59.904.cbproj,K:\ERP\Project\DMSpr.cbproj=K:\ERP\FIB_DataModule\DMSpr.cbproj</Transaction>
+    <Transaction>2019.07.08 15:01:38.261.cbproj,K:\ERP\FIB_DataModule\DMSpr.cbproj=K:\ERP\ComClasses\DLL\DMSpr\DMSpr.cbproj</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="-1" SortType="1">
 	</ProjectSortOrder>

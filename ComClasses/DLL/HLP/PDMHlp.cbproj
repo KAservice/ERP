@@ -60,201 +60,13 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImage.cpp">
-				<Form>ART_DMSprImage</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImage.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrp.cpp">
-				<Form>ART_DMSprNaborInfBlockSostavGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrp.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrp.cpp">
-				<Form>ART_DMSprNaborInfBlockGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrp.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostav.cpp">
-				<Form>ART_DMSprNaborInfBlockSostav</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostav.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="DMHlp.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.cpp">
-				<Form>ART_DMSprInfBlockSostav</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrp.cpp">
-				<Form>ART_DMSprImageGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrp.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="PDMHlp.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.cpp">
-				<Form>ART_DMSprInfBlockGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.cpp">
-				<Form>ART_DMSprNaborInfBlock</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpImpl.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageCF.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageImpl.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivImpl.h</DependentOn>
-				<BuildOrder>61</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivCF.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPriv.cpp">
-				<Form>HLP_DMSprInfBlockPriv</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPriv.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockImpl.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavCF.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpCF.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpImpl.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpCF.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpImpl.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageCF.h</DependentOn>
 				<BuildOrder>41</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.cpp">
-				<Form>HLP_DMSprImage</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpCF.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpImpl.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostav.cpp">
-				<Form>HLP_DMSprInfBlockSostav</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostav.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpImpl.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrp.cpp">
-				<Form>HLP_DMSprInfBlockGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrp.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlock.cpp">
-				<Form>HLP_DMSprInfBlock</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlock.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.cpp">
-				<Form>HLP_DMSprImageGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrp.cpp">
-				<Form>HLP_DMSprNaborInfBlockGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrp.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlock.cpp">
-				<Form>HLP_DMSprNaborInfBlock</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlock.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageImpl.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavGrp.cpp">
 				<Form>HLP_DMSprNaborInfBlockSostavGrp</Form>
@@ -268,13 +80,13 @@
 				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostav.h</DependentOn>
 				<BuildOrder>40</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageCF.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockCF.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageImpl.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavImpl.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpCF.h</DependentOn>
@@ -284,47 +96,57 @@
 				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrpImpl.h</DependentOn>
 				<BuildOrder>54</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockCF.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavImpl.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpCF.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockImpl.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.cpp">
-				<Form>ART_DMSprInfBlock</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavImpl.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrpImpl.h</DependentOn>
 				<BuildOrder>44</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockCF.h</DependentOn>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrp.cpp">
+				<Form>HLP_DMSprInfBlockGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrp.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpImpl.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostav.cpp">
+				<Form>HLP_DMSprInfBlockSostav</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostav.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrp.cpp">
+				<Form>HLP_DMSprNaborInfBlockGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrp.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlock.cpp">
+				<Form>HLP_DMSprNaborInfBlock</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlock.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlock.cpp">
+				<Form>HLP_DMSprInfBlock</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlock.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.cpp">
+				<Form>HLP_DMSprImageGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavCF.h</DependentOn>
 				<BuildOrder>49</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpImpl.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavCF.h</DependentOn>
-				<BuildOrder>55</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockImpl.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavImpl.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrpCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrpCF.h</DependentOn>
@@ -334,13 +156,13 @@
 				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavGrpImpl.h</DependentOn>
 				<BuildOrder>58</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostavCF.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivCF.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavImpl.h</DependentOn>
-				<BuildOrder>56</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivImpl.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavGrpCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavGrpCF.h</DependentOn>
@@ -352,35 +174,213 @@
 				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPriv.h</DependentOn>
 				<BuildOrder>62</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivCF.h</DependentOn>
-				<BuildOrder>63</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.cpp">
+				<Form>ART_DMSprInfBlock</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPrivImpl.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavImpl.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImage.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostav.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPriv.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostav.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlock.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlock.dfm"/>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpCF.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockImpl.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavCF.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockImpl.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockCF.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrpImpl.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrpCF.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="PDMHlp.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.cpp">
+				<Form>ART_DMSprInfBlockGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.cpp">
+				<Form>ART_DMSprInfBlockSostav</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrp.cpp">
+				<Form>ART_DMSprImageGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrp.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpImpl.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.cpp">
+				<Form>ART_DMSprNaborInfBlock</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrp.cpp">
+				<Form>ART_DMSprNaborInfBlockGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrp.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImage.cpp">
+				<Form>ART_DMSprImage</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImage.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrp.cpp">
+				<Form>ART_DMSprNaborInfBlockSostavGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrp.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostav.cpp">
+				<Form>ART_DMSprNaborInfBlockSostav</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostav.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="DMHlp.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrpCF.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpImpl.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavCF.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrpCF.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.cpp">
+				<Form>HLP_DMSprImage</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpCF.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrpImpl.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostavImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageCF.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageImpl.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPriv.cpp">
+				<Form>HLP_DMSprInfBlockPriv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPriv.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockImpl.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivImpl.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPrivCF.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostavGrp.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockSostav.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprNaborInfBlock\UHLP_DMSprNaborInfBlock.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImageGrp.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockPriv.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlock.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_DMSprInfBlock\UART_DMSprInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImageGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlock.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_SprImage\UART_DMSprImage.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostavGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ART_SptNaborInfBlock\UART_DMSprNaborInfBlockSostav.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprImage\UHLP_DMSprImage.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HLP_SprInfBlock\UHLP_DMSprInfBlockPriv.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -405,7 +405,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">3</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">240</VersionInfo>
+						<VersionInfo Name="Build">244</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -417,7 +417,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.3.0.240</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.3.0.244</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

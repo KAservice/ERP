@@ -19,6 +19,16 @@
     <Transaction>2017.04.11 16:41:54.454.h,K:\ComClasses\DLL\Devices\Viki\UkasVikiFR.h=K:\ComClasses\DLL\Devices\1COnLineFR\U1COnLineFR.h</Transaction>
     <Transaction>2017.04.11 16:50:14.991.cpp,K:\ComClasses\DLL\Devices\Viki\UkasVikiFRCF.cpp=K:\ComClasses\DLL\Devices\1COnLineFR\U1COnLineFRCF.cpp</Transaction>
     <Transaction>2017.04.11 16:50:14.991.h,K:\ComClasses\DLL\Devices\Viki\UkasVikiFRCF.h=K:\ComClasses\DLL\Devices\1COnLineFR\U1COnLineFRCF.h</Transaction>
+    <Transaction>2019.07.06 17:32:09.050.cpp,K:\ERP\ComClasses\DLL\Devices\kasMSKFR\MercFPrtX_TLB.cpp=</Transaction>
+    <Transaction>2019.07.06 17:32:10.559.cpp,K:\ERP\ComClasses\DLL\Devices\UFiskReg.cpp=</Transaction>
+    <Transaction>2019.07.06 17:32:10.634.cpp,K:\ERP\ComClasses\DLL\Devices\UFiskRegCF.cpp=</Transaction>
+    <Transaction>2019.07.06 17:32:10.679.cpp,K:\ERP\ComClasses\DLL\Devices\UFiskRegImpl.cpp=</Transaction>
+    <Transaction>2019.07.06 17:32:10.724.cpp,K:\ERP\ComClasses\DLL\Devices\kasMSKFR\UkasMSKFR.cpp=</Transaction>
+    <Transaction>2019.07.06 17:32:10.770.cpp,K:\ERP\ComClasses\DLL\Devices\kasMSKFR\UkasMSKFRCF.cpp=</Transaction>
+    <Transaction>2019.07.06 17:32:10.815.cpp,K:\ERP\ComClasses\DLL\Devices\kasMSKFR\UkasMSKFRImpl.cpp=</Transaction>
+    <Transaction>2019.07.06 19:07:56.467.cpp,K:\ERP\ComClasses\DLL\Devices\1COnLineFR\U1COnLineFR.cpp=</Transaction>
+    <Transaction>2019.07.06 19:07:56.523.cpp,K:\ERP\ComClasses\DLL\Devices\1COnLineFR\U1COnLineFRCF.cpp=</Transaction>
+    <Transaction>2019.07.06 19:07:56.565.cpp,K:\ERP\ComClasses\DLL\Devices\1COnLineFR\U1COnLineFRImpl.cpp=</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="-1" SortType="1"/>
 </BorlandProject>

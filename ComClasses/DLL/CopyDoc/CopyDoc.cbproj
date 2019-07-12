@@ -60,37 +60,37 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="CopyDoc.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UClassCopyDoc.cpp">
-				<DependentOn>UClassCopyDoc.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
+			<ResFiles Include="CopyDoc.res">
+				<BuildOrder>5</BuildOrder>
+			</ResFiles>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="CopyDoc.res">
-				<BuildOrder>5</BuildOrder>
-			</ResFiles>
+			<CppCompile Include="UClassCopyDocImpl.cpp">
+				<DependentOn>UClassCopyDocImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="UClassCopyDocCF.cpp">
 				<DependentOn>UClassCopyDocCF.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UClassCopyDocImpl.cpp">
-				<DependentOn>UClassCopyDocImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+			<CppCompile Include="UClassCopyDoc.cpp">
+				<DependentOn>UClassCopyDoc.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="CopyDoc.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<BuildConfiguration Include="Base">
@@ -117,7 +117,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">3</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">157</VersionInfo>
+						<VersionInfo Name="Build">161</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -129,7 +129,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.3.0.157</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.3.0.161</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

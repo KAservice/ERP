@@ -61,126 +61,74 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchImpl.cpp">
-				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchCF.cpp">
-				<DependentOn>..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchCF.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Kalkulator\UKalkulatorCF.cpp">
-				<DependentOn>..\..\..\Forms\Kalkulator\UKalkulatorCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\RegZak\UDMRegZakCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\RegZak\UDMRegZakCF.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouch.cpp">
-				<Form>FormaSpiskaSprBVNomTouch</Form>
-				<DependentOn>..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouch.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchCF.cpp">
-				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchImpl.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Kalkulator\UKalkulatorImpl.cpp">
-				<DependentOn>..\..\..\Forms\Kalkulator\UKalkulatorImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouch.cpp">
-				<Form>FormaStrObjectTouch</Form>
-				<DependentOn>..\..\..\Forms\SprStrObject\UFormaStrObjectTouch.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\RegZak\UDMRegZakImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\RegZak\UDMRegZakImpl.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRImpl.cpp">
-				<DependentOn>..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRImpl.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRCF.cpp">
-				<DependentOn>..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRCF.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchImpl.cpp">
-				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchImpl.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouch.cpp">
-				<Form>FormaDocRealRoznTouch</Form>
-				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouch.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchCF.cpp">
-				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchCF.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchCF.cpp">
-				<DependentOn>..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="FormsTouch.res">
-				<BuildOrder>7</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="FormsTouch.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouch.cpp">
-				<Form>FormaSpiskaSprEdTouch</Form>
-				<DependentOn>..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouch.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\Kalkulator\UKalkulator.cpp">
 				<Form>Kalkulator</Form>
 				<DependentOn>..\..\..\Forms\Kalkulator\UKalkulator.h</DependentOn>
 				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaPanelButtonTouch.cpp">
-				<Form>FormaPanelButtonTouch</Form>
-				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaPanelButtonTouch.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouch.cpp">
 				<Form>FormaDocCheckTouch</Form>
 				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouch.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaPanelButtonTouch.cpp">
+				<Form>FormaPanelButtonTouch</Form>
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaPanelButtonTouch.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="FormsTouch.res">
+				<BuildOrder>7</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchCF.cpp">
+				<DependentOn>..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouch.cpp">
+				<Form>FormaSpiskaSprEdTouch</Form>
+				<DependentOn>..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouch.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="FormsTouch.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouchImpl.cpp">
 				<DependentOn>..\..\..\Forms\SprStrObject\UFormaStrObjectTouchImpl.h</DependentOn>
 				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouchCF.cpp">
+				<DependentOn>..\..\..\Forms\SprStrObject\UFormaStrObjectTouchCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFR.cpp">
+				<Form>FormaReportTouchForFR</Form>
+				<DependentOn>..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFR.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\RegZak\UFormaZakazOfImpl.cpp">
+				<DependentOn>..\..\..\Forms\RegZak\UFormaZakazOfImpl.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\RegZak\UFormaZakazOfCF.cpp">
+				<DependentOn>..\..\..\Forms\RegZak\UFormaZakazOfCF.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\PrintZakaz\UFormaPrintZakaz.cpp">
+				<Form>FormaPrintZakaz</Form>
+				<DependentOn>..\..\..\Forms\PrintZakaz\UFormaPrintZakaz.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\RegZak\UFormaZakazOf.cpp">
 				<Form>FormaZakazOf</Form>
 				<DependentOn>..\..\..\Forms\RegZak\UFormaZakazOf.h</DependentOn>
 				<BuildOrder>24</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\PrintZakaz\UFormaPrintZakaz.cpp">
-				<Form>FormaPrintZakaz</Form>
-				<DependentOn>..\..\..\Forms\PrintZakaz\UFormaPrintZakaz.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\RegZak\UDMRegZak.cpp">
 				<Form>DMRegZak</Form>
@@ -188,39 +136,91 @@
 				<DependentOn>..\..\..\FIB_DataModule\RegZak\UDMRegZak.h</DependentOn>
 				<BuildOrder>21</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouchImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchCF.cpp">
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFR.cpp">
-				<Form>FormaReportTouchForFR</Form>
-				<DependentOn>..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFR.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouch.cpp">
+				<Form>FormaSpiskaSprBVNomTouch</Form>
+				<DependentOn>..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouch.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouchCF.cpp">
-				<DependentOn>..\..\..\Forms\SprStrObject\UFormaStrObjectTouchCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\RegZak\UFormaZakazOfCF.cpp">
-				<DependentOn>..\..\..\Forms\RegZak\UFormaZakazOfCF.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchImpl.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\RegZak\UFormaZakazOfImpl.cpp">
-				<DependentOn>..\..\..\Forms\RegZak\UFormaZakazOfImpl.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchCF.cpp">
+				<DependentOn>..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouchCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouchImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\RegZak\UDMRegZakCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\RegZak\UDMRegZakCF.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Kalkulator\UKalkulatorCF.cpp">
+				<DependentOn>..\..\..\Forms\Kalkulator\UKalkulatorCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Kalkulator\UKalkulatorImpl.cpp">
+				<DependentOn>..\..\..\Forms\Kalkulator\UKalkulatorImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchImpl.cpp">
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchImpl.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchCF.cpp">
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouchCF.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouch.cpp">
+				<Form>FormaDocRealRoznTouch</Form>
+				<DependentOn>..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouch.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\RegZak\UDMRegZakImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\RegZak\UDMRegZakImpl.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouch.cpp">
+				<Form>FormaStrObjectTouch</Form>
+				<DependentOn>..\..\..\Forms\SprStrObject\UFormaStrObjectTouch.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRCF.cpp">
+				<DependentOn>..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRCF.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRImpl.cpp">
+				<DependentOn>..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFRImpl.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\Kalkulator\UKalkulator.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouch.dfm"/>
+			<FormResources Include="..\..\..\Forms\DocCheckKKM\UFormaPanelButtonTouch.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouch.dfm"/>
+			<FormResources Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFR.dfm"/>
+			<FormResources Include="..\..\..\Forms\PrintZakaz\UFormaPrintZakaz.dfm"/>
+			<FormResources Include="..\..\..\Forms\RegZak\UFormaZakazOf.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\RegZak\UDMRegZak.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprBVNom\UFormaSpiskaSprBVNomTouch.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouch.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<FormResources Include="..\..\..\Forms\DocRealRozn\UFormaDocRealRoznTouch.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprEd\UFormaSpiskaSprEdTouch.dfm"/>
-			<FormResources Include="..\..\..\Forms\Kalkulator\UKalkulator.dfm"/>
-			<FormResources Include="..\..\..\Forms\DocCheckKKM\UFormaPanelButtonTouch.dfm"/>
-			<FormResources Include="..\..\..\Forms\DocCheckKKM\UFormaDocCheckTouch.dfm"/>
-			<FormResources Include="..\..\..\Forms\RegZak\UFormaZakazOf.dfm"/>
-			<FormResources Include="..\..\..\Forms\PrintZakaz\UFormaPrintZakaz.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\RegZak\UDMRegZak.dfm"/>
-			<FormResources Include="..\..\..\Forms\ReportTouchForFR\UFormaReportTouchForFR.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprStrObject\UFormaStrObjectTouch.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -245,7 +245,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">303</VersionInfo>
+						<VersionInfo Name="Build">307</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -257,7 +257,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.303</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.307</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

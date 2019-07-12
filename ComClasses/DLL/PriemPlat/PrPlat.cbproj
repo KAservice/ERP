@@ -61,15 +61,38 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<CppCompile Include="PrPlat.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaPriemPlatCF.cpp">
+				<DependentOn>UFormaPriemPlatCF.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="PrPlat.res">
+				<BuildOrder>7</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="UFormaPriemPlat.cpp">
+				<Form>FormaPriemPlat</Form>
+				<DependentOn>UFormaPriemPlat.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\PriemPlat\UDMPriemPlat.cpp">
 				<Form>DMPriemPlat</Form>
 				<DesignClass>TDataModule</DesignClass>
 				<DependentOn>..\..\..\FIB_DataModule\PriemPlat\UDMPriemPlat.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
+			<CppCompile Include="UFormaPriemPlatImpl.cpp">
+				<DependentOn>UFormaPriemPlatImpl.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -77,32 +100,9 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaPriemPlatImpl.cpp">
-				<DependentOn>UFormaPriemPlatImpl.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaPriemPlatCF.cpp">
-				<DependentOn>UFormaPriemPlatCF.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="PrPlat.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaPriemPlat.cpp">
-				<Form>FormaPriemPlat</Form>
-				<DependentOn>UFormaPriemPlat.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="PrPlat.res">
-				<BuildOrder>7</BuildOrder>
-			</ResFiles>
+			<FormResources Include="UFormaPriemPlat.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\PriemPlat\UDMPriemPlat.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="UFormaPriemPlat.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -127,7 +127,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">241</VersionInfo>
+						<VersionInfo Name="Build">245</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -139,7 +139,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.241</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.245</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

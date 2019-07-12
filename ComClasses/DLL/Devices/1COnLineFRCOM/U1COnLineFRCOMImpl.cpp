@@ -615,9 +615,9 @@ Object->TypeFiscalString=TypeFiscalString;
 }
 //---------------------------------------------------------------
 
-	//FiscalString  Регистрирует фискальную строку с переданными реквизитами.
-	//Name Да string  Наименование товара
-	//При печати длинных фискальных строк необходимо делать перенос на следующую строку.
+//FiscalString  Регистрирует фискальную строку с переданными реквизитами.
+//Name Да string  Наименование товара
+//При печати длинных фискальных строк необходимо делать перенос на следующую строку.
 UnicodeString T1COnLineFRCOMImpl::get_NameNom(void)
 {
 return Object->NameNom;
@@ -629,7 +629,7 @@ Object->NameNom=NameNom;
 }
 //---------------------------------------------------------------
 
-	 //Quantity Да double Количество товара
+//Quantity Да double Количество товара
 double T1COnLineFRCOMImpl::get_Quantity(void)
 {
 return Object->Quantity;
@@ -641,7 +641,7 @@ Object->Quantity=Quantity;
 }
 //---------------------------------------------------------------
 
-	//Price Да double Цена единицы товара без учета скидок/наценок
+//Price Да double Цена единицы товара без учета скидок/наценок
 double T1COnLineFRCOMImpl::get_Price(void)
 {
 return Object->Price;
@@ -653,7 +653,7 @@ Object->Price=Price;
 }
 //---------------------------------------------------------------
 
-	//Amount Да double Конечная сумма по позиции чека (с учетом всех скидок/наценок)
+//Amount Да double Конечная сумма по позиции чека (с учетом всех скидок/наценок)
 double T1COnLineFRCOMImpl::get_Amount(void)
 {
 return Object->Amount;
@@ -664,8 +664,50 @@ void T1COnLineFRCOMImpl::set_Amount(double Amount)
 Object->Amount=Amount;
 }
 //---------------------------------------------------------------
+//PriceWithDiscount Да double Цена единицы товара с учетом скидок/наценок
+double T1COnLineFRCOMImpl::get_PriceWithDiscount(void)
+{
+return Object->PriceWithDiscount;
+}
+//-----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_PriceWithDiscount(double PriceWithDiscount)
+{
+Object->PriceWithDiscount=PriceWithDiscount;
+}
+//---------------------------------------------------------------
 
-	//Department Нет long Отдел, по которому ведется продажа
+//SumWithDiscount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок
+double T1COnLineFRCOMImpl::get_SumWithDiscount(void)
+{
+return Object->SumWithDiscount;
+}
+//-----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_SumWithDiscount(double SumWithDiscount)
+{
+Object->SumWithDiscount=SumWithDiscount;
+}
+//---------------------------------------------------------------
+
+//SignMethodCalculation Нет long Признак способа расчета.
+//			1 Предоплата полная
+//			2 Предоплата частичная
+//			3 Аванс
+//			4 Полный расчет
+//			5 Частичный расчет и кредит
+//			6 Передача в кредит
+//			7 Оплата кредита
+int T1COnLineFRCOMImpl::get_SignMethodCalculation(void)
+{
+return Object->SignMethodCalculation;
+}
+//-----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_SignMethodCalculation(int SignMethodCalculation)
+{
+Object->SignMethodCalculation=SignMethodCalculation;
+}
+//---------------------------------------------------------------
+
+//Department Нет long Отдел, по которому ведется продажа
 int T1COnLineFRCOMImpl::get_Department(void)
 {
 return Object->Department;
@@ -790,6 +832,51 @@ void T1COnLineFRCOMImpl::set_CashLessType3(double CashLessType3)
 Object->CashLessType3=CashLessType3;
 }
 //---------------------------------------------------------------
+	//ElectronicPayment Да decimal Сумма безналичными средствами
+double T1COnLineFRCOMImpl::get_ElectronicPayment(void)
+{
+return Object->ElectronicPayment;
+}
+//----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_ElectronicPayment(double ElectronicPayment)
+{
+Object->ElectronicPayment=ElectronicPayment;
+}
+//---------------------------------------------------------------
+	//AdvancePayment  Да decimal Сумма предоплатой (зачетом аванса)
+double T1COnLineFRCOMImpl::get_AdvancePayment(void)
+{
+return Object->AdvancePayment;
+}
+//----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_AdvancePayment(double AdvancePayment)
+{
+Object->AdvancePayment=AdvancePayment;
+}
+//---------------------------------------------------------------
+	//Credit Да decimal Сумма постоплатой (в кредит)
+double T1COnLineFRCOMImpl::get_Credit(void)
+{
+return Object->Credit;
+}
+//----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_Credit(double Credit)
+{
+Object->Credit=Credit;
+}
+//---------------------------------------------------------------
+	//CashProvision Да decimal Сумма встречным предоставлением
+double T1COnLineFRCOMImpl::get_CashProvision(void)
+{
+return Object->CashProvision;
+}
+//----------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::set_CashProvision(double CashProvision)
+{
+Object->CashProvision=CashProvision;
+}
+//---------------------------------------------------------------
+
 UnicodeString T1COnLineFRCOMImpl::GetParameters(void)
 {
 return Object->GetParameters();
@@ -873,3 +960,165 @@ bool T1COnLineFRCOMImpl::SetParameter(UnicodeString name_parameter, TkasVariant 
 return  Object->SetParameter(name_parameter,value_parameter);
 }
 //------------------------------------------------------------------------
+
+//*****************************************************************************************
+//***********************************************************************************
+
+bool T1COnLineFRCOMImpl::RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+{
+
+return  Object->RunCommand(command_name, xml_doc,type_doc);
+}
+//------------------------------------------------------------------------------
+ UnicodeString T1COnLineFRCOMImpl::ReturnXmlResultLastMethod(void)
+{
+
+return  Object->ReturnXmlResultLastMethod();
+}
+//-----------------------------------------------------------------------------
+
+	//параметры для выполнения метода
+bool T1COnLineFRCOMImpl::SetStringParameter(UnicodeString param_name, int number, UnicodeString value)
+{
+
+return  Object->SetStringParameter(param_name,number, value);
+
+}
+//------------------------------------------------------------------------------
+UnicodeString T1COnLineFRCOMImpl::GetStringParameter(UnicodeString param_name, int number)
+{
+
+return  Object->GetStringParameter(param_name,number);
+
+}
+//------------------------------------------------------------------------------
+
+bool T1COnLineFRCOMImpl::SetIntegerParameter(UnicodeString param_name, int number, int value)
+{
+
+return  Object->SetIntegerParameter(param_name,number, value);
+
+}
+//------------------------------------------------------------------------------
+int T1COnLineFRCOMImpl::GetIntegerParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetIntegerParameter( param_name,  number);
+}
+//------------------------------------------------------------------------------
+
+bool T1COnLineFRCOMImpl::SetDoubleParameter(UnicodeString param_name, int number, double value)
+{
+
+
+return  Object->SetDoubleParameter(param_name, number,  value);
+}
+//------------------------------------------------------------------------------
+double T1COnLineFRCOMImpl::GetDoubleParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetDoubleParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+bool T1COnLineFRCOMImpl::SetBooleanParameter(UnicodeString param_name, int number, bool value)
+{
+
+
+return  Object->SetBooleanParameter(param_name, number, value);
+}
+//------------------------------------------------------------------------------
+bool T1COnLineFRCOMImpl::GetBooleanParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetBooleanParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+bool T1COnLineFRCOMImpl::SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)
+{
+
+
+return  Object->SetDateTimeParameter( param_name, number,  value);
+}
+//------------------------------------------------------------------------------
+TDateTime T1COnLineFRCOMImpl::GetDateTimeParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetDateTimeParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+bool T1COnLineFRCOMImpl::SetXmlParameter(UnicodeString param_name, int number, UnicodeString xml_value, int type_source_xml)
+{
+
+
+return  Object->SetXmlParameter(param_name,number,xml_value,type_source_xml);
+}
+//------------------------------------------------------------------------------
+UnicodeString T1COnLineFRCOMImpl::GetXmlParameter(UnicodeString param_name, int number, int type_source_xml)
+{
+
+
+return  Object->GetXmlParameter(param_name,number,type_source_xml);
+}
+//------------------------------------------------------------------------------
+
+bool T1COnLineFRCOMImpl::SetIdDeviceParameter(UnicodeString param_name, int number, UnicodeString id_device, int type_source_id_device)
+{
+
+
+return  Object->SetIdDeviceParameter(param_name, number, id_device, type_source_id_device);
+}
+//------------------------------------------------------------------------------
+UnicodeString T1COnLineFRCOMImpl::GetIDDeviceParameter(UnicodeString param_name, int number, int type_source_id_device)
+{
+
+
+return  Object->GetIDDeviceParameter(param_name, number, type_source_id_device);
+}
+//------------------------------------------------------------------------------
+	//формирование xml файла
+void T1COnLineFRCOMImpl::AddStringXml(UnicodeString str_xml)    //просто готовая строка
+{
+
+
+return  Object->AddStringXml(str_xml) ;
+}
+//------------------------------------------------------------------------------
+ void T1COnLineFRCOMImpl::AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value)  //тип для форматирования, например для удаления запятых в числах
+
+{
+
+
+return  Object->AddAttribyteXml(attribyte,  value, type_value);
+}
+//------------------------------------------------------------------------------
+void T1COnLineFRCOMImpl::AddElementXml(UnicodeString element, UnicodeString value, int type_value)
+{
+
+
+return  Object->AddElementXml(element,  value, type_value);
+}
+//------------------------------------------------------------------------------
+
+void T1COnLineFRCOMImpl::AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font,  //1234
+								int style,    //1-жирный 0 обычный   2 курсив 3 жирный курсив
+								int alignment,  //0 лево 1 центр 2 право
+								bool word_wrap)   //строка xml для печати будет формироваться
+
+{
+
+
+return  Object->AddStringForPrintXml(element, attribyte, value,
+								size_font,  //1234
+								style,    //1-жирный 0 обычный   2 курсив 3 жирный курсив
+								alignment,  //0 лево 1 центр 2 право
+								word_wrap);   //строка xml для печати будет формироваться;
+}
+//------------------------------------------------------------------------------

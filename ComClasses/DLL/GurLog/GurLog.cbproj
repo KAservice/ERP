@@ -61,32 +61,8 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\GurLog\UFormaGurLog.cpp">
-				<Form>FormaGurLog</Form>
-				<DependentOn>..\..\..\Forms\GurLog\UFormaGurLog.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\GurLog\UDMGurLogImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\GurLog\UDMGurLogImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurLog\UFormaGurLogImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurLog\UFormaGurLogImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurLog\UFormaGurLogCF.cpp">
-				<DependentOn>..\..\..\Forms\GurLog\UFormaGurLogCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\GurLog\UDMGurLogCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\GurLog\UDMGurLogCF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
+			<CppCompile Include="GurLog.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\GurLog\UDMGurLog.cpp">
 				<Form>DMGurLog</Form>
@@ -94,23 +70,47 @@
 				<DependentOn>..\..\..\FIB_DataModule\GurLog\UDMGurLog.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="GurLog.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
 			<ResFiles Include="GurLog.res">
 				<BuildOrder>2</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
 				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurLog\UDMGurLogCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurLog\UDMGurLogCF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\GurLog\UDMGurLogImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\GurLog\UDMGurLogImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurLog\UFormaGurLog.cpp">
+				<Form>FormaGurLog</Form>
+				<DependentOn>..\..\..\Forms\GurLog\UFormaGurLog.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurLog\UFormaGurLogCF.cpp">
+				<DependentOn>..\..\..\Forms\GurLog\UFormaGurLogCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurLog\UFormaGurLogImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurLog\UFormaGurLogImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\FIB_DataModule\GurLog\UDMGurLog.dfm"/>
 			<FormResources Include="..\..\..\Forms\GurLog\UFormaGurLog.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\GurLog\UDMGurLog.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -135,7 +135,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">225</VersionInfo>
+						<VersionInfo Name="Build">229</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -147,7 +147,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.225</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.229</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

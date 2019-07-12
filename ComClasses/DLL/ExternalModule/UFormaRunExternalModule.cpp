@@ -827,12 +827,15 @@ if (MethodName == "KASFRGETSOSTKKM")
 		{
 		Memo1->Lines->Add("KASFRGETSOSTKKM  ");
 		result_bool=FR->GetSostKKM();
-		}
+
 		if (result_bool==false)
 			{
 			FR_Error=true;
 			Memo1->Lines->Add("Ошибка: "+FR->TextError);
 			}
+
+		}
+
 	}
 
 if (MethodName == "KASFRPROVVOSMPRINTCHECK")
@@ -843,20 +846,24 @@ if (MethodName == "KASFRPROVVOSMPRINTCHECK")
 		Memo1->Lines->Add("KASFRPROVVOSMPRINTCHECK ");
 		result_bool=FR->ProvVosmPrintCheck();
 	   //	ShowMessage("выполнили if (MethodName == KASFRPROVVOSMPRINTCHECK)");
-		}
+
 		if (result_bool==false)
 			{
 			FR_Error=true;
 			Memo1->Lines->Add("Ошибка: "+FR->TextError);
 			}
-	if (result_bool==true)
-		{
-		Memo1->Lines->Add("Результат: true");
+		if (result_bool==true)
+			{
+			Memo1->Lines->Add("Результат: true");
+			}
+		if (result_bool==false)
+			{
+			Memo1->Lines->Add("Результат: false");
+			}
+
+
 		}
-	if (result_bool==false)
-		{
-		Memo1->Lines->Add("Результат: false");
-		}
+
 
 	result=result_bool;
 	}
@@ -1002,8 +1009,13 @@ if (MethodName == "KASFRINITDOCUMENT")
 	if (ConnectFR==true  && FR_Error==false)
 		{
 		Memo1->Lines->Add("KASFRINITDOCUMENT");
+		UnicodeString s="";
 		result_bool=FR->InitDocument(int(Params.GetElement(0)));
 
+//		Variant value=frxReport1->Variables->Variables["TaxVariant"];
+//		if (value.IsNull()==false) {FR->TaxVariant=value.AsType(varInteger); s=s+" TaxVariant "+IntToStr(FR->TaxVariant);}
+
+		Memo1->Lines->Add("KASFRINITDOCUMENT: "+s);
 		if (result_bool==false)
 			{
 			FR_Error=true;
@@ -1081,6 +1093,461 @@ if (MethodName == "KASFRCREATEFOOTERFISCALCHECK")
 			}
 		}
 	}
+
+if (MethodName == "KASFRRUNCOMMAND")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		UnicodeString param2=" "; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=VarToStr(param2_v);}
+
+		int param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varInteger);}
+
+
+		Memo1->Lines->Add("KASFRCREATEDOCFROMXML command_name:\n"+
+											param1+" \nxml_doc"+
+											param2+" \ntype_doc"+
+											IntToStr(param3)+"\n");
+
+
+		result_bool=FR->RunCommand(param1, param2, param3);
+
+		if (result_bool==false)
+			{
+			FR_Error=true;
+			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+			}
+		if (result_bool==true)
+			{
+			Memo1->Lines->Add("Результат: true");
+			}
+		if (result_bool==false)
+			{
+			Memo1->Lines->Add("Результат: false");
+			}
+
+
+		}
+	}
+
+ if (MethodName == "KASFRRETURNXMLRESULTLASTMETHOD")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		Memo1->Lines->Add("KASFRRETUTNXMLRESULTLASTMETHOD ");
+
+
+		result=FR->ReturnXmlResultLastMethod();
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+
+
+		}
+	}
+
+if (MethodName == "KASFRSETSTRINGPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		UnicodeString param3=" "; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=VarToStr(param3_v);}
+
+		Memo1->Lines->Add("KASFRSETSTRINGPARAMETER command_name:\n");
+
+		result=FR->SetStringParameter(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRGETSTRINGPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+
+		Memo1->Lines->Add("KASFRGETSTRINGPARAMETER command_name:\n");
+
+		result=FR->GetStringParameter(param1, param2);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRSETINTEGERPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		int param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRSETINTEGERPARAMETER command_name:\n");
+
+		result=FR->SetIntegerParameter(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRGETINTEGERPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+
+		Memo1->Lines->Add("KASFRGETINTEGERPARAMETER command_name:\n");
+
+		result=FR->GetIntegerParameter(param1, param2);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRSETDOUBLEPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		double param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varDouble);}
+
+		Memo1->Lines->Add("KASFRSETDOUBLEPARAMETER command_name:\n");
+
+		result=FR->SetDoubleParameter(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRGETDOUBLEPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+
+		Memo1->Lines->Add("KASFRGETDOUBLEPARAMETER command_name:\n");
+
+		result=FR->GetDoubleParameter(param1, param2);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRSETBOOLEANPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		bool param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varBoolean);}
+
+		Memo1->Lines->Add("KASFRSETBOOLEANPARAMETER command_name:\n");
+
+		result=FR->SetBooleanParameter(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRGETBOOLEANPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+
+		Memo1->Lines->Add("KASFRGETBOOLEANPARAMETER command_name:\n");
+
+		result=FR->GetBooleanParameter(param1, param2);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+
+
+//	virtual bool SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)=0;
+//	virtual TDateTime GetDateTimeParameter(UnicodeString param_name, int number)=0;
+
+if (MethodName == "KASFRSETXMLPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		UnicodeString param3=" "; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=VarToStr(param3_v);}
+
+		int param4=0; Variant param4_v=Params.GetElement(3);
+		if (param4_v.IsNull() == true) {} else  {param4=param4_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRSETXMLPARAMETER command_name:\n");
+
+		result=FR->SetXmlParameter(param1, param2, param3, param4);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRGETXMLPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		int param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRGETXMLPARAMETER command_name:\n");
+
+		result=FR->GetXmlParameter(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRSETIDDEVICEPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		UnicodeString param3=" "; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=VarToStr(param3_v);}
+
+		int param4=0; Variant param4_v=Params.GetElement(3);
+		if (param4_v.IsNull() == true) {} else  {param4=param4_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRSETIDDEVICEPARAMETER command_name:\n");
+
+		result=FR->SetIdDeviceParameter(param1, param2, param3, param4);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRGETIDDEVICEPARAMETER")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		int param2=0; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=param2_v.AsType(varInteger);}
+
+		int param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRGETIDDEVICEPARAMETER command_name:\n");
+
+		result=FR->GetIDDeviceParameter(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRADDSTRINGXML")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+
+		Memo1->Lines->Add("KASFRADDSTRINGXML :\n");
+
+		FR->AddStringXml(param1);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+
+if (MethodName == "KASFRADDATTRIBUTEXML")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		UnicodeString param2=" "; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=VarToStr(param2_v);}
+
+		int param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRADDATTRIBUTEXML command_name:\n");
+
+		FR->AddAttribyteXml(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRADDELEMENTXML")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		UnicodeString param2=" "; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=VarToStr(param2_v);}
+
+		int param3=0; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=param3_v.AsType(varInteger);}
+
+		Memo1->Lines->Add("KASFRADDELEMENTXML command_name:\n");
+
+		FR->AddElementXml(param1, param2, param3);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+if (MethodName == "KASFRADDSTRINGFORPRINTXML")
+	{
+	if (ConnectFR==true  && FR_Error==false)
+		{
+		UnicodeString param1=" "; Variant param1_v=Params.GetElement(0);
+		if (param1_v.IsNull() == true) {} else  {param1=VarToStr(param1_v);}
+
+		UnicodeString param2=" "; Variant param2_v=Params.GetElement(1);
+		if (param2_v.IsNull() == true) {} else  {param2=VarToStr(param2_v);}
+
+		UnicodeString param3=" "; Variant param3_v=Params.GetElement(2);
+		if (param3_v.IsNull() == true) {} else  {param3=VarToStr(param3_v);}
+
+		int param4=0; Variant param4_v=Params.GetElement(3);
+		if (param4_v.IsNull() == true) {} else  {param4=param4_v.AsType(varInteger);}
+
+		int param5=0; Variant param5_v=Params.GetElement(4);
+		if (param5_v.IsNull() == true) {} else  {param5=param5_v.AsType(varInteger);}
+
+		int param6=0; Variant param6_v=Params.GetElement(5);
+		if (param6_v.IsNull() == true) {} else  {param6=param6_v.AsType(varInteger);}
+
+		bool param7=0; Variant param7_v=Params.GetElement(6);
+		if (param7_v.IsNull() == true) {} else  {param7=param7_v.AsType(varBoolean);}
+
+		Memo1->Lines->Add("KASFRADDSTRINGFORPRINTXML command_name:\n");
+
+		FR->AddStringForPrintXml(param1, param2, param3, param4, param5, param6, param7);
+//		if (result_bool==false)
+//			{
+//			FR_Error=true;
+//			Memo1->Lines->Add("Ошибка: "+FR->TextError);
+//			}
+		}
+	}
+
+
 
 return result;
 }
@@ -1194,38 +1661,61 @@ if (IdOborud ==0 || id_arm==0)
 				while(!oborud_param->GetEof(0))
 					{
 					TkasVariant * kv=new TkasVariant;
+					InitKasVariant(kv); //
+
+					wchar_t * wchar_t_for_kas_variant;
+					int type_value=0;
+
 					if (oborud_param->GetValueFieldAsBool("ON_CONNECT_SOBORUD_PAR", 0)==true &&
 									oborud_param->GetValueFieldAsBool("BEFORE_CONNECT_SOBORUD_PAR", 0)==true)
 						{ //устанавливаем данный параметр
-						int type_value=oborud_param->GetValueFieldAsInt("TYPE_PARAMETER_SOBORUD_PAR", 0);
+						type_value=oborud_param->GetValueFieldAsInt("TYPE_PARAMETER_SOBORUD_PAR", 0);
 						UnicodeString s="Устанавливаем параметр: "+oborud_param->GetValueFieldAsString("NAME_SOBORUD_PAR", 0)+" тип:"+IntToStr(type_value);
 
 						if (type_value == 1) //int
 							{
-							kv->type=1; kv->int_value=oborud_param->GetValueFieldAsInt("VALUE_SOBORUD_PAR", 0);
+							kv->type=1;
+							int  int_for_kas_variant =  oborud_param->GetValueFieldAsInt("VALUE_SOBORUD_PAR", 0);
+							kv->int_value=int_for_kas_variant;
 							s=s+" значение: "+IntToStr(kv->int_value);
 							}
 						if (type_value == 2) //string
 							{
-							kv->type=2; kv->string_value=oborud_param->GetValueFieldAsString("VALUE_SOBORUD_PAR", 0).c_str(); kv->len_string=wcslen(kv->string_value);
+							kv->type=2;
+							UnicodeString string_for_kas_variant = oborud_param->GetValueFieldAsString("VALUE_SOBORUD_PAR", 0);
+
+							int length = wcslen(string_for_kas_variant.c_str());
+
+							wchar_t_for_kas_variant = new wchar_t[length + 1];
+							wcscpy(wchar_t_for_kas_variant,string_for_kas_variant.c_str());
+
+							kv->string_value=wchar_t_for_kas_variant;
+							kv->len_string=wcslen(kv->string_value);
 							s=s+" значение: "+UnicodeString(kv->string_value);
 							}
 						if (type_value == 4) //booulean
 							{
-							kv->type=4; kv->bool_value=oborud_param->GetValueFieldAsBool("VALUE_SOBORUD_PAR", 0);
+							kv->type=4;
+							bool bool_for_kas_variant = oborud_param->GetValueFieldAsBool("VALUE_SOBORUD_PAR", 0);
+							kv->bool_value = bool_for_kas_variant;
 							if (kv->bool_value==true) {s=s+" значение: true";}
                             if (kv->bool_value==false) {s=s+" значение: false";}
 							}
 
 						Memo1->Lines->Add(s);
 
-						if (FR->SetParameter(oborud_param->GetValueFieldAsString("NAME_SOBORUD_PAR", 0), kv) == false)
+						UnicodeString name_parameter = oborud_param->GetValueFieldAsString("NAME_SOBORUD_PAR", 0);
+
+						if (FR->SetParameter(name_parameter, kv) == false)
 							{
 							ShowMessage("Ошибка при установке параметра подключения");
 							}
 						}
 					oborud_param->Next(0);
 					delete kv;
+
+					if (type_value == 2) {delete wchar_t_for_kas_variant;}
+
 					}
 
 
@@ -1330,6 +1820,89 @@ frxReport1->AddFunction("function kasFRCreateFooterFiscalCheck() : Boolean",
 						"kasFunctionFR",
 						"Создать подвал фискального чека");
 
+
+//******************************************************************************
+frxReport1->AddFunction("function kasFRRunCommand(command : String, xml_doc : String, type_doc : Integer) : Boolean",
+						"kasFunctionFR",
+						"Выполнить команду");
+
+
+frxReport1->AddFunction("function kasFRReturnXmlResultLastMethod() : String",
+						"kasFunctionFR",
+						"ReturnXmlResultLastMethod");
+
+frxReport1->AddFunction("function kasFRSetStringParameter(param_name : String, number : Integer, value : String) : Boolean",
+						"kasFunctionFR",
+						"kasFRSetStringParameter");
+
+frxReport1->AddFunction("function kasFRGetStringParameter(param_name : String, number : Integer) : String",
+						"kasFunctionFR",
+						"kasFRGetStringParameter");
+
+frxReport1->AddFunction("function kasFRSetIntegerParameter(param_name : String, number : Integer, value : Integer) : Boolean",
+						"kasFunctionFR",
+						"kasFRSetIntegerParameter");
+
+frxReport1->AddFunction("function kasFRGetIntegerParameter(param_name : String, number : Integer) : Integer",
+						"kasFunctionFR",
+						"kasFRGetIntegerParameter");
+
+frxReport1->AddFunction("function kasFRSetDoubleParameter(param_name : String, number : Integer, value : Double) : Boolean",
+						"kasFunctionFR",
+						"kasFRSetDoubleParameter");
+
+frxReport1->AddFunction("function kasFRGetDoubleParameter(param_name : String, number : Integer) : Double",
+						"kasFunctionFR",
+						"kasFRGetDoubleParameter");
+
+frxReport1->AddFunction("function kasFRSetBooleanParameter(param_name : String, number : Integer, value : Boolean) : Boolean",
+						"kasFunctionFR",
+						"kasFRSetBooleanParameter");
+
+frxReport1->AddFunction("function kasFRGetBooleanParameter(param_name : String, number : Integer) : Boolean",
+						"kasFunctionFR",
+						"kasFRGetBooleanParameter");
+
+//	virtual bool SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)=0;
+//	virtual TDateTime GetDateTimeParameter(UnicodeString param_name, int number)=0;
+
+frxReport1->AddFunction("function kasFRSetXmlParameter(param_name : String, number : Integer, xml_value : String, type_source_xml : Integer) : Boolean",
+						"kasFunctionFR",
+						"kasFRSetXmlParameter");
+
+frxReport1->AddFunction("function kasFRGetXmlParameter(param_name : String, number : Integer, type_source_xml : Integer) : String",
+						"kasFunctionFR",
+						"kasFRGetXmlParameter");
+
+frxReport1->AddFunction("function kasFRSetIdDeviceParameter(param_name : String, number : Integer, id_device : String, type_source_id_device : Integer) : Boolean",
+						"kasFunctionFR",
+						"kasFRSetIdDeviceParameter");
+
+frxReport1->AddFunction("function kasFRGetIDDeviceParameter(param_name : String, number : Integer, type_source_id_device : Integer) : String",
+						"kasFunctionFR",
+						"kasFRGetIDDeviceParameter");
+
+
+	//формирование xml файла
+
+
+frxReport1->AddFunction("function kasFRAddStringXml(str_xml : String) : void",      //просто готовая строка
+						"kasFunctionFR",
+						"kasFRAddStringXml");
+
+frxReport1->AddFunction("function kasFRAddAttributeXml(attribyte : String, value : String, type_value : Integer ) : void",  //тип для форматирования, например для удаления запятых в числах
+						"kasFunctionFR",
+						"kasFRAddStringXml");
+
+frxReport1->AddFunction("function kasFRAddElementXml(element : String, value : String, type_value : Integer ) : void",
+						"kasFunctionFR",
+						"kasFRAddAttribyteXml");
+
+frxReport1->AddFunction("function kasFRAddStringForPrintXml(element : String, attribyte : String, value : String, size_font : Integer, style : Integer, alignment : Integer, word_wrap : Boolean) : void",
+						"kasFunctionFR",
+						"kasFRAddStringForPrintXml");
+
+
 }
 //-----------------------------------------------------------------------------
 bool TFormaRunExternalModule::SetParameterCheckInDoc(__int64 id_doc)
@@ -1402,3 +1975,19 @@ Memo1->Lines->Add("Результат: "+IntToStr(result));
 return result;
 }
 //-----------------------------------------------------------------------------
+void TFormaRunExternalModule::InitKasVariant(TkasVariant * kv)
+{
+kv->type=0;
+kv->int_value=0;
+kv->string_value=L"";
+kv->dbl_value=0;
+kv->bool_value=0;
+kv->day=0;
+kv->month=0;
+kv->year=0;
+kv->hour=0;
+kv->min=0;
+kv->sec=0;
+kv->len_string=0;
+}
+//--------------------------------------------------------------------------

@@ -61,52 +61,6 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="UPrintPriceNumber3.cpp">
-				<DependentOn>UPrintPriceNumber3.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UPrintPriceNumber2.cpp">
-				<DependentOn>UPrintPriceNumber2.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UPrintPriceNumber1.cpp">
-				<DependentOn>UPrintPriceNumber1.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UPrintPriceNumber4.cpp">
-				<DependentOn>UPrintPriceNumber4.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UPrintPriceNumber7.cpp">
-				<DependentOn>UPrintPriceNumber7.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UPrintPriceNumber6.cpp">
-				<DependentOn>UPrintPriceNumber6.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UPrintPriceNumber5.cpp">
-				<DependentOn>UPrintPriceNumber5.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaPrintPriceA.cpp">
-				<Form>FormaPrintPriceA</Form>
-				<DependentOn>UFormaPrintPriceA.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="PrintPrice.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
 				<Form>ModifyFormSheetEditor</Form>
 				<DependentOn>..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
@@ -116,13 +70,13 @@
 				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="PrintPrice.res">
-				<BuildOrder>5</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
-				<Form>SheetEditor</Form>
-				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
+			<CppCompile Include="UFormaPrintPriceA.cpp">
+				<Form>FormaPrintPriceA</Form>
+				<DependentOn>UFormaPrintPriceA.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="PrintPrice.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UFormaPrintPriceACF.cpp">
 				<DependentOn>UFormaPrintPriceACF.h</DependentOn>
@@ -132,10 +86,56 @@
 				<DependentOn>UFormaPrintPriceAImpl.h</DependentOn>
 				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="UFormaPrintPriceA.dfm"/>
+			<ResFiles Include="PrintPrice.res">
+				<BuildOrder>5</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
+				<Form>SheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber1.cpp">
+				<DependentOn>UPrintPriceNumber1.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber4.cpp">
+				<DependentOn>UPrintPriceNumber4.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber3.cpp">
+				<DependentOn>UPrintPriceNumber3.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber2.cpp">
+				<DependentOn>UPrintPriceNumber2.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber5.cpp">
+				<DependentOn>UPrintPriceNumber5.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber7.cpp">
+				<DependentOn>UPrintPriceNumber7.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UPrintPriceNumber6.cpp">
+				<DependentOn>UPrintPriceNumber6.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
+			<FormResources Include="UFormaPrintPriceA.dfm"/>
 			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -160,7 +160,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">237</VersionInfo>
+						<VersionInfo Name="Build">241</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -172,7 +172,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.237</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.241</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

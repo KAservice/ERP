@@ -61,18 +61,32 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="HotFormsGur.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocImpl.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocCF.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="HotFormsGur.res">
+				<BuildOrder>4</BuildOrder>
+			</ResFiles>
 			<CppCompile Include="..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDoc.cpp">
 				<Form>HOT_FormaGurAllDoc</Form>
 				<DependentOn>..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDoc.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Indicator\UFormIndicator.cpp">
-				<Form>FormIndicator</Form>
-				<DependentOn>..\..\..\Forms\Indicator\UFormIndicator.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="HotFormsGur.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -80,28 +94,14 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="HotFormsGur.res">
-				<BuildOrder>4</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocCF.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDocImpl.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\Indicator\UFormIndicator.cpp">
+				<Form>FormIndicator</Form>
+				<DependentOn>..\..\..\Forms\Indicator\UFormIndicator.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
 			<FormResources Include="..\..\..\Forms\HOT_GAllDoc\UHOT_FormaGurAllDoc.dfm"/>
-			<FormResources Include="..\..\..\Forms\Indicator\UFormIndicator.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\Indicator\UFormIndicator.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -126,7 +126,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">203</VersionInfo>
+						<VersionInfo Name="Build">207</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -138,7 +138,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.203</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.207</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

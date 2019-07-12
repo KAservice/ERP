@@ -962,3 +962,147 @@ bool result=true;
 return result;
 }
 //--------------------------------------------------------------------------
+//--------------------------------------------------------------------
+//*******************************************************************
+//--------------------------------------------------------------------
+bool TFiskReg::RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+{
+bool result=true;
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+UnicodeString TFiskReg::ReturnXmlResultLastMethod(void)
+{
+UnicodeString result="";
+
+
+return result;
+}
+//----------------------------------------------------------------------
+
+bool TFiskReg::SetStringParameter(UnicodeString param_name, int number, UnicodeString value)
+{
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+UnicodeString TFiskReg::GetStringParameter(UnicodeString param_name, int number)
+{
+UnicodeString result="";
+
+
+return result;
+
+
+}
+//-----------------------------------------------------------------------
+
+bool TFiskReg::SetIntegerParameter(UnicodeString param_name, int number, int value)
+{
+bool result=true;
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+int TFiskReg::GetIntegerParameter(UnicodeString param_name, int number)
+{
+
+int result=0;
+
+
+return result;
+
+}
+//-----------------------------------------------------------------------
+
+bool TFiskReg::SetDoubleParameter(UnicodeString param_name, int number, double value)
+{
+bool result=true;
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+double TFiskReg::GetDoubleParameter(UnicodeString param_name, int number)
+{
+
+double result=true;
+
+
+return result;
+
+}
+//-----------------------------------------------------------------------
+
+bool TFiskReg::SetBooleanParameter(UnicodeString param_name, int number, bool value)
+{
+
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+bool TFiskReg::GetBooleanParameter(UnicodeString param_name, int number)
+{
+
+bool result=true;
+
+
+return result;
+}
+//-----------------------------------------------------------------------
+
+bool TFiskReg::SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)
+{
+
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+TDateTime TFiskReg::GetDateTimeParameter(UnicodeString param_name, int number)
+{
+
+
+TDateTime result=0;
+
+
+return result;
+}
+//-----------------------------------------------------------------------
+	//формирование xml файла
+void TFiskReg::AddStringXml(UnicodeString str_xml)    //просто готовая строка
+ {
+
+}
+//-------------------------------------------------------------------------
+void TFiskReg::AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value)  //тип для форматирования, например для удаления запятых в числах
+
+{
+
+}
+//------------------------------------------------------------------------------
+void TFiskReg::AddElementXml(UnicodeString element, UnicodeString value, int type_value)
+{
+
+}
+//----------------------------------------------------------------------------
+
+void TFiskReg::AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font, int girn, int alignment, bool word_wrap)   //строка xml для печати будет формироваться
+{
+
+
+}
+//------------------------------------------------------------------------------

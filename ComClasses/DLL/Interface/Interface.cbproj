@@ -61,130 +61,38 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarCF.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarCF.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarImpl.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarImpl.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpCF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivCF.cpp">
+				<DependentOn>..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBarCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfToolBarCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleImpl.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBarImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfToolBarImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpCF.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenu.cpp">
-				<Form>DMInterfMainMenu</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenu.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePriv.cpp">
+				<Form>FormaSpiskaObjectBasePriv</Form>
+				<DependentOn>..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePriv.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBar.cpp">
-				<Form>FormaSpiskaInterfToolBar</Form>
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfToolBar.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrp.cpp">
-				<Form>FormaElementaInterfMainMenuGrp</Form>
-				<DependentOn>..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrp.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModule.cpp">
-				<Form>FormaSpiskaSprProgramModule</Form>
-				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModule.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModule.cpp">
-				<Form>FormaElementaSprProgramModule</Form>
-				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModule.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenu.cpp">
-				<Form>FormaSpiskaInterfMainMenu</Form>
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenu.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuImpl.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuImpl.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuCF.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuCF.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="Interface.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.cpp">
-				<Form>DMObjectBaseGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModule.cpp">
-				<Form>DMSprProgramModule</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModule.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrp.cpp">
-				<Form>FormaElementaObjectBaseGrp</Form>
-				<DependentOn>..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrp.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBar.cpp">
-				<Form>DMInterfToolBar</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfToolBar.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrp.cpp">
 				<Form>DMInterfMainMenuGrp</Form>
@@ -192,51 +100,24 @@
 				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrp.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBar.cpp">
+				<Form>DMInterfToolBar</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfToolBar.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="Interface.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
 			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePriv.cpp">
 				<Form>DMObjectBasePriv</Form>
 				<DesignClass>TDataModule</DesignClass>
 				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePriv.h</DependentOn>
 				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePriv.cpp">
-				<Form>FormaSpiskaObjectBasePriv</Form>
-				<DependentOn>..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePriv.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivCF.cpp">
-				<DependentOn>..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpCF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarCF.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarCF.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpCF.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleImpl.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
+			<ResFiles Include="Interface.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -244,35 +125,13 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>34</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleCF.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParImpl.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpImpl.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivImpl.cpp">
-				<DependentOn>..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetup.cpp">
-				<Form>DMProgramSetup</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetup.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Classes\UkanIniFile.cpp">
-				<DependentOn>..\..\..\Classes\UkanIniFile.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupCF.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupImpl.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParCF.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuPar.cpp">
 				<Form>DMInterfMainMenuPar</Form>
@@ -280,44 +139,185 @@
 				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuPar.h</DependentOn>
 				<BuildOrder>48</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParCF.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParImpl.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParImpl.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuParImpl.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParCF.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParCF.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuPar.cpp">
 				<Form>FormaSpiskaInterfMainMenuPar</Form>
 				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuPar.h</DependentOn>
 				<BuildOrder>51</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParCF.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParCF.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupImpl.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParImpl.cpp">
-				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuParImpl.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivImpl.cpp">
+				<DependentOn>..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePrivImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenu.dfm"/>
-			<FormResources Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBar.dfm"/>
-			<FormResources Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModule.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModule.dfm"/>
-			<FormResources Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenu.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModule.dfm"/>
-			<FormResources Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBar.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePriv.dfm"/>
+			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrpImpl.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModuleCF.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetupCF.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Classes\UkanIniFile.cpp">
+				<DependentOn>..\..\..\Classes\UkanIniFile.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetup.cpp">
+				<Form>DMProgramSetup</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetup.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrpImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBar.cpp">
+				<Form>FormaSpiskaInterfToolBar</Form>
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfToolBar.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModuleImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrp.cpp">
+				<Form>FormaElementaInterfMainMenuGrp</Form>
+				<DependentOn>..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrp.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenu.cpp">
+				<Form>DMInterfMainMenu</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfMainMenu.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarImpl.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfToolBarImpl.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePrivImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrpImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBarImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfToolBarImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBarCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\Interf\UDMInterfToolBarCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModule.cpp">
+				<Form>FormaSpiskaSprProgramModule</Form>
+				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModule.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.cpp">
+				<Form>DMObjectBaseGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="Interface.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrp.cpp">
+				<Form>FormaElementaObjectBaseGrp</Form>
+				<DependentOn>..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrp.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModule.cpp">
+				<Form>DMSprProgramModule</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModule.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuCF.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuCF.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModule.cpp">
+				<Form>FormaElementaSprProgramModule</Form>
+				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModule.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModuleImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuImpl.cpp">
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuImpl.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrpCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenu.cpp">
+				<Form>FormaSpiskaInterfMainMenu</Form>
+				<DependentOn>..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenu.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\Forms\ObjectBase\UFormaSpiskaObjectBasePriv.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfToolBar.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBasePriv.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetup.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenuPar.dfm"/>
 			<FormResources Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenuPar.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ProgramSetup\UDMProgramSetup.dfm"/>
+			<FormResources Include="..\..\..\Forms\Interface\UFormaSpiskaInterfToolBar.dfm"/>
+			<FormResources Include="..\..\..\Forms\Interface\UFormaElementaInterfMainMenuGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\Interf\UDMInterfMainMenu.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProgramModule\UFormaSpiskaSprProgramModule.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ObjectBase\UDMObjectBaseGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\ObjectBase\UFormaElementaObjectBaseGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProgramModule\UDMSprProgramModule.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProgramModule\UFormaElementaSprProgramModule.dfm"/>
+			<FormResources Include="..\..\..\Forms\Interface\UFormaSpiskaInterfMainMenu.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -342,7 +342,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">341</VersionInfo>
+						<VersionInfo Name="Build">345</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -354,7 +354,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.341</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.345</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

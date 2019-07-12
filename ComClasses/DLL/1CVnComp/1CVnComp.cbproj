@@ -25,7 +25,7 @@
 			<ProjectType>VCppStyleDll</ProjectType>
 			<Multithreaded>true</Multithreaded>
 			<OutputExt>dll</OutputExt>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<AllPackageLibs>rtl.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DynamicRTL>true</DynamicRTL>
@@ -61,6 +61,20 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<CppCompile Include="Ukas1CSystem.cpp">
+				<DependentOn>Ukas1CSystem.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UkasMemoryManager.cpp">
+				<DependentOn>UkasMemoryManager.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<None Include="K:\Global\UkasVariant.h">
+				<BuildOrder>7</BuildOrder>
+			</None>
+			<CppCompile Include="1CVnComp.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="UObject1CVnComp.cpp">
 				<DependentOn>UObject1CVnComp.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
@@ -73,20 +87,6 @@
 				<DependentOn>UObject1CVnCompImpl.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="1CVnComp.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="Ukas1CSystem.cpp">
-				<DependentOn>Ukas1CSystem.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UkasMemoryManager.cpp">
-				<DependentOn>UkasMemoryManager.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<None Include="K:\Global\UkasVariant.h">
-				<BuildOrder>7</BuildOrder>
-			</None>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

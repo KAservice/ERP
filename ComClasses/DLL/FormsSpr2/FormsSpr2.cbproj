@@ -60,960 +60,328 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrp.cpp">
-				<Form>FormaElementaSprVidImageGrp</Form>
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrp.h</DependentOn>
-				<BuildOrder>65</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceCF.h</DependentOn>
-				<BuildOrder>108</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorImpl.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactor.cpp">
-				<Form>FormaSpiskaSprLossFactor</Form>
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactor.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageImpl.h</DependentOn>
-				<BuildOrder>79</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdImpl.h</DependentOn>
-				<BuildOrder>128</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValue.cpp">
-				<Form>FormaSpiskaSprNomPropertiesValue</Form>
-				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValue.h</DependentOn>
-				<BuildOrder>62</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborCF.h</DependentOn>
-				<BuildOrder>91</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpCF.h</DependentOn>
-				<BuildOrder>81</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogImpl.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachisl.cpp">
-				<Form>FormaElementaSprTypeNachisl</Form>
-				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachisl.h</DependentOn>
-				<BuildOrder>95</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislImpl.h</DependentOn>
-				<BuildOrder>98</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNabor.cpp">
-				<Form>FormaSpiskaSprPropertiesNabor</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNabor.h</DependentOn>
-				<BuildOrder>90</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="FormsSpr2.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNom.cpp">
-				<Form>FormaElementaSprProducerNom</Form>
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNom.h</DependentOn>
-				<BuildOrder>134</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.cpp">
-				<Form>FormaSpiskaSprTypeAnalog</Form>
-				<DependentOn>..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.h</DependentOn>
-				<BuildOrder>116</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducerImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducer\UFormaElementaSprProducerImpl.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrp.cpp">
-				<Form>FormaElementaSprPropertiesGrp</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrp.h</DependentOn>
-				<BuildOrder>44</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuImpl.h</DependentOn>
-				<BuildOrder>157</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpImpl.h</DependentOn>
-				<BuildOrder>82</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueCF.h</DependentOn>
-				<BuildOrder>63</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesImpl.h</DependentOn>
-				<BuildOrder>55</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSprNomFindImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNom\UFormaSprNomFindImpl.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValueCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValueCF.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccount.cpp">
-				<Form>FormaSpiskaSprCustomerAccount</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccount.h</DependentOn>
-				<BuildOrder>149</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePrice.cpp">
-				<Form>FormaSpiskaSprProducerTypePrice</Form>
-				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePrice.h</DependentOn>
-				<BuildOrder>107</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogCF.cpp">
-				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogCF.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageCF.cpp">
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageCF.h</DependentOn>
-				<BuildOrder>72</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenu.cpp">
-				<Form>FormaSpiskaSprCustomerMainMenu</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenu.h</DependentOn>
-				<BuildOrder>155</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImage.cpp">
-				<Form>FormaElementaSprVidImage</Form>
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImage.h</DependentOn>
-				<BuildOrder>68</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountImpl.h</DependentOn>
-				<BuildOrder>151</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountCF.h</DependentOn>
-				<BuildOrder>150</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueImpl.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImage.cpp">
-				<Form>FormaSpiskaSprVidImage</Form>
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImage.h</DependentOn>
-				<BuildOrder>71</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdCF.h</DependentOn>
-				<BuildOrder>127</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborCF.h</DependentOn>
-				<BuildOrder>93</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpImpl.h</DependentOn>
-				<BuildOrder>154</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborImpl.h</DependentOn>
-				<BuildOrder>94</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalog.cpp">
-				<Form>FormaElementaSprInetCatalog</Form>
-				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalog.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuCF.h</DependentOn>
-				<BuildOrder>156</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserImpl.h</DependentOn>
-				<BuildOrder>166</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.h</DependentOn>
-				<BuildOrder>88</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceCF.h</DependentOn>
-				<BuildOrder>105</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpImpl.h</DependentOn>
-				<BuildOrder>67</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalog.cpp">
-				<Form>FormaSpiskaSprInetCatalog</Form>
-				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalog.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachisl.cpp">
-				<Form>FormaSpiskaSprTypeNachisl</Form>
-				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachisl.h</DependentOn>
-				<BuildOrder>96</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogCF.cpp">
-				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpCF.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalog.cpp">
-				<Form>FormaElementaSprGrpNomInetCatalog</Form>
-				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalog.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrp.cpp">
-				<Form>FormaElementaSprCustomerMainMenuGrp</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrp.h</DependentOn>
-				<BuildOrder>152</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpImpl.h</DependentOn>
-				<BuildOrder>133</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpCF.h</DependentOn>
-				<BuildOrder>132</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachisl.cpp">
-				<Form>FormaSpiskaSprNachisl</Form>
-				<DependentOn>..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachisl.h</DependentOn>
-				<BuildOrder>101</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPrice.cpp">
-				<Form>FormaSpiskaSprProducerPrice</Form>
-				<DependentOn>..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPrice.h</DependentOn>
-				<BuildOrder>122</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislCF.h</DependentOn>
-				<BuildOrder>102</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomCF.h</DependentOn>
-				<BuildOrder>138</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalog.cpp">
-				<Form>FormaSpiskaSprNomInetCatalog</Form>
-				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalog.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborCF.h</DependentOn>
-				<BuildOrder>198</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomImpl.h</DependentOn>
-				<BuildOrder>136</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEd.cpp">
-				<Form>FormaElementaSprProducerEd</Form>
-				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEd.h</DependentOn>
-				<BuildOrder>125</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrp.cpp">
-				<Form>FormaElementaSprProducerNomGrp</Form>
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrp.h</DependentOn>
-				<BuildOrder>131</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserCF.h</DependentOn>
-				<BuildOrder>165</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUser.cpp">
-				<Form>FormaElementaSprCustomerUser</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUser.h</DependentOn>
-				<BuildOrder>158</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImage.cpp">
-				<Form>FormaSpiskaSprNomImage</Form>
-				<DependentOn>..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImage.h</DependentOn>
-				<BuildOrder>77</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislCF.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislCF.h</DependentOn>
-				<BuildOrder>97</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceCF.h</DependentOn>
-				<BuildOrder>123</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserImpl.h</DependentOn>
-				<BuildOrder>160</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborImpl.h</DependentOn>
-				<BuildOrder>199</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationCF.cpp">
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationCF.h</DependentOn>
-				<BuildOrder>218</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpImpl.h</DependentOn>
-				<BuildOrder>218</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpCF.h</DependentOn>
-				<BuildOrder>217</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocation.cpp">
-				<Form>FormaSpiskaSprStorageLocation</Form>
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocation.h</DependentOn>
-				<BuildOrder>221</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationImpl.h</DependentOn>
-				<BuildOrder>220</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrp.cpp">
-				<Form>FormaElementaSprStorageLocationGrp</Form>
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrp.h</DependentOn>
-				<BuildOrder>219</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.cpp">
-				<Form>FormaElementaSprStorageLocation</Form>
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.h</DependentOn>
-				<BuildOrder>216</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislImpl.h</DependentOn>
-				<BuildOrder>103</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceImpl.h</DependentOn>
-				<BuildOrder>109</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceImpl.h</DependentOn>
-				<BuildOrder>106</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipImpl.h</DependentOn>
-				<BuildOrder>214</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipCF.h</DependentOn>
-				<BuildOrder>213</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZip.cpp">
-				<Form>FormaSpiskaSprNomVZip</Form>
-				<DependentOn>..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZip.h</DependentOn>
-				<BuildOrder>212</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUser.cpp">
-				<Form>FormaSpiskaSprCustomerUser</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUser.h</DependentOn>
-				<BuildOrder>162</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSprNomFind.cpp">
-				<Form>FormaSprNomFind</Form>
-				<DependentOn>..\..\..\Forms\SprNom\UFormaSprNomFind.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducerCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducer\UFormaElementaSprProducerCF.h</DependentOn>
-				<BuildOrder>111</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListCF.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduce.cpp">
-				<Form>FormaSpiskaSprProduce</Form>
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaSpiskaSprProduce.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalog.cpp">
-				<Form>FormaSpiskaSprNomAnalog</Form>
-				<DependentOn>..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalog.h</DependentOn>
-				<BuildOrder>117</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListCF.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactorCF.cpp">
-				<DependentOn>..\..\..\Forms\SprFactor\UFormaElementaSprFactorCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesList.cpp">
-				<Form>FormaElementaSprPropertiesValuesList</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesList.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdCF.h</DependentOn>
-				<BuildOrder>129</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="FormsSpr2.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceImpl.h</DependentOn>
-				<BuildOrder>124</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomCF.h</DependentOn>
-				<BuildOrder>135</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListImpl.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNom.cpp">
-				<Form>FormaSpiskaSprProducerNom</Form>
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNom.h</DependentOn>
-				<BuildOrder>137</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomImpl.h</DependentOn>
-				<BuildOrder>139</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserCF.h</DependentOn>
-				<BuildOrder>159</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpImpl.h</DependentOn>
-				<BuildOrder>164</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpCF.h</DependentOn>
-				<BuildOrder>163</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEd.cpp">
-				<Form>FormaSpiskaSprProducerEd</Form>
-				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEd.h</DependentOn>
-				<BuildOrder>126</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrp.cpp">
-				<Form>FormaElementaSprCustomerUserGrp</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrp.h</DependentOn>
-				<BuildOrder>161</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprProperties.cpp">
-				<Form>FormaElementaSprProperties</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprProperties.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducer.cpp">
-				<Form>FormaSpiskaSprProducer</Form>
-				<DependentOn>..\..\..\Forms\SprProducer\UFormaSpiskaSprProducer.h</DependentOn>
-				<BuildOrder>113</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorCF.cpp">
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorCF.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageCF.h</DependentOn>
-				<BuildOrder>75</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdImpl.h</DependentOn>
-				<BuildOrder>130</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSprNomFindCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNom\UFormaSprNomFindCF.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorCF.cpp">
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorCF.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavImpl.h</DependentOn>
-				<BuildOrder>86</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePrice.cpp">
-				<Form>FormaElementaSprProducerTypePrice</Form>
-				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePrice.h</DependentOn>
-				<BuildOrder>104</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorCF.cpp">
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduceImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprProduceImpl.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesCF.h</DependentOn>
-				<BuildOrder>54</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrp.cpp">
-				<Form>FormaElementaSprPropertiesNaborGrp</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrp.h</DependentOn>
-				<BuildOrder>80</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactor.cpp">
-				<Form>FormaElementaSprLossFactor</Form>
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactor.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountImpl.h</DependentOn>
-				<BuildOrder>145</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.cpp">
-				<Form>FormaSpiskaSprPropertiesValuesList</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogCF.h</DependentOn>
-				<BuildOrder>118</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrpCF.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavCF.h</DependentOn>
-				<BuildOrder>85</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressVibor.cpp">
-				<Form>FormaElementaSprAddressVibor</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressVibor.h</DependentOn>
-				<BuildOrder>197</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionImpl.h</DependentOn>
-				<BuildOrder>192</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactor.cpp">
-				<Form>FormaSpiskaSprFactor</Form>
-				<DependentOn>..\..\..\Forms\SprFactor\UFormaSpiskaSprFactor.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.cpp">
-				<Form>FormaElementaSprPropertiesNaborSostav</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.h</DependentOn>
-				<BuildOrder>84</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogImpl.h</DependentOn>
-				<BuildOrder>119</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceCF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduceCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprProduceCF.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducer.cpp">
-				<Form>FormaElementaSprProducer</Form>
-				<DependentOn>..\..\..\Forms\SprProducer\UFormaElementaSprProducer.h</DependentOn>
-				<BuildOrder>110</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNabor.cpp">
-				<Form>FormaElementaSprPropertiesNabor</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNabor.h</DependentOn>
-				<BuildOrder>83</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImage.cpp">
-				<Form>FormaElementaSprNomImage</Form>
-				<DependentOn>..\..\..\Forms\SprNomImage\UFormaElementaSprNomImage.h</DependentOn>
-				<BuildOrder>74</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.cpp">
-				<Form>FormaSpiskaSprPropertiesNaborSostav</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduce.cpp">
-				<Form>FormaElementaSprProduce</Form>
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprProduce.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactor.cpp">
-				<Form>FormaElementaSprGrpLossFactor</Form>
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactor.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerCF.h</DependentOn>
-				<BuildOrder>114</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalogImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalogImpl.h</DependentOn>
-				<BuildOrder>121</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageCF.h</DependentOn>
-				<BuildOrder>78</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogCF.cpp">
-				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislCF.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislCF.h</DependentOn>
-				<BuildOrder>99</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListImpl.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorCF.cpp">
-				<DependentOn>..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislImpl.h</DependentOn>
-				<BuildOrder>100</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpImpl.h</DependentOn>
-				<BuildOrder>148</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageImpl.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalogCF.cpp">
 				<DependentOn>..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalogCF.h</DependentOn>
 				<BuildOrder>120</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageImpl.h</DependentOn>
-				<BuildOrder>73</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpImpl.h</DependentOn>
+				<BuildOrder>148</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlient.cpp">
 				<Form>FormaSpiskaSprCustomerKlient</Form>
 				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlient.h</DependentOn>
 				<BuildOrder>141</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValueImpl.cpp">
 				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValueImpl.h</DependentOn>
 				<BuildOrder>61</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduceImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorImpl.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislCF.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislCF.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpCF.h</DependentOn>
-				<BuildOrder>147</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageCF.cpp">
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageCF.h</DependentOn>
-				<BuildOrder>69</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageCF.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceImpl.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListImpl.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerImpl.h</DependentOn>
-				<BuildOrder>115</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactorImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprFactor\UFormaElementaSprFactorImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachislImpl.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountCF.h</DependentOn>
-				<BuildOrder>144</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorCF.cpp">
+				<DependentOn>..\..\..\Forms\SprFactor\UFormaSpiskaSprFactorCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrp.cpp">
-				<Form>FormaElementaSprCustomerAccountGrp</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrp.h</DependentOn>
-				<BuildOrder>146</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonImpl.h</DependentOn>
+				<BuildOrder>190</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactor.cpp">
 				<Form>FormaElementaSprFactor</Form>
 				<DependentOn>..\..\..\Forms\SprFactor\UFormaElementaSprFactor.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonImpl.h</DependentOn>
-				<BuildOrder>190</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrp.cpp">
+				<Form>FormaElementaSprCustomerAccountGrp</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrp.h</DependentOn>
+				<BuildOrder>146</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressDom.cpp">
 				<Form>FormaElementaSprAddressDom</Form>
 				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressDom.h</DependentOn>
 				<BuildOrder>180</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenImpl.cpp">
-				<DependentOn>..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenImpl.h</DependentOn>
-				<BuildOrder>169</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressDomCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressDomCF.h</DependentOn>
+				<BuildOrder>183</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrpImpl.cpp">
 				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrpImpl.h</DependentOn>
 				<BuildOrder>46</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressDomCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressDomCF.h</DependentOn>
-				<BuildOrder>183</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenImpl.cpp">
+				<DependentOn>..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenImpl.h</DependentOn>
+				<BuildOrder>169</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunkt.cpp">
-				<Form>FormaElementaSprAddressNasPunkt</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunkt.h</DependentOn>
-				<BuildOrder>178</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageCF.cpp">
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageCF.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreet.cpp">
-				<Form>FormaElementaSprAddressStreet</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreet.h</DependentOn>
-				<BuildOrder>179</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrpCF.h</DependentOn>
+				<BuildOrder>147</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageImpl.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorImpl.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientImpl.h</DependentOn>
-				<BuildOrder>143</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceImpl.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaElementaSprSellerImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprSeller\UFormaElementaSprSellerImpl.h</DependentOn>
-				<BuildOrder>172</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountCF.h</DependentOn>
+				<BuildOrder>144</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmen.cpp">
-				<Form>FormaSpiskaXVipolnObmen</Form>
-				<DependentOn>..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmen.h</DependentOn>
-				<BuildOrder>167</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactorImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprFactor\UFormaElementaSprFactorImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValue.cpp">
-				<Form>FormaElementaSprNomPropertiesValue</Form>
-				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValue.h</DependentOn>
-				<BuildOrder>57</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerImpl.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesCF.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesCF.h</DependentOn>
-				<BuildOrder>58</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogCF.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduce.cpp">
-				<Form>FormaElementaSprGrpProduce</Form>
-				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduce.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.cpp">
+				<Form>FormaSpiskaSprPropertiesValuesList</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKV.cpp">
-				<Form>FormaElementaSprAddressKV</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressKV.h</DependentOn>
-				<BuildOrder>182</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountImpl.h</DependentOn>
+				<BuildOrder>145</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprProperties.cpp">
-				<Form>FormaSpiskaSprProperties</Form>
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprProperties.h</DependentOn>
-				<BuildOrder>56</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrpCF.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborImpl.h</DependentOn>
-				<BuildOrder>92</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressVibor.cpp">
+				<Form>FormaElementaSprAddressVibor</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressVibor.h</DependentOn>
+				<BuildOrder>197</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerCF.cpp">
-				<DependentOn>..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerCF.h</DependentOn>
-				<BuildOrder>174</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalogImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageImpl.h</DependentOn>
-				<BuildOrder>76</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavCF.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpCF.h</DependentOn>
-				<BuildOrder>153</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduceImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprProduceImpl.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorCF.cpp">
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerImpl.h</DependentOn>
-				<BuildOrder>175</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePrice.cpp">
+				<Form>FormaElementaSprProducerTypePrice</Form>
+				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePrice.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaElementaSprSellerCF.cpp">
-				<DependentOn>..\..\..\Forms\SprSeller\UFormaElementaSprSellerCF.h</DependentOn>
-				<BuildOrder>171</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesCF.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayon.cpp">
-				<Form>FormaElementaSprAddressRayon</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayon.h</DependentOn>
-				<BuildOrder>177</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactor.cpp">
+				<Form>FormaElementaSprLossFactor</Form>
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactor.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroen.cpp">
-				<Form>FormaElementaSprAddressStroen</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroen.h</DependentOn>
-				<BuildOrder>181</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrp.cpp">
+				<Form>FormaElementaSprPropertiesNaborGrp</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrp.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegion.cpp">
-				<Form>FormaElementaSprAddressRegion</Form>
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegion.h</DependentOn>
-				<BuildOrder>176</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactorImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccount.cpp">
-				<Form>FormaElementaSprCustomerAccount</Form>
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccount.h</DependentOn>
-				<BuildOrder>140</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.cpp">
+				<Form>FormaSpiskaSprPropertiesNaborSostav</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaElementaSprSeller.cpp">
-				<Form>FormaElementaSprSeller</Form>
-				<DependentOn>..\..\..\Forms\SprSeller\UFormaElementaSprSeller.h</DependentOn>
-				<BuildOrder>170</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImage.cpp">
+				<Form>FormaElementaSprNomImage</Form>
+				<DependentOn>..\..\..\Forms\SprNomImage\UFormaElementaSprNomImage.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenCF.cpp">
-				<DependentOn>..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenCF.h</DependentOn>
-				<BuildOrder>168</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNabor.cpp">
+				<Form>FormaElementaSprPropertiesNabor</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNabor.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVImpl.h</DependentOn>
-				<BuildOrder>186</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduce.cpp">
+				<Form>FormaElementaSprProduce</Form>
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprProduce.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktCF.h</DependentOn>
-				<BuildOrder>187</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalogImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalogImpl.h</DependentOn>
+				<BuildOrder>121</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSeller.cpp">
-				<Form>FormaSpiskaSprSeller</Form>
-				<DependentOn>..\..\..\Forms\SprSeller\UFormaSpiskaSprSeller.h</DependentOn>
-				<BuildOrder>173</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducer\UFormaSpiskaSprProducerCF.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNom.cpp">
-				<Form>FormaElementaSprTypeNom</Form>
-				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNom.h</DependentOn>
-				<BuildOrder>206</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactor.cpp">
+				<Form>FormaElementaSprGrpLossFactor</Form>
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactor.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomCF.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomCF.h</DependentOn>
-				<BuildOrder>207</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.cpp">
+				<Form>FormaElementaSprPropertiesNaborSostav</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomImpl.h</DependentOn>
-				<BuildOrder>208</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactor.cpp">
+				<Form>FormaSpiskaSprFactor</Form>
+				<DependentOn>..\..\..\Forms\SprFactor\UFormaSpiskaSprFactor.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVCF.h</DependentOn>
-				<BuildOrder>185</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionImpl.h</DependentOn>
+				<BuildOrder>192</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetCF.h</DependentOn>
-				<BuildOrder>193</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalogImpl.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktImpl.h</DependentOn>
-				<BuildOrder>188</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducer.cpp">
+				<Form>FormaElementaSprProducer</Form>
+				<DependentOn>..\..\..\Forms\SprProducer\UFormaElementaSprProducer.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenCF.h</DependentOn>
-				<BuildOrder>195</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduceCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprProduceCF.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetImpl.h</DependentOn>
-				<BuildOrder>194</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionCF.h</DependentOn>
-				<BuildOrder>191</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonCF.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonCF.h</DependentOn>
-				<BuildOrder>189</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaSpiskaSprProduceCF.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNomImpl.cpp">
 				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNomImpl.h</DependentOn>
 				<BuildOrder>211</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayonCF.h</DependentOn>
+				<BuildOrder>189</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegionCF.h</DependentOn>
+				<BuildOrder>191</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressDomImpl.cpp">
 				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressDomImpl.h</DependentOn>
 				<BuildOrder>184</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprObject\UFormaElementaSprObjectImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprObject\UFormaElementaSprObjectImpl.h</DependentOn>
-				<BuildOrder>202</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavImpl.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObject.cpp">
 				<Form>FormaSpiskaSprObject</Form>
 				<DependentOn>..\..\..\Forms\SprObject\UFormaSpiskaSprObject.h</DependentOn>
 				<BuildOrder>203</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavImpl.h</DependentOn>
-				<BuildOrder>89</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprObject\UFormaElementaSprObjectImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprObject\UFormaElementaSprObjectImpl.h</DependentOn>
+				<BuildOrder>202</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientCF.cpp">
-				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientCF.h</DependentOn>
-				<BuildOrder>142</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVCF.h</DependentOn>
+				<BuildOrder>185</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesImpl.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomImpl.h</DependentOn>
+				<BuildOrder>208</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObjectCF.cpp">
-				<DependentOn>..\..\..\Forms\SprObject\UFormaSpiskaSprObjectCF.h</DependentOn>
-				<BuildOrder>204</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomCF.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNomCF.h</DependentOn>
+				<BuildOrder>207</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObjectImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprObject\UFormaSpiskaSprObjectImpl.h</DependentOn>
-				<BuildOrder>205</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetCF.h</DependentOn>
+				<BuildOrder>193</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNom.cpp">
-				<Form>FormaSpiskaSprTypeNom</Form>
-				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNom.h</DependentOn>
-				<BuildOrder>209</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreetImpl.h</DependentOn>
+				<BuildOrder>194</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNomCF.cpp">
-				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNomCF.h</DependentOn>
-				<BuildOrder>210</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenCF.h</DependentOn>
+				<BuildOrder>195</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenImpl.cpp">
-				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenImpl.h</DependentOn>
-				<BuildOrder>196</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktImpl.h</DependentOn>
+				<BuildOrder>188</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocationCF.cpp">
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocationCF.h</DependentOn>
+				<BuildOrder>222</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprObject\UFormaElementaSprObjectCF.cpp">
+				<DependentOn>..\..\..\Forms\SprObject\UFormaElementaSprObjectCF.h</DependentOn>
+				<BuildOrder>201</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprObject\UFormaElementaSprObject.cpp">
 				<Form>FormaElementaSprObject</Form>
 				<DependentOn>..\..\..\Forms\SprObject\UFormaElementaSprObject.h</DependentOn>
 				<BuildOrder>200</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprObject\UFormaElementaSprObjectCF.cpp">
-				<DependentOn>..\..\..\Forms\SprObject\UFormaElementaSprObjectCF.h</DependentOn>
-				<BuildOrder>201</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocationCF.cpp">
-				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocationCF.h</DependentOn>
-				<BuildOrder>222</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocationImpl.cpp">
 				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocationImpl.h</DependentOn>
 				<BuildOrder>223</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>223</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>222</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -1021,88 +389,720 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>223</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>222</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObjectCF.cpp">
+				<DependentOn>..\..\..\Forms\SprObject\UFormaSpiskaSprObjectCF.h</DependentOn>
+				<BuildOrder>204</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>223</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesImpl.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientCF.h</DependentOn>
+				<BuildOrder>142</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObjectImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprObject\UFormaSpiskaSprObjectImpl.h</DependentOn>
+				<BuildOrder>205</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroenImpl.h</DependentOn>
+				<BuildOrder>196</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNomCF.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNomCF.h</DependentOn>
+				<BuildOrder>210</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNom.cpp">
+				<Form>FormaSpiskaSprTypeNom</Form>
+				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNom.h</DependentOn>
+				<BuildOrder>209</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKV.cpp">
+				<Form>FormaElementaSprAddressKV</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressKV.h</DependentOn>
+				<BuildOrder>182</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduce.cpp">
+				<Form>FormaElementaSprGrpProduce</Form>
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduce.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesCF.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprProperties.cpp">
+				<Form>FormaSpiskaSprProperties</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprProperties.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageImpl.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerCF.cpp">
+				<DependentOn>..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerCF.h</DependentOn>
+				<BuildOrder>174</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborImpl.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageImpl.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreet.cpp">
+				<Form>FormaElementaSprAddressStreet</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreet.h</DependentOn>
+				<BuildOrder>179</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunkt.cpp">
+				<Form>FormaElementaSprAddressNasPunkt</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunkt.h</DependentOn>
+				<BuildOrder>178</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlientImpl.h</DependentOn>
+				<BuildOrder>143</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValue.cpp">
+				<Form>FormaElementaSprNomPropertiesValue</Form>
+				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValue.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmen.cpp">
+				<Form>FormaSpiskaXVipolnObmen</Form>
+				<DependentOn>..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmen.h</DependentOn>
+				<BuildOrder>167</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaElementaSprSellerImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprSeller\UFormaElementaSprSellerImpl.h</DependentOn>
+				<BuildOrder>172</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenCF.cpp">
+				<DependentOn>..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmenCF.h</DependentOn>
+				<BuildOrder>168</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaElementaSprSeller.cpp">
+				<Form>FormaElementaSprSeller</Form>
+				<DependentOn>..\..\..\Forms\SprSeller\UFormaElementaSprSeller.h</DependentOn>
+				<BuildOrder>170</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccount.cpp">
+				<Form>FormaElementaSprCustomerAccount</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccount.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressKVImpl.h</DependentOn>
+				<BuildOrder>186</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNom.cpp">
+				<Form>FormaElementaSprTypeNom</Form>
+				<DependentOn>..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNom.h</DependentOn>
+				<BuildOrder>206</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSeller.cpp">
+				<Form>FormaSpiskaSprSeller</Form>
+				<DependentOn>..\..\..\Forms\SprSeller\UFormaSpiskaSprSeller.h</DependentOn>
+				<BuildOrder>173</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunktCF.h</DependentOn>
+				<BuildOrder>187</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprSeller\UFormaSpiskaSprSellerImpl.h</DependentOn>
+				<BuildOrder>175</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpCF.h</DependentOn>
+				<BuildOrder>153</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprSeller\UFormaElementaSprSellerCF.cpp">
+				<DependentOn>..\..\..\Forms\SprSeller\UFormaElementaSprSellerCF.h</DependentOn>
+				<BuildOrder>171</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegion.cpp">
+				<Form>FormaElementaSprAddressRegion</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegion.h</DependentOn>
+				<BuildOrder>176</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroen.cpp">
+				<Form>FormaElementaSprAddressStroen</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroen.h</DependentOn>
+				<BuildOrder>181</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayon.cpp">
+				<Form>FormaElementaSprAddressRayon</Form>
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayon.h</DependentOn>
+				<BuildOrder>177</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrpImpl.h</DependentOn>
+				<BuildOrder>154</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborCF.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdCF.h</DependentOn>
+				<BuildOrder>127</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborImpl.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserImpl.h</DependentOn>
+				<BuildOrder>166</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuCF.h</DependentOn>
+				<BuildOrder>156</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalog.cpp">
+				<Form>FormaElementaSprInetCatalog</Form>
+				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalog.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImage.cpp">
+				<Form>FormaElementaSprVidImage</Form>
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImage.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenu.cpp">
+				<Form>FormaSpiskaSprCustomerMainMenu</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenu.h</DependentOn>
+				<BuildOrder>155</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageCF.cpp">
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImageCF.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountImpl.h</DependentOn>
+				<BuildOrder>151</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImage.cpp">
+				<Form>FormaSpiskaSprVidImage</Form>
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImage.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueImpl.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccountCF.h</DependentOn>
+				<BuildOrder>150</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpImpl.h</DependentOn>
+				<BuildOrder>133</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrp.cpp">
+				<Form>FormaElementaSprCustomerMainMenuGrp</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrp.h</DependentOn>
+				<BuildOrder>152</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalog.cpp">
+				<Form>FormaElementaSprGrpNomInetCatalog</Form>
+				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalog.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrpCF.h</DependentOn>
+				<BuildOrder>132</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislCF.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPrice.cpp">
+				<Form>FormaSpiskaSprProducerPrice</Form>
+				<DependentOn>..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPrice.h</DependentOn>
+				<BuildOrder>122</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachisl.cpp">
+				<Form>FormaSpiskaSprNachisl</Form>
+				<DependentOn>..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachisl.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpImpl.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceCF.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostavCF.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalog.cpp">
+				<Form>FormaSpiskaSprInetCatalog</Form>
+				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalog.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrpCF.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogCF.cpp">
+				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalogCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachisl.cpp">
+				<Form>FormaSpiskaSprTypeNachisl</Form>
+				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachisl.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogImpl.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpCF.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborCF.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachisl.cpp">
+				<Form>FormaElementaSprTypeNachisl</Form>
+				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachisl.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="FormsSpr2.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNabor.cpp">
+				<Form>FormaSpiskaSprPropertiesNabor</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNabor.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislImpl.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorImpl.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceCF.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrp.cpp">
+				<Form>FormaElementaSprVidImageGrp</Form>
+				<DependentOn>..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrp.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactor.cpp">
+				<Form>FormaSpiskaSprLossFactor</Form>
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactor.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValue.cpp">
+				<Form>FormaSpiskaSprNomPropertiesValue</Form>
+				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValue.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEdImpl.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImageImpl.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSprNomFindImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNom\UFormaSprNomFindImpl.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesImpl.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValueCF.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValueCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValueCF.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogCF.cpp">
+				<DependentOn>..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalogCF.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePrice.cpp">
+				<Form>FormaSpiskaSprProducerTypePrice</Form>
+				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePrice.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccount.cpp">
+				<Form>FormaSpiskaSprCustomerAccount</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccount.h</DependentOn>
+				<BuildOrder>149</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducerImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducer\UFormaElementaSprProducerImpl.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.cpp">
+				<Form>FormaSpiskaSprTypeAnalog</Form>
+				<DependentOn>..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNom.cpp">
+				<Form>FormaElementaSprProducerNom</Form>
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNom.h</DependentOn>
+				<BuildOrder>134</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrpImpl.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenuImpl.h</DependentOn>
+				<BuildOrder>157</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrp.cpp">
+				<Form>FormaElementaSprPropertiesGrp</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrp.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceImpl.h</DependentOn>
+				<BuildOrder>124</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="FormsSpr2.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdCF.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomCF.h</DependentOn>
+				<BuildOrder>135</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomImpl.h</DependentOn>
+				<BuildOrder>139</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNom.cpp">
+				<Form>FormaSpiskaSprProducerNom</Form>
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNom.h</DependentOn>
+				<BuildOrder>137</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListImpl.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduce.cpp">
+				<Form>FormaSpiskaSprProduce</Form>
+				<DependentOn>..\..\..\Forms\SprProduce\UFormaSpiskaSprProduce.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesListCF.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducerCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducer\UFormaElementaSprProducerCF.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalog.cpp">
+				<Form>FormaSpiskaSprNomAnalog</Form>
+				<DependentOn>..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalog.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesList.cpp">
+				<Form>FormaElementaSprPropertiesValuesList</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesList.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactorCF.cpp">
+				<DependentOn>..\..\..\Forms\SprFactor\UFormaElementaSprFactorCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesListCF.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEdImpl.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomImage\UFormaElementaSprNomImageCF.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorCF.cpp">
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactorCF.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalogCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostavImpl.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorCF.cpp">
+				<DependentOn>..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactorCF.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSprNomFindCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNom\UFormaSprNomFindCF.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpCF.h</DependentOn>
+				<BuildOrder>163</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrpImpl.h</DependentOn>
+				<BuildOrder>164</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserCF.h</DependentOn>
+				<BuildOrder>159</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEd.cpp">
+				<Form>FormaSpiskaSprProducerEd</Form>
+				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEd.h</DependentOn>
+				<BuildOrder>126</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducer.cpp">
+				<Form>FormaSpiskaSprProducer</Form>
+				<DependentOn>..\..\..\Forms\SprProducer\UFormaSpiskaSprProducer.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProperties\UFormaElementaSprProperties.cpp">
+				<Form>FormaElementaSprProperties</Form>
+				<DependentOn>..\..\..\Forms\SprProperties\UFormaElementaSprProperties.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrp.cpp">
+				<Form>FormaElementaSprCustomerUserGrp</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrp.h</DependentOn>
+				<BuildOrder>161</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislCF.cpp">
+				<DependentOn>..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachislCF.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImage.cpp">
+				<Form>FormaSpiskaSprNomImage</Form>
+				<DependentOn>..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImage.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUser.cpp">
+				<Form>FormaElementaSprCustomerUser</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUser.h</DependentOn>
+				<BuildOrder>158</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPriceCF.h</DependentOn>
+				<BuildOrder>123</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationCF.cpp">
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationCF.h</DependentOn>
+				<BuildOrder>218</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborImpl.h</DependentOn>
+				<BuildOrder>199</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserImpl.h</DependentOn>
+				<BuildOrder>160</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborCF.cpp">
+				<DependentOn>..\..\..\Forms\SprAddress\UFormaElementaSprAddressViborCF.h</DependentOn>
+				<BuildOrder>198</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalog.cpp">
+				<Form>FormaSpiskaSprNomInetCatalog</Form>
+				<DependentOn>..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalog.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomCF.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNomCF.h</DependentOn>
+				<BuildOrder>138</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomImpl.h</DependentOn>
+				<BuildOrder>136</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserCF.cpp">
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUserCF.h</DependentOn>
+				<BuildOrder>165</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrp.cpp">
+				<Form>FormaElementaSprProducerNomGrp</Form>
+				<DependentOn>..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrp.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEd.cpp">
+				<Form>FormaElementaSprProducerEd</Form>
+				<DependentOn>..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEd.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipImpl.h</DependentOn>
+				<BuildOrder>214</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePriceImpl.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePriceImpl.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipCF.cpp">
+				<DependentOn>..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZipCF.h</DependentOn>
+				<BuildOrder>213</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSprNomFind.cpp">
+				<Form>FormaSprNomFind</Form>
+				<DependentOn>..\..\..\Forms\SprNom\UFormaSprNomFind.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUser.cpp">
+				<Form>FormaSpiskaSprCustomerUser</Form>
+				<DependentOn>..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUser.h</DependentOn>
+				<BuildOrder>162</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZip.cpp">
+				<Form>FormaSpiskaSprNomVZip</Form>
+				<DependentOn>..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZip.h</DependentOn>
+				<BuildOrder>212</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocation.cpp">
+				<Form>FormaSpiskaSprStorageLocation</Form>
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocation.h</DependentOn>
+				<BuildOrder>221</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpCF.h</DependentOn>
+				<BuildOrder>217</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrpImpl.h</DependentOn>
+				<BuildOrder>218</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationImpl.h</DependentOn>
+				<BuildOrder>220</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislImpl.cpp">
+				<DependentOn>..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachislImpl.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.cpp">
+				<Form>FormaElementaSprStorageLocation</Form>
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.h</DependentOn>
+				<BuildOrder>216</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrp.cpp">
+				<Form>FormaElementaSprStorageLocationGrp</Form>
+				<DependentOn>..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrp.h</DependentOn>
+				<BuildOrder>219</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlient.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressDom.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressVibor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePrice.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImage.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNabor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduce.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducer.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObject.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprObject\UFormaElementaSprObject.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKV.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduce.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprProperties.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreet.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunkt.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValue.dfm"/>
+			<FormResources Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmen.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprSeller\UFormaElementaSprSeller.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccount.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSeller.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegion.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroen.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayon.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImage.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenu.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImage.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPrice.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachisl.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachisl.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachisl.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNabor.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImageGrp.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprLossFactor\UFormaSpiskaSprLossFactor.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprNomProperties\UFormaSpiskaSprNomPropertiesValue.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprTypeNachisl\UFormaElementaSprTypeNachisl.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNabor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNom.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccount.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprProducerTypePrice\UFormaSpiskaSprProducerTypePrice.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerMainMenu\UFormaSpiskaSprCustomerMainMenu.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprVidImage\UFormaElementaSprVidImage.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprVidImage\UFormaSpiskaSprVidImage.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprInetCatalog\UFormaElementaSprInetCatalog.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprInetCatalog\UFormaSpiskaSprInetCatalog.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprTypeNachisl\UFormaSpiskaSprTypeNachisl.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNomInetCatalog\UFormaElementaSprGrpNomInetCatalog.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerMainMenu\UFormaElementaSprCustomerMainMenuGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNachisl\UFormaSpiskaSprNachisl.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducerPrice\UFormaSpiskaSprProducerPrice.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalog.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEd.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUser.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImage.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocation.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZip.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUser.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNom\UFormaSprNomFind.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerAccount.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprTypeAnalog\UFormaSpiskaSprTypeAnalog.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNom.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNom.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprProduce\UFormaSpiskaSprProduce.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprNomAnalog\UFormaSpiskaSprNomAnalog.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesValuesList.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducerNom\UFormaSpiskaSprProducerNom.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprProducerEd\UFormaSpiskaSprProducerEd.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprProperties.dfm"/>
 			<FormResources Include="..\..\..\Forms\SprProducer\UFormaSpiskaSprProducer.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducerTypePrice\UFormaElementaSprProducerTypePrice.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprLossFactor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesValuesList.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressVibor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprFactor\UFormaSpiskaSprFactor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNaborSostav.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProducer\UFormaElementaSprProducer.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprPropertiesNabor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNomImage\UFormaElementaSprNomImage.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprPropertiesNaborSostav.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProduce\UFormaElementaSprProduce.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprLossFactor\UFormaElementaSprGrpLossFactor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaSpiskaSprCustomerKlient.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccountGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprFactor\UFormaElementaSprFactor.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressDom.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressNasPunkt.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStreet.dfm"/>
-			<FormResources Include="..\..\..\Forms\XVipolnObmen\UFormaSpiskaXVipolnObmen.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprNomProperties\UFormaElementaSprNomPropertiesValue.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProduce\UFormaElementaSprGrpProduce.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressKV.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprProperties\UFormaSpiskaSprProperties.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRayon.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressStroen.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprAddress\UFormaElementaSprAddressRegion.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprCustomerAccount\UFormaElementaSprCustomerAccount.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprSeller\UFormaElementaSprSeller.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprSeller\UFormaSpiskaSprSeller.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprTypeNom\UFormaElementaSprTypeNom.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprObject\UFormaSpiskaSprObject.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprTypeNom\UFormaSpiskaSprTypeNom.dfm"/>
-			<FormResources Include="..\..\..\Forms\SprObject\UFormaElementaSprObject.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProperties\UFormaElementaSprProperties.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUserGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNomImage\UFormaSpiskaSprNomImage.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerUser\UFormaElementaSprCustomerUser.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNomInetCatalog\UFormaSpiskaSprNomInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducerNom\UFormaElementaSprProducerNomGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprProducerEd\UFormaElementaSprProducerEd.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNom\UFormaSprNomFind.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprCustomerUser\UFormaSpiskaSprCustomerUser.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprNom\UFormaSpiskaSprNomVZip.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprStorageLocation\UFormaSpiskaSprStorageLocation.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocation.dfm"/>
+			<FormResources Include="..\..\..\Forms\SprStorageLocation\UFormaElementaSprStorageLocationGrp.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -1127,7 +1127,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">452</VersionInfo>
+						<VersionInfo Name="Build">456</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -1139,7 +1139,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.452</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.456</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

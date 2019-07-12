@@ -61,86 +61,6 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNom.cpp">
-				<Form>HOT_DMSprSostNom</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNom.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslug.cpp">
-				<Form>HOT_DMSprPrOsnUslug</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslug.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNF.cpp">
-				<Form>HOT_DMTableSostNF</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNF.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFCF.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFImpl.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePosel.cpp">
-				<Form>HOT_DMSprTypePosel</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePosel.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomCF.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomImpl.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="HotDMSpr.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
@@ -153,25 +73,21 @@
 			<ResFiles Include="HotDMSpr.res">
 				<BuildOrder>2</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObject.cpp">
-				<Form>HOT_DMSprObject</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObject.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomCF.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNF.cpp">
-				<Form>HOT_DMSprNF</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNF.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNomImpl.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprCelPriesda\UHOT_DMSprCelPriesda.cpp">
 				<Form>HOT_DMSprCelPriesda</Form>
@@ -187,14 +103,98 @@
 				<DependentOn>..\..\..\FIB_DataModule\HOT_SprCelPriesda\UHOT_DMSprCelPriesdaImpl.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslug.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNF.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePosel.dfm"/>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNF.cpp">
+				<Form>HOT_DMSprNF</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNF.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNFImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObject.cpp">
+				<Form>HOT_DMSprObject</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObject.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObjectImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslug.cpp">
+				<Form>HOT_DMSprPrOsnUslug</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslug.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslugImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNom.cpp">
+				<Form>HOT_DMSprSostNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNom.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNomImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePosel.cpp">
+				<Form>HOT_DMSprTypePosel</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePosel.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePoselImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNF.cpp">
+				<Form>HOT_DMTableSostNF</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNF.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFCF.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNFImpl.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprCatNom\UHOT_DMSprCatNom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObject.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNF.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprCelPriesda\UHOT_DMSprCelPriesda.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprNF\UHOT_DMSprNF.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprObject\UHOT_DMSprObject.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprPrOsnUslug\UHOT_DMSprPrOsnUslug.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprSostNom\UHOT_DMSprSostNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_SprTypePos\UHOT_DMSprTypePosel.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_TableSostNF\UHOT_DMTableSostNF.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -219,7 +219,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">230</VersionInfo>
+						<VersionInfo Name="Build">234</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -231,7 +231,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.230</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.234</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

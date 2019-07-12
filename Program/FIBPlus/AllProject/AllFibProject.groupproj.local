@@ -4,6 +4,6 @@
     <Transaction>2010.07.28 16:49:57.615.groupproj,C:\Users\1\Documents\RAD Studio\Projects\ProjectGroup1.groupproj=K:\Program\FIBPlus\AllProject\AllFibProject.groupproj</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="DllRunExternalModule.dll"/>
+		<Projects ActiveProject="PAdmin.exe"/>
 	</Default.Personality>
 </BorlandProject>

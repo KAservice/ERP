@@ -16,11 +16,12 @@
 //-------------------------------------------------------------------
 T1COnLineFRCOM::T1COnLineFRCOM()
 {
+COUNT_IN_PARAMETER = 20;
 InterfaceMainObject=0;
 InterfaceOwnerObject=0;
-bool UseJournalRibbon=true;
-bool UseReceiptRibbon=true;
-bool OpenNoFiscalDoc=false;
+UseJournalRibbon=true;
+UseReceiptRibbon=true;
+OpenNoFiscalDoc=false;
 
 Modul="";
 ConnectFR=false;
@@ -39,6 +40,10 @@ KolSymbolSize4Girn=14;
 kasListDocumentPackage = new TStringList;
 kasListCheckPackage = new TStringList;
 kasListGoodsPackage = new TStringList;
+kasListXmlDocument = new TStringList;
+
+InParameter=new TkasVariant[COUNT_IN_PARAMETER];
+VariantResult=new TkasVariant;
 
 Electronically=false;
 flTypeDocument=0;
@@ -49,6 +54,22 @@ T1COnLineFRCOM::~T1COnLineFRCOM()
 delete kasListDocumentPackage;
 delete kasListCheckPackage;
 delete kasListGoodsPackage;
+delete kasListXmlDocument;
+
+
+
+for(int i=0;i<COUNT_IN_PARAMETER;i++)
+	{
+	if (InParameter[i].type == 2)
+		{
+		delete(&InParameter[i].string_value);
+		}
+	}
+
+delete InParameter;
+
+
+delete VariantResult;
 //ObjectVC->kanRelease();
 }
 //---------------------------------------------------------------------------
@@ -582,7 +603,7 @@ try
 										if (s.Length()>=KolSymbolSize1)
                                                 {
 
-                                                }
+												}
                                         else
                                                 {
 												s=DopStrL(s, " ", KolSymbolSize1-((KolSymbolSize1-s.Length())/2));
@@ -592,12 +613,12 @@ try
                                         break;
                                         }
                                 case  2:   //право
-                                        {
+										{
 										if (s.Length()>=KolSymbolSize1)
                                                 {
 
                                                 }
-                                        else
+										else
                                                 {
 												s=DopStrL(s, " ", KolSymbolSize1);
 
@@ -607,7 +628,7 @@ try
                                         }
 
 
-                                }
+								}
                         break;
                         }
                 case  2:
@@ -617,17 +638,17 @@ try
 						switch ( alignment)
                                 {
                                 case  0:      //лево
-                                        {
+										{
 										if (s.Length()>=KolSymbolSize2)
                                                 {
 
                                                 }
-                                        else
+										else
                                                 {
 
                                                 }
                                         break;
-                                        }
+										}
                                 case  1:    //центр
                                         {
 										if (s.Length()>=KolSymbolSize2)
@@ -642,17 +663,17 @@ try
 
                                         break;
                                         }
-                                case  2:   //право
+								case  2:   //право
                                         {
 										if (s.Length()>=KolSymbolSize2)
                                                 {
 
-                                                }
+												}
                                         else
                                                 {
 												s=DopStrL(s, " ", KolSymbolSize2);
 
-                                                }
+												}
 
                                         break;
                                         }
@@ -667,17 +688,17 @@ try
                         switch ( alignment)
                                 {
                                 case  0:      //лево
-                                        {
+										{
 										if (s.Length()>=KolSymbolSize3)
                                                 {
 
                                                 }
-                                        else
+										else
                                                 {
 
                                                 }
                                         break;
-                                        }
+										}
                                 case  1:    //центр
                                         {
 										if (s.Length()>=KolSymbolSize3)
@@ -692,17 +713,17 @@ try
 
                                         break;
                                         }
-                                case  2:   //право
+								case  2:   //право
                                         {
 										if (s.Length()>=KolSymbolSize3)
                                                 {
 
-                                                }
+												}
                                         else
                                                 {
 												s=DopStrL(s, " ", KolSymbolSize3);
 
-                                                }
+												}
 
                                         break;
                                         }
@@ -712,27 +733,27 @@ try
 
                         break;
                         }
-                case  4:
+				case  4:
 						{
 						if(s.Length()>KolSymbolSize4) s=s.SetLength(KolSymbolSize4);
                         switch ( alignment)
                                 {
-                                case  0:      //лево
+								case  0:      //лево
                                         {
 										if (s.Length()>=KolSymbolSize4)
                                                 {
 
-                                                }
+												}
                                         else
                                                 {
 
                                                 }
-                                        break;
+										break;
                                         }
                                 case  1:    //центр
                                         {
 										if (s.Length()>=KolSymbolSize4)
-                                                {
+												{
 
                                                 }
                                         else
@@ -742,7 +763,7 @@ try
                                                 }
 
                                         break;
-                                        }
+										}
                                 case  2:   //право
                                         {
 										if (s.Length()>=KolSymbolSize4)
@@ -922,8 +943,8 @@ if (fl_return_value==true)
 	{
 	if (ObjectVC->CallAsFunc(num_metod,variant_result,  in_parameter, kol_parameter_metoda)==false)
 		{
-		TextError="ќшибка при выполнении метода подключени€";
-		TextErrorNoConnect="ќшибка при выполнении метода подключени€";
+		TextError="ќшибка при выполнении метода —формировать„ек";
+		TextErrorNoConnect="ќшибка при выполнении метода —формировать„ек";
 		result=false;
 		}
 	}
@@ -931,8 +952,8 @@ else
 	{
 	if (ObjectVC->CallAsProc(num_metod,in_parameter, kol_parameter_metoda)==false)
 		{
-		TextError="ќшибка при выполнении метода подключени€";
-		TextErrorNoConnect="ќшибка при выполнении метода подключени€";
+		TextError="ќшибка при выполнении метода —формировать„ек";
+		TextErrorNoConnect="ќшибка при выполнении метода —формировать„ек";
 		result=false;
 		}
 	}
@@ -1457,7 +1478,7 @@ flTypeDocument=type_doc;
 
 PaymentType=0;
 //*******************************************************
-TaxVariant=0;        //!!!!!!!!!!!!!!!!!!!!!! ќЅя«я“≈Ћ№Ќќ »—ѕ–ј¬»“№!!!!!!!!!!!!!!!!!!!!!!
+TaxVariant=0;        //!!!!!!!!!!!!!!!!!!!!!! ќЅя«я“≈Ћ№Ќќ »—ѕ–ј¬»“№!!!!!!!!!!!!!!!!!!!!!! ќЅя«ј“≈Ћ№Ќџ… ѕј–јћ≈“– „≈ ј
 //*******************************************************
 CustomerEmail="";
 CustomerPhone="";
@@ -1492,6 +1513,15 @@ CashLessType3=0;
 kasListDocumentPackage->Clear();
 kasListCheckPackage->Clear();
 kasListGoodsPackage->Clear();
+kasListXmlDocument->Clear();
+
+for(int i = 0; i < 20; i++)
+	{
+	InitKasVariant(&InParameter[i]);
+	}
+
+
+InitKasVariant(VariantResult);
 
 return result;
 }
@@ -1866,6 +1896,9 @@ bool T1COnLineFRCOM::SetParameter(UnicodeString name_parameter, TkasVariant * va
 {
 bool result=true;
 
+
+
+
 	long num_metod=0;
 	ObjectVC->FindMethod(L"”становитьѕараметр", &num_metod);   //16
 	long kol_parameter_metoda=0;
@@ -1874,8 +1907,12 @@ bool result=true;
 	bool fl_return_value=0;
 	ObjectVC->HasRetVal(num_metod, &fl_return_value);  ///¬озвращаетс€ флаг наличи€ у метода с пор€дковым номером lMethodNum возвращаемого значени€: true дл€ методов с возвращаемым значением и false в противном случае.
 
-	TkasVariant * in_parameter=new TkasVariant[kol_parameter_metoda]; for(int i = 0; i < kol_parameter_metoda; i++){InitKasVariant(&in_parameter[i]);}
-	TkasVariant * variant_result=new TkasVariant; InitKasVariant(variant_result);
+	TkasVariant * in_parameter=new TkasVariant[kol_parameter_metoda];
+	for(int i = 0; i < kol_parameter_metoda; i++)
+		{InitKasVariant(&in_parameter[i]);}
+
+	TkasVariant * variant_result=new TkasVariant;
+	InitKasVariant(variant_result);
 
 	in_parameter[0].string_value=name_parameter.c_str(); 	in_parameter[0].type=2; in_parameter[0].len_string=wcslen(in_parameter[0].string_value);
 	in_parameter[1]=*value_parameter;
@@ -1905,3 +1942,656 @@ bool result=true;
 return result;
 }
 //---------------------------------------------------------------------------
+//---------------------------------------------------------------
+//******************************************************************
+//*******************************************************************
+//--------------------------------------------------------------------
+//---------------------------------------------------------------
+//******************************************************************
+//*******************************************************************
+//--------------------------------------------------------------------
+bool T1COnLineFRCOM::RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+{
+bool result=true;
+
+//ShowMessage(kasListXmlDocument->Text);
+
+long num_metod=0;
+ObjectVC->FindMethod(command_name.c_str(), &num_metod);
+long kol_parameter_metoda=0;
+ObjectVC->GetNParams(num_metod, &kol_parameter_metoda);    //количество параметров метода
+
+bool fl_return_value=0;
+ObjectVC->HasRetVal(num_metod, &fl_return_value);  ///¬озвращаетс€ флаг наличи€ у метода с пор€дковым номером lMethodNum возвращаемого значени€: true дл€ методов с возвращаемым значением и false в противном случае.
+
+
+TkasVariant * in_parameter=new TkasVariant[kol_parameter_metoda];
+for(int i = 0; i < kol_parameter_metoda; i++)
+	{
+	InitKasVariant(&in_parameter[i]);
+	}
+
+
+UnicodeString s="";
+
+	for(int i=0;i<kol_parameter_metoda;i++)
+		{
+		 in_parameter[i] = InParameter[i];
+		}
+
+
+TkasVariant * variant_result=new TkasVariant;
+InitKasVariant(variant_result);
+
+		UnicodeString V="¬ыполн€ем функцию: "+command_name+"\n";
+	//	V=V+xml_doc+"\n";
+	//	V=V+kasListXmlDocument->Text+"\n";
+		V=V+" оличество параметров: "+IntToStr((int)kol_parameter_metoda)+"\n";
+
+		UnicodeString par="";
+		for(int i=0; i < COUNT_IN_PARAMETER; i++)
+		{
+		 par=par+" є"+IntToStr(i)+" значение: " + kasVariantToStr(&InParameter[i]) + "\n";
+		}
+        V=V+par;
+
+
+		UnicodeString Z="¬ыполнить?";
+		if (Application->MessageBox(V.c_str(),Z.c_str(),MB_YESNO)==IDYES)
+				{
+
+                }
+        else
+				{
+				result = false;
+				delete in_parameter;
+				delete variant_result;
+				return result;
+				}
+
+
+
+if (fl_return_value==true)
+	{
+	if (ObjectVC->CallAsFunc(num_metod,variant_result,  in_parameter, kol_parameter_metoda)==false)
+		{
+		TextError="ќшибка при выполнении метода: "+command_name;
+		TextErrorNoConnect="ќшибка при выполнении метода: "+command_name;
+		result=false;
+		}
+	}
+else
+	{
+	if (ObjectVC->CallAsProc(num_metod,in_parameter, kol_parameter_metoda)==false)
+		{
+		TextError="ќшибка при выполнении метода : "+command_name;
+		TextErrorNoConnect="ќшибка при выполнении метода: "+command_name;
+		result=false;
+		}
+	}
+
+
+VariantResult = variant_result;
+////метод выполнен без ошибок
+////возможна ошибка в устройстве
+//
+//
+if (variant_result->type==4 && variant_result->bool_value==false)
+		{   //произошла ошибка в устройстве
+		result=false;
+		}
+
+	 if (GetError()==true)   //есть ошибка
+		{
+		result=false;
+		}
+//
+
+
+
+delete in_parameter;
+delete variant_result;
+
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+UnicodeString T1COnLineFRCOM::ReturnXmlResultLastMethod(void)
+{
+UnicodeString result="";
+
+
+return result;
+}
+//----------------------------------------------------------------------
+
+bool T1COnLineFRCOM::SetStringParameter(UnicodeString param_name, int number, UnicodeString value)
+{
+bool result=true;
+
+int length = wcslen(value.c_str());
+wchar_t * wchar_t_for_kas_variant = new wchar_t[length + 1];
+wcscpy(wchar_t_for_kas_variant,value.c_str());
+
+InParameter[number].string_value=wchar_t_for_kas_variant; InParameter[number].type=2;InParameter[number].len_string=wcslen(InParameter[number].string_value);
+
+return result;
+}
+//------------------------------------------------------------------
+UnicodeString T1COnLineFRCOM::GetStringParameter(UnicodeString param_name, int number)
+{
+UnicodeString result="";
+
+
+	if (InParameter[number].type==2)  {result=InParameter[number].string_value;}
+
+
+return result;
+
+
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFRCOM::SetIntegerParameter(UnicodeString param_name, int number, int value)
+{
+bool result=true;
+
+
+	InParameter[number].int_value=value; InParameter[number].type=1;
+
+return result;
+
+}
+//------------------------------------------------------------------
+int T1COnLineFRCOM::GetIntegerParameter(UnicodeString param_name, int number)
+{
+
+int result=0;
+
+
+	if (InParameter[number].type==1)  {result=InParameter[number].int_value;}
+
+
+return result;
+
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFRCOM::SetDoubleParameter(UnicodeString param_name, int number, double value)
+{
+bool result=true;
+
+
+	InParameter[number].dbl_value=value; InParameter[number].type=3;
+
+return result;
+
+}
+//------------------------------------------------------------------
+double T1COnLineFRCOM::GetDoubleParameter(UnicodeString param_name, int number)
+{
+
+double result=true;
+if (InParameter[number].type==3)  {result=InParameter[number].dbl_value;}
+
+return result;
+
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFRCOM::SetBooleanParameter(UnicodeString param_name, int number, bool value)
+{
+
+bool result=true;
+	InParameter[number].bool_value=value; InParameter[number].type=4;
+
+return result;
+}
+//------------------------------------------------------------------
+bool T1COnLineFRCOM::GetBooleanParameter(UnicodeString param_name, int number)
+{
+
+bool result=true;
+ if (InParameter[number].type==4)  {result=InParameter[number].bool_value;}
+
+return result;
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFRCOM::SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)
+{
+
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+TDateTime T1COnLineFRCOM::GetDateTimeParameter(UnicodeString param_name, int number)
+{
+
+
+TDateTime result=0;
+
+
+return result;
+}
+//-----------------------------------------------------------------------
+bool T1COnLineFRCOM::SetXmlParameter(UnicodeString param_name, int number, UnicodeString xml_value, int type_source_xml)
+{
+bool result=true;
+
+if (type_source_xml == 1)
+	{
+	InParameter[number].string_value=xml_value.c_str(); InParameter[number].type=2;InParameter[number].len_string=wcslen(InParameter[number].string_value);
+	}
+
+if (type_source_xml == 2)
+	{
+	InParameter[number].string_value=kasListXmlDocument->GetText(); InParameter[number].type=2;InParameter[number].len_string=wcslen(InParameter[number].string_value);
+	}
+
+//ShowMessage(InParameter[number].string_value);
+
+return result;
+}
+//--------------------------------------------------------------------------
+UnicodeString T1COnLineFRCOM::GetXmlParameter(UnicodeString param_name, int number, int type_source_xml)
+{
+UnicodeString result="";
+
+
+
+return result;
+
+}
+//--------------------------------------------------------------------------
+bool T1COnLineFRCOM::SetIdDeviceParameter(UnicodeString param_name, int number, UnicodeString id_device, int type_source_id_device)
+{
+bool result=true;
+
+if (type_source_id_device == 1)
+	{
+	InParameter[number].string_value=id_device.c_str(); InParameter[number].type=2;InParameter[number].len_string=wcslen(InParameter[number].string_value);
+	}
+
+if (type_source_id_device == 2)
+	{
+	InParameter[number].string_value=IDDevice.c_str(); InParameter[number].type=2;InParameter[number].len_string=wcslen(InParameter[number].string_value);
+	}
+
+return result;
+}
+//--------------------------------------------------------------------------
+UnicodeString T1COnLineFRCOM::GetIDDeviceParameter(UnicodeString param_name, int number, int type_source_id_device)
+{
+UnicodeString result="";
+
+
+
+return result;
+}
+//--------------------------------------------------------------------------
+	//формирование xml файла
+void T1COnLineFRCOM::AddStringXml(UnicodeString str_xml)    //просто готова€ строка
+{
+kasListXmlDocument->Add(str_xml);
+}
+//-------------------------------------------------------------------------
+void T1COnLineFRCOM::AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value) //0, 1 дробный, 2 строка //тип дл€ форматировани€, например дл€ удалени€ зап€тых в числах
+
+{
+UnicodeString s = "";
+
+		s=" "+attribyte+"=\"";
+
+		if (type_value == 0)
+			{
+			s = s + value+"\"" ;
+
+			}
+
+		if (type_value == 1)   //дробный
+			{
+			s = s + FormatForXML(ReplaceCommaToPixel(value))+"\"" ;
+
+			}
+		if (type_value == 2)   //строка
+			{
+			s = s + FormatForXML(value)+"\"" ;
+
+			}
+
+
+kasListXmlDocument->Add(s);
+}
+//------------------------------------------------------------------------------
+void T1COnLineFRCOM::AddElementXml(UnicodeString element, UnicodeString value, int type_value)
+{
+
+}
+//----------------------------------------------------------------------------
+
+void T1COnLineFRCOM::AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font,  //1234
+								int style,    //1-жирный 0 обычный   2 курсив 3 жирный курсив
+								int alignment,  //0 лево 1 центр 2 право
+								bool word_wrap)   //строка xml дл€ печати будет формироватьс€
+{
+//bool result=true;
+
+
+
+if (Trim(value) == "") value=" ";          //иначе при печати пустых строчек ошибка
+UnicodeString s=value;
+
+int kol_symbol=0;
+
+//перенос по словам
+//*********************************************************************
+
+if (word_wrap==true)
+	{
+	TStringList * strings=new TStringList();
+		switch (size_font)
+				{
+				case  1:
+						{kol_symbol=KolSymbolSize1;break;}
+				case  2:
+						{kol_symbol=KolSymbolSize2;break;}
+				case  3:
+						{kol_symbol=KolSymbolSize3;break;}
+				case  4:
+						{kol_symbol=KolSymbolSize4;break;}
+				}
+
+	s=WrapText(s,kol_symbol);
+	strings->Text=s;
+
+	for (int i=0;i<strings->Count;i++)
+		{
+		UnicodeString print_str=strings->Strings[i];
+		AddStringForPrintXml(element, attribyte, print_str,
+								size_font,
+								style,
+								alignment,
+								false);
+
+		}
+	delete strings;
+	return;
+
+	}
+
+// ***************************************************************************
+
+try
+	{
+
+
+        switch ( size_font)
+                {
+                case  1:
+						{
+						s=" "+s;
+						if(s.Length()>KolSymbolSize1) s=s.SetLength(KolSymbolSize1);
+						switch ( alignment)
+								{
+								case  0:      //лево
+                                        {
+
+                                        break;
+                                        }
+								case  1:    //центр
+                                        {
+										if (s.Length()>=KolSymbolSize1)
+                                                {
+
+												}
+                                        else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize1-((KolSymbolSize1-s.Length())/2));
+
+												}
+
+                                        break;
+                                        }
+                                case  2:   //право
+										{
+										if (s.Length()>=KolSymbolSize1)
+                                                {
+
+                                                }
+										else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize1);
+
+                                                }
+
+                                        break;
+                                        }
+
+
+								}
+                        break;
+                        }
+                case  2:
+						{
+						s=" "+s;
+						if(s.Length()>KolSymbolSize2) s=s.SetLength(KolSymbolSize2);
+						switch ( alignment)
+                                {
+                                case  0:      //лево
+										{
+										if (s.Length()>=KolSymbolSize2)
+                                                {
+
+                                                }
+										else
+                                                {
+
+                                                }
+                                        break;
+										}
+                                case  1:    //центр
+                                        {
+										if (s.Length()>=KolSymbolSize2)
+                                                {
+
+                                                }
+                                        else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize2-((KolSymbolSize2-s.Length())/2));
+
+                                                }
+
+                                        break;
+                                        }
+								case  2:   //право
+                                        {
+										if (s.Length()>=KolSymbolSize2)
+                                                {
+
+												}
+                                        else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize2);
+
+												}
+
+                                        break;
+                                        }
+
+
+                                }
+                        break;
+                        }
+                case  3:
+						{
+						if(s.Length()>KolSymbolSize3) s=s.SetLength(KolSymbolSize3);
+                        switch ( alignment)
+                                {
+                                case  0:      //лево
+										{
+										if (s.Length()>=KolSymbolSize3)
+                                                {
+
+                                                }
+										else
+                                                {
+
+                                                }
+                                        break;
+										}
+                                case  1:    //центр
+                                        {
+										if (s.Length()>=KolSymbolSize3)
+                                                {
+
+												}
+                                        else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize3-((KolSymbolSize3-s.Length())/2));
+
+                                                }
+
+                                        break;
+                                        }
+								case  2:   //право
+                                        {
+										if (s.Length()>=KolSymbolSize3)
+                                                {
+
+												}
+                                        else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize3);
+
+												}
+
+                                        break;
+                                        }
+
+
+                                }
+
+                        break;
+                        }
+				case  4:
+						{
+						if(s.Length()>KolSymbolSize4) s=s.SetLength(KolSymbolSize4);
+                        switch ( alignment)
+                                {
+								case  0:      //лево
+                                        {
+										if (s.Length()>=KolSymbolSize4)
+                                                {
+
+												}
+                                        else
+                                                {
+
+                                                }
+										break;
+                                        }
+                                case  1:    //центр
+                                        {
+										if (s.Length()>=KolSymbolSize4)
+												{
+
+                                                }
+                                        else
+												{
+												s=DopStrL(s, " ", KolSymbolSize4-((KolSymbolSize4-s.Length())/2));
+
+                                                }
+
+                                        break;
+										}
+                                case  2:   //право
+                                        {
+										if (s.Length()>=KolSymbolSize4)
+                                                {
+
+                                                }
+                                        else
+                                                {
+												s=DopStrL(s, " ", KolSymbolSize4);
+
+                                                }
+
+                                        break;
+                                        }
+
+
+                                }
+                        break;
+                        }
+
+
+                }
+
+ //	result=true;
+	}
+catch (Exception &E)
+		{
+		TextError=E.Message;
+		//result=false;
+		}
+
+
+
+kasListXmlDocument->Add("<"+element+" " +attribyte+"=\""+FormatForXML(s)+"\"/>");
+
+
+
+
+}
+//------------------------------------------------------------------------------
+UnicodeString T1COnLineFRCOM::kasVariantToStr(TkasVariant *kas_variant_value)
+{
+UnicodeString result="";
+
+// 0 не задан 1 int, 2 строка, 3 double, 4 логическое,5 дата, 6 врем€, 7 дата¬рем€
+
+switch (kas_variant_value->type)
+{
+	case  1:
+		{
+		 result = IntToStr(kas_variant_value->int_value);
+		 break;
+		}
+	case  2:
+		{
+		 result = kas_variant_value->string_value;
+		 break;
+		}
+
+	case  3:
+		{
+		 result = FloatToStr(kas_variant_value->dbl_value);
+		 break;
+		}
+
+	case  4:
+		{
+		if (kas_variant_value->bool_value == true)
+			{
+			result = "true";
+			}
+
+		if (kas_variant_value->bool_value == false)
+			{
+			result = "false";
+			}
+
+		 break;
+		}
+}
+
+return result;
+}
+//----------------------------------------------------------------------------

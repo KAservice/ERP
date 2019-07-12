@@ -61,62 +61,17 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
-				<Form>SheetEditor</Form>
-				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+			<CppCompile Include="HotFormsDoc.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschet.cpp">
-				<Form>HOT_FormaDocRaschet</Form>
-				<DependentOn>..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschet.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezd.cpp">
-				<Form>HOT_FormaDocViezd</Form>
-				<DependentOn>..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezd.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocReal.cpp">
-				<Form>HOT_FormaDocReal</Form>
-				<DependentOn>..\..\..\Forms\HOT_DocReal\UHOT_FormaDocReal.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBron.cpp">
-				<Form>HOT_FormaDocOtmenaBron</Form>
-				<DependentOn>..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBron.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
+				<Form>ModifyFormSheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -132,17 +87,17 @@
 				<DependentOn>..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasmCF.h</DependentOn>
 				<BuildOrder>17</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="HotFormsDoc.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasmImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasmImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
-				<Form>ModifyFormSheetEditor</Form>
-				<DependentOn>..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
+			<ResFiles Include="HotFormsDoc.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasm.cpp">
+				<Form>HOT_FormaDocRasm</Form>
+				<DependentOn>..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasm.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\HOT_DocBron\UHOT_FormaDocBronImpl.cpp">
 				<DependentOn>..\..\..\Forms\HOT_DocBron\UHOT_FormaDocBronImpl.h</DependentOn>
@@ -157,27 +112,72 @@
 				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasmImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasmImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBron.cpp">
+				<Form>HOT_FormaDocOtmenaBron</Form>
+				<DependentOn>..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBron.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="HotFormsDoc.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasm.cpp">
-				<Form>HOT_FormaDocRasm</Form>
-				<DependentOn>..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasm.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschet.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezd.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocReal.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBron.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<CppCompile Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschet.cpp">
+				<Form>HOT_FormaDocRaschet</Form>
+				<DependentOn>..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschet.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
+				<Form>SheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschetImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBronImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocReal.cpp">
+				<Form>HOT_FormaDocReal</Form>
+				<DependentOn>..\..\..\Forms\HOT_DocReal\UHOT_FormaDocReal.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocReal\UHOT_FormaDocRealImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezd.cpp">
+				<Form>HOT_FormaDocViezd</Form>
+				<DependentOn>..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezd.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezdImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_DocBron\UHOT_FormaDocBron.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<FormResources Include="..\..\..\Forms\HOT_DocRasm\UHOT_FormaDocRasm.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_DocBron\UHOT_FormaDocBron.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_DocOtmenaBron\UHOT_FormaDocOtmenaBron.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_DocRaschet\UHOT_FormaDocRaschet.dfm"/>
+			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_DocReal\UHOT_FormaDocReal.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_DocViezd\UHOT_FormaDocViezd.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -202,7 +202,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">228</VersionInfo>
+						<VersionInfo Name="Build">232</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -214,7 +214,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.228</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.232</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

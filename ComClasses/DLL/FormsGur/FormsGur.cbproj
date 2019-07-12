@@ -61,70 +61,168 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardCF.cpp">
-				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNakl.cpp">
+				<Form>FormaGurDocPrihNakl</Form>
+				<DependentOn>..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNakl.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2Impl.cpp">
+				<DependentOn>..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2Impl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2CF.cpp">
+				<DependentOn>..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2CF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlatImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurPlat\UFormaElementaGurPlatImpl.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlatCF.cpp">
+				<DependentOn>..\..\..\Forms\GurPlat\UFormaElementaGurPlatCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2.cpp">
+				<Form>FormaGurDocCheckKKM2</Form>
+				<DependentOn>..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocPer\UFormaGurDocPerImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurDocPer\UFormaGurDocPerImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlat.cpp">
+				<Form>FormaElementaGurPlat</Form>
+				<DependentOn>..\..\..\Forms\GurPlat\UFormaElementaGurPlat.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocPer\UFormaGurDocPer.cpp">
+				<Form>FormaGurDocPer</Form>
+				<DependentOn>..\..\..\Forms\GurDocPer\UFormaGurDocPer.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocPer\UFormaGurDocPerCF.cpp">
+				<DependentOn>..\..\..\Forms\GurDocPer\UFormaGurDocPerCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocCF.cpp">
+				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocCF.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaGurPlatCF.cpp">
+				<DependentOn>..\..\..\Forms\GurPlat\UFormaGurPlatCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtbor.cpp">
+				<Form>FormaSetupOtbor</Form>
+				<DependentOn>..\..\..\Forms\SetupOtbor\UFormaSetupOtbor.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtborImpl.cpp">
+				<DependentOn>..\..\..\Forms\SetupOtbor\UFormaSetupOtborImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtborCF.cpp">
+				<DependentOn>..\..\..\Forms\SetupOtbor\UFormaSetupOtborCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocImpl.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCard.cpp">
+				<Form>FormaElementaGurOperDiscountCard</Form>
+				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCard.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Classes\UkanTxtFile.cpp">
+				<DependentOn>..\..\..\Classes\UkanTxtFile.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaGurPlat.cpp">
+				<Form>FormaGurPlat</Form>
+				<DependentOn>..\..\..\Forms\GurPlat\UFormaGurPlat.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDoc.cpp">
+				<Form>FormaSetupOtborGurRoznDoc</Form>
+				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDoc.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaGurPlatImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurPlat\UFormaGurPlatImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklCF.cpp">
+				<DependentOn>..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklCF.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ReportDvRegDoc\UReportDvRegDoc.cpp">
+				<DependentOn>..\..\..\Forms\ReportDvRegDoc\UReportDvRegDoc.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCardImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCardImpl.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="FormsGur.res">
+				<BuildOrder>25</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCard.cpp">
+				<Form>FormaGurOperDiscountCard</Form>
+				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCard.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCardCF.cpp">
 				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCardCF.h</DependentOn>
 				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardCF.cpp">
+				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\Indicator\UFormIndicator.cpp">
 				<Form>FormIndicator</Form>
 				<DependentOn>..\..\..\Forms\Indicator\UFormIndicator.h</DependentOn>
 				<BuildOrder>28</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMCF.cpp">
-				<DependentOn>..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDocCF.cpp">
 				<DependentOn>..\..\..\Forms\GurAllDoc\UFormaGurAllDocCF.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCardImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMCF.cpp">
+				<DependentOn>..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ReportDvRegDoc\UReportDvRegDoc.cpp">
-				<DependentOn>..\..\..\Forms\ReportDvRegDoc\UReportDvRegDoc.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklCF.cpp">
-				<DependentOn>..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklCF.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKM.cpp">
+				<Form>FormaGurDocCheckKKM</Form>
+				<DependentOn>..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKM.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCardImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCardImpl.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCard.cpp">
-				<Form>FormaGurOperDiscountCard</Form>
-				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCard.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDoc.cpp">
+				<Form>FormaGurAllDoc</Form>
+				<DependentOn>..\..\..\Forms\GurAllDoc\UFormaGurAllDoc.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="FormsGur.res">
-				<BuildOrder>25</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDocImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurAllDoc\UFormaGurAllDocImpl.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDoc.cpp">
-				<Form>FormaGurRoznDoc</Form>
-				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaGurRoznDoc.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocCF.cpp">
-				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="FormsGur.cpp">
-				<BuildOrder>1</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklImpl.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -132,138 +230,40 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKM.cpp">
-				<Form>FormaGurDocCheckKKM</Form>
-				<DependentOn>..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKM.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDoc.cpp">
+				<Form>FormaGurRoznDoc</Form>
+				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaGurRoznDoc.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDocImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurAllDoc\UFormaGurAllDocImpl.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocImpl.cpp">
+				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNaklImpl.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+			<CppCompile Include="FormsGur.cpp">
+				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDoc.cpp">
-				<Form>FormaGurAllDoc</Form>
-				<DependentOn>..\..\..\Forms\GurAllDoc\UFormaGurAllDoc.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocCF.cpp">
+				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaGurRoznDocCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKMImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocPer\UFormaGurDocPerImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurDocPer\UFormaGurDocPerImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlat.cpp">
-				<Form>FormaElementaGurPlat</Form>
-				<DependentOn>..\..\..\Forms\GurPlat\UFormaElementaGurPlat.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocPer\UFormaGurDocPerCF.cpp">
-				<DependentOn>..\..\..\Forms\GurDocPer\UFormaGurDocPerCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocPer\UFormaGurDocPer.cpp">
-				<Form>FormaGurDocPer</Form>
-				<DependentOn>..\..\..\Forms\GurDocPer\UFormaGurDocPer.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2.cpp">
-				<Form>FormaGurDocCheckKKM2</Form>
-				<DependentOn>..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2Impl.cpp">
-				<DependentOn>..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2Impl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNakl.cpp">
-				<Form>FormaGurDocPrihNakl</Form>
-				<DependentOn>..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNakl.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2CF.cpp">
-				<DependentOn>..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2CF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlatCF.cpp">
-				<DependentOn>..\..\..\Forms\GurPlat\UFormaElementaGurPlatCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlatImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurPlat\UFormaElementaGurPlatImpl.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Classes\UkanTxtFile.cpp">
-				<DependentOn>..\..\..\Classes\UkanTxtFile.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCard.cpp">
-				<Form>FormaElementaGurOperDiscountCard</Form>
-				<DependentOn>..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCard.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaGurPlat.cpp">
-				<Form>FormaGurPlat</Form>
-				<DependentOn>..\..\..\Forms\GurPlat\UFormaGurPlat.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaGurPlatImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurPlat\UFormaGurPlatImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDoc.cpp">
-				<Form>FormaSetupOtborGurRoznDoc</Form>
-				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDoc.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocImpl.cpp">
-				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocImpl.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurPlat\UFormaGurPlatCF.cpp">
-				<DependentOn>..\..\..\Forms\GurPlat\UFormaGurPlatCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocCF.cpp">
-				<DependentOn>..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDocCF.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtbor.cpp">
-				<Form>FormaSetupOtbor</Form>
-				<DependentOn>..\..\..\Forms\SetupOtbor\UFormaSetupOtbor.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtborCF.cpp">
-				<DependentOn>..\..\..\Forms\SetupOtbor\UFormaSetupOtborCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtborImpl.cpp">
-				<DependentOn>..\..\..\Forms\SetupOtbor\UFormaSetupOtborImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<FormResources Include="..\..\..\Forms\Indicator\UFormIndicator.dfm"/>
-			<FormResources Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCard.dfm"/>
-			<FormResources Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDoc.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKM.dfm"/>
-			<FormResources Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDoc.dfm"/>
+			<FormResources Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2.dfm"/>
 			<FormResources Include="..\..\..\Forms\GurPlat\UFormaElementaGurPlat.dfm"/>
 			<FormResources Include="..\..\..\Forms\GurDocPer\UFormaGurDocPer.dfm"/>
-			<FormResources Include="..\..\..\Forms\GurDocCheckKKM2\UFormaGurDocCheckKKM2.dfm"/>
-			<FormResources Include="..\..\..\Forms\GurDocPrihNakl\UFormaGurDocPrihNakl.dfm"/>
+			<FormResources Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtbor.dfm"/>
 			<FormResources Include="..\..\..\Forms\GurOperDiscountCard\UFormaElementaGurOperDiscountCard.dfm"/>
 			<FormResources Include="..\..\..\Forms\GurPlat\UFormaGurPlat.dfm"/>
 			<FormResources Include="..\..\..\Forms\GurRoznDoc\UFormaSetupOtborGurRoznDoc.dfm"/>
-			<FormResources Include="..\..\..\Forms\SetupOtbor\UFormaSetupOtbor.dfm"/>
+			<FormResources Include="..\..\..\Forms\GurOperDiscountCard\UFormaGurOperDiscountCard.dfm"/>
+			<FormResources Include="..\..\..\Forms\Indicator\UFormIndicator.dfm"/>
+			<FormResources Include="..\..\..\Forms\GurDocCheckKKM\UFormaGurDocCheckKKM.dfm"/>
+			<FormResources Include="..\..\..\Forms\GurAllDoc\UFormaGurAllDoc.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\GurRoznDoc\UFormaGurRoznDoc.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -288,7 +288,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">250</VersionInfo>
+						<VersionInfo Name="Build">254</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -300,7 +300,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.250</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.254</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

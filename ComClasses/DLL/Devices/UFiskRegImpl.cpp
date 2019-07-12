@@ -662,6 +662,47 @@ void TFiskRegImpl::set_Amount(double Amount)
 Object->Amount=Amount;
 }
 //---------------------------------------------------------------
+//PriceWithDiscount Да double Цена единицы товара с учетом скидок/наценок
+double TFiskRegImpl::get_PriceWithDiscount(void)
+{
+return Object->PriceWithDiscount;
+}
+//-----------------------------------------------------------------------------
+void TFiskRegImpl::set_PriceWithDiscount(double PriceWithDiscount)
+{
+Object->PriceWithDiscount=PriceWithDiscount;
+}
+//----------------------------------------------------------------------------
+//Amount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок
+double TFiskRegImpl::get_SumWithDiscount(void)
+{
+return Object->SumWithDiscount;
+}
+//-----------------------------------------------------------------------------
+void TFiskRegImpl::set_SumWithDiscount(double SumWithDiscount)
+{
+Object->SumWithDiscount=SumWithDiscount;
+}
+
+//SignMethodCalculation Нет long Признак способа расчета.
+//			1 Предоплата полная
+//			2 Предоплата частичная
+//			3 Аванс
+//			4 Полный расчет
+//			5 Частичный расчет и кредит
+//			6 Передача в кредит
+//			7 Оплата кредита
+int TFiskRegImpl::get_SignMethodCalculation(void)
+{
+return Object->SignMethodCalculation;
+}
+//-----------------------------------------------------------------------------
+void TFiskRegImpl::set_SignMethodCalculation(int SignMethodCalculation)
+{
+Object->SignMethodCalculation=SignMethodCalculation;
+}
+//----------------------------------------------------------------------------
+
 
 	//Department Нет long Отдел, по которому ведется продажа
 int TFiskRegImpl::get_Department(void)
@@ -788,6 +829,74 @@ void TFiskRegImpl::set_CashLessType3(double CashLessType3)
 Object->CashLessType3=CashLessType3;
 }
 //---------------------------------------------------------------
+//---------------------------------------------------------------
+//ElectronicPayment Да decimal Сумма безналичными средствами
+double TFiskRegImpl::get_ElectronicPayment(void)
+{
+return Object->ElectronicPayment;
+}
+//---------------------------------------------------------------
+void TFiskRegImpl::set_ElectronicPayment(double ElectronicPayment)
+{
+Object->ElectronicPayment=ElectronicPayment;
+}
+//---------------------------------------------------------------
+//AdvancePayment  Да decimal Сумма предоплатой (зачетом аванса)
+double TFiskRegImpl::get_AdvancePayment(void)
+{
+return Object->AdvancePayment;
+}
+//---------------------------------------------------------------
+void TFiskRegImpl::set_AdvancePayment(double AdvancePayment)
+{
+Object->AdvancePayment=AdvancePayment;
+}
+//---------------------------------------------------------------
+//Credit Да decimal Сумма постоплатой (в кредит)
+double TFiskRegImpl::get_Credit(void)
+{
+return Object->Credit;
+}
+//---------------------------------------------------------------
+void TFiskRegImpl::set_Credit(double Credit)
+{
+Object->Credit=Credit;
+}
+//---------------------------------------------------------------
+//CashProvision Да decimal Сумма встречным предоставлением
+double TFiskRegImpl::get_CashProvision(void)
+{
+return Object->CashProvision;
+}
+//---------------------------------------------------------------
+void TFiskRegImpl::set_CashProvision(double CashProvision)
+{
+Object->CashProvision=CashProvision;
+}
+//---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 UnicodeString TFiskRegImpl::GetParameters(void)
 {
 return Object->GetParameters();
@@ -870,3 +979,131 @@ bool TFiskRegImpl::SetParameter(UnicodeString name_parameter, TkasVariant * valu
 return Object->GetParameter(name_parameter,value_parameter);
 }
 //---------------------------------------------------------------------------
+//*******************************************************************
+//--------------------------------------------------------------------
+//***********************************************************************************
+
+bool TFiskRegImpl::RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+{
+
+return  Object->RunCommand(command_name, xml_doc,type_doc);
+}
+//------------------------------------------------------------------------------
+ UnicodeString TFiskRegImpl::ReturnXmlResultLastMethod(void)
+{
+
+return  Object->ReturnXmlResultLastMethod();
+}
+//-----------------------------------------------------------------------------
+
+	//параметры для выполнения метода
+bool TFiskRegImpl::SetStringParameter(UnicodeString param_name, int number, UnicodeString value)
+{
+
+return  Object->SetStringParameter(param_name,number, value);
+
+}
+//------------------------------------------------------------------------------
+UnicodeString TFiskRegImpl::GetStringParameter(UnicodeString param_name, int number)
+{
+
+return  Object->GetStringParameter(param_name,number);
+
+}
+//------------------------------------------------------------------------------
+
+bool TFiskRegImpl::SetIntegerParameter(UnicodeString param_name, int number, int value)
+{
+
+return  Object->SetIntegerParameter(param_name,number, value);
+
+}
+//------------------------------------------------------------------------------
+int TFiskRegImpl::GetIntegerParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetIntegerParameter( param_name,  number);
+}
+//------------------------------------------------------------------------------
+
+bool TFiskRegImpl::SetDoubleParameter(UnicodeString param_name, int number, double value)
+{
+
+
+return  Object->SetDoubleParameter(param_name, number,  value);
+}
+//------------------------------------------------------------------------------
+double TFiskRegImpl::GetDoubleParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetDoubleParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+bool TFiskRegImpl::SetBooleanParameter(UnicodeString param_name, int number, bool value)
+{
+
+
+return  Object->SetBooleanParameter(param_name, number, value);
+}
+//------------------------------------------------------------------------------
+bool TFiskRegImpl::GetBooleanParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetBooleanParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+bool TFiskRegImpl::SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)
+{
+
+
+return  Object->SetDateTimeParameter( param_name, number,  value);
+}
+//------------------------------------------------------------------------------
+TDateTime TFiskRegImpl::GetDateTimeParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetDateTimeParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+	//формирование xml файла
+void TFiskRegImpl::AddStringXml(UnicodeString str_xml)    //просто готовая строка
+{
+
+
+return  Object->AddStringXml(str_xml) ;
+}
+//------------------------------------------------------------------------------
+ void TFiskRegImpl::AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value)  //тип для форматирования, например для удаления запятых в числах
+
+{
+
+
+return  Object->AddAttribyteXml(attribyte,  value, type_value);
+}
+//------------------------------------------------------------------------------
+void TFiskRegImpl::AddElementXml(UnicodeString element, UnicodeString value, int type_value)
+{
+
+
+return  Object->AddElementXml(element,  value, type_value);
+}
+//------------------------------------------------------------------------------
+
+void TFiskRegImpl::AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font, int girn, int alignment, bool word_wrap)   //строка xml для печати будет формироваться
+
+{
+
+
+return  Object->AddStringForPrintXml(element, attribyte, value,
+								size_font, girn, alignment, word_wrap);
+}
+//------------------------------------------------------------------------------

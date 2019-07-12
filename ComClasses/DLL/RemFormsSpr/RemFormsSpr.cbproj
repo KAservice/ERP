@@ -61,1077 +61,1077 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprCF.h</DependentOn>
-				<BuildOrder>78</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprImpl.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareImpl.h</DependentOn>
-				<BuildOrder>58</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelImpl.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelCF.h</DependentOn>
-				<BuildOrder>69</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSost.cpp">
-				<Form>REM_FormaSpiskaSprSost</Form>
-				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSost.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTCF.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTImpl.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelCF.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTCF.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKT.cpp">
-				<Form>REM_FormaSpiskaSprKKT</Form>
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKT.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTImpl.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovCF.h</DependentOn>
-				<BuildOrder>120</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrp.cpp">
-				<Form>REM_FormaElementaSprTypDefectGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrp.h</DependentOn>
-				<BuildOrder>80</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpCF.h</DependentOn>
-				<BuildOrder>72</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeispr.cpp">
-				<Form>REM_FormaSpiskaSprProducerNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeispr.h</DependentOn>
-				<BuildOrder>77</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectImpl.h</DependentOn>
-				<BuildOrder>85</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeispr.cpp">
-				<Form>REM_FormaElementaSprProducerNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeispr.h</DependentOn>
-				<BuildOrder>74</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpImpl.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprCF.h</DependentOn>
-				<BuildOrder>75</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelCF.h</DependentOn>
-				<BuildOrder>135</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpImpl.h</DependentOn>
-				<BuildOrder>82</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpCF.h</DependentOn>
-				<BuildOrder>81</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefect.cpp">
-				<Form>REM_FormaSpiskaSprTypDefect</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefect.h</DependentOn>
-				<BuildOrder>86</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectCF.h</DependentOn>
-				<BuildOrder>84</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModel.cpp">
-				<Form>REM_FormaElementaSprNeisprModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModel.h</DependentOn>
-				<BuildOrder>131</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModel.cpp">
-				<Form>REM_FormaSpiskaSprModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModel.h</DependentOn>
-				<BuildOrder>38</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModel.cpp">
-				<Form>REM_FormaElementaSprModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModel.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKT.cpp">
-				<Form>REM_FormaElementaSprGrpKKT</Form>
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKT.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelCF.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardware.cpp">
-				<Form>REM_FormaSpiskaSprHardware</Form>
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardware.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvImpl.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardware.cpp">
-				<Form>REM_FormaElementaSprGrpHardware</Form>
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardware.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSost.cpp">
-				<Form>REM_FormaElementaSprSost</Form>
-				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSost.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelImpl.h</DependentOn>
-				<BuildOrder>133</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.cpp">
-				<Form>REM_FormaSpiskaSprKomplModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelCF.h</DependentOn>
-				<BuildOrder>132</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareCF.h</DependentOn>
-				<BuildOrder>54</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareCF.h</DependentOn>
-				<BuildOrder>57</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostCF.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.cpp">
-				<Form>REM_FormaElementaSprGrpNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModel.cpp">
-				<Form>REM_FormaSpiskaSprNeisprModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModel.h</DependentOn>
-				<BuildOrder>134</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprImpl.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelImpl.h</DependentOn>
-				<BuildOrder>136</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprCF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKT.cpp">
-				<Form>REM_FormaElementaSprKKT</Form>
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKT.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostImpl.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpCF.h</DependentOn>
-				<BuildOrder>63</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpImpl.h</DependentOn>
-				<BuildOrder>91</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelImpl.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.cpp">
-				<Form>REM_FormaElementaSprTypeRemont</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelImpl.h</DependentOn>
-				<BuildOrder>67</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrp.cpp">
-				<Form>REM_FormaElementaSprProducerConditionGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrp.h</DependentOn>
-				<BuildOrder>209</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerCondition.cpp">
-				<Form>REM_FormaElementaSprProducerCondition</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerCondition.h</DependentOn>
-				<BuildOrder>212</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpImpl.h</DependentOn>
-				<BuildOrder>211</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpCF.h</DependentOn>
-				<BuildOrder>210</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpImpl.h</DependentOn>
-				<BuildOrder>73</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprImpl.h</DependentOn>
-				<BuildOrder>79</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprImpl.h</DependentOn>
-				<BuildOrder>76</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModel.cpp">
-				<Form>REM_FormaSpiskaSprProducerModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModel.h</DependentOn>
-				<BuildOrder>68</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModel.cpp">
-				<Form>REM_FormaElementaSprProducerModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModel.h</DependentOn>
-				<BuildOrder>65</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelCF.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelImpl.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSection.cpp">
-				<Form>REM_FormaSpiskaSprProducerSection</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSection.h</DependentOn>
-				<BuildOrder>222</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionImpl.h</DependentOn>
-				<BuildOrder>221</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionCF.h</DependentOn>
-				<BuildOrder>220</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionCF.h</DependentOn>
-				<BuildOrder>223</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionCF.h</DependentOn>
-				<BuildOrder>226</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionImpl.h</DependentOn>
-				<BuildOrder>225</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionImpl.h</DependentOn>
-				<BuildOrder>224</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionImpl.h</DependentOn>
-				<BuildOrder>215</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionCF.h</DependentOn>
-				<BuildOrder>214</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerCondition.cpp">
-				<Form>REM_FormaSpiskaSprProducerCondition</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerCondition.h</DependentOn>
-				<BuildOrder>213</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrp.cpp">
-				<Form>REM_FormaElementaSprProducerSectionGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrp.h</DependentOn>
-				<BuildOrder>216</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSection.cpp">
-				<Form>REM_FormaElementaSprProducerSection</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSection.h</DependentOn>
-				<BuildOrder>219</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpImpl.h</DependentOn>
-				<BuildOrder>218</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpCF.h</DependentOn>
-				<BuildOrder>217</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.cpp">
-				<Form>REM_FormaElementaSprProducerModelGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.h</DependentOn>
-				<BuildOrder>71</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectImpl.h</DependentOn>
-				<BuildOrder>88</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefect.cpp">
-				<Form>REM_FormaElementaSprTypDefect</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefect.h</DependentOn>
-				<BuildOrder>83</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrp.cpp">
-				<Form>REM_FormaElementaSprTypRabotGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrp.h</DependentOn>
-				<BuildOrder>89</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelImpl.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotCF.h</DependentOn>
-				<BuildOrder>93</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabot.cpp">
-				<Form>REM_FormaElementaSprTypRabot</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabot.h</DependentOn>
-				<BuildOrder>92</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpCF.h</DependentOn>
-				<BuildOrder>90</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabot.cpp">
-				<Form>REM_FormaSpiskaSprTypRabot</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabot.h</DependentOn>
-				<BuildOrder>95</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslov.cpp">
-				<Form>REM_FormaElementaSprTypUslov</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslov.h</DependentOn>
-				<BuildOrder>101</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectCF.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovCF.h</DependentOn>
-				<BuildOrder>102</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotImpl.h</DependentOn>
-				<BuildOrder>97</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.cpp">
-				<Form>REM_FormaElementaSprKomplModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelCF.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrp.cpp">
-				<Form>REM_FormaElementaSprProducerNeisprGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrp.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrp.cpp">
-				<Form>REM_FormaElementaSprTypUslovGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrp.h</DependentOn>
-				<BuildOrder>98</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockCF.h</DependentOn>
-				<BuildOrder>186</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelCF.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.cpp">
-				<Form>REM_FormaSpiskaSprNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockImpl.h</DependentOn>
-				<BuildOrder>187</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="RemFormsSpr.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemont.cpp">
-				<Form>REM_FormaSpiskaSprTypeRemont</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemont.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="RemFormsSpr.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceCF.h</DependentOn>
-				<BuildOrder>139</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovImpl.h</DependentOn>
-				<BuildOrder>106</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeispr.cpp">
-				<Form>REM_FormaElementaSprNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeispr.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpCF.h</DependentOn>
-				<BuildOrder>99</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotCF.h</DependentOn>
-				<BuildOrder>117</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslov.cpp">
-				<Form>REM_FormaSpiskaSprTrebUslov</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslov.h</DependentOn>
-				<BuildOrder>122</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslov.cpp">
-				<Form>REM_FormaElementaSprTrebUslov</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslov.h</DependentOn>
-				<BuildOrder>119</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardware.cpp">
-				<Form>REM_FormaElementaSprHardware</Form>
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardware.h</DependentOn>
-				<BuildOrder>56</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotImpl.h</DependentOn>
-				<BuildOrder>94</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalImpl.h</DependentOn>
-				<BuildOrder>109</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpImpl.h</DependentOn>
-				<BuildOrder>100</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovCF.h</DependentOn>
-				<BuildOrder>105</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalCF.h</DependentOn>
-				<BuildOrder>111</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalImpl.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetal.cpp">
-				<Form>REM_FormaElementaSprModelDetal</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetal.h</DependentOn>
-				<BuildOrder>107</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotImpl.h</DependentOn>
-				<BuildOrder>118</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotImpl.h</DependentOn>
-				<BuildOrder>115</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryCF.h</DependentOn>
-				<BuildOrder>192</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabota.cpp">
-				<Form>REM_FormaSpiskaSprProducerRabota</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabota.h</DependentOn>
-				<BuildOrder>196</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryImpl.h</DependentOn>
-				<BuildOrder>190</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategory.cpp">
-				<Form>REM_FormaSpiskaSprActCategory</Form>
-				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategory.h</DependentOn>
-				<BuildOrder>191</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabot.cpp">
-				<Form>REM_FormaSpiskaSprTrebRabot</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabot.h</DependentOn>
-				<BuildOrder>116</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovImpl.h</DependentOn>
-				<BuildOrder>121</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprImpl.h</DependentOn>
-				<BuildOrder>127</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeispr.cpp">
-				<Form>REM_FormaSpiskaSprDefectModelNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeispr.h</DependentOn>
-				<BuildOrder>128</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalCF.h</DependentOn>
-				<BuildOrder>108</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabot.cpp">
-				<Form>REM_FormaElementaSprTrebRabot</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabot.h</DependentOn>
-				<BuildOrder>113</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetal.cpp">
-				<Form>REM_FormaSpiskaSprModelDetal</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetal.h</DependentOn>
-				<BuildOrder>110</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeispr.cpp">
-				<Form>REM_FormaElementaSprDefectModelNeispr</Form>
-				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeispr.h</DependentOn>
-				<BuildOrder>125</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprCF.h</DependentOn>
-				<BuildOrder>126</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovImpl.h</DependentOn>
-				<BuildOrder>103</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprImpl.h</DependentOn>
-				<BuildOrder>130</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpImpl.h</DependentOn>
-				<BuildOrder>154</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslov.cpp">
-				<Form>REM_FormaSpiskaSprTypUslov</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslov.h</DependentOn>
-				<BuildOrder>104</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprCF.h</DependentOn>
-				<BuildOrder>129</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovImpl.h</DependentOn>
-				<BuildOrder>124</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDevice.cpp">
-				<Form>REM_FormaElementaSprTypeDevice</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDevice.h</DependentOn>
-				<BuildOrder>137</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDevice.cpp">
-				<Form>REM_FormaSpiskaSprTypeDevice</Form>
-				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDevice.h</DependentOn>
-				<BuildOrder>138</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovCF.h</DependentOn>
+				<BuildOrder>123</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2.cpp">
 				<Form>REM_FormaSpiskaSprModel2</Form>
 				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2.h</DependentOn>
 				<BuildOrder>144</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovCF.h</DependentOn>
-				<BuildOrder>123</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDevice.cpp">
+				<Form>REM_FormaSpiskaSprTypeDevice</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDevice.h</DependentOn>
+				<BuildOrder>138</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDeviceImpl.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDeviceImpl.h</DependentOn>
 				<BuildOrder>142</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceImpl.h</DependentOn>
-				<BuildOrder>140</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefect.cpp">
-				<Form>REM_FormaElementaSprProducerDefect</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefect.h</DependentOn>
-				<BuildOrder>150</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefect.cpp">
 				<Form>REM_FormaSpiskaSprProducerDefect</Form>
 				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefect.h</DependentOn>
 				<BuildOrder>151</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2Grp.cpp">
-				<Form>REM_FormaElementaSprModel2Grp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2Grp.h</DependentOn>
-				<BuildOrder>143</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefect.cpp">
+				<Form>REM_FormaElementaSprProducerDefect</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefect.h</DependentOn>
+				<BuildOrder>150</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2GrpImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2GrpImpl.h</DependentOn>
-				<BuildOrder>146</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceImpl.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotCF.h</DependentOn>
-				<BuildOrder>114</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpImpl.h</DependentOn>
+				<BuildOrder>154</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareImpl.h</DependentOn>
-				<BuildOrder>55</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprImpl.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2Impl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2Impl.h</DependentOn>
-				<BuildOrder>148</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovImpl.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareCF.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslov.cpp">
+				<Form>REM_FormaSpiskaSprTypUslov</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslov.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrp.cpp">
-				<Form>REM_FormaElementaSprProducerDefectGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrp.h</DependentOn>
-				<BuildOrder>149</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDevice.cpp">
+				<Form>REM_FormaElementaSprTypeDevice</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDevice.h</DependentOn>
+				<BuildOrder>137</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspCF.h</DependentOn>
-				<BuildOrder>159</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslovImpl.h</DependentOn>
+				<BuildOrder>124</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectCF.h</DependentOn>
-				<BuildOrder>156</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeisprCF.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDeviceCF.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDeviceCF.h</DependentOn>
 				<BuildOrder>141</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectCF.h</DependentOn>
+				<BuildOrder>156</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspCF.h</DependentOn>
+				<BuildOrder>159</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2GrpCF.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2GrpCF.h</DependentOn>
 				<BuildOrder>145</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectCF.h</DependentOn>
-				<BuildOrder>152</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabota.cpp">
-				<Form>REM_FormaElementaSprProducerRabota</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabota.h</DependentOn>
-				<BuildOrder>194</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValue.cpp">
 				<Form>REM_FormaElementaSprProducerModelPropertiesValue</Form>
 				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValue.h</DependentOn>
 				<BuildOrder>180</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabota.cpp">
+				<Form>REM_FormaElementaSprProducerRabota</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabota.h</DependentOn>
+				<BuildOrder>194</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectCF.h</DependentOn>
+				<BuildOrder>152</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotCF.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2GrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2GrpImpl.h</DependentOn>
+				<BuildOrder>146</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2Grp.cpp">
+				<Form>REM_FormaElementaSprModel2Grp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2Grp.h</DependentOn>
+				<BuildOrder>143</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareImpl.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrp.cpp">
+				<Form>REM_FormaElementaSprProducerDefectGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrp.h</DependentOn>
+				<BuildOrder>149</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareCF.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2Impl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2Impl.h</DependentOn>
+				<BuildOrder>148</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprCF.h</DependentOn>
+				<BuildOrder>126</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpImpl.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalImpl.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotImpl.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovCF.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetal.cpp">
+				<Form>REM_FormaElementaSprModelDetal</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetal.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalImpl.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetalCF.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrpCF.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeispr.cpp">
+				<Form>REM_FormaElementaSprNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeispr.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslovImpl.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotCF.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardware.cpp">
+				<Form>REM_FormaElementaSprHardware</Form>
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardware.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslov.cpp">
+				<Form>REM_FormaElementaSprTrebUslov</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslov.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslov.cpp">
+				<Form>REM_FormaSpiskaSprTrebUslov</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslov.h</DependentOn>
+				<BuildOrder>122</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeispr.cpp">
+				<Form>REM_FormaSpiskaSprDefectModelNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeispr.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeisprImpl.h</DependentOn>
+				<BuildOrder>127</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovImpl.h</DependentOn>
+				<BuildOrder>121</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetalCF.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeispr.cpp">
+				<Form>REM_FormaElementaSprDefectModelNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeispr.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetal.cpp">
+				<Form>REM_FormaSpiskaSprModelDetal</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetal.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabot.cpp">
+				<Form>REM_FormaElementaSprTrebRabot</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabot.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryCF.h</DependentOn>
+				<BuildOrder>192</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabotImpl.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabotImpl.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabota.cpp">
+				<Form>REM_FormaSpiskaSprProducerRabota</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabota.h</DependentOn>
+				<BuildOrder>196</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabot.cpp">
+				<Form>REM_FormaSpiskaSprTrebRabot</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabot.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategory.cpp">
+				<Form>REM_FormaSpiskaSprActCategory</Form>
+				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategory.h</DependentOn>
+				<BuildOrder>191</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryImpl.h</DependentOn>
+				<BuildOrder>190</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlockImpl.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlockImpl.h</DependentOn>
 				<BuildOrder>175</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlock.cpp">
-				<Form>REM_FormaElementaSprProducerModelInfBlock</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlock.h</DependentOn>
-				<BuildOrder>176</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockImpl.h</DependentOn>
-				<BuildOrder>179</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlock.cpp">
-				<Form>REM_FormaElementaSprModelInfBlock</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlock.h</DependentOn>
-				<BuildOrder>170</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlockCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlockCF.h</DependentOn>
-				<BuildOrder>174</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockCF.h</DependentOn>
-				<BuildOrder>178</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectImpl.h</DependentOn>
-				<BuildOrder>155</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpCF.h</DependentOn>
-				<BuildOrder>153</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspImpl.h</DependentOn>
-				<BuildOrder>160</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectImpl.h</DependentOn>
-				<BuildOrder>157</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlock.cpp">
-				<Form>REM_FormaSpiskaSprProducerModelInfBlock</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlock.h</DependentOn>
-				<BuildOrder>177</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIsp.cpp">
-				<Form>REM_FormaElementaSprHardwareIsp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIsp.h</DependentOn>
-				<BuildOrder>158</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspCF.h</DependentOn>
-				<BuildOrder>162</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.cpp">
-				<Form>REM_FormaSpiskaSprKKTDv</Form>
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareImpl.h</DependentOn>
-				<BuildOrder>61</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvCF.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprCF.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelImpl.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlock.cpp">
-				<Form>REM_FormaSpiskaSprModelInfBlock</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlock.h</DependentOn>
-				<BuildOrder>173</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueCF.h</DependentOn>
-				<BuildOrder>168</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueImpl.h</DependentOn>
-				<BuildOrder>169</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockImpl.h</DependentOn>
-				<BuildOrder>172</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModel.cpp">
-				<Form>REM_FormaElementaSprGrpModel</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModel.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotCF.h</DependentOn>
-				<BuildOrder>96</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockCF.h</DependentOn>
-				<BuildOrder>171</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabot.cpp">
-				<Form>REM_FormaSpiskaSprModelTypRabot</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabot.h</DependentOn>
-				<BuildOrder>204</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotCF.h</DependentOn>
-				<BuildOrder>205</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueCF.h</DependentOn>
-				<BuildOrder>184</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabot.cpp">
-				<Form>REM_FormaElementaSprModelTypRabot</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabot.h</DependentOn>
-				<BuildOrder>203</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotImpl.h</DependentOn>
-				<BuildOrder>206</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotCF.h</DependentOn>
-				<BuildOrder>207</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotImpl.h</DependentOn>
-				<BuildOrder>208</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValue.cpp">
-				<Form>REM_FormaSpiskaSprProducerModelPropertiesValue</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValue.h</DependentOn>
-				<BuildOrder>183</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryCF.h</DependentOn>
-				<BuildOrder>189</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryImpl.h</DependentOn>
-				<BuildOrder>193</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValueImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValueImpl.h</DependentOn>
-				<BuildOrder>182</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueImpl.h</DependentOn>
-				<BuildOrder>185</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategory.cpp">
 				<Form>REM_FormaElementaSprActCategory</Form>
 				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategory.h</DependentOn>
 				<BuildOrder>188</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueImpl.h</DependentOn>
+				<BuildOrder>185</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValueImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValueImpl.h</DependentOn>
+				<BuildOrder>182</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValueCF.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValueCF.h</DependentOn>
 				<BuildOrder>181</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2CF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2CF.h</DependentOn>
-				<BuildOrder>147</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspImpl.h</DependentOn>
-				<BuildOrder>163</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValue.cpp">
 				<Form>REM_FormaElementaSprModelPropertiesValue</Form>
 				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValue.h</DependentOn>
 				<BuildOrder>164</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueImpl.h</DependentOn>
-				<BuildOrder>167</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspImpl.h</DependentOn>
+				<BuildOrder>163</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIsp.cpp">
-				<Form>REM_FormaSpiskaSprHardwareIsp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIsp.h</DependentOn>
-				<BuildOrder>161</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2CF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2CF.h</DependentOn>
+				<BuildOrder>147</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValue.cpp">
-				<Form>REM_FormaSpiskaSprModelPropertiesValue</Form>
-				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValue.h</DependentOn>
-				<BuildOrder>165</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotCF.h</DependentOn>
+				<BuildOrder>207</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueCF.h</DependentOn>
-				<BuildOrder>166</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotImpl.h</DependentOn>
+				<BuildOrder>206</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaImpl.h</DependentOn>
-				<BuildOrder>198</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabot.cpp">
+				<Form>REM_FormaElementaSprModelTypRabot</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabot.h</DependentOn>
+				<BuildOrder>203</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrp.cpp">
-				<Form>REM_FormaElementaSprProducerRabotaGrp</Form>
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrp.h</DependentOn>
-				<BuildOrder>198</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabotImpl.h</DependentOn>
+				<BuildOrder>208</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabotaImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabotaImpl.h</DependentOn>
-				<BuildOrder>202</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategoryImpl.h</DependentOn>
+				<BuildOrder>193</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaCF.h</DependentOn>
-				<BuildOrder>197</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategoryCF.h</DependentOn>
+				<BuildOrder>189</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrpCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrpCF.h</DependentOn>
-				<BuildOrder>199</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValue.cpp">
+				<Form>REM_FormaSpiskaSprProducerModelPropertiesValue</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValue.h</DependentOn>
+				<BuildOrder>183</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrpImpl.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrpImpl.h</DependentOn>
 				<BuildOrder>200</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrpCF.h</DependentOn>
+				<BuildOrder>199</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaCF.h</DependentOn>
+				<BuildOrder>197</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabotaCF.cpp">
 				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabotaCF.h</DependentOn>
 				<BuildOrder>201</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipImpl.h</DependentOn>
+				<BuildOrder>229</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipCF.h</DependentOn>
+				<BuildOrder>228</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZip.cpp">
 				<Form>REM_FormaSpiskaSprHardwareVZip</Form>
 				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZip.h</DependentOn>
 				<BuildOrder>227</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipCF.h</DependentOn>
-				<BuildOrder>228</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValue.cpp">
+				<Form>REM_FormaSpiskaSprModelPropertiesValue</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValue.h</DependentOn>
+				<BuildOrder>165</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZipImpl.h</DependentOn>
-				<BuildOrder>229</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIsp.cpp">
+				<Form>REM_FormaSpiskaSprHardwareIsp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIsp.h</DependentOn>
+				<BuildOrder>161</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSost.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKT.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeispr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeispr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefect.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKT.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardware.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardware.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSost.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKT.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerCondition.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSection.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerCondition.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSection.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefect.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabot.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabot.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslov.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemont.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeispr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslov.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslov.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardware.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetal.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabota.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategory.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabot.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeispr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabot.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetal.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeispr.dfm"/>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueImpl.h</DependentOn>
+				<BuildOrder>167</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValueCF.h</DependentOn>
+				<BuildOrder>166</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabotaImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabotaImpl.h</DependentOn>
+				<BuildOrder>202</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrp.cpp">
+				<Form>REM_FormaElementaSprProducerRabotaGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrp.h</DependentOn>
+				<BuildOrder>198</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaImpl.h</DependentOn>
+				<BuildOrder>198</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValueCF.h</DependentOn>
+				<BuildOrder>184</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlock.cpp">
+				<Form>REM_FormaSpiskaSprProducerModelInfBlock</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlock.h</DependentOn>
+				<BuildOrder>177</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefectImpl.h</DependentOn>
+				<BuildOrder>157</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIspImpl.h</DependentOn>
+				<BuildOrder>160</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIsp.cpp">
+				<Form>REM_FormaElementaSprHardwareIsp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIsp.h</DependentOn>
+				<BuildOrder>158</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.cpp">
+				<Form>REM_FormaSpiskaSprKKTDv</Form>
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIspCF.h</DependentOn>
+				<BuildOrder>162</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlock.cpp">
+				<Form>REM_FormaElementaSprModelInfBlock</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlock.h</DependentOn>
+				<BuildOrder>170</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockImpl.h</DependentOn>
+				<BuildOrder>179</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlock.cpp">
+				<Form>REM_FormaElementaSprProducerModelInfBlock</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlock.h</DependentOn>
+				<BuildOrder>176</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlockCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlockCF.h</DependentOn>
+				<BuildOrder>174</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrpCF.h</DependentOn>
+				<BuildOrder>153</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectImpl.h</DependentOn>
+				<BuildOrder>155</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlockCF.h</DependentOn>
+				<BuildOrder>178</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModel.cpp">
+				<Form>REM_FormaElementaSprGrpModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModel.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockImpl.h</DependentOn>
+				<BuildOrder>172</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueImpl.h</DependentOn>
+				<BuildOrder>169</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotCF.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabotCF.h</DependentOn>
+				<BuildOrder>205</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabot.cpp">
+				<Form>REM_FormaSpiskaSprModelTypRabot</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabot.h</DependentOn>
+				<BuildOrder>204</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlockCF.h</DependentOn>
+				<BuildOrder>171</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvCF.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareImpl.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprCF.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValueCF.h</DependentOn>
+				<BuildOrder>168</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlock.cpp">
+				<Form>REM_FormaSpiskaSprModelInfBlock</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlock.h</DependentOn>
+				<BuildOrder>173</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelImpl.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSost.cpp">
+				<Form>REM_FormaElementaSprSost</Form>
+				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSost.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardware.cpp">
+				<Form>REM_FormaElementaSprGrpHardware</Form>
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardware.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDvImpl.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelImpl.h</DependentOn>
+				<BuildOrder>133</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModelCF.h</DependentOn>
+				<BuildOrder>132</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.cpp">
+				<Form>REM_FormaSpiskaSprKomplModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModel.cpp">
+				<Form>REM_FormaElementaSprModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModel.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModel.cpp">
+				<Form>REM_FormaSpiskaSprModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModel.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKT.cpp">
+				<Form>REM_FormaElementaSprGrpKKT</Form>
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKT.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardware.cpp">
+				<Form>REM_FormaSpiskaSprHardware</Form>
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardware.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelCF.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprCF.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelImpl.h</DependentOn>
+				<BuildOrder>136</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeisprImpl.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKT.cpp">
+				<Form>REM_FormaElementaSprKKT</Form>
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKT.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpImpl.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpCF.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostImpl.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareCF.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardwareCF.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSostCF.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModel.cpp">
+				<Form>REM_FormaSpiskaSprNeisprModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModel.h</DependentOn>
+				<BuildOrder>134</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.cpp">
+				<Form>REM_FormaElementaSprGrpNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSostImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModel.cpp">
+				<Form>REM_FormaElementaSprNeisprModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModel.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelCF.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTImpl.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKTCF.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTImpl.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKT.cpp">
+				<Form>REM_FormaSpiskaSprKKT</Form>
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKT.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTCF.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKTCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeisprImpl.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprCF.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardwareImpl.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSost.cpp">
+				<Form>REM_FormaSpiskaSprSost</Form>
+				<DependentOn>..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSost.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelCF.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModelImpl.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModelCF.h</DependentOn>
+				<BuildOrder>135</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprCF.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrpImpl.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpImpl.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectCF.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefect.cpp">
+				<Form>REM_FormaSpiskaSprTypDefect</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefect.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrpCF.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrp.cpp">
+				<Form>REM_FormaElementaSprTypDefectGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrp.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslovCF.h</DependentOn>
+				<BuildOrder>120</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpCF.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeispr.cpp">
+				<Form>REM_FormaElementaSprProducerNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeispr.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectImpl.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeispr.cpp">
+				<Form>REM_FormaSpiskaSprProducerNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeispr.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModelImpl.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectCF.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslov.cpp">
+				<Form>REM_FormaElementaSprTypUslov</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslov.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabot.cpp">
+				<Form>REM_FormaSpiskaSprTypRabot</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabot.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovCF.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemontImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeisprCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabotImpl.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModelImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrp.cpp">
+				<Form>REM_FormaElementaSprTypRabotGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrp.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefect.cpp">
+				<Form>REM_FormaElementaSprTypDefect</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefect.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelImpl.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrpCF.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabot.cpp">
+				<Form>REM_FormaElementaSprTypRabot</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabot.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotCF.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="RemFormsSpr.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockImpl.h</DependentOn>
+				<BuildOrder>187</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.cpp">
+				<Form>REM_FormaSpiskaSprNeispr</Form>
+				<DependentOn>..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemont.cpp">
+				<Form>REM_FormaSpiskaSprTypeRemont</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemont.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDeviceCF.h</DependentOn>
+				<BuildOrder>139</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="RemFormsSpr.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelCF.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemontCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.cpp">
+				<Form>REM_FormaElementaSprKomplModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrp.cpp">
+				<Form>REM_FormaElementaSprProducerNeisprGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrp.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModelCF.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlockCF.h</DependentOn>
+				<BuildOrder>186</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrp.cpp">
+				<Form>REM_FormaElementaSprTypUslovGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrp.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefectImpl.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModel.cpp">
+				<Form>REM_FormaSpiskaSprProducerModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModel.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprImpl.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeisprImpl.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModel.cpp">
+				<Form>REM_FormaElementaSprProducerModel</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModel.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSection.cpp">
+				<Form>REM_FormaSpiskaSprProducerSection</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSection.h</DependentOn>
+				<BuildOrder>222</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModelImpl.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModelCF.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrp.cpp">
+				<Form>REM_FormaElementaSprProducerConditionGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrp.h</DependentOn>
+				<BuildOrder>209</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelImpl.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.cpp">
+				<Form>REM_FormaElementaSprTypeRemont</Form>
+				<DependentOn>..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerCondition.cpp">
+				<Form>REM_FormaElementaSprProducerCondition</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerCondition.h</DependentOn>
+				<BuildOrder>212</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrpImpl.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpCF.h</DependentOn>
+				<BuildOrder>210</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrpImpl.h</DependentOn>
+				<BuildOrder>211</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrp.cpp">
+				<Form>REM_FormaElementaSprProducerSectionGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrp.h</DependentOn>
+				<BuildOrder>216</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerCondition.cpp">
+				<Form>REM_FormaSpiskaSprProducerCondition</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerCondition.h</DependentOn>
+				<BuildOrder>213</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionCF.h</DependentOn>
+				<BuildOrder>214</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSection.cpp">
+				<Form>REM_FormaElementaSprProducerSection</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSection.h</DependentOn>
+				<BuildOrder>219</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.cpp">
+				<Form>REM_FormaElementaSprProducerModelGrp</Form>
+				<DependentOn>..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpCF.h</DependentOn>
+				<BuildOrder>217</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrpImpl.h</DependentOn>
+				<BuildOrder>218</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionCF.h</DependentOn>
+				<BuildOrder>223</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionCF.h</DependentOn>
+				<BuildOrder>220</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionImpl.h</DependentOn>
+				<BuildOrder>221</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionCF.h</DependentOn>
+				<BuildOrder>226</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerConditionImpl.h</DependentOn>
+				<BuildOrder>215</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSectionImpl.h</DependentOn>
+				<BuildOrder>224</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionImpl.h</DependentOn>
+				<BuildOrder>225</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDevice.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefect.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefect.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaSpiskaSprTypUslov.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaElementaSprTypeDevice.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprTypeDevice\UREM_FormaSpiskaSprTypeDevice.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModel2\UREM_FormaSpiskaSprModel2.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefect.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaSpiskaSprProducerDefect.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValue.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabota.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprModel2\UREM_FormaElementaSprModel2Grp.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprProducerDefect\UREM_FormaElementaSprProducerDefectGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabota.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaElementaSprProducerModelPropertiesValue.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlock.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlock.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaElementaSprModelDetal.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprHardware.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaElementaSprTrebUslov.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTrebUslov\UREM_FormaSpiskaSprTrebUslov.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaSpiskaSprDefectModelNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprDefectModelNeispr\UREM_FormaElementaSprDefectModelNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelDetal\UREM_FormaSpiskaSprModelDetal.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaElementaSprTrebRabot.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaSpiskaSprProducerRabota.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTrebRabot\UREM_FormaSpiskaSprTrebRabot.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaSpiskaSprActCategory.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategory.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValue.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabot.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValue.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZip.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValue.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIsp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrp.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaSpiskaSprProducerModelInfBlock.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaElementaSprHardwareIsp.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKTDv.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlock.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaElementaSprModelInfBlock.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerModelInfBlock\UREM_FormaElementaSprProducerModelInfBlock.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprGrpModel.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaSpiskaSprModelTypRabot.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelTypeRabot\UREM_FormaElementaSprModelTypRabot.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerModelPropertiesValue\UREM_FormaSpiskaSprProducerModelPropertiesValue.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprActCategory\UREM_FormaElementaSprActCategory.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaElementaSprModelPropertiesValue.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprHardwareIsp\UREM_FormaSpiskaSprHardwareIsp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprModelPropertiesValue\UREM_FormaSpiskaSprModelPropertiesValue.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprProducerRabota\UREM_FormaElementaSprProducerRabotaGrp.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardwareVZip.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModelInfBlock\UREM_FormaSpiskaSprModelInfBlock.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprSost\UREM_FormaElementaSprSost.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaElementaSprGrpHardware.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaSpiskaSprKomplModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModel\UREM_FormaElementaSprModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprModel\UREM_FormaSpiskaSprModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprGrpKKT.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprHardware\UREM_FormaSpiskaSprHardware.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaElementaSprKKT.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaSpiskaSprNeisprModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaElementaSprGrpNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprNeisprModel\UREM_FormaElementaSprNeisprModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprKKT\UREM_FormaSpiskaSprKKT.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprSost\UREM_FormaSpiskaSprSost.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaSpiskaSprTypDefect.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefectGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaSpiskaSprProducerNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslov.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaSpiskaSprTypRabot.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabotGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypDefect\UREM_FormaElementaSprTypDefect.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypRabot\UREM_FormaElementaSprTypRabot.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprNeispr\UREM_FormaSpiskaSprNeispr.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaSpiskaSprTypeRemont.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprKomplModel\UREM_FormaElementaSprKomplModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerNeispr\UREM_FormaElementaSprProducerNeisprGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypUslov\UREM_FormaElementaSprTypUslovGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaSpiskaSprProducerModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModel.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaSpiskaSprProducerSection.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerConditionGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprTypeRemont\UREM_FormaElementaSprTypeRemont.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaElementaSprProducerCondition.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSectionGrp.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerCondition\UREM_FormaSpiskaSprProducerCondition.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerSection\UREM_FormaElementaSprProducerSection.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprProducerModel\UREM_FormaElementaSprProducerModelGrp.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -1156,7 +1156,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">490</VersionInfo>
+						<VersionInfo Name="Build">494</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -1168,7 +1168,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.490</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.494</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

@@ -19,7 +19,7 @@
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
 			<DCC_DebugDCUs>true</DCC_DebugDCUs>
-			<FinalOutputDir>K:\Program\FIBPlus\Exe\</FinalOutputDir>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
 			<OutputExt>dll</OutputExt>
 			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;vcldb.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;dxGDIPlusC14.bpi;dxCoreC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;vclimg.bpi;cxExtEditorsC14.bpi;vclx.bpi;cxGridC14.bpi;cxExportC14.bpi;cxPageControlC14.bpi;FIBPlus_CB2010.bpi;dsnap.bpi</LinkPackageImports>
 			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;Rave77VCL.bpi;FIBPlus_CB2010.bpi;pFIBPlusTools_CB2010.bpi;fs14.bpi;frx14.bpi;frxcs14.bpi;fsDB14.bpi;frxDB14.bpi;fsBDE14.bpi;frxBDE14.bpi;fsADO14.bpi;frxADO14.bpi;fsIBX14.bpi;frxIBX14.bpi;frxDBX14.bpi;frxe14.bpi;fsTee14.bpi;frxTee14.bpi;frxFIB14.bpi;fqb140.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;iw10tmsgridc2010.bpi;iw10tmsc2010.bpi;VclSmp.bpi;iw10tmsgriddec2010.bpi;iw10tmsxlsc2010.bpi</PackageImports>
@@ -61,23 +61,10 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Classes\UkanIniFile.cpp">
-				<DependentOn>..\..\..\Classes\UkanIniFile.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UArmKas2CF.cpp">
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="ArmKas2.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="UFormaArmKassir2.cpp">
+				<Form>FormaARMKassir2</Form>
+				<DependentOn>UFormaArmKassir2.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -85,21 +72,34 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaArmKassir2.cpp">
-				<Form>FormaARMKassir2</Form>
-				<DependentOn>UFormaArmKassir2.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
+			<CppCompile Include="UArmKas2Impl.cpp">
+				<BuildOrder>50</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UFormaViborOplat_ARM2.cpp">
 				<Form>FormaViborOplat_ARM2</Form>
 				<DependentOn>UFormaViborOplat_ARM2.h</DependentOn>
 				<BuildOrder>52</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UArmKas2Impl.cpp">
-				<BuildOrder>50</BuildOrder>
+			<CppCompile Include="ArmKas2.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UArmKas2CF.cpp">
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Classes\UkanIniFile.cpp">
+				<DependentOn>..\..\..\Classes\UkanIniFile.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
 			<FormResources Include="UFormaArmKassir2.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<FormResources Include="UFormaViborOplat_ARM2.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>

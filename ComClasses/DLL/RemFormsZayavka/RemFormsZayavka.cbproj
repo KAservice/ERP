@@ -61,237 +61,237 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="RemFormsZayavka.res">
-				<BuildOrder>2</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryCF.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDv.cpp">
-				<Form>REM_FormaCustQueryDv</Form>
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDv.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryCF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQuery.cpp">
-				<Form>REM_FormaElementaSprSostCustQuery</Form>
-				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQuery.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQuery.cpp">
-				<Form>REM_FormaSpiskaSprSostCustQuery</Form>
-				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQuery.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDv.cpp">
-				<Form>REM_FormaZayavkaDv</Form>
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDv.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvImpl.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvCF.h</DependentOn>
-				<BuildOrder>45</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvImpl.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvCF.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredv.cpp">
-				<Form>REM_FormaGurZPredv</Form>
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredv.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="RemFormsZayavka.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryImpl.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriem.cpp">
-				<Form>REM_FormaInfoPriem</Form>
-				<DependentOn>..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriem.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDopImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZDopImpl.h</DependentOn>
-				<BuildOrder>37</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavka.cpp">
-				<Form>REM_FormaZayavka</Form>
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavka.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryImpl.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalImpl.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryCF.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQuery.cpp">
-				<Form>REM_FormaCustQuery</Form>
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQuery.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageCF.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryImpl.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImage.cpp">
 				<Form>REM_FormaElementaZayavkaImage</Form>
 				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImage.h</DependentOn>
 				<BuildOrder>29</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryCF.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryImpl.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageImpl.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageCF.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZ.cpp">
 				<Form>REM_FormaGurZ</Form>
 				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZ.h</DependentOn>
 				<BuildOrder>35</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImageImpl.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryCF.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryImpl.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavka.cpp">
+				<Form>REM_FormaZayavka</Form>
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavka.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDopImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZDopImpl.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQuery.cpp">
+				<Form>REM_FormaCustQuery</Form>
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQuery.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryCF.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalImpl.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDopCF.cpp">
 				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZDopCF.h</DependentOn>
 				<BuildOrder>36</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImage.cpp">
-				<Form>REM_FormaSpiskaZayavkaImage</Form>
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImage.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryImpl.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQuery.cpp">
-				<Form>REM_FormaGurCustQuery</Form>
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQuery.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalCF.h</DependentOn>
-				<BuildOrder>39</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredv.cpp">
 				<Form>REM_FormaZayavkaPredv</Form>
 				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredv.h</DependentOn>
 				<BuildOrder>44</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDop.cpp">
-				<Form>REM_FormaGurZDop</Form>
-				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZDop.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetalCF.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetal.cpp">
 				<Form>REM_FormaGurCustQueryDetal</Form>
 				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetal.h</DependentOn>
 				<BuildOrder>38</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDv.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQuery.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQuery.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDv.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredv.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriem.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavka.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQuery.dfm"/>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDop.cpp">
+				<Form>REM_FormaGurZDop</Form>
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZDop.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImageImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImage.cpp">
+				<Form>REM_FormaSpiskaZayavkaImage</Form>
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImage.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQuery.cpp">
+				<Form>REM_FormaGurCustQuery</Form>
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQuery.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryImpl.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDvImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryCF.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDv.cpp">
+				<Form>REM_FormaCustQueryDv</Form>
+				<DependentOn>..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDv.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQueryCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQuery.cpp">
+				<Form>REM_FormaSpiskaSprSostCustQuery</Form>
+				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQuery.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQuery.cpp">
+				<Form>REM_FormaElementaSprSostCustQuery</Form>
+				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQuery.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="RemFormsZayavka.res">
+				<BuildOrder>2</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDvImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDv.cpp">
+				<Form>REM_FormaZayavkaDv</Form>
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDv.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQueryImpl.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="RemFormsZayavka.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriem.cpp">
+				<Form>REM_FormaInfoPriem</Form>
+				<DependentOn>..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriem.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriemImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvCF.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredvImpl.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredv.cpp">
+				<Form>REM_FormaGurZPredv</Form>
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredv.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvCF.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredvImpl.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaElementaZayavkaImage.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZ.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavka.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQuery.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredv.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetal.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDop.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaSpiskaZayavkaImage.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQuery.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaPredv.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZDop.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaGurCustQueryDetal.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_CustQuery\UREM_FormaCustQueryDv.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaSpiskaSprSostCustQuery.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SprSostCustQuery\UREM_FormaElementaSprSostCustQuery.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaZayavkaDv.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_InfoPriem\UREM_FormaInfoPriem.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurZ\UREM_FormaGurZPredv.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -316,7 +316,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">461</VersionInfo>
+						<VersionInfo Name="Build">465</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -328,7 +328,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.461</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.465</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

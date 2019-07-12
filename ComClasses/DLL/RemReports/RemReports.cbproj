@@ -60,8 +60,31 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="RemReports.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.cpp">
+				<Form>REM_FormaReportKartTovara</Form>
+				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.cpp">
+				<Form>REM_FormaStandartReport</Form>
+				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -69,46 +92,23 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="RemReports.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
 				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
+			<ResFiles Include="RemReports.res">
+				<BuildOrder>4</BuildOrder>
+			</ResFiles>
 			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
 				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="RemReports.res">
-				<BuildOrder>4</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.cpp">
-				<Form>REM_FormaStandartReport</Form>
-				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReportImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.cpp">
-				<Form>REM_FormaReportKartTovara</Form>
-				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovaraImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_ReportKartTovara\UREM_FormaReportKartTovara.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_StandartReport\UREM_FormaStandartReport.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -133,7 +133,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">203</VersionInfo>
+						<VersionInfo Name="Build">207</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -145,7 +145,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.203</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.207</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

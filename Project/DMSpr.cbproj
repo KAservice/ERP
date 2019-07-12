@@ -1,0 +1,1196 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{59EDB54D-0D10-4349-B034-DB885567D1DE}</ProjectGuid>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DebugDCUs>true</DCC_DebugDCUs>
+			<FinalOutputDir>K:\ERP\Program\FIBPlus\Exe\</FinalOutputDir>
+			<OutputExt>dll</OutputExt>
+			<Multithreaded>true</Multithreaded>
+			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;vclactnband.bpi;xmlrtl.bpi;bcbsmp.bpi;vclimg.bpi;dbrtl.bpi;vcldb.bpi;vcldbx.bpi;bdertl.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;vclie.bpi;inetdb.bpi;webdsnap.bpi;websnap.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;DbxCommonDriver.bpi;DbxClientDriver.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;dbexpress.bpi;dbxcds.bpi;Rave77VCL.bpi;FIBPlus_CB2010.bpi;pFIBPlusTools_CB2010.bpi;fs14.bpi;frx14.bpi;frxcs14.bpi;fsDB14.bpi;frxDB14.bpi;fsBDE14.bpi;frxBDE14.bpi;fsADO14.bpi;frxADO14.bpi;fsIBX14.bpi;frxIBX14.bpi;frxDBX14.bpi;frxe14.bpi;fsTee14.bpi;frxTee14.bpi;frxFIB14.bpi;fqb140.bpi;dxCoreC14.bpi;dxGDIPlusC14.bpi;cxLibraryC14.bpi;dxThemeC14.bpi;cxEditorsC14.bpi;cxDataC14.bpi;cxExtEditorsC14.bpi;cxPageControlC14.bpi;cxGridC14.bpi;cxExportC14.bpi;dxmdsC14.bpi;cxSpreadSheetC14.bpi;dxComnC14.bpi;dxPSCoreC14.bpi;dxPSLnksC14.bpi;dxPScxCommonC14.bpi;dxPScxGrid6LnkC14.bpi;dxPScxPCProdC14.bpi;dxPScxSSLnkC14.bpi;dxPSTeeChartC14.bpi;dxPScxExtCommonC14.bpi;dxPSDBTeeChartC14.bpi;iw10tmsgridc2010.bpi;iw10tmsc2010.bpi;VclSmp.bpi;iw10tmsgriddec2010.bpi;iw10tmsxlsc2010.bpi</PackageImports>
+			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;FIBPlus_CB2010.bpi;dsnap.bpi;vcldb.bpi;ibxpress.bpi</LinkPackageImports>
+			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;FIBPlus_CB2010.lib;dsnap.lib;vcldb.lib;ibxpress.lib</AllPackageLibs>
+			<ILINK_GenerateImportLibrary>true</ILINK_GenerateImportLibrary>
+			<ProjectType>VCppStyleDll</ProjectType>
+			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+			<DynamicRTL>true</DynamicRTL>
+			<UsePackages>true</UsePackages>
+			<IncludePath>..\Classes\;..\FIB_DataModule\SprFirm\;..\FIB_DataModule\DMQuery\;..\FIB_DataModule\SprBank\;..\FIB_DataModule\SprPodr\;..\FIB_DataModule\SprOKEI\;..\FIB_DataModule\SprPart\;..\FIB_DataModule\SprUser\;..\FIB_DataModule\SprEd\;..\FIB_DataModule\SprKKM\;..\FIB_DataModule\SprNom\;..\FIB_DataModule\SprARM\;..\ComClasses\DLL\DMSpr\;..\FIB_DataModule\Setup\;..\FIB_DataModule\SprInv\;..\FIB_DataModule\SprMod\;..\FIB_DataModule\SprBankSchet\;..\FIB_DataModule\SprTypePrice\;..\FIB_DataModule\SprNakSkidok\;..\FIB_DataModule\SprDocKlient\;..\FIB_DataModule\SprImportSet\;..\FIB_DataModule\SprImportNom\;..\FIB_DataModule\SprStrObject\;..\FIB_DataModule\SprVidKlient\;..\FIB_DataModule\TableExtPrintForm\;..\FIB_DataModule\SprPrice\;..\FIB_DataModule\SprBVNom\;..\FIB_DataModule\SprBrand\;..\FIB_DataModule\SprSklad\;..\FIB_DataModule\SprMPrig\;..\FIB_DataModule\SprScale\;..\FIB_DataModule\SprSezKF\;..\FIB_DataModule\SprDiscountAuto\;..\FIB_DataModule\SprVidDiscountCard\;..\FIB_DataModule\SprKlientDopUrL\;..\FIB_DataModule\SprDiscountCard\;..\FIB_DataModule\SprBusinessOper\;..\FIB_DataModule\TableNumberDoc\;..\FIB_DataModule\SprGrafikPlat\;..\FIB_DataModule\SprRaschSchet\;..\FIB_DataModule\SprSezKFSProd\;..\Global\;..\FIB_DataModule\SprImportEd\;..\FIB_DataModule\XSetupObmen\;..\FIB_DataModule\DMXTableIsm\;..\FIB_DataModule\SprSostProd\;..\FIB_DataModule\SprProject\;..\FIB_DataModule\SprDogovor\;..\FIB_DataModule\SprCodeTel\;..\FIB_DataModule\SprCountry\;..\FIB_DataModule\SprInfBase\;..\FIB_DataModule\SprNacenka\;..\FIB_DataModule\SprNomRest\;..\FIB_DataModule\SprKlientDopFisL\;..\FIB_DataModule\SprPriceSchedule\;..\FIB_DataModule\SprKlient\;..\FIB_DataModule\UserSetup\;..\FIB_DataModule\SprOborud\;..\FIB_DataModule\SprNumTel\;..\FIB_DataModule\SprVesNom\;..\FIB_DataModule\SprVidNom\;..\..\Classes\;..\..\FIB_DataModule\SprFirm\;..\..\FIB_DataModule\DMQuery\;..\..\FIB_DataModule\SprBank\;..\..\FIB_DataModule\SprPodr\;..\..\FIB_DataModule\SprOKEI\;..\..\FIB_DataModule\SprPart\;..\..\FIB_DataModule\SprUser\;..\..\FIB_DataModule\SprEd\;..\..\FIB_DataModule\SprKKM\;..\..\FIB_DataModule\SprNom\;..\..\FIB_DataModule\SprARM\;..\..\ComClasses\DLL\DMSpr\;..\..\FIB_DataModule\Setup\;..\..\FIB_DataModule\SprInv\;..\..\FIB_DataModule\SprMod\;..\..\FIB_DataModule\SprBankSchet\;..\..\FIB_DataModule\SprTypePrice\;..\..\FIB_DataModule\SprNakSkidok\;..\..\FIB_DataModule\SprDocKlient\;..\..\FIB_DataModule\SprImportSet\;..\..\FIB_DataModule\SprImportNom\;..\..\FIB_DataModule\SprStrObject\;..\..\FIB_DataModule\SprVidKlient\;..\..\FIB_DataModule\TableExtPrintForm\;..\..\FIB_DataModule\SprPrice\;..\..\FIB_DataModule\SprBVNom\;..\..\FIB_DataModule\SprBrand\;..\..\FIB_DataModule\SprSklad\;..\..\FIB_DataModule\SprMPrig\;..\..\FIB_DataModule\SprScale\;..\..\FIB_DataModule\SprSezKF\;..\..\FIB_DataModule\SprDiscountAuto\;..\..\FIB_DataModule\SprVidDiscountCard\;..\..\FIB_DataModule\SprKlientDopUrL\;..\..\FIB_DataModule\SprDiscountCard\;..\..\FIB_DataModule\SprBusinessOper\;..\..\FIB_DataModule\TableNumberDoc\;..\..\FIB_DataModule\SprGrafikPlat\;..\..\FIB_DataModule\SprRaschSchet\;..\..\FIB_DataModule\SprSezKFSProd\;..\..\Global\;..\..\FIB_DataModule\SprImportEd\;..\..\FIB_DataModule\XSetupObmen\;..\..\FIB_DataModule\DMXTableIsm\;..\..\FIB_DataModule\SprSostProd\;..\..\FIB_DataModule\SprProject\;..\..\FIB_DataModule\SprDogovor\;..\..\FIB_DataModule\SprCodeTel\;..\..\FIB_DataModule\SprCountry\;..\..\FIB_DataModule\SprInfBase\;..\..\FIB_DataModule\SprNacenka\;..\..\FIB_DataModule\SprNomRest\;..\..\FIB_DataModule\SprKlientDopFisL\;..\..\FIB_DataModule\SprPriceSchedule\;..\..\FIB_DataModule\SprKlient\;..\..\FIB_DataModule\UserSetup\;..\..\FIB_DataModule\SprOborud\;..\..\FIB_DataModule\SprNumTel\;..\..\FIB_DataModule\SprVesNom\;..\..\FIB_DataModule\SprVidNom\;..\..\..\Classes\;..\..\..\FIB_DataModule\SprPart\;..\..\..\FIB_DataModule\SprUser\;..\..\..\FIB_DataModule\DMQuery\;..\..\..\FIB_DataModule\SprFirm\;..\..\..\FIB_DataModule\SprBank\;..\..\..\FIB_DataModule\SprOKEI\;..\..\..\FIB_DataModule\SprPodr\;..\..\..\FIB_DataModule\SprMod\;..\..\..\FIB_DataModule\SprInv\;..\..\..\FIB_DataModule\Setup\;..\..\..\FIB_DataModule\SprARM\;..\..\..\FIB_DataModule\SprNom\;..\..\..\FIB_DataModule\SprEd\;..\..\..\FIB_DataModule\SprKKM\;..\..\..\FIB_DataModule\SprVidKlient\;..\..\..\FIB_DataModule\TableExtPrintForm\;..\..\..\FIB_DataModule\SprStrObject\;..\..\..\FIB_DataModule\SprNakSkidok\;..\..\..\FIB_DataModule\SprDocKlient\;..\..\..\FIB_DataModule\SprImportNom\;..\..\..\FIB_DataModule\SprImportSet\;..\..\..\FIB_DataModule\SprBankSchet\;..\..\..\FIB_DataModule\SprTypePrice\;..\..\..\FIB_DataModule\SprMPrig\;..\..\..\FIB_DataModule\SprScale\;..\..\..\FIB_DataModule\SprSezKF\;..\..\..\FIB_DataModule\SprSklad\;..\..\..\FIB_DataModule\SprBrand\;..\..\..\FIB_DataModule\SprPrice\;..\..\..\FIB_DataModule\SprBVNom\;..\..\..\FIB_DataModule\SprDiscountCard\;..\..\..\FIB_DataModule\SprKlientDopUrL\;..\..\..\FIB_DataModule\SprVidDiscountCard\;..\..\..\FIB_DataModule\SprBusinessOper\;..\..\..\FIB_DataModule\SprDiscountAuto\;..\..\..\FIB_DataModule\TableNumberDoc\;..\..\..\FIB_DataModule\SprRaschSchet\;..\..\..\FIB_DataModule\SprSezKFSProd\;..\..\..\FIB_DataModule\SprGrafikPlat\;..\..\..\FIB_DataModule\XSetupObmen\;..\..\..\FIB_DataModule\DMXTableIsm\;..\..\..\FIB_DataModule\SprSostProd\;..\..\..\FIB_DataModule\SprImportEd\;..\..\..\Global\;..\..\..\FIB_DataModule\SprNacenka\;..\..\..\FIB_DataModule\SprNomRest\;..\..\..\FIB_DataModule\SprInfBase\;..\..\..\FIB_DataModule\SprDogovor\;..\..\..\FIB_DataModule\SprProject\;..\..\..\FIB_DataModule\SprCodeTel\;..\..\..\FIB_DataModule\SprCountry\;..\..\..\FIB_DataModule\SprPriceSchedule\;..\..\..\FIB_DataModule\SprKlientDopFisL\;..\..\..\FIB_DataModule\SprNumTel\;..\..\..\FIB_DataModule\SprKlient\;..\..\..\FIB_DataModule\SprVesNom\;..\..\..\FIB_DataModule\SprVidNom\;..\..\..\FIB_DataModule\UserSetup\;..\..\..\FIB_DataModule\SprOborud\;K:\ERP\FIB_DataModule\SprBusinessOper\;K:\ERP\Classes\;K:\ERP\FIB_DataModule\UserSetup\;K:\ERP\FIB_DataModule\TableExtPrintForm\;K:\ERP\FIB_DataModule\DMXTableIsm\;K:\ERP\FIB_DataModule\XTableBase\;K:\ERP\FIB_DataModule\XSetupObmen\;K:\ERP\FIB_DataModule\TableNumberDoc\;K:\ERP\FIB_DataModule\SprVidNom\;K:\ERP\FIB_DataModule\SprVidKlient\;K:\ERP\FIB_DataModule\SprRaschSchet\;K:\ERP\FIB_DataModule\SprVidDiscountCard\;K:\ERP\FIB_DataModule\SprVesNom\;K:\ERP\FIB_DataModule\SprUser\;K:\ERP\FIB_DataModule\SprTypePrice\;K:\ERP\FIB_DataModule\SprStrObject\;K:\ERP\FIB_DataModule\SprSostProd\;K:\ERP\FIB_DataModule\SprSezKFSProd\;K:\ERP\FIB_DataModule\SprSezKF\;K:\ERP\FIB_DataModule\SprScale\;K:\ERP\FIB_DataModule\Setup\;K:\ERP\FIB_DataModule\SprProject\;K:\ERP\FIB_DataModule\SprPriceSchedule\;K:\ERP\FIB_DataModule\SprPrice\;K:\ERP\FIB_DataModule\SprPodr\;K:\ERP\FIB_DataModule\SprPart\;K:\ERP\FIB_DataModule\SprOKEI\;K:\ERP\FIB_DataModule\SprOborud\;K:\ERP\FIB_DataModule\SprNumTel\;K:\ERP\FIB_DataModule\SprNomRest\;K:\ERP\FIB_DataModule\SprNom\;K:\ERP\FIB_DataModule\SprNakSkidok\;K:\ERP\FIB_DataModule\SprNacenka\;K:\ERP\FIB_DataModule\SprMPrig\;K:\ERP\FIB_DataModule\SprMod\;K:\ERP\FIB_DataModule\SprKlientDopUrL\;K:\ERP\FIB_DataModule\SprKlientDopFisL\;K:\ERP\FIB_DataModule\SprKlient\;K:\ERP\FIB_DataModule\SprKKM\;K:\ERP\FIB_DataModule\SprInv\;K:\ERP\FIB_DataModule\SprInfBase\;K:\ERP\FIB_DataModule\SprImportSet\;K:\ERP\FIB_DataModule\SprImportNom\;K:\ERP\FIB_DataModule\SprImportEd\;K:\ERP\FIB_DataModule\SprGrafikPlat\;K:\ERP\FIB_DataModule\SprFirm\;K:\ERP\Forms\ObjectBarCode\;K:\ERP\Interface\;K:\ERP\FIB_DataModule\SprEd\;K:\ERP\FIB_DataModule\SprDogovor\;K:\ERP\FIB_DataModule\SprDocKlient\;K:\ERP\FIB_DataModule\SprDiscountCard\;K:\ERP\FIB_DataModule\SprDiscountAuto\;K:\ERP\FIB_DataModule\SprCountry\;K:\ERP\FIB_DataModule\SprCodeTel\;K:\ERP\FIB_DataModule\SprBVNom\;K:\ERP\FIB_DataModule\SprBrand\;K:\ERP\FIB_DataModule\SprBank\;K:\ERP\FIB_DataModule\SprARM\;K:\ERP\FIB_DataModule\SprBankSchet\;K:\ERP\FIB_DataModule\SprSklad\;K:\ERP\FIB_DataModule\DMQuery\;K:\ERP\Global\;K:\ERP\Interface;$(CG_BOOST_ROOT)\boost\tr1\tr1;$(BDS)\include;$(BDS)\include\dinkumware;$(BDS)\include\vcl;$(CG_BOOST_ROOT);$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>..\Classes\;..\FIB_DataModule\SprFirm\;..\FIB_DataModule\DMQuery\;..\FIB_DataModule\SprBank\;..\FIB_DataModule\SprPodr\;..\FIB_DataModule\SprOKEI\;..\FIB_DataModule\SprPart\;..\FIB_DataModule\SprUser\;..\FIB_DataModule\SprEd\;..\FIB_DataModule\SprKKM\;..\FIB_DataModule\SprNom\;..\FIB_DataModule\SprARM\;..\ComClasses\DLL\DMSpr\;..\FIB_DataModule\Setup\;..\FIB_DataModule\SprInv\;..\FIB_DataModule\SprMod\;..\FIB_DataModule\SprBankSchet\;..\FIB_DataModule\SprTypePrice\;..\FIB_DataModule\SprNakSkidok\;..\FIB_DataModule\SprDocKlient\;..\FIB_DataModule\SprImportSet\;..\FIB_DataModule\SprImportNom\;..\FIB_DataModule\SprStrObject\;..\FIB_DataModule\SprVidKlient\;..\FIB_DataModule\TableExtPrintForm\;..\FIB_DataModule\SprPrice\;..\FIB_DataModule\SprBVNom\;..\FIB_DataModule\SprBrand\;..\FIB_DataModule\SprSklad\;..\FIB_DataModule\SprMPrig\;..\FIB_DataModule\SprScale\;..\FIB_DataModule\SprSezKF\;..\FIB_DataModule\SprDiscountAuto\;..\FIB_DataModule\SprVidDiscountCard\;..\FIB_DataModule\SprKlientDopUrL\;..\FIB_DataModule\SprDiscountCard\;..\FIB_DataModule\SprBusinessOper\;..\FIB_DataModule\TableNumberDoc\;..\FIB_DataModule\SprGrafikPlat\;..\FIB_DataModule\SprRaschSchet\;..\FIB_DataModule\SprSezKFSProd\;..\Global\;..\FIB_DataModule\SprImportEd\;..\FIB_DataModule\XSetupObmen\;..\FIB_DataModule\DMXTableIsm\;..\FIB_DataModule\SprSostProd\;..\FIB_DataModule\SprProject\;..\FIB_DataModule\SprDogovor\;..\FIB_DataModule\SprCodeTel\;..\FIB_DataModule\SprCountry\;..\FIB_DataModule\SprInfBase\;..\FIB_DataModule\SprNacenka\;..\FIB_DataModule\SprNomRest\;..\FIB_DataModule\SprKlientDopFisL\;..\FIB_DataModule\SprPriceSchedule\;..\FIB_DataModule\SprKlient\;..\FIB_DataModule\UserSetup\;..\FIB_DataModule\SprOborud\;..\FIB_DataModule\SprNumTel\;..\FIB_DataModule\SprVesNom\;..\FIB_DataModule\SprVidNom\;..\..\Classes\;..\..\FIB_DataModule\SprFirm\;..\..\FIB_DataModule\DMQuery\;..\..\FIB_DataModule\SprBank\;..\..\FIB_DataModule\SprPodr\;..\..\FIB_DataModule\SprOKEI\;..\..\FIB_DataModule\SprPart\;..\..\FIB_DataModule\SprUser\;..\..\FIB_DataModule\SprEd\;..\..\FIB_DataModule\SprKKM\;..\..\FIB_DataModule\SprNom\;..\..\FIB_DataModule\SprARM\;..\..\ComClasses\DLL\DMSpr\;..\..\FIB_DataModule\Setup\;..\..\FIB_DataModule\SprInv\;..\..\FIB_DataModule\SprMod\;..\..\FIB_DataModule\SprBankSchet\;..\..\FIB_DataModule\SprTypePrice\;..\..\FIB_DataModule\SprNakSkidok\;..\..\FIB_DataModule\SprDocKlient\;..\..\FIB_DataModule\SprImportSet\;..\..\FIB_DataModule\SprImportNom\;..\..\FIB_DataModule\SprStrObject\;..\..\FIB_DataModule\SprVidKlient\;..\..\FIB_DataModule\TableExtPrintForm\;..\..\FIB_DataModule\SprPrice\;..\..\FIB_DataModule\SprBVNom\;..\..\FIB_DataModule\SprBrand\;..\..\FIB_DataModule\SprSklad\;..\..\FIB_DataModule\SprMPrig\;..\..\FIB_DataModule\SprScale\;..\..\FIB_DataModule\SprSezKF\;..\..\FIB_DataModule\SprDiscountAuto\;..\..\FIB_DataModule\SprVidDiscountCard\;..\..\FIB_DataModule\SprKlientDopUrL\;..\..\FIB_DataModule\SprDiscountCard\;..\..\FIB_DataModule\SprBusinessOper\;..\..\FIB_DataModule\TableNumberDoc\;..\..\FIB_DataModule\SprGrafikPlat\;..\..\FIB_DataModule\SprRaschSchet\;..\..\FIB_DataModule\SprSezKFSProd\;..\..\Global\;..\..\FIB_DataModule\SprImportEd\;..\..\FIB_DataModule\XSetupObmen\;..\..\FIB_DataModule\DMXTableIsm\;..\..\FIB_DataModule\SprSostProd\;..\..\FIB_DataModule\SprProject\;..\..\FIB_DataModule\SprDogovor\;..\..\FIB_DataModule\SprCodeTel\;..\..\FIB_DataModule\SprCountry\;..\..\FIB_DataModule\SprInfBase\;..\..\FIB_DataModule\SprNacenka\;..\..\FIB_DataModule\SprNomRest\;..\..\FIB_DataModule\SprKlientDopFisL\;..\..\FIB_DataModule\SprPriceSchedule\;..\..\FIB_DataModule\SprKlient\;..\..\FIB_DataModule\UserSetup\;..\..\FIB_DataModule\SprOborud\;..\..\FIB_DataModule\SprNumTel\;..\..\FIB_DataModule\SprVesNom\;..\..\FIB_DataModule\SprVidNom\;..\..\..\Classes\;..\..\..\FIB_DataModule\SprPart\;..\..\..\FIB_DataModule\SprUser\;..\..\..\FIB_DataModule\DMQuery\;..\..\..\FIB_DataModule\SprFirm\;..\..\..\FIB_DataModule\SprBank\;..\..\..\FIB_DataModule\SprOKEI\;..\..\..\FIB_DataModule\SprPodr\;..\..\..\FIB_DataModule\SprMod\;..\..\..\FIB_DataModule\SprInv\;..\..\..\FIB_DataModule\Setup\;..\..\..\FIB_DataModule\SprARM\;..\..\..\FIB_DataModule\SprNom\;..\..\..\FIB_DataModule\SprEd\;..\..\..\FIB_DataModule\SprKKM\;..\..\..\FIB_DataModule\SprVidKlient\;..\..\..\FIB_DataModule\TableExtPrintForm\;..\..\..\FIB_DataModule\SprStrObject\;..\..\..\FIB_DataModule\SprNakSkidok\;..\..\..\FIB_DataModule\SprDocKlient\;..\..\..\FIB_DataModule\SprImportNom\;..\..\..\FIB_DataModule\SprImportSet\;..\..\..\FIB_DataModule\SprBankSchet\;..\..\..\FIB_DataModule\SprTypePrice\;..\..\..\FIB_DataModule\SprMPrig\;..\..\..\FIB_DataModule\SprScale\;..\..\..\FIB_DataModule\SprSezKF\;..\..\..\FIB_DataModule\SprSklad\;..\..\..\FIB_DataModule\SprBrand\;..\..\..\FIB_DataModule\SprPrice\;..\..\..\FIB_DataModule\SprBVNom\;..\..\..\FIB_DataModule\SprDiscountCard\;..\..\..\FIB_DataModule\SprKlientDopUrL\;..\..\..\FIB_DataModule\SprVidDiscountCard\;..\..\..\FIB_DataModule\SprBusinessOper\;..\..\..\FIB_DataModule\SprDiscountAuto\;..\..\..\FIB_DataModule\TableNumberDoc\;..\..\..\FIB_DataModule\SprRaschSchet\;..\..\..\FIB_DataModule\SprSezKFSProd\;..\..\..\FIB_DataModule\SprGrafikPlat\;..\..\..\FIB_DataModule\XSetupObmen\;..\..\..\FIB_DataModule\DMXTableIsm\;..\..\..\FIB_DataModule\SprSostProd\;..\..\..\FIB_DataModule\SprImportEd\;..\..\..\Global\;..\..\..\FIB_DataModule\SprNacenka\;..\..\..\FIB_DataModule\SprNomRest\;..\..\..\FIB_DataModule\SprInfBase\;..\..\..\FIB_DataModule\SprDogovor\;..\..\..\FIB_DataModule\SprProject\;..\..\..\FIB_DataModule\SprCodeTel\;..\..\..\FIB_DataModule\SprCountry\;..\..\..\FIB_DataModule\SprPriceSchedule\;..\..\..\FIB_DataModule\SprKlientDopFisL\;..\..\..\FIB_DataModule\SprNumTel\;..\..\..\FIB_DataModule\SprKlient\;..\..\..\FIB_DataModule\SprVesNom\;..\..\..\FIB_DataModule\SprVidNom\;..\..\..\FIB_DataModule\UserSetup\;..\..\..\FIB_DataModule\SprOborud\;K:\ERP\FIB_DataModule\SprBusinessOper\;K:\ERP\Classes\;K:\ERP\FIB_DataModule\UserSetup\;K:\ERP\FIB_DataModule\TableExtPrintForm\;K:\ERP\FIB_DataModule\DMXTableIsm\;K:\ERP\FIB_DataModule\XTableBase\;K:\ERP\FIB_DataModule\XSetupObmen\;K:\ERP\FIB_DataModule\TableNumberDoc\;K:\ERP\FIB_DataModule\SprVidNom\;K:\ERP\FIB_DataModule\SprVidKlient\;K:\ERP\FIB_DataModule\SprRaschSchet\;K:\ERP\FIB_DataModule\SprVidDiscountCard\;K:\ERP\FIB_DataModule\SprVesNom\;K:\ERP\FIB_DataModule\SprUser\;K:\ERP\FIB_DataModule\SprTypePrice\;K:\ERP\FIB_DataModule\SprStrObject\;K:\ERP\FIB_DataModule\SprSostProd\;K:\ERP\FIB_DataModule\SprSezKFSProd\;K:\ERP\FIB_DataModule\SprSezKF\;K:\ERP\FIB_DataModule\SprScale\;K:\ERP\FIB_DataModule\Setup\;K:\ERP\FIB_DataModule\SprProject\;K:\ERP\FIB_DataModule\SprPriceSchedule\;K:\ERP\FIB_DataModule\SprPrice\;K:\ERP\FIB_DataModule\SprPodr\;K:\ERP\FIB_DataModule\SprPart\;K:\ERP\FIB_DataModule\SprOKEI\;K:\ERP\FIB_DataModule\SprOborud\;K:\ERP\FIB_DataModule\SprNumTel\;K:\ERP\FIB_DataModule\SprNomRest\;K:\ERP\FIB_DataModule\SprNom\;K:\ERP\FIB_DataModule\SprNakSkidok\;K:\ERP\FIB_DataModule\SprNacenka\;K:\ERP\FIB_DataModule\SprMPrig\;K:\ERP\FIB_DataModule\SprMod\;K:\ERP\FIB_DataModule\SprKlientDopUrL\;K:\ERP\FIB_DataModule\SprKlientDopFisL\;K:\ERP\FIB_DataModule\SprKlient\;K:\ERP\FIB_DataModule\SprKKM\;K:\ERP\FIB_DataModule\SprInv\;K:\ERP\FIB_DataModule\SprInfBase\;K:\ERP\FIB_DataModule\SprImportSet\;K:\ERP\FIB_DataModule\SprImportNom\;K:\ERP\FIB_DataModule\SprImportEd\;K:\ERP\FIB_DataModule\SprGrafikPlat\;K:\ERP\FIB_DataModule\SprFirm\;K:\ERP\Forms\ObjectBarCode\;K:\ERP\FIB_DataModule\SprEd\;K:\ERP\FIB_DataModule\SprDogovor\;K:\ERP\FIB_DataModule\SprDocKlient\;K:\ERP\FIB_DataModule\SprDiscountCard\;K:\ERP\FIB_DataModule\SprDiscountAuto\;K:\ERP\FIB_DataModule\SprCountry\;K:\ERP\FIB_DataModule\SprCodeTel\;K:\ERP\FIB_DataModule\SprBVNom\;K:\ERP\FIB_DataModule\SprBrand\;K:\ERP\FIB_DataModule\SprBank\;K:\ERP\FIB_DataModule\SprARM\;K:\ERP\FIB_DataModule\SprBankSchet\;K:\ERP\FIB_DataModule\SprSklad\;K:\ERP\FIB_DataModule\DMQuery\;K:\ERP\Global\;K:\ERP\Interface\;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\lib\psdk;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<BCC_wpar>false</BCC_wpar>
+			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<Defines>_DEBUG;$(Defines)</Defines>
+			<BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+			<IntermediateOutputDir>Debug</IntermediateOutputDir>
+			<BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+			<DCC_Define>DEBUG</DCC_Define>
+			<BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+			<BCC_StackFrames>true</BCC_StackFrames>
+			<ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+			<TASM_Debugging>Full</TASM_Debugging>
+			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<Defines>NDEBUG;$(Defines)</Defines>
+			<IntermediateOutputDir>Release</IntermediateOutputDir>
+			<ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<TASM_Debugging>None</TASM_Debugging>
+		</PropertyGroup>
+		<ItemGroup>
+			<CppCompile Include="..\FIB_DataModule\SprEd\UDMSprEdImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprEd\UDMSprEdImpl.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprFirm\UDMSprFirmCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprFirm\UDMSprFirmCF.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMQuery\UDMQueryReadCF.cpp">
+				<DependentOn>..\FIB_DataModule\DMQuery\UDMQueryReadCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.cpp">
+				<Form>DMSprDiscountAuto</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlient\UDMSprKlientCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlient\UDMSprKlientCF.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKKM\UDMSprKKMCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprKKM\UDMSprKKMCF.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNom\UDMSprGrpNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprNom\UDMSprGrpNomCF.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\Classes\UkanIniFile.cpp">
+				<DependentOn>..\Classes\UkanIniFile.h</DependentOn>
+				<BuildOrder>200</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\UserSetup\UDMUserSetup.cpp">
+				<Form>DMUserSetup</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\UserSetup\UDMUserSetup.h</DependentOn>
+				<BuildOrder>199</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBankSchet\UDMSprBankSchetImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBankSchet\UDMSprBankSchetImpl.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprEd\UDMSprEd.cpp">
+				<Form>DMSprEd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprEd\UDMSprEd.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprProject\UDMSprProjectImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprProject\UDMSprProjectImpl.h</DependentOn>
+				<BuildOrder>142</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMSprOborud.cpp">
+				<Form>DMSprOborud</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMSprOborud.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMSprOborudCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMSprOborudCF.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprProject\UDMSprProjectCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprProject\UDMSprProjectCF.h</DependentOn>
+				<BuildOrder>141</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPrice\UDMSprPriceImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprPrice\UDMSprPriceImpl.h</DependentOn>
+				<BuildOrder>133</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprTypePrice\UDMSprTypePriceImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprTypePrice\UDMSprTypePriceImpl.h</DependentOn>
+				<BuildOrder>161</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAutoCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAutoCF.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\UserSetup\UDMUserSetupCF.cpp">
+				<DependentOn>..\FIB_DataModule\UserSetup\UDMUserSetupCF.h</DependentOn>
+				<BuildOrder>201</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKKM\UDMSprKKMImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprKKM\UDMSprKKMImpl.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBVNom\UDMSprBVNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBVNom\UDMSprBVNomCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprFirm\UDMSprFirmImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprFirm\UDMSprFirmImpl.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidokImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidokImpl.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKKM\UDMSprKKM.cpp">
+				<Form>DMSprKKM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprKKM\UDMSprKKM.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlient\UDMSprKlient.cpp">
+				<Form>DMSprKlient</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprKlient\UDMSprKlient.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDocKlient\UDMSprDocKlientCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprDocKlient\UDMSprDocKlientCF.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBank\UDMSprBank.cpp">
+				<Form>DMSprBank</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBank\UDMSprBank.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlatImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlatImpl.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportSet\UDMSprImportSet.cpp">
+				<Form>DMSprImportSet</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprImportSet\UDMSprImportSet.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDocKlient\UDMSprDocKlient.cpp">
+				<Form>DMSprDocKlient</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprDocKlient\UDMSprDocKlient.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBrand\UDMSprBrandImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBrand\UDMSprBrandImpl.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportNom\UDMSprImportNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprImportNom\UDMSprImportNomCF.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidokCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidokCF.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlat.cpp">
+				<Form>DMSprGrafikPlat</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlat.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNom\UDMSprGrpNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprNom\UDMSprGrpNomImpl.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDocKlient\UDMSprDocKlientImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprDocKlient\UDMSprDocKlientImpl.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNom\UDMSprGrpNom.cpp">
+				<Form>DMSprGrpNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprNom\UDMSprGrpNom.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBrand\UDMSprBrandCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBrand\UDMSprBrandCF.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportSet\UDMSprImportSetImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprImportSet\UDMSprImportSetImpl.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportNom\UDMSprImportNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprImportNom\UDMSprImportNomImpl.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportEd\UDMSprImportEdImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprImportEd\UDMSprImportEdImpl.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprEd\UDMSprEdCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprEd\UDMSprEdCF.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBankSchet\UDMSprBankSchet.cpp">
+				<Form>DMSprBankSchet</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBankSchet\UDMSprBankSchet.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBankSchet\UDMSprBankSchetCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBankSchet\UDMSprBankSchetCF.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\UserSetup\UDMUserSetupImpl.cpp">
+				<DependentOn>..\FIB_DataModule\UserSetup\UDMUserSetupImpl.h</DependentOn>
+				<BuildOrder>202</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDogovor\UDMSprDogovorCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprDogovor\UDMSprDogovorCF.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprCodeTel\UDMSprCodeTelCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprCodeTel\UDMSprCodeTelCF.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportNom\UDMSprImportNom.cpp">
+				<Form>DMSprImportNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprImportNom\UDMSprImportNom.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprCodeTel\UDMSprCodeTel.cpp">
+				<Form>DMSprCodeTel</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprCodeTel\UDMSprCodeTel.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportSet\UDMSprImportSetCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprImportSet\UDMSprImportSetCF.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPrice\UDMSprPrice.cpp">
+				<Form>DMSprPrice</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprPrice\UDMSprPrice.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCardCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCardCF.h</DependentOn>
+				<BuildOrder>175</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrL.cpp">
+				<Form>DMSprKlientDopUrL</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrL.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBank\UDMSprBankImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBank\UDMSprBankImpl.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPodr\UDMSprPodr.cpp">
+				<Form>DMSprPodr</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprPodr\UDMSprPodr.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNom\UDMSprNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprNom\UDMSprNomCF.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPodr\UDMSprPodrCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprPodr\UDMSprPodrCF.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="DMSpr.res">
+				<ModuleName>DMSpr.res</ModuleName>
+				<BuildOrder>85</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\FIB_DataModule\SprBank\UDMSprBankCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBank\UDMSprBankCF.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlient\UDMSprKlientImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlient\UDMSprKlientImpl.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOKEI\UDMSprOKEIImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprOKEI\UDMSprOKEIImpl.h</DependentOn>
+				<BuildOrder>199</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1.cpp">
+				<Form>DMSprDiscountCard_1</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDogovor\UDMSprDogovor.cpp">
+				<Form>DMSprDogovor</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprDogovor\UDMSprDogovor.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBrand\UDMSprBrand.cpp">
+				<Form>DMSprBrand</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBrand\UDMSprBrand.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMViborOborudCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMViborOborudCF.h</DependentOn>
+				<BuildOrder>201</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMViborOborud.cpp">
+				<Form>DMViborOborud</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMViborOborud.h</DependentOn>
+				<BuildOrder>200</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNom\UDMSprNom.cpp">
+				<Form>DMSprNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprNom\UDMSprNom.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMSprOborudParamImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMSprOborudParamImpl.h</DependentOn>
+				<BuildOrder>211</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMSprOborudParamCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMSprOborudParamCF.h</DependentOn>
+				<BuildOrder>210</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMSprOborudParam.cpp">
+				<Form>DMSprOborudParam</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMSprOborudParam.h</DependentOn>
+				<BuildOrder>209</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOKEI\UDMSprOKEICF.cpp">
+				<DependentOn>..\FIB_DataModule\SprOKEI\UDMSprOKEICF.h</DependentOn>
+				<BuildOrder>198</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPodr\UDMSprPodrImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprPodr\UDMSprPodrImpl.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprARM\UDMSprARM.cpp">
+				<Form>DMSprARM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprARM\UDMSprARM.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.cpp">
+				<Form>DMSprDiscountCard</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOKEI\UDMSprOKEI.cpp">
+				<Form>DMSprOKEI</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprOKEI\UDMSprOKEI.h</DependentOn>
+				<BuildOrder>197</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMViborOborudImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMViborOborudImpl.h</DependentOn>
+				<BuildOrder>202</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCardImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCardImpl.h</DependentOn>
+				<BuildOrder>176</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprCountry\UDMSprCountryCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprCountry\UDMSprCountryCF.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprTypePrice\UDMSprTypePriceCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprTypePrice\UDMSprTypePriceCF.h</DependentOn>
+				<BuildOrder>160</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMQuery\UDMQueryReadImpl.cpp">
+				<DependentOn>..\FIB_DataModule\DMQuery\UDMQueryReadImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPrice\UDMSprPriceCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprPrice\UDMSprPriceCF.h</DependentOn>
+				<BuildOrder>132</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSklad\UDMSprSkladCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprSklad\UDMSprSkladCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAutoImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAutoImpl.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBVNom\UDMSprBVNom.cpp">
+				<Form>DMSprBVNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBVNom\UDMSprBVNom.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprARM\UDMSprARMImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprARM\UDMSprARMImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprCodeTel\UDMSprCodeTelImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprCodeTel\UDMSprCodeTelImpl.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprCountry\UDMSprCountry.cpp">
+				<Form>DMSprCountry</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprCountry\UDMSprCountry.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprProject\UDMSprProject.cpp">
+				<Form>DMSprProject</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprProject\UDMSprProject.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBVNom\UDMSprGrpBVNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBVNom\UDMSprGrpBVNomImpl.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNom\UDMSprNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprNom\UDMSprNomImpl.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMQuery\UDMQueryUpdate.cpp">
+				<Form>DMQueryUpdate</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\DMQuery\UDMQueryUpdate.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMQuery\UDMQueryRead.cpp">
+				<Form>DMQueryRead</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\DMQuery\UDMQueryRead.h</DependentOn>
+				<BuildOrder>143</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprTypePrice\UDMSprTypePrice.cpp">
+				<Form>DMSprTypePrice</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprTypePrice\UDMSprTypePrice.h</DependentOn>
+				<BuildOrder>159</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidok.cpp">
+				<Form>DMSprNakSkidok</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidok.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1CF.cpp">
+				<DependentOn>..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1CF.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1Impl.cpp">
+				<DependentOn>..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1Impl.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprCountry\UDMSprCountryImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprCountry\UDMSprCountryImpl.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBVNom\UDMSprGrpBVNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBVNom\UDMSprGrpBVNomCF.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSklad\UDMSprSkladImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprSklad\UDMSprSkladImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBVNom\UDMSprBVNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBVNom\UDMSprBVNomImpl.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMQuery\UDMQueryUpdateImpl.cpp">
+				<DependentOn>..\FIB_DataModule\DMQuery\UDMQueryUpdateImpl.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprOborud\UDMSprOborudImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprOborud\UDMSprOborudImpl.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBVNom\UDMSprGrpBVNom.cpp">
+				<Form>DMSprGrpBVNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBVNom\UDMSprGrpBVNom.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportEd\UDMSprImportEd.cpp">
+				<Form>DMSprImportEd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprImportEd\UDMSprImportEd.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrLCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrLCF.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\ComClasses\DLL\DMSpr\DMSpr.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\TableNumberDoc\UDMTableNumberDocCF.cpp">
+				<DependentOn>..\FIB_DataModule\TableNumberDoc\UDMTableNumberDocCF.h</DependentOn>
+				<BuildOrder>189</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlient\UDMSprGrpKlientImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlient\UDMSprGrpKlientImpl.h</DependentOn>
+				<BuildOrder>127</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\Setup\UDMSetup.cpp">
+				<Form>DMSetup</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\Setup\UDMSetup.h</DependentOn>
+				<BuildOrder>185</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCard.cpp">
+				<Form>DMSprVidDiscountCard</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCard.h</DependentOn>
+				<BuildOrder>174</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\Setup\UDMSetupCF.cpp">
+				<DependentOn>..\FIB_DataModule\Setup\UDMSetupCF.h</DependentOn>
+				<BuildOrder>186</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCardCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCardCF.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\Setup\UDMSetupImpl.cpp">
+				<DependentOn>..\FIB_DataModule\Setup\UDMSetupImpl.h</DependentOn>
+				<BuildOrder>187</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.cpp">
+				<Form>DMTableNumberDoc</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.h</DependentOn>
+				<BuildOrder>188</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDogovor\UDMSprDogovorImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprDogovor\UDMSprDogovorImpl.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprInfBase\UDMSprInfBase.cpp">
+				<Form>DMSprInfBase</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprInfBase\UDMSprInfBase.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMQuery\UDMQueryUpdateCF.cpp">
+				<DependentOn>..\FIB_DataModule\DMQuery\UDMQueryUpdateCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprInfBase\UDMSprInfBaseImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprInfBase\UDMSprInfBaseImpl.h</DependentOn>
+				<BuildOrder>121</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchetImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchetImpl.h</DependentOn>
+				<BuildOrder>181</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCardImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCardImpl.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\XSetupObmen\UDMXSetupObmenCF.cpp">
+				<DependentOn>..\FIB_DataModule\XSetupObmen\UDMXSetupObmenCF.h</DependentOn>
+				<BuildOrder>189</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlient\UDMSprGrpKlient.cpp">
+				<Form>DMSprGrpKlient</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprKlient\UDMSprGrpKlient.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprInfBase\UDMSprInfBaseCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprInfBase\UDMSprInfBaseCF.h</DependentOn>
+				<BuildOrder>120</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrLImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrLImpl.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisLImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisLImpl.h</DependentOn>
+				<BuildOrder>127</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprInv\UDMSprInvCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprInv\UDMSprInvCF.h</DependentOn>
+				<BuildOrder>123</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprInv\UDMSprInvImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprInv\UDMSprInvImpl.h</DependentOn>
+				<BuildOrder>124</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\TableNumberDoc\UDMTableNumberDocImpl.cpp">
+				<DependentOn>..\FIB_DataModule\TableNumberDoc\UDMTableNumberDocImpl.h</DependentOn>
+				<BuildOrder>190</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisL.cpp">
+				<Form>DMSprKlientDopFisL</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisL.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisLCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisLCF.h</DependentOn>
+				<BuildOrder>126</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprInv\UDMSprInv.cpp">
+				<Form>DMSprInv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprInv\UDMSprInv.h</DependentOn>
+				<BuildOrder>122</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprMod\UDMSprMod.cpp">
+				<Form>DMSprMod</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprMod\UDMSprMod.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprMod\UDMSprModCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprMod\UDMSprModCF.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprMod\UDMSprModImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprMod\UDMSprModImpl.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprMPrig\UDMSprMPrig.cpp">
+				<Form>DMSprMPrig</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprMPrig\UDMSprMPrig.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprMPrig\UDMSprMPrigCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprMPrig\UDMSprMPrigCF.h</DependentOn>
+				<BuildOrder>132</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprMPrig\UDMSprMPrigImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprMPrig\UDMSprMPrigImpl.h</DependentOn>
+				<BuildOrder>133</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNacenka\UDMSprNacenka.cpp">
+				<Form>DMSprNacenka</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprNacenka\UDMSprNacenka.h</DependentOn>
+				<BuildOrder>134</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNacenka\UDMSprNacenkaCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprNacenka\UDMSprNacenkaCF.h</DependentOn>
+				<BuildOrder>135</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPart\UDMSprPartCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprPart\UDMSprPartCF.h</DependentOn>
+				<BuildOrder>144</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNumTel\UDMSprNumTelCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprNumTel\UDMSprNumTelCF.h</DependentOn>
+				<BuildOrder>141</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNacenka\UDMSprNacenkaImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprNacenka\UDMSprNacenkaImpl.h</DependentOn>
+				<BuildOrder>136</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNomRest\UDMSprNomRest.cpp">
+				<Form>DMSprNomRest</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprNomRest\UDMSprNomRest.h</DependentOn>
+				<BuildOrder>137</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprKlient\UDMSprGrpKlientCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprKlient\UDMSprGrpKlientCF.h</DependentOn>
+				<BuildOrder>126</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNomRest\UDMSprNomRestImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprNomRest\UDMSprNomRestImpl.h</DependentOn>
+				<BuildOrder>139</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNumTel\UDMSprNumTel.cpp">
+				<Form>DMSprNumTel</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprNumTel\UDMSprNumTel.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPriceSchedule\UDMSprPriceScheduleCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprPriceSchedule\UDMSprPriceScheduleCF.h</DependentOn>
+				<BuildOrder>147</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNumTel\UDMSprNumTelImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprNumTel\UDMSprNumTelImpl.h</DependentOn>
+				<BuildOrder>142</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPart\UDMSprPart.cpp">
+				<Form>DMSprPart</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprPart\UDMSprPart.h</DependentOn>
+				<BuildOrder>143</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprNomRest\UDMSprNomRestCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprNomRest\UDMSprNomRestCF.h</DependentOn>
+				<BuildOrder>138</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPart\UDMSprPartImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprPart\UDMSprPartImpl.h</DependentOn>
+				<BuildOrder>145</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPriceSchedule\UDMSprPriceSchedule.cpp">
+				<Form>DMSprPriceSchedule</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprPriceSchedule\UDMSprPriceSchedule.h</DependentOn>
+				<BuildOrder>146</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchetCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchetCF.h</DependentOn>
+				<BuildOrder>180</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprScale\UDMSprScale.cpp">
+				<Form>DMSprScale</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprScale\UDMSprScale.h</DependentOn>
+				<BuildOrder>152</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprScale\UDMSprScaleCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprScale\UDMSprScaleCF.h</DependentOn>
+				<BuildOrder>153</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprPriceSchedule\UDMSprPriceScheduleImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprPriceSchedule\UDMSprPriceScheduleImpl.h</DependentOn>
+				<BuildOrder>148</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprUser\UDMSprGrpUser.cpp">
+				<Form>DMSprGrpUser</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprUser\UDMSprGrpUser.h</DependentOn>
+				<BuildOrder>167</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprScale\UDMSprScaleImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprScale\UDMSprScaleImpl.h</DependentOn>
+				<BuildOrder>154</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprProject\UDMSprGrpProject.cpp">
+				<Form>DMSprGrpProject</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprProject\UDMSprGrpProject.h</DependentOn>
+				<BuildOrder>149</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprUser\UDMSprGrpUserCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprUser\UDMSprGrpUserCF.h</DependentOn>
+				<BuildOrder>168</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVesNom\UDMSprVesNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprVesNom\UDMSprVesNomCF.h</DependentOn>
+				<BuildOrder>177</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVesNom\UDMSprVesNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprVesNom\UDMSprVesNomImpl.h</DependentOn>
+				<BuildOrder>178</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProdCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProdCF.h</DependentOn>
+				<BuildOrder>159</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprProject\UDMSprGrpProjectImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprProject\UDMSprGrpProjectImpl.h</DependentOn>
+				<BuildOrder>151</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprStrObject\UDMSprStrObjectCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprStrObject\UDMSprStrObjectCF.h</DependentOn>
+				<BuildOrder>165</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprImportEd\UDMSprImportEdCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprImportEd\UDMSprImportEdCF.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSezKF\UDMSprSezKFImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprSezKF\UDMSprSezKFImpl.h</DependentOn>
+				<BuildOrder>157</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProd.cpp">
+				<Form>DMSprSezKFSProd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProd.h</DependentOn>
+				<BuildOrder>158</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprProject\UDMSprGrpProjectCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprProject\UDMSprGrpProjectCF.h</DependentOn>
+				<BuildOrder>150</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprStrObject\UDMSprStrObject.cpp">
+				<Form>DMSprStrObject</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprStrObject\UDMSprStrObject.h</DependentOn>
+				<BuildOrder>164</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprUser\UDMSprUserCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprUser\UDMSprUserCF.h</DependentOn>
+				<BuildOrder>171</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProdImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProdImpl.h</DependentOn>
+				<BuildOrder>160</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlatCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlatCF.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprFirm\UDMSprFirm.cpp">
+				<Form>DMSprFirm</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprFirm\UDMSprFirm.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprARM\UDMSprARMCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprARM\UDMSprARMCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprUser\UDMSprUser.cpp">
+				<Form>DMSprUser</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprUser\UDMSprUser.h</DependentOn>
+				<BuildOrder>170</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSklad\UDMSprSklad.cpp">
+				<Form>DMSprSklad</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprSklad\UDMSprSklad.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMXTableIsm\UDMXTableIsmCF.cpp">
+				<DependentOn>..\FIB_DataModule\DMXTableIsm\UDMXTableIsmCF.h</DependentOn>
+				<BuildOrder>192</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMXTableIsm\UDMXTableIsmImpl.cpp">
+				<DependentOn>..\FIB_DataModule\DMXTableIsm\UDMXTableIsmImpl.h</DependentOn>
+				<BuildOrder>193</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSostProd\UDMSprSostProdCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprSostProd\UDMSprSostProdCF.h</DependentOn>
+				<BuildOrder>162</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprUser\UDMSprGrpUserImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprUser\UDMSprGrpUserImpl.h</DependentOn>
+				<BuildOrder>169</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSostProd\UDMSprSostProd.cpp">
+				<Form>DMSprSostProd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprSostProd\UDMSprSostProd.h</DependentOn>
+				<BuildOrder>161</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVesNom\UDMSprGrpVesNom.cpp">
+				<Form>DMSprGrpVesNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprVesNom\UDMSprGrpVesNom.h</DependentOn>
+				<BuildOrder>173</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprStrObject\UDMSprStrObjectImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprStrObject\UDMSprStrObjectImpl.h</DependentOn>
+				<BuildOrder>166</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVesNom\UDMSprGrpVesNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprVesNom\UDMSprGrpVesNomImpl.h</DependentOn>
+				<BuildOrder>175</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVesNom\UDMSprVesNom.cpp">
+				<Form>DMSprVesNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprVesNom\UDMSprVesNom.h</DependentOn>
+				<BuildOrder>176</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidKlient\UDMSprVidKlientCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprVidKlient\UDMSprVidKlientCF.h</DependentOn>
+				<BuildOrder>183</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOperCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOperCF.h</DependentOn>
+				<BuildOrder>205</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchet.cpp">
+				<Form>DMSprRaschSchet</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchet.h</DependentOn>
+				<BuildOrder>179</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVesNom\UDMSprGrpVesNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprVesNom\UDMSprGrpVesNomCF.h</DependentOn>
+				<BuildOrder>174</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidKlient\UDMSprVidKlientImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprVidKlient\UDMSprVidKlientImpl.h</DependentOn>
+				<BuildOrder>184</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSezKF\UDMSprSezKFCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprSezKF\UDMSprSezKFCF.h</DependentOn>
+				<BuildOrder>156</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\DMXTableIsm\UDMXTableIsm.cpp">
+				<Form>DMXTableIsm</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\DMXTableIsm\UDMXTableIsm.h</DependentOn>
+				<BuildOrder>191</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\XSetupObmen\UDMXSetupObmen.cpp">
+				<Form>DMXSetupObmen</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\XSetupObmen\UDMXSetupObmen.h</DependentOn>
+				<BuildOrder>188</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidKlient\UDMSprVidKlient.cpp">
+				<Form>DMSprVidKlient</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprVidKlient\UDMSprVidKlient.h</DependentOn>
+				<BuildOrder>182</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\XSetupObmen\UDMXSetupObmenImpl.cpp">
+				<DependentOn>..\FIB_DataModule\XSetupObmen\UDMXSetupObmenImpl.h</DependentOn>
+				<BuildOrder>190</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSezKF\UDMSprSezKF.cpp">
+				<Form>DMSprSezKF</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprSezKF\UDMSprSezKF.h</DependentOn>
+				<BuildOrder>155</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidNom\UDMSprVidNomCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprVidNom\UDMSprVidNomCF.h</DependentOn>
+				<BuildOrder>186</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprUser\UDMSprUserImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprUser\UDMSprUserImpl.h</DependentOn>
+				<BuildOrder>172</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintForm.cpp">
+				<Form>DMTableExtPrintForm</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintForm.h</DependentOn>
+				<BuildOrder>194</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprSostProd\UDMSprSostProdImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprSostProd\UDMSprSostProdImpl.h</DependentOn>
+				<BuildOrder>163</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintFormImpl.cpp">
+				<DependentOn>..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintFormImpl.h</DependentOn>
+				<BuildOrder>196</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidNom\UDMSprVidNom.cpp">
+				<Form>DMSprVidNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprVidNom\UDMSprVidNom.h</DependentOn>
+				<BuildOrder>185</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintFormCF.cpp">
+				<DependentOn>..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintFormCF.h</DependentOn>
+				<BuildOrder>195</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOperImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOperImpl.h</DependentOn>
+				<BuildOrder>208</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOper.cpp">
+				<Form>DMSprGrpBusinessOper</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOper.h</DependentOn>
+				<BuildOrder>203</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOper.cpp">
+				<Form>DMSprBusinessOper</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOper.h</DependentOn>
+				<BuildOrder>204</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprVidNom\UDMSprVidNomImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprVidNom\UDMSprVidNomImpl.h</DependentOn>
+				<BuildOrder>187</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOperImpl.cpp">
+				<DependentOn>..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOperImpl.h</DependentOn>
+				<BuildOrder>206</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOperCF.cpp">
+				<DependentOn>..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOperCF.h</DependentOn>
+				<BuildOrder>207</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\FIB_DataModule\SprDiscountAuto\UDMSprDiscountAuto.dfm"/>
+			<FormResources Include="..\FIB_DataModule\UserSetup\UDMUserSetup.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprEd\UDMSprEd.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprOborud\UDMSprOborud.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprKKM\UDMSprKKM.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprKlient\UDMSprKlient.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBank\UDMSprBank.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprImportSet\UDMSprImportSet.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprDocKlient\UDMSprDocKlient.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprGrafikPlat\UDMSprGrafikPlat.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprNom\UDMSprGrpNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBankSchet\UDMSprBankSchet.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprImportNom\UDMSprImportNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprCodeTel\UDMSprCodeTel.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprPrice\UDMSprPrice.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprKlientDopUrL\UDMSprKlientDopUrL.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprPodr\UDMSprPodr.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard_1.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprDogovor\UDMSprDogovor.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBrand\UDMSprBrand.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprOborud\UDMViborOborud.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprNom\UDMSprNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprOborud\UDMSprOborudParam.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprARM\UDMSprARM.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprDiscountCard\UDMSprDiscountCard.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprOKEI\UDMSprOKEI.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBVNom\UDMSprBVNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprCountry\UDMSprCountry.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprProject\UDMSprProject.dfm"/>
+			<FormResources Include="..\FIB_DataModule\DMQuery\UDMQueryUpdate.dfm"/>
+			<FormResources Include="..\FIB_DataModule\DMQuery\UDMQueryRead.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprTypePrice\UDMSprTypePrice.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprNakSkidok\UDMSprNakSkidok.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBVNom\UDMSprGrpBVNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprImportEd\UDMSprImportEd.dfm"/>
+			<FormResources Include="..\FIB_DataModule\Setup\UDMSetup.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprVidDiscountCard\UDMSprVidDiscountCard.dfm"/>
+			<FormResources Include="..\FIB_DataModule\TableNumberDoc\UDMTableNumberDoc.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprInfBase\UDMSprInfBase.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprKlient\UDMSprGrpKlient.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprKlientDopFisL\UDMSprKlientDopFisL.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprInv\UDMSprInv.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprMod\UDMSprMod.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprMPrig\UDMSprMPrig.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprNacenka\UDMSprNacenka.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprNomRest\UDMSprNomRest.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprNumTel\UDMSprNumTel.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprPart\UDMSprPart.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprPriceSchedule\UDMSprPriceSchedule.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprScale\UDMSprScale.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprUser\UDMSprGrpUser.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprProject\UDMSprGrpProject.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprSezKFSProd\UDMSprSezKFSProd.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprStrObject\UDMSprStrObject.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprFirm\UDMSprFirm.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprUser\UDMSprUser.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprSklad\UDMSprSklad.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprSostProd\UDMSprSostProd.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprVesNom\UDMSprGrpVesNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprVesNom\UDMSprVesNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprRaschSchet\UDMSprRaschSchet.dfm"/>
+			<FormResources Include="..\FIB_DataModule\DMXTableIsm\UDMXTableIsm.dfm"/>
+			<FormResources Include="..\FIB_DataModule\XSetupObmen\UDMXSetupObmen.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprVidKlient\UDMSprVidKlient.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprSezKF\UDMSprSezKF.dfm"/>
+			<FormResources Include="..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintForm.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprVidNom\UDMSprVidNom.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBusinessOper\UDMSprGrpBusinessOper.dfm"/>
+			<FormResources Include="..\FIB_DataModule\SprBusinessOper\UDMSprBusinessOper.dfm"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCppStyleDll</Borland.ProjectType>
+			<BorlandProject>
+				<CPlusPlusBuilder.Personality>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">3</VersionInfo>
+						<VersionInfo Name="MinorVer">2</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">332</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">3.2.0.332</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">3.2.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Debugging>
+						<Debugging Name="DebugSourceDirs"/>
+					</Debugging>
+					<Parameters>
+						<Parameters Name="RunParams"/>
+						<Parameters Name="Launcher"/>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="DebugCWD"/>
+						<Parameters Name="HostApplication"/>
+						<Parameters Name="RemoteHost"/>
+						<Parameters Name="RemotePath"/>
+						<Parameters Name="RemoteParams"/>
+						<Parameters Name="RemoteLauncher"/>
+						<Parameters Name="UseRemoteLauncher">False</Parameters>
+						<Parameters Name="RemoteCWD"/>
+						<Parameters Name="RemoteDebug">False</Parameters>
+						<Parameters Name="Debug Symbols Search Path"/>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcboffice2k140.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcbofficexp140.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+					</Excluded_Packages>
+					<ProjectProperties>
+						<ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+						<ProjectProperties Name="ManagePaths">True</ProjectProperties>
+						<ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+					</ProjectProperties>
+				</CPlusPlusBuilder.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

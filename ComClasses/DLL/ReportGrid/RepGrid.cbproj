@@ -61,8 +61,22 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="RepGrid.cpp">
-				<BuildOrder>0</BuildOrder>
+			<CppCompile Include="UFormaReportGrid.cpp">
+				<Form>FormaReportGrid</Form>
+				<DependentOn>UFormaReportGrid.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaReportGridImpl.cpp">
+				<DependentOn>UFormaReportGridImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaReportGridCF.cpp">
+				<DependentOn>UFormaReportGridCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UDMReportGrid.cpp">
 				<Form>DMReportGrid</Form>
@@ -70,32 +84,18 @@
 				<DependentOn>UDMReportGrid.h</DependentOn>
 				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="RepGrid.res">
-				<BuildOrder>2</BuildOrder>
-			</ResFiles>
+			<CppCompile Include="RepGrid.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
 				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaReportGrid.cpp">
-				<Form>FormaReportGrid</Form>
-				<DependentOn>UFormaReportGrid.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaReportGridCF.cpp">
-				<DependentOn>UFormaReportGridCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaReportGridImpl.cpp">
-				<DependentOn>UFormaReportGridImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<FormResources Include="UDMReportGrid.dfm"/>
+			<ResFiles Include="RepGrid.res">
+				<BuildOrder>2</BuildOrder>
+			</ResFiles>
 			<FormResources Include="UFormaReportGrid.dfm"/>
+			<FormResources Include="UDMReportGrid.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -120,7 +120,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">223</VersionInfo>
+						<VersionInfo Name="Build">227</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -132,7 +132,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.223</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.227</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

@@ -678,7 +678,46 @@ void TkasMSKFRImpl::set_Amount(double Amount)
 Object->Amount=Amount;
 }
 //---------------------------------------------------------------
-
+//PriceWithDiscount Да double Цена единицы товара с учетом скидок/наценок
+double TkasMSKFRImpl::get_PriceWithDiscount(void)
+{
+return Object->PriceWithDiscount;
+}
+//-----------------------------------------------------------------------------
+void TkasMSKFRImpl::set_PriceWithDiscount(double PriceWithDiscount)
+{
+Object->PriceWithDiscount=PriceWithDiscount;
+}
+//------------------------------------------------------------------------
+//Amount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок
+double TkasMSKFRImpl::get_SumWithDiscount(void)
+{
+return Object->SumWithDiscount;
+}
+//-----------------------------------------------------------------------------
+void TkasMSKFRImpl::set_SumWithDiscount(double SumWithDiscount)
+{
+Object->SumWithDiscount=SumWithDiscount;
+}
+//----------------------------------------------------------------------------
+//SignMethodCalculation Нет long Признак способа расчета.
+//			1 Предоплата полная
+//			2 Предоплата частичная
+//			3 Аванс
+//			4 Полный расчет
+//			5 Частичный расчет и кредит
+//			6 Передача в кредит
+//			7 Оплата кредита
+int TkasMSKFRImpl::get_SignMethodCalculation(void)
+{
+return Object->SignMethodCalculation;
+}
+//-----------------------------------------------------------------------------
+void TkasMSKFRImpl::set_SignMethodCalculation(int SignMethodCalculation)
+{
+Object->SignMethodCalculation=SignMethodCalculation;
+}
+//----------------------------------------------------------------------------
 	//Department Нет long Отдел, по которому ведется продажа
 int TkasMSKFRImpl::get_Department(void)
 {
@@ -804,6 +843,57 @@ void TkasMSKFRImpl::set_CashLessType3(double CashLessType3)
 Object->CashLessType3=CashLessType3;
 }
 //---------------------------------------------------------------
+//---------------------------------------------------------------
+//ElectronicPayment Да decimal Сумма безналичными средствами
+double TkasMSKFRImpl::get_ElectronicPayment(void)
+{
+return Object->ElectronicPayment;
+}
+//---------------------------------------------------------------
+void TkasMSKFRImpl::set_ElectronicPayment(double ElectronicPayment)
+{
+Object->ElectronicPayment=ElectronicPayment;
+}
+//---------------------------------------------------------------
+//AdvancePayment  Да decimal Сумма предоплатой (зачетом аванса)
+double TkasMSKFRImpl::get_AdvancePayment(void)
+{
+return Object->AdvancePayment;
+}
+//---------------------------------------------------------------
+void TkasMSKFRImpl::set_AdvancePayment(double AdvancePayment)
+{
+Object->AdvancePayment=AdvancePayment;
+}
+//---------------------------------------------------------------
+//Credit Да decimal Сумма постоплатой (в кредит)
+double TkasMSKFRImpl::get_Credit(void)
+{
+return Object->Credit;
+}
+//---------------------------------------------------------------
+void TkasMSKFRImpl::set_Credit(double Credit)
+{
+Object->Credit=Credit;
+}
+//---------------------------------------------------------------
+//CashProvision Да decimal Сумма встречным предоставлением
+double TkasMSKFRImpl::get_CashProvision(void)
+{
+return Object->CashProvision;
+}
+//---------------------------------------------------------------
+void TkasMSKFRImpl::set_CashProvision(double CashProvision)
+{
+Object->CashProvision=CashProvision;
+}
+//---------------------------------------------------------------
+
+
+
+
+
+//--------------------------------------------------------------------------
 UnicodeString TkasMSKFRImpl::GetParameters(void)
 {
 return Object->GetParameters();
@@ -883,3 +973,133 @@ bool TkasMSKFRImpl::SetParameter(UnicodeString name_parameter, TkasVariant * val
 return Object->GetParameter(name_parameter,value_parameter);
 }
 //---------------------------------------------------------------------------
+//---------------------------------------------------------------
+//******************************************************************
+//*******************************************************************
+//--------------------------------------------------------------------
+//***********************************************************************************
+
+bool TkasMSKFRImpl::RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+{
+
+return  Object->RunCommand(command_name, xml_doc,type_doc);
+}
+//------------------------------------------------------------------------------
+ UnicodeString TkasMSKFRImpl::ReturnXmlResultLastMethod(void)
+{
+
+return  Object->ReturnXmlResultLastMethod();
+}
+//-----------------------------------------------------------------------------
+
+	//параметры для выполнения метода
+bool TkasMSKFRImpl::SetStringParameter(UnicodeString param_name, int number, UnicodeString value)
+{
+
+return  Object->SetStringParameter(param_name,number, value);
+
+}
+//------------------------------------------------------------------------------
+UnicodeString TkasMSKFRImpl::GetStringParameter(UnicodeString param_name, int number)
+{
+
+return  Object->GetStringParameter(param_name,number);
+
+}
+//------------------------------------------------------------------------------
+
+bool TkasMSKFRImpl::SetIntegerParameter(UnicodeString param_name, int number, int value)
+{
+
+return  Object->SetIntegerParameter(param_name,number, value);
+
+}
+//------------------------------------------------------------------------------
+int TkasMSKFRImpl::GetIntegerParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetIntegerParameter( param_name,  number);
+}
+//------------------------------------------------------------------------------
+
+bool TkasMSKFRImpl::SetDoubleParameter(UnicodeString param_name, int number, double value)
+{
+
+
+return  Object->SetDoubleParameter(param_name, number,  value);
+}
+//------------------------------------------------------------------------------
+double TkasMSKFRImpl::GetDoubleParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetDoubleParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+bool TkasMSKFRImpl::SetBooleanParameter(UnicodeString param_name, int number, bool value)
+{
+
+
+return  Object->SetBooleanParameter(param_name, number, value);
+}
+//------------------------------------------------------------------------------
+bool TkasMSKFRImpl::GetBooleanParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetBooleanParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+bool TkasMSKFRImpl::SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)
+{
+
+
+return  Object->SetDateTimeParameter( param_name, number,  value);
+}
+//------------------------------------------------------------------------------
+TDateTime TkasMSKFRImpl::GetDateTimeParameter(UnicodeString param_name, int number)
+{
+
+
+return  Object->GetDateTimeParameter(param_name, number);
+}
+//------------------------------------------------------------------------------
+
+	//формирование xml файла
+void TkasMSKFRImpl::AddStringXml(UnicodeString str_xml)    //просто готовая строка
+{
+
+
+return  Object->AddStringXml(str_xml) ;
+}
+//------------------------------------------------------------------------------
+ void TkasMSKFRImpl::AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value)  //тип для форматирования, например для удаления запятых в числах
+
+{
+
+
+return  Object->AddAttribyteXml(attribyte,  value, type_value);
+}
+//------------------------------------------------------------------------------
+void TkasMSKFRImpl::AddElementXml(UnicodeString element, UnicodeString value, int type_value)
+{
+
+
+return  Object->AddElementXml(element,  value, type_value);
+}
+//------------------------------------------------------------------------------
+
+void TkasMSKFRImpl::AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font, int girn, int alignment, bool word_wrap)   //строка xml для печати будет формироваться
+
+{
+
+
+return  Object->AddStringForPrintXml(element, attribyte, value,
+								size_font, girn, alignment, word_wrap);
+}
+//------------------------------------------------------------------------------

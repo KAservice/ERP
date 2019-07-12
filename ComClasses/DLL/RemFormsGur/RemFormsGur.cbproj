@@ -61,64 +61,6 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocCF.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\Indicator\UFormIndicator.cpp">
-				<Form>FormIndicator</Form>
-				<DependentOn>..\..\..\Forms\Indicator\UFormIndicator.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDoc.cpp">
-				<Form>REM_FormaGurAllDoc</Form>
-				<DependentOn>..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDoc.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocImpl.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrImpl.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrCF.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPr.cpp">
-				<Form>REM_FormaGurZAktPr</Form>
-				<DependentOn>..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPr.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="RemFormsGur.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="RemFormsGur.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtbor.cpp">
-				<Form>REM_FormaSetupOtbor</Form>
-				<DependentOn>..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtbor.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
@@ -130,18 +72,18 @@
 				<DependentOn>..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverok.h</DependentOn>
 				<BuildOrder>15</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokCF.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokCF.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtbor.cpp">
+				<Form>REM_FormaSetupOtbor</Form>
+				<DependentOn>..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtbor.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokImpl.cpp">
-				<DependentOn>..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokImpl.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusok.cpp">
-				<Form>REM_FormaGurVigrusok</Form>
-				<DependentOn>..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusok.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusokCF.cpp">
 				<DependentOn>..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusokCF.h</DependentOn>
@@ -151,13 +93,71 @@
 				<DependentOn>..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusokImpl.h</DependentOn>
 				<BuildOrder>20</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\Forms\Indicator\UFormIndicator.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDoc.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPr.dfm"/>
-			<FormResources Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtbor.dfm"/>
+			<CppCompile Include="..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusok.cpp">
+				<Form>REM_FormaGurVigrusok</Form>
+				<DependentOn>..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusok.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverokImpl.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="RemFormsGur.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocImpl.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrImpl.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDoc.cpp">
+				<Form>REM_FormaGurAllDoc</Form>
+				<DependentOn>..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDoc.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDocCF.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\Indicator\UFormIndicator.cpp">
+				<Form>FormIndicator</Form>
+				<DependentOn>..\..\..\Forms\Indicator\UFormIndicator.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="RemFormsGur.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborImpl.cpp">
+				<DependentOn>..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtborImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrCF.cpp">
+				<DependentOn>..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPrCF.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPr.cpp">
+				<Form>REM_FormaGurZAktPr</Form>
+				<DependentOn>..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPr.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_GurProverok\UREM_FormaGurProverok.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_SetupOtbor\UREM_FormaSetupOtbor.dfm"/>
 			<FormResources Include="..\..\..\Forms\REM_GurVigrusok\UREM_FormaGurVigrusok.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurAllDoc\UREM_FormaGurAllDoc.dfm"/>
+			<FormResources Include="..\..\..\Forms\Indicator\UFormIndicator.dfm"/>
+			<FormResources Include="..\..\..\Forms\REM_GurZAktPr\UREM_FormaGurZAktPr.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -182,7 +182,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">306</VersionInfo>
+						<VersionInfo Name="Build">310</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -194,7 +194,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.306</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.310</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

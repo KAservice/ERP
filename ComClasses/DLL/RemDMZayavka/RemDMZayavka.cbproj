@@ -61,109 +61,21 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.cpp">
-				<Form>REM_DMGurCustQuery</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryCF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.cpp">
-				<Form>REM_DMCustQueryDv</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvCF.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageCF.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageImpl.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="RemDMZayavka.res">
-				<BuildOrder>2</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavka.cpp">
-				<Form>REM_DMZayavka</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavka.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvImpl.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvCF.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvImpl.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvCF.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredv.cpp">
-				<Form>REM_DMGurZPredv</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredv.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZCF.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZ.cpp">
-				<Form>REM_DMGurZ</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZ.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredv.cpp">
-				<Form>REM_DMZayavkaPredv</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredv.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="RemDMZayavka.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryImpl.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalCF.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.cpp">
-				<Form>REM_DMCustQuery</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZImpl.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQuery.cpp">
 				<Form>REM_DMSprSostCustQuery</Form>
@@ -171,49 +83,23 @@
 				<DependentOn>..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQuery.h</DependentOn>
 				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvCF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryImpl.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryCF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDv.cpp">
-				<Form>REM_DMZayavkaDv</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.cpp">
+				<Form>REM_DMCustQuery</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDv.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQueryImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQueryImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImage.cpp">
-				<Form>REM_DMZayavkaImage</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImage.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvImpl.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalImpl.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalCF.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetal.cpp">
 				<Form>REM_DMGurCustQueryDetal</Form>
@@ -221,25 +107,139 @@
 				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetal.h</DependentOn>
 				<BuildOrder>28</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryImpl.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetalImpl.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQueryCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQueryCF.h</DependentOn>
 				<BuildOrder>23</BuildOrder>
 			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavka.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredv.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZ.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredv.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.dfm"/>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryImpl.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDvImpl.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQueryImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQueryImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDv.cpp">
+				<Form>REM_DMZayavkaDv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDv.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImage.cpp">
+				<Form>REM_DMZayavkaImage</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImage.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="RemDMZayavka.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="RemDMZayavka.res">
+				<BuildOrder>2</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavka.cpp">
+				<Form>REM_DMZayavka</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavka.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDvCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.cpp">
+				<Form>REM_DMCustQueryDv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.cpp">
+				<Form>REM_DMGurCustQuery</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageImpl.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImageCF.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZCF.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredv.cpp">
+				<Form>REM_DMZayavkaPredv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredv.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZ.cpp">
+				<Form>REM_DMGurZ</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZ.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredv.cpp">
+				<Form>REM_DMGurZPredv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredv.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvCF.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredvImpl.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvCF.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredvImpl.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
 			<FormResources Include="..\..\..\FIB_DataModule\REM_SprSostCustQuery\UREM_DMSprSostCustQuery.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQuery.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetal.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaDv.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaImage.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQueryDetal.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavka.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMCustQueryDv.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_CustQuery\UREM_DMGurCustQuery.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMZayavkaPredv.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZ.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\REM_GurZ\UREM_DMGurZPredv.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -264,7 +264,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">379</VersionInfo>
+						<VersionInfo Name="Build">383</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -276,7 +276,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.379</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.383</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

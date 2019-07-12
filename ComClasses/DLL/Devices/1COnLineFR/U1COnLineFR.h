@@ -265,6 +265,24 @@ bool OpenNoFiscalDoc;
 	//Amount Да double Конечная сумма по позиции чека (с учетом всех скидок/наценок)
 	double Amount;
 
+
+	//PriceWithDiscount Да double Цена единицы товара с учетом скидок/наценок
+	double PriceWithDiscount;
+
+
+	//SumWithDiscount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок
+	double SumWithDiscount;
+
+   //SignMethodCalculation Нет long Признак способа расчета.
+//			1 Предоплата полная
+//			2 Предоплата частичная
+//			3 Аванс
+//			4 Полный расчет
+//			5 Частичный расчет и кредит
+//			6 Передача в кредит
+//			7 Оплата кредита
+	int SignMethodCalculation;
+
 	//Department Нет long Отдел, по которому ведется продажа
 	int Department;
 
@@ -311,6 +329,18 @@ bool OpenNoFiscalDoc;
 	double CashLessType3 ;
 
 
+	//ElectronicPayment Да decimal Сумма безналичными средствами
+	double ElectronicPayment;
+//AdvancePayment  Да decimal Сумма предоплатой (зачетом аванса)
+	double AdvancePayment;
+//Credit Да decimal Сумма постоплатой (в кредит)
+	double Credit;
+//CashProvision Да decimal Сумма встречным предоставлением
+	double CashProvision;
+
+
+
+
 
 	UnicodeString GetParameters(void);
 	bool SetParameter(UnicodeString name_parameter, UnicodeString value_parameter);
@@ -336,5 +366,41 @@ UnicodeString GetMetodsList(void);
 	bool GetParameter(UnicodeString name_parameter, TkasVariant * value_parameter);
 	bool SetParameter(UnicodeString name_parameter, TkasVariant * value_parameter);
 
-		};
+
+//**********************************************************************
+//***********************************************************************************
+
+bool RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc);
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+
+UnicodeString ReturnXmlResultLastMethod(void);
+
+	//параметры для выполнения метода
+bool SetStringParameter(UnicodeString param_name, int number, UnicodeString value);
+UnicodeString GetStringParameter(UnicodeString param_name, int number);
+
+bool SetIntegerParameter(UnicodeString param_name, int number, int value);
+int GetIntegerParameter(UnicodeString param_name, int number);
+
+bool SetDoubleParameter(UnicodeString param_name, int number, double value);
+double GetDoubleParameter(UnicodeString param_name, int number);
+
+bool SetBooleanParameter(UnicodeString param_name, int number, bool value);
+bool GetBooleanParameter(UnicodeString param_name, int number);
+
+bool SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value);
+TDateTime GetDateTimeParameter(UnicodeString param_name, int number);
+
+	//формирование xml файла
+void AddStringXml(UnicodeString str_xml);    //просто готовая строка
+void AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value);  //тип для форматирования, например для удаления запятых в числах
+void AddElementXml(UnicodeString element, UnicodeString value, int type_value);
+
+void AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font, int girn, int alignment, bool word_wrap);   //строка xml для печати будет формироваться
+
+
+
+
+};
 #endif

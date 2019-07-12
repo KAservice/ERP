@@ -60,523 +60,21 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislCF.h</DependentOn>
-				<BuildOrder>69</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpCF.h</DependentOn>
-				<BuildOrder>77</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomCF.h</DependentOn>
-				<BuildOrder>79</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpImpl.h</DependentOn>
-				<BuildOrder>78</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageCF.h</DependentOn>
-				<BuildOrder>56</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImage.cpp">
-				<Form>DMSprVidImage</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImage.h</DependentOn>
-				<BuildOrder>36</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceCF.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValue.cpp">
-				<Form>DMSprNomPropertiesValue</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValue.h</DependentOn>
-				<BuildOrder>34</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.cpp">
-				<Form>DMSprPropertiesValuesList</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.h</DependentOn>
-				<BuildOrder>33</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesCF.h</DependentOn>
-				<BuildOrder>46</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.cpp">
-				<Form>DMSprCustomerUser</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.h</DependentOn>
-				<BuildOrder>101</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislCF.h</DependentOn>
-				<BuildOrder>71</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFindCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomFindCF.h</DependentOn>
-				<BuildOrder>26</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactor.cpp">
-				<Form>DMSprGrpLossFactor</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactor.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduceImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprProduceImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogCF.h</DependentOn>
-				<BuildOrder>40</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogCF.h</DependentOn>
-				<BuildOrder>42</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislImpl.h</DependentOn>
-				<BuildOrder>72</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorImpl.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislImpl.h</DependentOn>
-				<BuildOrder>70</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprProperties.cpp">
-				<Form>DMSprProperties</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprProperties.h</DependentOn>
-				<BuildOrder>32</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesImpl.h</DependentOn>
-				<BuildOrder>47</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrp.cpp">
-				<Form>DMSprCustomerAccountGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrp.h</DependentOn>
-				<BuildOrder>97</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpImpl.h</DependentOn>
-				<BuildOrder>55</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduceCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprProduceCF.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdCF.h</DependentOn>
-				<BuildOrder>81</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.cpp">
-				<Form>DMSprPropertiesGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.h</DependentOn>
-				<BuildOrder>31</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.cpp">
-				<Form>DMSprCustomerKlient</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.h</DependentOn>
-				<BuildOrder>99</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceImpl.h</DependentOn>
-				<BuildOrder>84</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListImpl.h</DependentOn>
-				<BuildOrder>49</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListCF.h</DependentOn>
-				<BuildOrder>48</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueCF.h</DependentOn>
-				<BuildOrder>50</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenu.cpp">
-				<Form>DMSprCustomerMainMenu</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenu.h</DependentOn>
-				<BuildOrder>103</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueImpl.h</DependentOn>
-				<BuildOrder>51</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrp.cpp">
-				<Form>DMSprVidImageGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrp.h</DependentOn>
-				<BuildOrder>35</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccount.cpp">
-				<Form>DMSprCustomerAccount</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccount.h</DependentOn>
-				<BuildOrder>98</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprObject\UDMSprObject.cpp">
-				<Form>DMSprObject</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprObject\UDMSprObject.h</DependentOn>
-				<BuildOrder>148</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrp.cpp">
-				<Form>DMSprProducerNomGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrp.h</DependentOn>
-				<BuildOrder>73</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborImpl.h</DependentOn>
-				<BuildOrder>64</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactor.cpp">
-				<Form>DMSprLossFactor</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactor.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.cpp">
-				<Form>DMSprCustomerUserGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.h</DependentOn>
-				<BuildOrder>100</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorCF.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceCF.h</DependentOn>
-				<BuildOrder>83</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorCF.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrp.cpp">
-				<Form>DMSprCustomerMainMenuGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrp.h</DependentOn>
-				<BuildOrder>102</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZip.cpp">
-				<Form>DMSprNomVZip</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomVZip.h</DependentOn>
-				<BuildOrder>154</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalog.cpp">
-				<Form>DMSprGrpNomInetCatalog</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalog.h</DependentOn>
-				<BuildOrder>29</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipImpl.h</DependentOn>
-				<BuildOrder>156</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipCF.h</DependentOn>
-				<BuildOrder>155</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomImpl.h</DependentOn>
-				<BuildOrder>80</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdImpl.h</DependentOn>
-				<BuildOrder>82</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValue.cpp">
-				<Form>DMSprFactorValue</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValue.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavImpl.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPrice.cpp">
-				<Form>DMSprProducerPrice</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPrice.h</DependentOn>
-				<BuildOrder>76</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEd.cpp">
-				<Form>DMSprProducerEd</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEd.h</DependentOn>
-				<BuildOrder>75</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorImpl.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueCF.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduce.cpp">
-				<Form>DMSprProduce</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprProduce.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageCF.h</DependentOn>
-				<BuildOrder>52</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogImpl.h</DependentOn>
-				<BuildOrder>43</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduce.cpp">
-				<Form>DMSprGrpProduce</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduce.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceCF.h</DependentOn>
-				<BuildOrder>89</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpCF.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageImpl.h</DependentOn>
-				<BuildOrder>57</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="DMSpr2.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSeller.cpp">
-				<Form>DMSprSeller</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprSeller\UDMSprSeller.h</DependentOn>
-				<BuildOrder>121</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="DMSpr2.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalog.cpp">
-				<Form>DMSprNomInetCatalog</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalog.h</DependentOn>
-				<BuildOrder>30</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavCF.h</DependentOn>
-				<BuildOrder>65</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpCF.h</DependentOn>
-				<BuildOrder>54</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFind.cpp">
-				<Form>DMSprNomFind</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomFind.h</DependentOn>
-				<BuildOrder>25</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageImpl.h</DependentOn>
-				<BuildOrder>53</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNom.cpp">
-				<Form>DMSprProducerNom</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNom.h</DependentOn>
-				<BuildOrder>74</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.cpp">
-				<Form>DMSprPropertiesNaborGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.h</DependentOn>
-				<BuildOrder>58</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorImpl.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogImpl.h</DependentOn>
-				<BuildOrder>41</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactor.cpp">
-				<Form>DMSprFactor</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactor.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostav.cpp">
-				<Form>DMSprPropertiesNaborSostav</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostav.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachisl.cpp">
-				<Form>DMSprNachisl</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprNachisl\UDMSprNachisl.h</DependentOn>
-				<BuildOrder>68</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValue.cpp">
-				<Form>DMSprLossFactorValue</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValue.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.cpp">
-				<Form>DMSprPropertiesNabor</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.h</DependentOn>
-				<BuildOrder>59</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogImpl.h</DependentOn>
-				<BuildOrder>66</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogImpl.h</DependentOn>
-				<BuildOrder>94</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpImpl.h</DependentOn>
-				<BuildOrder>60</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueImpl.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmen.cpp">
-				<Form>DMXVipolnObmen</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmen.h</DependentOn>
-				<BuildOrder>118</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImage.cpp">
-				<Form>DMSprNomImage</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImage.h</DependentOn>
-				<BuildOrder>57</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalog.cpp">
-				<Form>DMSprInetCatalog</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalog.h</DependentOn>
-				<BuildOrder>28</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpImpl.h</DependentOn>
-				<BuildOrder>62</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuCF.h</DependentOn>
-				<BuildOrder>110</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborCF.h</DependentOn>
-				<BuildOrder>63</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogCF.h</DependentOn>
-				<BuildOrder>95</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpCF.h</DependentOn>
-				<BuildOrder>61</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducerCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducer\UDMSprProducerCF.h</DependentOn>
-				<BuildOrder>87</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducer.cpp">
-				<Form>DMSprProducer</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprProducer\UDMSprProducer.h</DependentOn>
-				<BuildOrder>86</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogImpl.h</DependentOn>
-				<BuildOrder>96</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceImpl.h</DependentOn>
-				<BuildOrder>90</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogCF.h</DependentOn>
-				<BuildOrder>93</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachisl.cpp">
-				<Form>DMSprTypeNachisl</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachisl.h</DependentOn>
-				<BuildOrder>67</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalog.cpp">
-				<Form>DMSprTypeAnalog</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalog.h</DependentOn>
-				<BuildOrder>91</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducerImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprProducer\UDMSprProducerImpl.h</DependentOn>
-				<BuildOrder>88</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountCF.h</DependentOn>
+				<BuildOrder>104</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogCF.h</DependentOn>
 				<BuildOrder>65</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountCF.h</DependentOn>
-				<BuildOrder>104</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountImpl.h</DependentOn>
 				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpImpl.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalog.cpp">
 				<Form>DMSprNomAnalog</Form>
@@ -584,47 +82,41 @@
 				<DependentOn>..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalog.h</DependentOn>
 				<BuildOrder>92</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpImpl.h</DependentOn>
-				<BuildOrder>107</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogCF.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientCF.h</DependentOn>
-				<BuildOrder>108</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceImpl.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpImpl.h</DependentOn>
-				<BuildOrder>113</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachisl.cpp">
+				<Form>DMSprTypeNachisl</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachisl.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpCF.h</DependentOn>
-				<BuildOrder>106</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducerImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducer\UDMSprProducerImpl.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuImpl.h</DependentOn>
-				<BuildOrder>111</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpCF.h</DependentOn>
-				<BuildOrder>112</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientImpl.h</DependentOn>
-				<BuildOrder>109</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalog.cpp">
+				<Form>DMSprTypeAnalog</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalog.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserCF.h</DependentOn>
 				<BuildOrder>114</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientImpl.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserImpl.h</DependentOn>
 				<BuildOrder>115</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSet.cpp">
-				<Form>DMDataSet</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMDataSet.h</DependentOn>
-				<BuildOrder>124</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePrice.cpp">
 				<Form>DMSprProducerTypePrice</Form>
@@ -632,139 +124,145 @@
 				<DependentOn>..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePrice.h</DependentOn>
 				<BuildOrder>85</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSet.cpp">
+				<Form>DMDataSet</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMDataSet.h</DependentOn>
+				<BuildOrder>124</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpImpl.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlientCF.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrpCF.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrpCF.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuImpl.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalogImpl.h</DependentOn>
+				<BuildOrder>94</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalogImpl.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpImpl.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmen.cpp">
+				<Form>DMXVipolnObmen</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmen.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueImpl.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostav.cpp">
+				<Form>DMSprPropertiesNaborSostav</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostav.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactor.cpp">
+				<Form>DMSprFactor</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactor.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachisl.cpp">
+				<Form>DMSprNachisl</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprNachisl\UDMSprNachisl.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.cpp">
+				<Form>DMSprPropertiesNabor</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValue.cpp">
+				<Form>DMSprLossFactorValue</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValue.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpCF.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogCF.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducerCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducer\UDMSprProducerCF.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalogImpl.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducer.cpp">
+				<Form>DMSprProducer</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProducer\UDMSprProducer.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalog.cpp">
+				<Form>DMSprInetCatalog</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalog.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImage.cpp">
+				<Form>DMSprNomImage</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImage.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrpImpl.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborCF.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuCF.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrpCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrpCF.h</DependentOn>
 				<BuildOrder>116</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSellerImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprSeller\UDMSprSellerImpl.h</DependentOn>
-				<BuildOrder>123</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenImpl.h</DependentOn>
-				<BuildOrder>120</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenCF.h</DependentOn>
-				<BuildOrder>119</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSellerCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprSeller\UDMSprSellerCF.h</DependentOn>
-				<BuildOrder>122</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDom.cpp">
-				<Form>DMSprAddressDom</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDom.h</DependentOn>
-				<BuildOrder>131</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayon.cpp">
-				<Form>DMSprAddressRayon</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayon.h</DependentOn>
-				<BuildOrder>128</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSetCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMDataSetCF.h</DependentOn>
-				<BuildOrder>125</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFindImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomFindImpl.h</DependentOn>
-				<BuildOrder>27</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegion.cpp">
-				<Form>DMSprAddressRegion</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegion.h</DependentOn>
-				<BuildOrder>127</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSetImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMDataSetImpl.h</DependentOn>
-				<BuildOrder>126</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKV.cpp">
-				<Form>DMSprAddressKV</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKV.h</DependentOn>
-				<BuildOrder>133</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreet.cpp">
-				<Form>DMSprAddressStreet</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreet.h</DependentOn>
-				<BuildOrder>130</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunkt.cpp">
-				<Form>DMSprAddressNasPunkt</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunkt.h</DependentOn>
-				<BuildOrder>129</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroen.cpp">
-				<Form>DMSprAddressStroen</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroen.h</DependentOn>
-				<BuildOrder>132</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrpImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrpImpl.h</DependentOn>
-				<BuildOrder>117</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomCF.h</DependentOn>
-				<BuildOrder>134</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomImpl.h</DependentOn>
-				<BuildOrder>135</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVCF.h</DependentOn>
-				<BuildOrder>136</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVImpl.h</DependentOn>
-				<BuildOrder>137</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktCF.h</DependentOn>
-				<BuildOrder>138</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktImpl.h</DependentOn>
-				<BuildOrder>139</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonCF.h</DependentOn>
-				<BuildOrder>140</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonImpl.h</DependentOn>
-				<BuildOrder>141</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionCF.h</DependentOn>
-				<BuildOrder>142</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionImpl.h</DependentOn>
-				<BuildOrder>143</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreetCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreetCF.h</DependentOn>
-				<BuildOrder>144</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreetImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreetImpl.h</DependentOn>
 				<BuildOrder>145</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreetCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreetCF.h</DependentOn>
+				<BuildOrder>144</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroenCF.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroenCF.h</DependentOn>
 				<BuildOrder>146</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroenImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroenImpl.h</DependentOn>
-				<BuildOrder>147</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNom.cpp">
 				<Form>DMSprTypeNom</Form>
@@ -772,27 +270,33 @@
 				<DependentOn>..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNom.h</DependentOn>
 				<BuildOrder>149</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomCF.h</DependentOn>
-				<BuildOrder>150</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroenImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroenImpl.h</DependentOn>
+				<BuildOrder>147</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomImpl.h</DependentOn>
-				<BuildOrder>151</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonCF.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprObject\UDMSprObjectCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprObject\UDMSprObjectCF.h</DependentOn>
-				<BuildOrder>152</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktImpl.h</DependentOn>
+				<BuildOrder>139</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprObject\UDMSprObjectImpl.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprObject\UDMSprObjectImpl.h</DependentOn>
-				<BuildOrder>153</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayonImpl.h</DependentOn>
+				<BuildOrder>141</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrp.cpp">
-				<Form>DMSprStorageLocationGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrp.h</DependentOn>
-				<BuildOrder>157</BuildOrder>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionImpl.h</DependentOn>
+				<BuildOrder>143</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegionCF.h</DependentOn>
+				<BuildOrder>142</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrpCF.h</DependentOn>
+				<BuildOrder>159</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocation.cpp">
 				<Form>DMSprStorageLocation</Form>
@@ -800,75 +304,571 @@
 				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocation.h</DependentOn>
 				<BuildOrder>158</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrpCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrpCF.h</DependentOn>
-				<BuildOrder>159</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrpImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrpImpl.h</DependentOn>
 				<BuildOrder>160</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationCF.cpp">
-				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationCF.h</DependentOn>
-				<BuildOrder>161</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationImpl.cpp">
 				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationImpl.h</DependentOn>
 				<BuildOrder>162</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationCF.h</DependentOn>
+				<BuildOrder>161</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomImpl.h</DependentOn>
+				<BuildOrder>151</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNomCF.h</DependentOn>
+				<BuildOrder>150</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprObject\UDMSprObjectCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprObject\UDMSprObjectCF.h</DependentOn>
+				<BuildOrder>152</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrp.cpp">
+				<Form>DMSprStorageLocationGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrp.h</DependentOn>
+				<BuildOrder>157</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprObject\UDMSprObjectImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprObject\UDMSprObjectImpl.h</DependentOn>
+				<BuildOrder>153</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSetCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMDataSetCF.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayon.cpp">
+				<Form>DMSprAddressRayon</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayon.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFindImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomFindImpl.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSetImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMDataSetImpl.h</DependentOn>
+				<BuildOrder>126</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegion.cpp">
+				<Form>DMSprAddressRegion</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegion.h</DependentOn>
+				<BuildOrder>127</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenImpl.h</DependentOn>
+				<BuildOrder>120</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSellerImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprSeller\UDMSprSellerImpl.h</DependentOn>
+				<BuildOrder>123</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmenCF.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDom.cpp">
+				<Form>DMSprAddressDom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDom.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSellerCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprSeller\UDMSprSellerCF.h</DependentOn>
+				<BuildOrder>122</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomImpl.h</DependentOn>
+				<BuildOrder>135</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDomCF.h</DependentOn>
+				<BuildOrder>134</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVCF.h</DependentOn>
+				<BuildOrder>136</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunktCF.h</DependentOn>
+				<BuildOrder>138</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKVImpl.h</DependentOn>
+				<BuildOrder>137</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreet.cpp">
+				<Form>DMSprAddressStreet</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreet.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKV.cpp">
+				<Form>DMSprAddressKV</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKV.h</DependentOn>
+				<BuildOrder>133</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunkt.cpp">
+				<Form>DMSprAddressNasPunkt</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunkt.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrpImpl.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroen.cpp">
+				<Form>DMSprAddressStroen</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroen.h</DependentOn>
+				<BuildOrder>132</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogImpl.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdCF.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduceCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprProduceCF.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.cpp">
+				<Form>DMSprCustomerKlient</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.cpp">
+				<Form>DMSprPropertiesGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesImpl.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprProperties.cpp">
+				<Form>DMSprProperties</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprProperties.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrp.cpp">
+				<Form>DMSprCustomerAccountGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrp.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpImpl.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueImpl.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenu.cpp">
+				<Form>DMSprCustomerMainMenu</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenu.h</DependentOn>
+				<BuildOrder>103</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrp.cpp">
+				<Form>DMSprVidImageGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrp.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprObject\UDMSprObject.cpp">
+				<Form>DMSprObject</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprObject\UDMSprObject.h</DependentOn>
+				<BuildOrder>148</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccount.cpp">
+				<Form>DMSprCustomerAccount</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccount.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListImpl.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceImpl.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesListCF.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValueCF.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduceCF.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImage.cpp">
+				<Form>DMSprVidImage</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImage.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValue.cpp">
+				<Form>DMSprNomPropertiesValue</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValue.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesCF.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.cpp">
+				<Form>DMSprPropertiesValuesList</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpCF.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislCF.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomCF.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageCF.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrpImpl.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogCF.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalogCF.h</DependentOn>
+				<BuildOrder>40</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislImpl.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachislImpl.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorImpl.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNachisl\UDMSprNachislCF.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.cpp">
+				<Form>DMSprCustomerUser</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.h</DependentOn>
+				<BuildOrder>101</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFindCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomFindCF.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduceImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprProduceImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactor.cpp">
+				<Form>DMSprGrpLossFactor</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactor.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrp.cpp">
+				<Form>DMSprProducerNomGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrp.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePriceCF.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValueCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrpCF.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="DMSpr2.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImageImpl.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduce.cpp">
+				<Form>DMSprProduce</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprProduce.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageCF.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduce.cpp">
+				<Form>DMSprGrpProduce</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduce.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalogImpl.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageImpl.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFind.cpp">
+				<Form>DMSprNomFind</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomFind.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNom.cpp">
+				<Form>DMSprProducerNom</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNom.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorImpl.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.cpp">
+				<Form>DMSprPropertiesNaborGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="DMSpr2.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSeller.cpp">
+				<Form>DMSprSeller</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprSeller\UDMSprSeller.h</DependentOn>
+				<BuildOrder>121</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalog.cpp">
+				<Form>DMSprNomInetCatalog</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalog.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrpCF.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavCF.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorCF.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPriceCF.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrp.cpp">
+				<Form>DMSprCustomerMainMenuGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrp.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalog.cpp">
+				<Form>DMSprGrpNomInetCatalog</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalog.h</DependentOn>
+				<BuildOrder>29</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZip.cpp">
+				<Form>DMSprNomVZip</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomVZip.h</DependentOn>
+				<BuildOrder>154</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactor.cpp">
+				<Form>DMSprLossFactor</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactor.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborImpl.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorCF.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.cpp">
+				<Form>DMSprCustomerUserGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPrice.cpp">
+				<Form>DMSprProducerPrice</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPrice.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostavImpl.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEd.cpp">
+				<Form>DMSprProducerEd</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEd.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValueCF.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactorImpl.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipCF.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipCF.h</DependentOn>
+				<BuildOrder>155</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprNom\UDMSprNomVZipImpl.h</DependentOn>
+				<BuildOrder>156</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomImpl.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValue.cpp">
+				<Form>DMSprFactorValue</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValue.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdImpl.cpp">
+				<DependentOn>..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEdImpl.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<FormResources Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalog.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachisl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalog.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePrice.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSet.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmen.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostav.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactor.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachisl.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValue.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducer.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImage.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocation.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayon.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegion.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDom.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreet.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKV.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunkt.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroen.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprProperties.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenu.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprObject\UDMSprObject.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccount.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImage.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprNomPropertiesValue.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesValuesList.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUser.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprGrpLossFactor.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprProperties.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccountGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerKlient.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenu.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprVidImage\UDMSprVidImageGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerAccount\UDMSprCustomerAccount.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprObject\UDMSprObject.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNomGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactor.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZip.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalog.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValue.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPrice.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEd.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProduce\UDMSprProduce.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProduce\UDMSprGrpProduce.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSeller.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalog.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomFind.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProducerNom\UDMSprProducerNom.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactor.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNaborSostav.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprNachisl\UDMSprNachisl.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactorValue.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProperties\UDMSprPropertiesNabor.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\XVipolnObmen\UDMXVipolnObmen.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprNomImage\UDMSprNomImage.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprInetCatalog\UDMSprInetCatalog.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProducer\UDMSprProducer.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprTypeNachisl\UDMSprTypeNachisl.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprTypeAnalog\UDMSprTypeAnalog.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprNomAnalog\UDMSprNomAnalog.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DMQuery\UDMDataSet.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprProducerTypePrice\UDMSprProducerTypePrice.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressDom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRayon.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressRegion.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressKV.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStreet.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressNasPunkt.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprAddress\UDMSprAddressStroen.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprTypeNom\UDMSprTypeNom.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocationGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\SprStorageLocation\UDMSprStorageLocation.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprSeller\UDMSprSeller.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprNomInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerMainMenu\UDMSprCustomerMainMenuGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprNomInetCatalog\UDMSprGrpNomInetCatalog.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprNom\UDMSprNomVZip.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprLossFactor\UDMSprLossFactor.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprCustomerUser\UDMSprCustomerUserGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProducerPrice\UDMSprProducerPrice.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprProducerEd\UDMSprProducerEd.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\SprFactor\UDMSprFactorValue.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -893,7 +893,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">431</VersionInfo>
+						<VersionInfo Name="Build">435</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -905,7 +905,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.431</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.435</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

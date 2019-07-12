@@ -61,6 +61,48 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<None Include="..\..\..\Interface\IAsyncExternalEvent.h">
+				<BuildOrder>11</BuildOrder>
+			</None>
+			<CppCompile Include="UFormaInputTextCF.cpp">
+				<DependentOn>UFormaInputTextCF.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaInputCodeImpl.cpp">
+				<DependentOn>UFormaInputCodeImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaInputDiscountCard.cpp">
+				<Form>FormaInputDiscountCard</Form>
+				<DependentOn>UFormaInputDiscountCard.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaInputDiscountCardCF.cpp">
+				<DependentOn>UFormaInputDiscountCardCF.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaInputDiscountCardImpl.cpp">
+				<DependentOn>UFormaInputDiscountCardImpl.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="FormsInput.res">
+				<BuildOrder>15</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="FormsInput.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaInputTextImpl.cpp">
+				<DependentOn>UFormaInputTextImpl.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
@@ -72,25 +114,9 @@
 				<DependentOn>UFormaInputCode.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="FormsInput.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaInputTextImpl.cpp">
-				<DependentOn>UFormaInputTextImpl.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="UFormaViborPeriodaImpl.cpp">
 				<DependentOn>UFormaViborPeriodaImpl.h</DependentOn>
 				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaViborPeriodaCF.cpp">
-				<DependentOn>UFormaViborPeriodaCF.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaViborPerioda.cpp">
-				<Form>FormaViborPerioda</Form>
-				<DependentOn>UFormaViborPerioda.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UFormaInputText.cpp">
 				<Form>FormaInputText</Form>
@@ -101,46 +127,20 @@
 				<DependentOn>UFormaInputCodeCF.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaInputCodeImpl.cpp">
-				<DependentOn>UFormaInputCodeImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
+			<CppCompile Include="UFormaViborPeriodaCF.cpp">
+				<DependentOn>UFormaViborPeriodaCF.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaInputDiscountCard.cpp">
-				<Form>FormaInputDiscountCard</Form>
-				<DependentOn>UFormaInputDiscountCard.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
+			<CppCompile Include="UFormaViborPerioda.cpp">
+				<Form>FormaViborPerioda</Form>
+				<DependentOn>UFormaViborPerioda.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
 			</CppCompile>
-			<None Include="..\..\..\Interface\IAsyncExternalEvent.h">
-				<BuildOrder>11</BuildOrder>
-			</None>
-			<CppCompile Include="UFormaInputTextCF.cpp">
-				<DependentOn>UFormaInputTextCF.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaInputDiscountCardCF.cpp">
-				<DependentOn>UFormaInputDiscountCardCF.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaInputDiscountCardImpl.cpp">
-				<DependentOn>UFormaInputDiscountCardImpl.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="FormsInput.res">
-				<BuildOrder>15</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
+			<FormResources Include="UFormaInputDiscountCard.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<FormResources Include="UFormaInputCode.dfm"/>
-			<FormResources Include="UFormaViborPerioda.dfm"/>
 			<FormResources Include="UFormaInputText.dfm"/>
-			<FormResources Include="UFormaInputDiscountCard.dfm"/>
+			<FormResources Include="UFormaViborPerioda.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -165,7 +165,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">230</VersionInfo>
+						<VersionInfo Name="Build">234</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -177,7 +177,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.230</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.234</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

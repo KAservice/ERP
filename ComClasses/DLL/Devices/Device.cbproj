@@ -61,14 +61,6 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="kasMSKFR\UkasMSKFR.cpp">
-				<DependentOn>kasMSKFR\UkasMSKFR.h</DependentOn>
-				<BuildOrder>14</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="kasMSKFR\UkasMSKFRCF.cpp">
-				<DependentOn>kasMSKFR\UkasMSKFRCF.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="UDisplayPokImpl.cpp">
 				<DependentOn>UDisplayPokImpl.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
@@ -77,63 +69,35 @@
 				<DependentOn>UScanerCF.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="kasMSKFR\UkasMSKFRImpl.cpp">
-				<DependentOn>kasMSKFR\UkasMSKFRImpl.h</DependentOn>
-				<BuildOrder>12</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="1COnLineFR\U1COnLineFR.cpp">
-				<DependentOn>1COnLineFR\U1COnLineFR.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMCF.cpp">
-				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMCF.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
+			<CppCompile Include="UScanerImpl.cpp">
+				<DependentOn>UScanerImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMImpl.cpp">
 				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMImpl.h</DependentOn>
 				<BuildOrder>21</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOMCF.cpp">
+				<DependentOn>1COnLineFRCOM\U1COnLineFRCOMCF.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="1COnLineFRCOM\U1COnLineFRCOM.cpp">
 				<DependentOn>1COnLineFRCOM\U1COnLineFRCOM.h</DependentOn>
 				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="1COnLineFR\U1COnLineFRImpl.cpp">
-				<DependentOn>1COnLineFR\U1COnLineFRImpl.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="1COnLineFR\U1COnLineFRCF.cpp">
-				<DependentOn>1COnLineFR\U1COnLineFRCF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="Device.cpp">
 				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFiskRegImpl.cpp">
-				<DependentOn>UFiskRegImpl.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UDisplayPok.cpp">
 				<DependentOn>UDisplayPok.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFiskRegCF.cpp">
-				<DependentOn>UFiskRegCF.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
 			<ResFiles Include="Device.res">
 				<BuildOrder>10</BuildOrder>
 			</ResFiles>
-			<CppCompile Include="kasMSKFR\MercFPrtX_TLB.cpp">
-				<DependentOn>kasMSKFR\MercFPrtX_TLB.h</DependentOn>
-				<BuildOrder>15</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
 				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
 				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UScanerImpl.cpp">
-				<DependentOn>UScanerImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UScaner.cpp">
 				<DependentOn>UScaner.h</DependentOn>
@@ -142,10 +106,6 @@
 			<CppCompile Include="UDisplayPokCF.cpp">
 				<DependentOn>UDisplayPokCF.h</DependentOn>
 				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFiskReg.cpp">
-				<DependentOn>UFiskReg.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
 			</CppCompile>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
@@ -171,7 +131,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">378</VersionInfo>
+						<VersionInfo Name="Build">424</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -183,7 +143,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.378</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.424</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

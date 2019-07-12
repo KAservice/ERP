@@ -61,26 +61,9 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="OutXml.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="OutXml.res">
-				<BuildOrder>3</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Classes\UkanFile.cpp">
-				<DependentOn>..\..\..\Classes\UkanFile.h</DependentOn>
-				<BuildOrder>4</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Classes\UkanXmlFile.cpp">
-				<DependentOn>..\..\..\Classes\UkanXmlFile.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+			<CppCompile Include="UFormaExportDoc.cpp">
+				<Form>FormaExportDoc</Form>
+				<DependentOn>UFormaExportDoc.h</DependentOn>
 				<BuildOrder>7</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="UDMExportDoc.cpp">
@@ -89,18 +72,9 @@
 				<DependentOn>UDMExportDoc.h</DependentOn>
 				<BuildOrder>6</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaExportDoc.cpp">
-				<Form>FormaExportDoc</Form>
-				<DependentOn>UFormaExportDoc.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="UFormaExportDocCF.cpp">
 				<DependentOn>UFormaExportDocCF.h</DependentOn>
 				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaExportDocImpl.cpp">
-				<DependentOn>UFormaExportDocImpl.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
@@ -108,8 +82,34 @@
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>10</BuildOrder>
 			</CppCompile>
-			<FormResources Include="UDMExportDoc.dfm"/>
+			<CppCompile Include="UFormaExportDocImpl.cpp">
+				<DependentOn>UFormaExportDocImpl.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="OutXml.res">
+				<BuildOrder>3</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="OutXml.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Classes\UkanFile.cpp">
+				<DependentOn>..\..\..\Classes\UkanFile.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Classes\UkanXmlFile.cpp">
+				<DependentOn>..\..\..\Classes\UkanXmlFile.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
 			<FormResources Include="UFormaExportDoc.dfm"/>
+			<FormResources Include="UDMExportDoc.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
@@ -135,7 +135,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">220</VersionInfo>
+						<VersionInfo Name="Build">224</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -147,7 +147,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.220</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.224</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

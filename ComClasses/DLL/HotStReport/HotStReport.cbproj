@@ -61,6 +61,78 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFonda.cpp">
+				<Form>HOT_FormaReportDvNomFonda</Form>
+				<DependentOn>..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFonda.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNF.cpp">
+				<Form>HOT_FormaReportSostNF</Form>
+				<DependentOn>..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNF.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="HotStReport.res">
+				<BuildOrder>4</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasm.cpp">
+				<Form>HOT_FormaReportRasm</Form>
+				<DependentOn>..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasm.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\HOT_ReportSvobodNF\UHOT_DMReportSvobodNF.cpp">
+				<Form>HOT_DMReportSvobodNF</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\HOT_ReportSvobodNF\UHOT_DMReportSvobodNF.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFCF.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFImpl.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFCF.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFImpl.h</DependentOn>
+				<BuildOrder>20</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNF.cpp">
+				<Form>HOT_FormaReportSvobodNF</Form>
+				<DependentOn>..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNF.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
+				<Form>DM</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
+				<Form>ModifyFormSheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasmImpl.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasmImpl.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_SCF.cpp">
+				<DependentOn>..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_SCF.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
 				<Form>SheetEditor</Form>
 				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
@@ -76,18 +148,16 @@
 				<DependentOn>..\..\..\FIB_DataModule\HOT_ReportRasm\UHOT_DMReportRasm.h</DependentOn>
 				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
-				<Form>ModifyFormSheetEditor</Form>
-				<DependentOn>..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.h</DependentOn>
-				<BuildOrder>10</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasmImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasmImpl.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_SCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_SCF.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+			<CppCompile Include="HotStReport.cpp">
+				<BuildOrder>0</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_SImpl.cpp">
 				<DependentOn>..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_SImpl.h</DependentOn>
@@ -104,87 +174,17 @@
 				<DependentOn>..\..\..\FIB_DataModule\HOT_ReportRasmK_S\UHOT_DMReportRasmK_S.h</DependentOn>
 				<BuildOrder>15</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="HotStReport.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
-				<Form>DM</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="HotStReport.res">
-				<BuildOrder>4</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasm.cpp">
-				<Form>HOT_FormaReportRasm</Form>
-				<DependentOn>..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasm.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFonda.cpp">
-				<Form>HOT_FormaReportDvNomFonda</Form>
-				<DependentOn>..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFonda.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFondaCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNF.cpp">
-				<Form>HOT_FormaReportSostNF</Form>
-				<DependentOn>..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNF.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFCF.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNFImpl.h</DependentOn>
-				<BuildOrder>20</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNF.cpp">
-				<Form>HOT_FormaReportSvobodNF</Form>
-				<DependentOn>..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNF.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\HOT_ReportSvobodNF\UHOT_DMReportSvobodNF.cpp">
-				<Form>HOT_DMReportSvobodNF</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\HOT_ReportSvobodNF\UHOT_DMReportSvobodNF.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFCF.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFCF.h</DependentOn>
-				<BuildOrder>23</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFImpl.cpp">
-				<DependentOn>..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNFImpl.h</DependentOn>
-				<BuildOrder>24</BuildOrder>
-			</CppCompile>
-			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_ReportRasm\UHOT_DMReportRasm.dfm"/>
-			<FormResources Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_S.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\HOT_ReportRasmK_S\UHOT_DMReportRasmK_S.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasm.dfm"/>
 			<FormResources Include="..\..\..\Forms\HOT_ReportDvNomFonda\UHOT_FormaReportDvNomFonda.dfm"/>
 			<FormResources Include="..\..\..\Forms\HOT_ReportSostNF\UHOT_FormaReportSostNF.dfm"/>
-			<FormResources Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNF.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_ReportRasm\UHOT_FormaReportRasm.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\HOT_ReportSvobodNF\UHOT_DMReportSvobodNF.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_ReportSvobodNF\UHOT_FormaReportSvobodNF.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
+			<FormResources Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
+			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_ReportRasm\UHOT_DMReportRasm.dfm"/>
+			<FormResources Include="..\..\..\Forms\HOT_ReportRasmK_S\UHOT_FormaReportRasmK_S.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\HOT_ReportRasmK_S\UHOT_DMReportRasmK_S.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -209,7 +209,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">231</VersionInfo>
+						<VersionInfo Name="Build">235</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -221,7 +221,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.231</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.235</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

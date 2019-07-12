@@ -140,6 +140,11 @@ private:	// User declarations
 
 	bool SetParameterCheckInDoc(__int64 id_doc);
 	int GetParameterCheckInDoc(__int64 id_doc);
+
+
+
+    void InitKasVariant(TkasVariant * kv);
+
 public:		// User declarations
 	__fastcall TFormaRunExternalModule(TComponent* Owner);
 

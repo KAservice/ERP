@@ -60,34 +60,34 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<None Include="..\..\..\Interface\UCheckDiscount_StringDoc.h">
-				<BuildOrder>5</BuildOrder>
-			</None>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UObjectCheckDiscountImpl.cpp">
-				<DependentOn>UObjectCheckDiscountImpl.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UObjectCheckDiscountCF.cpp">
-				<DependentOn>UObjectCheckDiscountCF.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
+			<ResFiles Include="CheckDiscount.res">
+				<BuildOrder>3</BuildOrder>
+			</ResFiles>
 			<CppCompile Include="UObjectCheckDiscount.cpp">
 				<DependentOn>UObjectCheckDiscount.h</DependentOn>
 				<BuildOrder>4</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="CheckDiscount.res">
-				<BuildOrder>3</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="CheckDiscount.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
 			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
 				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="CheckDiscount.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
+			</CppCompile>
+			<None Include="..\..\..\Interface\UCheckDiscount_StringDoc.h">
+				<BuildOrder>5</BuildOrder>
+			</None>
+			<CppCompile Include="UObjectCheckDiscountCF.cpp">
+				<DependentOn>UObjectCheckDiscountCF.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UObjectCheckDiscountImpl.cpp">
+				<DependentOn>UObjectCheckDiscountImpl.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
@@ -113,7 +113,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">193</VersionInfo>
+						<VersionInfo Name="Build">197</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -125,7 +125,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.2.0.193</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.2.0.197</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

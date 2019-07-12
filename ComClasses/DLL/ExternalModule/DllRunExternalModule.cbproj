@@ -61,23 +61,58 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.cpp">
-				<Form>DMExtModuleGrp</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.h</DependentOn>
-				<BuildOrder>17</BuildOrder>
+			<CppCompile Include="UFormaRunExternalModuleImpl.cpp">
+				<DependentOn>UFormaRunExternalModuleImpl.h</DependentOn>
+				<BuildOrder>1</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.cpp">
-				<Form>DMExtModulePriv</Form>
+			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMQueryRead.cpp">
+				<Form>DMQueryRead</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.h</DependentOn>
-				<BuildOrder>18</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMQueryRead.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModule.cpp">
-				<Form>DMExtModule</Form>
+			<CppCompile Include="DllRunExternalModule.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FastScript\ReportGrid\UScriptReportGrid.cpp">
+				<DependentOn>..\..\..\FastScript\ReportGrid\UScriptReportGrid.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaRunExternalModule.cpp">
+				<Form>FormaRunExternalModule</Form>
+				<DependentOn>UFormaRunExternalModule.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\ReportGrid\UFormaReportGrid.cpp">
+				<Form>FormaReportGrid</Form>
+				<DependentOn>..\..\..\Forms\ReportGrid\UFormaReportGrid.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="DllRunExternalModule.res">
+				<BuildOrder>20</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="..\..\..\FastScript\SheetEditor\UScriptSheetEditor.cpp">
+				<DependentOn>..\..\..\FastScript\SheetEditor\UScriptSheetEditor.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
+				<Form>SheetEditor</Form>
+				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
+				<BuildOrder>11</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ReportGrid\UDMReportGrid.cpp">
+				<Form>DMReportGrid</Form>
 				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModule.h</DependentOn>
-				<BuildOrder>16</BuildOrder>
+				<DependentOn>..\..\..\FIB_DataModule\ReportGrid\UDMReportGrid.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FastScript\DMQuery\UScriptDMQueryRead.cpp">
+				<DependentOn>..\..\..\FastScript\DMQuery\UScriptDMQueryRead.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="UFormaRunExternalModuleCF.cpp">
+				<DependentOn>UFormaRunExternalModuleCF.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.cpp">
 				<Form>ModifyFormSheetEditor</Form>
@@ -90,24 +125,29 @@
 				<DependentOn>..\..\..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintForm.h</DependentOn>
 				<BuildOrder>15</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModule.cpp">
+				<Form>DMExtModule</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModule.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.cpp">
+				<Form>DMExtModuleGrp</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.cpp">
+				<Form>DMExtModulePriv</Form>
+				<DesignClass>TDataModule</DesignClass>
+				<DependentOn>..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="..\..\..\FIB_DataModule\DM\UDM.cpp">
 				<Form>DM</Form>
 				<DesignClass>TDataModule</DesignClass>
 				<DependentOn>..\..\..\FIB_DataModule\DM\UDM.h</DependentOn>
 				<BuildOrder>17</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
-				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
-				<BuildOrder>21</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
-				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
-				<BuildOrder>22</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.cpp">
-				<Form>FormaSpiskaExtModule</Form>
-				<DependentOn>..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.h</DependentOn>
-				<BuildOrder>19</BuildOrder>
 			</CppCompile>
 			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaElementaExtModule.cpp">
 				<Form>FormaElementaExtModule</Form>
@@ -119,73 +159,33 @@
 				<DependentOn>..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrp.h</DependentOn>
 				<BuildOrder>18</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaRunExternalModuleCF.cpp">
-				<DependentOn>UFormaRunExternalModuleCF.h</DependentOn>
-				<BuildOrder>13</BuildOrder>
+			<CppCompile Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.cpp">
+				<Form>FormaSpiskaExtModule</Form>
+				<DependentOn>..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.h</DependentOn>
+				<BuildOrder>19</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="..\..\..\FastScript\ReportGrid\UScriptReportGrid.cpp">
-				<DependentOn>..\..\..\FastScript\ReportGrid\UScriptReportGrid.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalConstant.cpp">
+				<DependentOn>..\..\..\Global\UGlobalConstant.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="UFormaRunExternalModule.cpp">
-				<Form>FormaRunExternalModule</Form>
-				<DependentOn>UFormaRunExternalModule.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="..\..\..\Global\UGlobalFunction.cpp">
+				<DependentOn>..\..\..\Global\UGlobalFunction.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="DllRunExternalModule.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="UFormaRunExternalModuleImpl.cpp">
-				<DependentOn>UFormaRunExternalModuleImpl.h</DependentOn>
-				<BuildOrder>1</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\DMQuery\UDMQueryRead.cpp">
-				<Form>DMQueryRead</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\DMQuery\UDMQueryRead.h</DependentOn>
-				<BuildOrder>9</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\ReportGrid\UFormaReportGrid.cpp">
-				<Form>FormaReportGrid</Form>
-				<DependentOn>..\..\..\Forms\ReportGrid\UFormaReportGrid.h</DependentOn>
-				<BuildOrder>7</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FIB_DataModule\ReportGrid\UDMReportGrid.cpp">
-				<Form>DMReportGrid</Form>
-				<DesignClass>TDataModule</DesignClass>
-				<DependentOn>..\..\..\FIB_DataModule\ReportGrid\UDMReportGrid.h</DependentOn>
-				<BuildOrder>8</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\FastScript\DMQuery\UScriptDMQueryRead.cpp">
-				<DependentOn>..\..\..\FastScript\DMQuery\UScriptDMQueryRead.h</DependentOn>
-				<BuildOrder>3</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="..\..\..\Forms\SheetEditor\USheetEditor.cpp">
-				<Form>SheetEditor</Form>
-				<DependentOn>..\..\..\Forms\SheetEditor\USheetEditor.h</DependentOn>
-				<BuildOrder>11</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="DllRunExternalModule.res">
-				<BuildOrder>20</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="..\..\..\FastScript\SheetEditor\UScriptSheetEditor.cpp">
-				<DependentOn>..\..\..\FastScript\SheetEditor\UScriptSheetEditor.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
-			</CppCompile>
-			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModule.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\DMQuery\UDMQueryRead.dfm"/>
+			<FormResources Include="UFormaRunExternalModule.dfm"/>
+			<FormResources Include="..\..\..\Forms\ReportGrid\UFormaReportGrid.dfm"/>
+			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ReportGrid\UDMReportGrid.dfm"/>
 			<FormResources Include="..\..\..\Forms\SheetEditor\UModifyFormSheetEditor.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\TableExtPrintForm\UDMTableExtPrintForm.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModule.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModuleGrp.dfm"/>
+			<FormResources Include="..\..\..\FIB_DataModule\ExtModule\UDMExtModulePriv.dfm"/>
 			<FormResources Include="..\..\..\FIB_DataModule\DM\UDM.dfm"/>
-			<FormResources Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.dfm"/>
 			<FormResources Include="..\..\..\Forms\ExtModule\UFormaElementaExtModule.dfm"/>
 			<FormResources Include="..\..\..\Forms\ExtModule\UFormaElementaExtModuleGrp.dfm"/>
-			<FormResources Include="UFormaRunExternalModule.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\DMQuery\UDMQueryRead.dfm"/>
-			<FormResources Include="..\..\..\Forms\ReportGrid\UFormaReportGrid.dfm"/>
-			<FormResources Include="..\..\..\FIB_DataModule\ReportGrid\UDMReportGrid.dfm"/>
-			<FormResources Include="..\..\..\Forms\SheetEditor\USheetEditor.dfm"/>
+			<FormResources Include="..\..\..\Forms\ExtModule\UFormaSpiskaExtModule.dfm"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -210,7 +210,7 @@
 						<VersionInfo Name="MajorVer">3</VersionInfo>
 						<VersionInfo Name="MinorVer">1</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">236</VersionInfo>
+						<VersionInfo Name="Build">255</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">False</VersionInfo>
@@ -222,7 +222,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName"/>
 						<VersionInfoKeys Name="FileDescription"/>
-						<VersionInfoKeys Name="FileVersion">3.1.0.236</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">3.1.0.255</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName"/>
 						<VersionInfoKeys Name="LegalCopyright"/>
 						<VersionInfoKeys Name="LegalTrademarks"/>

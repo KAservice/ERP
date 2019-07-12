@@ -166,11 +166,29 @@ public:
 	 //Quantity Да double Количество товара
 	 __property double Quantity = {read = get_Quantity , write = set_Quantity};   virtual double get_Quantity(void)=0;   virtual void set_Quantity(double Quantity)=0;
 
-	//Price Да double Цена единицы товара без учета скидок/наценок
+	//Price Да double Цена единицы товара без учета скидок/наценок       !!!old version не используется
 	__property double Price = {read = get_Price , write = set_Price};   virtual double get_Price(void)=0;   virtual void set_Price(double Price)=0;
 
-	//Amount Да double Конечная сумма по позиции чека (с учетом всех скидок/наценок)
+		//Amount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок    !!!old version  не используется
 	__property double Amount = {read = get_Amount , write = set_Amount};   virtual double get_Amount(void)=0;   virtual void set_Amount(double Amount)=0;
+
+
+	//PriceWithDiscount Да double Цена единицы товара с учетом скидок/наценок
+	__property double PriceWithDiscount = {read = get_PriceWithDiscount , write = set_PriceWithDiscount};   virtual double get_PriceWithDiscount(void)=0;   virtual void set_PriceWithDiscount(double PriceWithDiscount)=0;
+
+	//SumWithDiscount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок
+	__property double SumWithDiscount = {read = get_SumWithDiscount , write = set_SumWithDiscount};   virtual double get_SumWithDiscount(void)=0;   virtual void set_SumWithDiscount(double SumWithDiscount)=0;
+
+   //SignMethodCalculation Нет long Признак способа расчета.
+//			1 Предоплата полная
+//			2 Предоплата частичная
+//			3 Аванс
+//			4 Полный расчет
+//			5 Частичный расчет и кредит
+//			6 Передача в кредит
+//			7 Оплата кредита
+	__property int SignMethodCalculation = {read = get_SignMethodCalculation , write = set_SignMethodCalculation};   virtual int get_SignMethodCalculation(void)=0;   virtual void set_SignMethodCalculation(int SignMethodCalculation)=0;
+
 
 	//Department Нет long Отдел, по которому ведется продажа
 	__property int Department = {read = get_Department , write = set_Department};   virtual int get_Department(void)=0;    virtual void set_Department(int Department)=0;
@@ -218,6 +236,29 @@ public:
 	__property double CashLessType3 = {read = get_CashLessType3 , write = set_CashLessType3};   virtual double get_CashLessType3(void)=0;   virtual void set_CashLessType3(double CashLessType3)=0;
 
 
+
+//ElectronicPayment Да decimal Сумма безналичными средствами
+	__property double ElectronicPayment = {read = get_ElectronicPayment , write = set_ElectronicPayment};   virtual double get_ElectronicPayment(void)=0;   virtual void set_ElectronicPayment(double ElectronicPayment)=0;
+//AdvancePayment  Да decimal Сумма предоплатой (зачетом аванса)
+	__property double AdvancePayment = {read = get_AdvancePayment , write = set_AdvancePayment};   virtual double get_AdvancePayment(void)=0;   virtual void set_AdvancePayment(double AdvancePayment)=0;
+//Credit Да decimal Сумма постоплатой (в кредит)
+	__property double Credit = {read = get_Credit , write = set_Credit};   virtual double get_Credit(void)=0;   virtual void set_Credit(double Credit)=0;
+//CashProvision Да decimal Сумма встречным предоставлением
+	__property double CashProvision = {read = get_CashProvision , write = set_CashProvision};   virtual double get_CashProvision(void)=0;   virtual void set_CashProvision(double CashProvision)=0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	virtual UnicodeString GetParameters(void)=0;
 	virtual bool SetParameter(UnicodeString name_parameter, UnicodeString value_parameter)=0;
 
@@ -239,6 +280,46 @@ __property UnicodeString AddressSiteInspections = {read = get_AddressSiteInspect
 
 	virtual bool GetParameter(UnicodeString name_parameter, TkasVariant * value_parameter)=0;
 	virtual bool SetParameter(UnicodeString name_parameter, TkasVariant * value_parameter)=0;
+
+//***********************************************************************************
+
+	virtual bool RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)=0;
+                    //если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+
+	virtual UnicodeString ReturnXmlResultLastMethod(void)=0;
+
+	//параметры для выполнения метода
+	virtual bool SetStringParameter(UnicodeString param_name, int number, UnicodeString value)=0;
+	virtual UnicodeString GetStringParameter(UnicodeString param_name, int number)=0;
+
+	virtual bool SetIntegerParameter(UnicodeString param_name, int number, int value)=0;
+	virtual int GetIntegerParameter(UnicodeString param_name, int number)=0;
+
+	virtual bool SetDoubleParameter(UnicodeString param_name, int number, double value)=0;
+	virtual double GetDoubleParameter(UnicodeString param_name, int number)=0;
+
+	virtual bool SetBooleanParameter(UnicodeString param_name, int number, bool value)=0;
+	virtual bool GetBooleanParameter(UnicodeString param_name, int number)=0;
+
+	virtual bool SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)=0;
+	virtual TDateTime GetDateTimeParameter(UnicodeString param_name, int number)=0;
+
+	virtual bool SetXmlParameter(UnicodeString param_name, int number, UnicodeString xml_value, int type_source_xml)=0;
+	virtual UnicodeString GetXmlParameter(UnicodeString param_name, int number, int type_source_xml)=0;
+
+	virtual bool SetIdDeviceParameter(UnicodeString param_name, int number, UnicodeString id_device, int type_source_id_device)=0;
+	virtual UnicodeString GetIDDeviceParameter(UnicodeString param_name, int number, int type_source_id_device)=0;
+
+	//формирование xml файла
+	virtual void AddStringXml(UnicodeString str_xml)=0;    //просто готовая строка
+	virtual void AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value)=0;  //тип для форматирования, например для удаления запятых в числах
+	virtual void AddElementXml(UnicodeString element, UnicodeString value, int type_value)=0;
+
+	virtual void AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font,  //1234
+								int style,    //1-жирный 0 обычный   2 курсив 3 жирный курсив
+								int alignment,  //0 лево 1 центр 2 право
+								bool word_wrap)=0;   //строка xml для печати будет формироваться
 
 
 

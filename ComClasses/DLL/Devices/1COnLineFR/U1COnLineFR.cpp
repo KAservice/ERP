@@ -1721,3 +1721,152 @@ bool result=true;
 return result;
 }
 //--------------------------------------------------------------------------
+
+//---------------------------------------------------------------
+//******************************************************************
+//*******************************************************************
+//--------------------------------------------------------------------
+//******************************************************************
+//*******************************************************************
+//--------------------------------------------------------------------
+bool T1COnLineFR::RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc)
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+{
+bool result=true;
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+UnicodeString T1COnLineFR::ReturnXmlResultLastMethod(void)
+{
+UnicodeString result="";
+
+
+return result;
+}
+//----------------------------------------------------------------------
+
+bool T1COnLineFR::SetStringParameter(UnicodeString param_name, int number, UnicodeString value)
+{
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+UnicodeString T1COnLineFR::GetStringParameter(UnicodeString param_name, int number)
+{
+UnicodeString result="";
+
+
+return result;
+
+
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFR::SetIntegerParameter(UnicodeString param_name, int number, int value)
+{
+bool result=true;
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+int T1COnLineFR::GetIntegerParameter(UnicodeString param_name, int number)
+{
+
+int result=0;
+
+
+return result;
+
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFR::SetDoubleParameter(UnicodeString param_name, int number, double value)
+{
+bool result=true;
+
+
+return result;
+
+}
+//------------------------------------------------------------------
+double T1COnLineFR::GetDoubleParameter(UnicodeString param_name, int number)
+{
+
+double result=true;
+
+
+return result;
+
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFR::SetBooleanParameter(UnicodeString param_name, int number, bool value)
+{
+
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+bool T1COnLineFR::GetBooleanParameter(UnicodeString param_name, int number)
+{
+
+bool result=true;
+
+
+return result;
+}
+//-----------------------------------------------------------------------
+
+bool T1COnLineFR::SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value)
+{
+
+bool result=true;
+
+
+return result;
+}
+//------------------------------------------------------------------
+TDateTime T1COnLineFR::GetDateTimeParameter(UnicodeString param_name, int number)
+{
+
+
+TDateTime result=0;
+
+
+return result;
+}
+//-----------------------------------------------------------------------
+	//формирование xml файла
+void T1COnLineFR::AddStringXml(UnicodeString str_xml)    //просто готовая строка
+ {
+
+}
+//-------------------------------------------------------------------------
+void T1COnLineFR::AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value)  //тип для форматирования, например для удаления запятых в числах
+
+{
+
+}
+//------------------------------------------------------------------------------
+void T1COnLineFR::AddElementXml(UnicodeString element, UnicodeString value, int type_value)
+{
+
+}
+//----------------------------------------------------------------------------
+
+void T1COnLineFR::AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font, int girn, int alignment, bool word_wrap)   //строка xml для печати будет формироваться
+{
+
+
+}
+//------------------------------------------------------------------------------

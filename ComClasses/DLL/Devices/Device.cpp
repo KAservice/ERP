@@ -83,16 +83,17 @@ return result;
 int kanGetClassObject(REFIID id_class, REFIID id_interface, void ** ppv)
 {
 int result=0;
-if (id_class==CLSID_TFiskRegImpl)
-	{
-	TFiskRegCF * ob=new TFiskRegCF();
-	result=ob->kanQueryInterface(id_interface, ppv);
-	if (result!=-1)
-		{
-		delete ob;
-		}
-	}
-else if (id_class==CLSID_TDisplayPokImpl)
+//if (id_class==CLSID_TFiskRegImpl)
+//	{
+//	TFiskRegCF * ob=new TFiskRegCF();
+//	result=ob->kanQueryInterface(id_interface, ppv);
+//	if (result!=-1)
+//		{
+//		delete ob;
+//		}
+//	}
+//else
+if (id_class==CLSID_TDisplayPokImpl)
 	{
 	TDisplayPokCF * ob=new TDisplayPokCF();
 	result=ob->kanQueryInterface(id_interface, ppv);
@@ -110,24 +111,24 @@ else if (id_class==CLSID_TScanerImpl)
 		delete ob;
 		}
 	}
-else if (id_class==CLSID_TkasMSKFRImpl)
-	{
-	TkasMSKFRCF * ob=new TkasMSKFRCF();
-	result=ob->kanQueryInterface(id_interface, ppv);
-	if (result!=-1)
-		{
-		delete ob;
-		}
-	}
-else if (id_class==CLSID_T1COnLineFRImpl)
-	{
-	T1COnLineFRCF * ob=new T1COnLineFRCF();
-	result=ob->kanQueryInterface(id_interface, ppv);
-	if (result!=-1)
-		{
-		delete ob;
-		}
-	}
+//else if (id_class==CLSID_TkasMSKFRImpl)
+//	{
+//	TkasMSKFRCF * ob=new TkasMSKFRCF();
+//	result=ob->kanQueryInterface(id_interface, ppv);
+//	if (result!=-1)
+//		{
+//		delete ob;
+//		}
+//	}
+//else if (id_class==CLSID_T1COnLineFRImpl)
+//	{
+//	T1COnLineFRCF * ob=new T1COnLineFRCF();
+//	result=ob->kanQueryInterface(id_interface, ppv);
+//	if (result!=-1)
+//		{
+//		delete ob;
+//		}
+//	}
 
 else if (id_class==CLSID_T1COnLineFRCOMImpl)
 	{
@@ -153,10 +154,10 @@ int kanRegisterServer(IkanCom * icom)
 {
 int result=0;
 
-if (icom->kanAddClass(CLSID_TFiskRegImpl,"Oberon.FiskReg.1","Device.dll")!=-1)
-	{
-	ShowMessage("Error! Falid register class - Oberon.FiskReg.1  !");
-	}
+//if (icom->kanAddClass(CLSID_TFiskRegImpl,"Oberon.FiskReg.1","Device.dll")!=-1)
+//	{
+//	ShowMessage("Error! Falid register class - Oberon.FiskReg.1  !");
+//	}
 if (icom->kanAddClass(CLSID_TDisplayPokImpl,"Oberon.DisplayPok.1","Device.dll")!=-1)
 	{
 	ShowMessage("Error! Falid register class - Oberon.DisplayPok.1  !");
@@ -166,14 +167,14 @@ if (icom->kanAddClass(CLSID_TScanerImpl,"Oberon.Scaner.1","Device.dll")!=-1)
 	ShowMessage("Error! Falid register class - Oberon.Scaner.1  !");
 	}
 
-if (icom->kanAddClass(CLSID_TkasMSKFRImpl,ProgId_kasMSKFR,"Device.dll")!=-1)
-	{
-	ShowMessage("Error! Falid register class - "+UnicodeString(ProgId_kasMSKFR)+"  !");
-	}
-if (icom->kanAddClass(CLSID_T1COnLineFRImpl,ProgId_1COnLineFR,"Device.dll")!=-1)
-	{
-	ShowMessage("Error! Falid register class - "+UnicodeString(ProgId_1COnLineFR)+"  !");
-	}
+//if (icom->kanAddClass(CLSID_TkasMSKFRImpl,ProgId_kasMSKFR,"Device.dll")!=-1)
+//	{
+//	ShowMessage("Error! Falid register class - "+UnicodeString(ProgId_kasMSKFR)+"  !");
+//	}
+//if (icom->kanAddClass(CLSID_T1COnLineFRImpl,ProgId_1COnLineFR,"Device.dll")!=-1)
+//	{
+//	ShowMessage("Error! Falid register class - "+UnicodeString(ProgId_1COnLineFR)+"  !");
+//	}
 
 
 if (icom->kanAddClass(CLSID_T1COnLineFRCOMImpl,ProgId_1COnLineFRCOM,"Device.dll")!=-1)

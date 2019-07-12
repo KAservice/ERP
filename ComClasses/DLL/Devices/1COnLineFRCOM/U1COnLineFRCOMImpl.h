@@ -210,6 +210,27 @@ public:
 	virtual double get_Amount(void);
 	virtual void set_Amount(double Amount);
 
+		//PriceWithDiscount Да double Цена единицы товара с учетом скидок/наценок
+	virtual double get_PriceWithDiscount(void);
+	virtual void set_PriceWithDiscount(double PriceWithDiscount);
+
+	//SumWithDiscount Да double Конечная сумма по позиции чека с учетом всех скидок/наценок
+	virtual double get_SumWithDiscount(void);
+	virtual void set_SumWithDiscount(double SumWithDiscount);
+
+   //SignMethodCalculation Нет long Признак способа расчета.
+//			1 Предоплата полная
+//			2 Предоплата частичная
+//			3 Аванс
+//			4 Полный расчет
+//			5 Частичный расчет и кредит
+//			6 Передача в кредит
+//			7 Оплата кредита
+	virtual int get_SignMethodCalculation(void);
+	virtual void set_SignMethodCalculation(int SignMethodCalculation);
+
+
+
 	//Department Нет long Отдел, по которому ведется продажа
 	virtual int get_Department(void);
 	virtual void set_Department(int Department);
@@ -265,6 +286,28 @@ public:
 	virtual void set_CashLessType3(double CashLessType3);
 
 
+
+	//ElectronicPayment Да decimal Сумма безналичными средствами
+	virtual double get_ElectronicPayment(void);
+	virtual void set_ElectronicPayment(double ElectronicPayment);
+	//AdvancePayment  Да decimal Сумма предоплатой (зачетом аванса)
+	virtual double get_AdvancePayment(void);
+	virtual void set_AdvancePayment(double AdvancePayment);
+	//Credit Да decimal Сумма постоплатой (в кредит)
+	virtual double get_Credit(void);
+	virtual void set_Credit(double Credit);
+	//CashProvision Да decimal Сумма встречным предоставлением
+	virtual double get_CashProvision(void);
+	virtual void set_CashProvision(double CashProvision);
+
+
+
+
+
+
+
+
+
 	virtual UnicodeString GetParameters(void);
 	virtual bool SetParameter(UnicodeString name_parameter, UnicodeString value_parameter);
 
@@ -292,6 +335,44 @@ virtual UnicodeString GetMetodsList(void);
 
 	virtual bool GetParameter(UnicodeString name_parameter, TkasVariant * value_parameter);
 	virtual bool SetParameter(UnicodeString name_parameter, TkasVariant * value_parameter);
+
+//*****************************************************************************************
+//***********************************************************************************
+
+virtual bool RunCommand(UnicodeString command_name, UnicodeString xml_doc, int type_doc);
+					//если type = 0 то не используем xml_doc, а используем сформированный построчно файл
+
+virtual UnicodeString ReturnXmlResultLastMethod(void);
+
+	//параметры для выполнения метода
+virtual bool SetStringParameter(UnicodeString param_name, int number, UnicodeString value);
+virtual UnicodeString GetStringParameter(UnicodeString param_name, int number);
+
+virtual bool SetIntegerParameter(UnicodeString param_name, int number, int value);
+virtual int GetIntegerParameter(UnicodeString param_name, int number);
+
+virtual bool SetDoubleParameter(UnicodeString param_name, int number, double value);
+virtual double GetDoubleParameter(UnicodeString param_name, int number);
+
+virtual bool SetBooleanParameter(UnicodeString param_name, int number, bool value);
+virtual bool GetBooleanParameter(UnicodeString param_name, int number);
+
+virtual bool SetDateTimeParameter(UnicodeString param_name, int number, TDateTime value);
+virtual TDateTime GetDateTimeParameter(UnicodeString param_name, int number);
+
+virtual bool SetXmlParameter(UnicodeString param_name, int number, UnicodeString xml_value, int type_source_xml);
+virtual UnicodeString GetXmlParameter(UnicodeString param_name, int number, int type_source_xml);
+
+virtual bool SetIdDeviceParameter(UnicodeString param_name, int number, UnicodeString id_device, int type_source_id_device);
+virtual UnicodeString GetIDDeviceParameter(UnicodeString param_name, int number, int type_source_id_device);
+
+	//формирование xml файла
+virtual void AddStringXml(UnicodeString str_xml);    //просто готовая строка
+virtual void AddAttribyteXml(UnicodeString attribyte, UnicodeString value, int type_value);  //тип для форматирования, например для удаления запятых в числах
+virtual void AddElementXml(UnicodeString element, UnicodeString value, int type_value);
+
+virtual void AddStringForPrintXml(UnicodeString element, UnicodeString attribyte, UnicodeString value,
+								int size_font, int girn, int alignment, bool word_wrap);   //строка xml для печати будет формироваться
 
 
 };
